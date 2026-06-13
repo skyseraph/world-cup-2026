@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIFA World Cup 2026 · 世界杯</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #050a14;
+    --surface: #0d1829;
+    --border: #1a2f50;
+    --accent: #00d4ff;
+    --accent2: #ff6b35;
+    --gold: #ffd700;
+    --text: #e8edf5;
+    --muted: #6b7fa3;
+    --group-colors: #00d4ff, #ff6b35, #00ff9d, #ff3d8a, #a78bfa, #fbbf24, #34d399, #f87171, #60a5fa, #fb923c, #e879f9, #4ade80;
+  }
+
+  body {
+    font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  /* ── Header ── */
+  #header {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 24px;
+    height: 56px;
+    background: rgba(5,10,20,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  #header .logo {
+    font-size: 18px; font-weight: 700; letter-spacing: 0.5px;
+    background: linear-gradient(90deg, var(--accent), var(--gold));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  #header .logo span { font-size: 12px; opacity: 0.7; margin-left: 8px; font-weight: 400; -webkit-text-fill-color: var(--muted); }
+  #nav { display: flex; gap: 4px; }
+  .nav-btn {
+    padding: 6px 14px; border-radius: 20px; border: 1px solid transparent;
+    background: none; color: var(--muted); font-size: 13px; cursor: pointer;
+    transition: all 0.2s;
+  }
+  .nav-btn:hover { color: var(--text); border-color: var(--border); }
+  .nav-btn.active { background: var(--accent); color: #000; font-weight: 600; border-color: var(--accent); }
+  #updated-at { font-size: 11px; color: var(--muted); }
+
+  /* ── Layout ── */
+  #app {
+    position: fixed; top: 56px; left: 0; right: 0; bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    grid-template-rows: 1fr;
+  }
+
+  /* ── 3D Canvas ── */
+  #canvas-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  #globe-canvas { display: block; width: 100%; height: 100%; }
+
+  /* ── Side Panel ── */
+  #panel {
+    background: var(--surface);
+    border-left: 1px solid var(--border);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  #panel::-webkit-scrollbar { width: 4px; }
+  #panel::-webkit-scrollbar-track { background: transparent; }
+  #panel::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  /* ── Panel sections ── */
+  .panel-section { display: none; padding: 16px; }
+  .panel-section.active { display: block; }
+  .section-title {
+    font-size: 11px; font-weight: 700; letter-spacing: 1.5px;
+    color: var(--accent); text-transform: uppercase; margin-bottom: 12px;
+  }
+
+  /* ── Today's matches ── */
+  .match-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 8px;
+    transition: border-color 0.2s, background 0.2s;
+    cursor: pointer;
+  }
+  .match-card:hover { border-color: var(--accent); background: rgba(0,212,255,0.05); }
+  .match-card .meta { font-size: 10px; color: var(--muted); margin-bottom: 8px; display: flex; justify-content: space-between; }
+  .match-card .teams { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .team-info { display: flex; align-items: center; gap: 8px; flex: 1; }
+  .team-info.away { flex-direction: row-reverse; text-align: right; }
+  .team-flag { width: 28px; height: 20px; object-fit: cover; border-radius: 2px; }
+  .team-name { font-size: 13px; font-weight: 600; }
+  .score-box { text-align: center; min-width: 50px; }
+  .score { font-size: 20px; font-weight: 700; letter-spacing: 2px; }
+  .score-status { font-size: 10px; color: var(--accent); margin-top: 2px; }
+  .score-status.live { color: #ff4444; animation: pulse 1.5s infinite; }
+  .odds-row { display: flex; gap: 6px; margin-top: 8px; }
+  .odd-chip {
+    flex: 1; text-align: center; font-size: 10px; padding: 3px 0;
+    background: rgba(255,255,255,0.05); border-radius: 4px; color: var(--muted);
+  }
+  .odd-chip span { display: block; font-size: 11px; font-weight: 600; color: var(--text); }
+
+  /* ── Standings ── */
+  .group-block { margin-bottom: 20px; }
+  .group-name {
+    font-size: 11px; font-weight: 700; letter-spacing: 1px;
+    text-transform: uppercase; margin-bottom: 6px;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .group-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .standings-table { width: 100%; border-collapse: collapse; font-size: 11px; }
+  .standings-table th {
+    color: var(--muted); font-weight: 500; padding: 3px 4px;
+    text-align: center; border-bottom: 1px solid var(--border);
+  }
+  .standings-table th:first-child { text-align: left; padding-left: 0; }
+  .standings-table td { padding: 5px 4px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.04); }
+  .standings-table td:first-child { text-align: left; padding-left: 0; }
+  .standings-table tr:last-child td { border-bottom: none; }
+  .standings-table .pos { color: var(--muted); width: 16px; }
+  .standings-table .qualified td { background: rgba(0,212,255,0.06); }
+  .team-cell { display: flex; align-items: center; gap: 6px; }
+  .team-cell img { width: 18px; height: 13px; object-fit: cover; border-radius: 1px; }
+  .pts { font-weight: 700; color: var(--gold); }
+
+  /* ── Team card (globe click) ── */
+  #team-card {
+    position: absolute; bottom: 24px; left: 24px;
+    background: rgba(13,24,41,0.92);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 20px;
+    min-width: 220px;
+    display: none;
+    pointer-events: none;
+    z-index: 10;
+  }
+  #team-card.show { display: block; }
+  #team-card .tc-flag { width: 48px; height: 34px; object-fit: cover; border-radius: 4px; margin-bottom: 10px; }
+  #team-card .tc-name { font-size: 16px; font-weight: 700; }
+  #team-card .tc-abbr { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  #team-card .tc-group { margin-top: 10px; font-size: 11px; color: var(--muted); }
+  #team-card .tc-row { display: flex; gap: 16px; margin-top: 8px; }
+  #team-card .tc-stat { text-align: center; }
+  #team-card .tc-stat-val { font-size: 18px; font-weight: 700; color: var(--accent); }
+  #team-card .tc-stat-lbl { font-size: 10px; color: var(--muted); margin-top: 2px; }
+
+  /* ── Globe overlay hints ── */
+  #canvas-hint {
+    position: absolute; bottom: 24px; right: 24px;
+    font-size: 11px; color: var(--muted);
+    background: rgba(13,24,41,0.7);
+    padding: 8px 12px; border-radius: 8px;
+    border: 1px solid var(--border);
+    line-height: 1.7;
+    pointer-events: none;
+  }
+
+  /* ── Loading overlay ── */
+  #loading {
+    position: fixed; inset: 0; z-index: 200;
+    background: var(--bg);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 16px;
+    transition: opacity 0.5s;
+  }
+  #loading.hidden { opacity: 0; pointer-events: none; }
+  .loading-logo {
+    font-size: 28px; font-weight: 800; letter-spacing: 1px;
+    background: linear-gradient(90deg, var(--accent), var(--gold), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .loading-bar { width: 200px; height: 2px; background: var(--border); border-radius: 1px; overflow: hidden; }
+  .loading-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--gold)); width: 0; transition: width 0.3s; }
+  .loading-text { font-size: 12px; color: var(--muted); }
+
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<!-- Loading -->
+<div id="loading">
+  <div class="loading-logo">⚽ WORLD CUP 2026</div>
+  <div class="loading-bar"><div class="loading-fill" id="load-fill"></div></div>
+  <div class="loading-text" id="load-text">正在加载...</div>
+</div>
+
+<!-- Header -->
+<header id="header">
+  <div class="logo">⚽ FIFA World Cup 2026 <span>2026世界杯</span></div>
+  <nav id="nav">
+    <button class="nav-btn active" data-view="globe">🌍 地球仪</button>
+    <button class="nav-btn" data-view="today">📅 今日赛程</button>
+    <button class="nav-btn" data-view="standings">🏆 积分榜</button>
+  </nav>
+  <div id="updated-at"></div>
+</header>
+
+<!-- Main -->
+<div id="app">
+  <div id="canvas-wrap">
+    <canvas id="globe-canvas"></canvas>
+    <div id="team-card">
+      <img class="tc-flag" id="tc-flag" src="" alt="">
+      <div class="tc-name" id="tc-name"></div>
+      <div class="tc-abbr" id="tc-abbr"></div>
+      <div class="tc-group" id="tc-group"></div>
+      <div class="tc-row" id="tc-row"></div>
+    </div>
+    <div id="canvas-hint">🖱 拖拽旋转 · 滚轮缩放 · 点击球队</div>
+  </div>
+
+  <div id="panel">
+    <!-- Today -->
+    <div class="panel-section active" id="view-today">
+      <div class="section-title">📅 今日赛程 · Today's Matches</div>
+      <div id="today-list"></div>
+    </div>
+    <!-- Standings -->
+    <div class="panel-section" id="view-standings">
+      <div class="section-title">🏆 小组积分榜 · Group Standings</div>
+      <div id="standings-list"></div>
+    </div>
+    <!-- Globe info -->
+    <div class="panel-section" id="view-globe">
+      <div class="section-title">🌍 2026 FIFA 世界杯</div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.8">
+        <p>📍 举办地：美国、加拿大、墨西哥</p>
+        <p style="margin-top:6px">📅 赛期：2026年6月11日 — 7月19日</p>
+        <p style="margin-top:6px">🏟 场馆：16个城市</p>
+        <p style="margin-top:6px">⚽ 参赛队：48支</p>
+        <p style="margin-top:6px">🎯 赛制：12组 × 4队，小组赛后前两名+8支成绩最好的第三名晋级32强</p>
+        <p style="margin-top:12px;color:var(--text)">点击地球仪上的国家查看球队信息</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+name: Fetch World Cup Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every 30 minutes during tournament
+  workflow_dispatch:           # manual trigger
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_data.py'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install sports-skills
+        run: pip install sports-skills
+
+      - name: Fetch data
+        run: python scripts/fetch_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes, skipping commit"
+          else
+            git commit -m "chore: update World Cup data [skip ci]"
+            git push
+          fi
