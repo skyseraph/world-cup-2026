@@ -233,7 +233,7 @@ function initGlobe() {
       const ab=entry.team.abbreviation, pos=coords[ab];
       if(!pos) return;
       const [lat,lon]=pos;
-      const phi=(90-lat)*Math.PI/180, theta=(180-lon)*Math.PI/180;
+      const phi=(90-lat)*Math.PI/180, theta=Math.PI/2-lon*Math.PI/180;
 
       const dot=new THREE.Mesh(new THREE.SphereGeometry(0.018,8,8),new THREE.MeshBasicMaterial({color}));
       dot.position.setFromSphericalCoords(1.02,phi,theta);
@@ -272,7 +272,7 @@ function initGlobe() {
   const todayStr = now.toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
 
   function latLonToVec(lat, lon, r=1.02){
-    const phi=(90-lat)*Math.PI/180, theta=(180-lon)*Math.PI/180;
+    const phi=(90-lat)*Math.PI/180, theta=Math.PI/2-lon*Math.PI/180;
     return new THREE.Vector3(Math.sin(phi)*Math.cos(theta)*r, Math.cos(phi)*r, Math.sin(phi)*Math.sin(theta)*r);
   }
   function makeArc(p1, p2, color){
@@ -1098,8 +1098,8 @@ window.globeFocusMatch = function(matchId, hAbbr, aAbbr){
   const coords = getTeamCoords();
   const hPos = coords[hAbbr], aPos = coords[aAbbr];
   if(hPos && aPos && window._globeRotateTo){
-    const phi1=(90-hPos[0])*Math.PI/180, th1=(180-hPos[1])*Math.PI/180;
-    const phi2=(90-aPos[0])*Math.PI/180, th2=(180-aPos[1])*Math.PI/180;
+    const phi1=(90-hPos[0])*Math.PI/180, th1=Math.PI/2-hPos[1]*Math.PI/180;
+    const phi2=(90-aPos[0])*Math.PI/180, th2=Math.PI/2-aPos[1]*Math.PI/180;
     const v1=new THREE.Vector3(Math.sin(phi1)*Math.cos(th1),Math.cos(phi1),Math.sin(phi1)*Math.sin(th1));
     const v2=new THREE.Vector3(Math.sin(phi2)*Math.cos(th2),Math.cos(phi2),Math.sin(phi2)*Math.sin(th2));
     window._globeRotateTo(v1.add(v2).normalize().multiplyScalar(1.5), 1000);
