@@ -1,0 +1,586 @@
+{
+  "event_id": "760420",
+  "timeline": [
+    {
+      "id": "49493547",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49493924",
+      "type": "start delay",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49493940",
+      "type": "start delay",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49493942",
+      "type": "end delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49493941",
+      "type": "end delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49493953",
+      "type": "yellow_card",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "310372",
+        "name": "Mahmoud Abunada"
+      }
+    },
+    {
+      "id": "49493954",
+      "type": "red_card",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "202099",
+        "name": "Breel Embolo"
+      }
+    },
+    {
+      "id": "49494097",
+      "type": "yellow_card",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "310373",
+        "name": "Jassem Gaber"
+      }
+    },
+    {
+      "id": "49494133",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49494132",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49494202",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49494203",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49494272",
+      "type": "start delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49494269",
+      "type": "start delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49494279",
+      "type": "end delay",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49494278",
+      "type": "end delay",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49494583",
+      "type": "yellow_card",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "222628",
+        "name": "Denis Zakaria"
+      }
+    },
+    {
+      "id": "49494782",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49494943",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49495285",
+      "type": "start delay",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49495286",
+      "type": "start delay",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49495288",
+      "type": "end delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49495289",
+      "type": "end delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49495327",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "268018",
+        "name": "Ahmed Fathy"
+      },
+      "player_in": {
+        "id": "268018",
+        "name": "Ahmed Fathy"
+      },
+      "player_out": {
+        "id": "346649",
+        "name": "Ayoub Al-Oui"
+      }
+    },
+    {
+      "id": "49495328",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "172245",
+        "name": "Karim Boudiaf"
+      },
+      "player_in": {
+        "id": "172245",
+        "name": "Karim Boudiaf"
+      },
+      "player_out": {
+        "id": "310373",
+        "name": "Jassem Gaber"
+      }
+    },
+    {
+      "id": "49495367",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "263311",
+        "name": "Ahmed Alaaeldin"
+      },
+      "player_in": {
+        "id": "263311",
+        "name": "Ahmed Alaaeldin"
+      },
+      "player_out": {
+        "id": "274164",
+        "name": "Yusuf Abdurisag"
+      }
+    },
+    {
+      "id": "49495540",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "308908",
+        "name": "Fabian Rieder"
+      },
+      "player_in": {
+        "id": "308908",
+        "name": "Fabian Rieder"
+      },
+      "player_out": {
+        "id": "245623",
+        "name": "Michel Aebischer"
+      }
+    },
+    {
+      "id": "49495541",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      },
+      "player_in": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      },
+      "player_out": {
+        "id": "275842",
+        "name": "Dan Ndoye"
+      }
+    },
+    {
+      "id": "49495575",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49495576",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49495611",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49495612",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49495880",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "309315",
+        "name": "Mohamed Manai"
+      },
+      "player_in": {
+        "id": "309315",
+        "name": "Mohamed Manai"
+      },
+      "player_out": {
+        "id": "219254",
+        "name": "Assim Madibo"
+      }
+    },
+    {
+      "id": "49495912",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "320757",
+        "name": "Zeki Amdouni"
+      },
+      "player_in": {
+        "id": "320757",
+        "name": "Zeki Amdouni"
+      },
+      "player_out": {
+        "id": "259513",
+        "name": "Rubén Vargas"
+      }
+    },
+    {
+      "id": "49496199",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "236586",
+        "name": "Hassan Al-Haydos"
+      },
+      "player_in": {
+        "id": "236586",
+        "name": "Hassan Al-Haydos"
+      },
+      "player_out": {
+        "id": "109204",
+        "name": "Edmílson Junior"
+      }
+    },
+    {
+      "id": "49496202",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "303973",
+        "name": "Ardon Jashari"
+      },
+      "player_in": {
+        "id": "303973",
+        "name": "Ardon Jashari"
+      },
+      "player_out": {
+        "id": "152600",
+        "name": "Remo Freuler"
+      }
+    },
+    {
+      "id": "49496201",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "243626",
+        "name": "Miro Muheim"
+      },
+      "player_in": {
+        "id": "243626",
+        "name": "Miro Muheim"
+      },
+      "player_out": {
+        "id": "136865",
+        "name": "Ricardo Rodríguez"
+      }
+    },
+    {
+      "id": "49496324",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "205377",
+        "name": "Boualem Khoukhi"
+      }
+    },
+    {
+      "id": "49496595",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

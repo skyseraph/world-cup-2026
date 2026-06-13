@@ -89,7 +89,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "206",
               "name": "Canada",
@@ -108,7 +108,7 @@
             "form": ""
           },
           {
-            "position": 2,
+            "position": 4,
             "team": {
               "id": "452",
               "name": "Bosnia-Herzegovina",
@@ -127,7 +127,7 @@
             "form": ""
           },
           {
-            "position": 4,
+            "position": 1,
             "team": {
               "id": "475",
               "name": "Switzerland",
@@ -135,14 +135,14 @@
               "abbreviation": "SUI",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
+            "goals_for": 1,
+            "goals_against": 1,
             "goal_difference": 0,
-            "points": 0,
+            "points": 1,
             "form": ""
           },
           {
@@ -154,14 +154,14 @@
               "abbreviation": "QAT",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
+            "goals_for": 1,
+            "goals_against": 1,
             "goal_difference": 0,
-            "points": 0,
+            "points": 1,
             "form": ""
           }
         ]
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-13T20:00:54.254237+00:00"
+  "updated_at": "2026-06-13T21:16:12.240864+00:00"
 }
