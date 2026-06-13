@@ -273,9 +273,19 @@ function initGlobe() {
       const c=p2.clone().multiplyScalar(t*t);
       pts.push(a.add(b).add(c));
     }
-    const geo=new THREE.BufferGeometry().setFromPoints(pts);
-    const mat=new THREE.LineBasicMaterial({color,opacity:0.7,transparent:true,linewidth:1});
-    return new THREE.Line(geo,mat);
+    // Use TubeCurve for thick arc
+    class PolylineCurve extends THREE.Curve {
+      constructor(pts){ super(); this.pts=pts; }
+      getPoint(t){
+        const i=Math.min(Math.floor(t*(this.pts.length-1)),this.pts.length-2);
+        const f=t*(this.pts.length-1)-i;
+        return this.pts[i].clone().lerp(this.pts[i+1],f);
+      }
+    }
+    const curve=new PolylineCurve(pts);
+    const geo=new THREE.TubeGeometry(curve,50,0.006,6,false);
+    const mat=new THREE.MeshBasicMaterial({color,transparent:true,opacity:0.75});
+    return new THREE.Mesh(geo,mat);
   }
 
   S.recentMatches.forEach(m=>{
@@ -363,7 +373,7 @@ function initGlobe() {
       ring.material.opacity=0.2+0.22*Math.sin(tick+i*0.6);
     });
     todayArcs.forEach((arc,i)=>{
-      arc.material.opacity=0.4+0.35*Math.sin(tick*1.5+i*1.1);
+      arc.material.opacity=0.45+0.3*Math.sin(tick*1.5+i*1.1);
     });
     controls.update();
     renderer.render(scene,camera);
@@ -948,6 +958,46 @@ function renderGlobeIntro(){
       <span style="width:8px;height:8px;border-radius:50%;background:${GROUP_COLORS[gi]};flex-shrink:0;display:inline-block"></span>
       <span style="font-size:10px;font-weight:600">${grp.name}</span>
     </div>`).join('');
+
+  // Today's matches summary
+  const todayEl=document.getElementById('globe-today-matches');
+  if(todayEl){
+    const todayStr=new Date().toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
+    const todayMatches=S.recentMatches.filter(m=>{
+      const d=new Date(m.start_time).toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
+      return d===todayStr;
+    });
+    if(todayMatches.length){
+      todayEl.innerHTML=`
+        <div style="font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:8px">
+          ⚡ ${lang==='zh'?'今日赛事':'Today\'s Matches'} · ${todayMatches.length}场
+        </div>
+        ${todayMatches.map(m=>{
+          const hCmp=m.competitors.find(c=>c.qualifier==='home');
+          const aCmp=m.competitors.find(c=>c.qualifier==='away');
+          const hT=S.teamIndex[hCmp?.team?.abbreviation]||hCmp?.team||{};
+          const aT=S.teamIndex[aCmp?.team?.abbreviation]||aCmp?.team||{};
+          const isLive=m.status==='in_progress';
+          const isDone=m.status==='closed'||m.status==='complete';
+          const score=isDone||isLive
+            ? `<span style="font-weight:700;color:${isLive?'var(--red)':'var(--text)'}">${hCmp?.score??0} - ${aCmp?.score??0}</span>`
+            : `<span style="color:var(--muted)">${new Date(m.start_time).toLocaleTimeString(lang==='zh'?'zh-CN':'en-US',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Shanghai'})}</span>`;
+          const statusDot=isLive?'<span style="color:var(--red);font-size:9px;animation:pulse 1.5s infinite">● LIVE</span>':'';
+          return `<div onclick="activateView('matches');setTimeout(()=>openMatchModal('${m.id}'),150)"
+            style="display:flex;align-items:center;gap:6px;padding:7px 8px;margin-bottom:5px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:border-color 0.15s"
+            onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">
+            <img src="${hT.crest||''}" style="width:20px;height:14px;object-fit:cover;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+            <span style="font-size:11px;font-weight:600;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${hT.name||hCmp?.team?.abbreviation||'?'}</span>
+            <span style="font-size:11px;flex-shrink:0">${score}</span>
+            ${statusDot}
+            <span style="font-size:11px;font-weight:600;flex:1;min-width:0;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${aT.name||aCmp?.team?.abbreviation||'?'}</span>
+            <img src="${aT.crest||''}" style="width:20px;height:14px;object-fit:cover;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+          </div>`;
+        }).join('')}`;
+    } else {
+      todayEl.innerHTML=`<div style="font-size:11px;color:var(--muted);padding:8px 0">${lang==='zh'?'今日暂无赛事':'No matches today'}</div>`;
+    }
+  }
 
   // Update hover hint language
   const hint=document.getElementById('ghc-hint');
