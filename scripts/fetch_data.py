@@ -3,7 +3,7 @@
 import json
 import subprocess
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -33,12 +33,26 @@ def save(name, data):
 def main():
     print(f"Fetching World Cup 2026 data @ {datetime.now(timezone.utc).isoformat()}")
 
-    # Today's matches
-    today = run(["sports-skills", "football", "get_daily_schedule"])
-    if today:
-        events = today.get("data", {}).get("events", [])
-        wc_today = [e for e in events if e.get("competition", {}).get("id") == "world-cup"]
-        save("today", {"updated_at": datetime.now(timezone.utc).isoformat(), "events": wc_today})
+    # Recent matches: last 4 days + today + next 3 days (covers upcoming + history)
+    now = datetime.now(timezone.utc).date()
+    all_events = []
+    for delta in range(-4, 4):
+        date_str = (now + timedelta(days=delta)).isoformat()
+        day = run(["sports-skills", "football", "get_daily_schedule", f"--date={date_str}"])
+        if day:
+            events = day.get("data", {}).get("events", [])
+            wc = [e for e in events if e.get("competition", {}).get("id") == "world-cup"]
+            all_events.extend(wc)
+            if wc:
+                print(f"  {date_str}: {len(wc)} WC matches")
+    # Deduplicate by event id
+    seen = set()
+    unique = []
+    for e in all_events:
+        if e["id"] not in seen:
+            seen.add(e["id"])
+            unique.append(e)
+    save("recent", {"updated_at": datetime.now(timezone.utc).isoformat(), "events": unique})
 
     # Standings
     standings = run(["sports-skills", "football", "get_season_standings", f"--season_id={SEASON_ID}"])

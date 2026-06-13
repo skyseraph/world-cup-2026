@@ -1,0 +1,491 @@
+{
+  "events": [
+    {
+      "id": "760420",
+      "status": "not_started",
+      "start_time": "2026-06-13T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "5960",
+        "name": "Levi's Stadium",
+        "city": "Santa Clara, California",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "4398",
+            "name": "Qatar",
+            "short_name": "Qatar",
+            "abbreviation": "QAT"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "475",
+            "name": "Switzerland",
+            "short_name": "Switzerland",
+            "abbreviation": "SUI"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "SUI -450",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "+1300",
+          "away": "-450",
+          "draw": "+550"
+        },
+        "spread_line": {
+          "home": {
+            "line": "+1.5",
+            "odds": "+125"
+          },
+          "away": {
+            "line": "-1.5",
+            "odds": "-155"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "-175"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "+140"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "+600",
+            "away": "-310",
+            "draw": "+380"
+          },
+          "spread": {
+            "home": "+1.5",
+            "away": "-1.5"
+          },
+          "total": "o2.5"
+        }
+      },
+      "referees": []
+    },
+    {
+      "id": "760419",
+      "status": "not_started",
+      "start_time": "2026-06-13T22:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "4727",
+        "name": "MetLife Stadium",
+        "city": "East Rutherford, New Jersey",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "205",
+            "name": "Brazil",
+            "short_name": "Brazil",
+            "abbreviation": "BRA"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "2869",
+            "name": "Morocco",
+            "short_name": "Morocco",
+            "abbreviation": "MAR"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "BRA -145",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "-145",
+          "away": "+425",
+          "draw": "+275"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-0.5",
+            "odds": "-150"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "+120"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "+120"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "-145"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "-175",
+            "away": "+500",
+            "draw": "+310"
+          },
+          "spread": {
+            "home": "-0.5",
+            "away": "+0.5"
+          },
+          "total": "o2.5"
+        }
+      },
+      "referees": []
+    },
+    {
+      "id": "760418",
+      "status": "not_started",
+      "start_time": "2026-06-14T01:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "10660",
+        "name": "Gillette Stadium",
+        "city": "Foxborough, Massachusetts",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "2654",
+            "name": "Haiti",
+            "short_name": "Haiti",
+            "abbreviation": "HAI"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "580",
+            "name": "Scotland",
+            "short_name": "Scotland",
+            "abbreviation": "SCO"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "SCO -180",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "+475",
+          "away": "-180",
+          "draw": "+340"
+        },
+        "spread_line": {
+          "home": {
+            "line": "+0.5",
+            "odds": "+150"
+          },
+          "away": {
+            "line": "-0.5",
+            "odds": "-195"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "-140"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "+110"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "+550",
+            "away": "-270",
+            "draw": "+370"
+          },
+          "spread": {
+            "home": "+1.5",
+            "away": "-1.5"
+          },
+          "total": "o2.5"
+        }
+      },
+      "referees": []
+    },
+    {
+      "id": "760416",
+      "status": "closed",
+      "start_time": "2026-06-12T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "10143",
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "206",
+            "name": "Canada",
+            "short_name": "Canada",
+            "abbreviation": "CAN"
+          },
+          "qualifier": "home",
+          "score": 1
+        },
+        {
+          "team": {
+            "id": "452",
+            "name": "Bosnia-Herzegovina",
+            "short_name": "Bosnia-Herz",
+            "abbreviation": "BIH"
+          },
+          "qualifier": "away",
+          "score": 1
+        }
+      ],
+      "scores": {
+        "home": 1,
+        "away": 1
+      },
+      "odds": null,
+      "referees": []
+    },
+    {
+      "id": "760417",
+      "status": "closed",
+      "start_time": "2026-06-13T01:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "9115",
+        "name": "SoFi Stadium",
+        "city": "Inglewood, California",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "660",
+            "name": "United States",
+            "short_name": "USA",
+            "abbreviation": "USA"
+          },
+          "qualifier": "home",
+          "score": 4
+        },
+        {
+          "team": {
+            "id": "210",
+            "name": "Paraguay",
+            "short_name": "Paraguay",
+            "abbreviation": "PAR"
+          },
+          "qualifier": "away",
+          "score": 1
+        }
+      ],
+      "scores": {
+        "home": 4,
+        "away": 1
+      },
+      "odds": null,
+      "referees": []
+    },
+    {
+      "id": "760415",
+      "status": "closed",
+      "start_time": "2026-06-11T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "1672",
+        "name": "Estadio Banorte",
+        "city": "Mexico City",
+        "country": "Mexico"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "203",
+            "name": "Mexico",
+            "short_name": "Mexico",
+            "abbreviation": "MEX"
+          },
+          "qualifier": "home",
+          "score": 2
+        },
+        {
+          "team": {
+            "id": "467",
+            "name": "South Africa",
+            "short_name": "South Africa",
+            "abbreviation": "RSA"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 2,
+        "away": 0
+      },
+      "odds": null,
+      "referees": []
+    },
+    {
+      "id": "760414",
+      "status": "closed",
+      "start_time": "2026-06-12T02:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "5009",
+        "name": "Estadio Akron",
+        "city": "Guadalajara",
+        "country": "Mexico"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "451",
+            "name": "South Korea",
+            "short_name": "South Korea",
+            "abbreviation": "KOR"
+          },
+          "qualifier": "home",
+          "score": 2
+        },
+        {
+          "team": {
+            "id": "450",
+            "name": "Czechia",
+            "short_name": "Czechia",
+            "abbreviation": "CZE"
+          },
+          "qualifier": "away",
+          "score": 1
+        }
+      ],
+      "scores": {
+        "home": 2,
+        "away": 1
+      },
+      "odds": null,
+      "referees": []
+    }
+  ],
+  "updated_at": "2026-06-13"
+}
