@@ -233,11 +233,11 @@ function initGlobe() {
       const ab=entry.team.abbreviation, pos=coords[ab];
       if(!pos) return;
       const [lat,lon]=pos;
-      const phi=(90-lat)*Math.PI/180, theta=(lon+180)*Math.PI/180;
+      const phi=(90-lat)*Math.PI/180, theta=(180-lon)*Math.PI/180;
 
       const dot=new THREE.Mesh(new THREE.SphereGeometry(0.018,8,8),new THREE.MeshBasicMaterial({color}));
       dot.position.setFromSphericalCoords(1.02,phi,theta);
-      dot.userData={abbr:ab,team:entry.team,group:grp.name,standing:entry,gi};
+      dot.userData={abbr:ab,team:entry.team,group:grp.name,standing:entry,gi,lat,lon};
 
       const ring=new THREE.Mesh(new THREE.RingGeometry(0.023,0.031,16),
         new THREE.MeshBasicMaterial({color,transparent:true,opacity:0.4,side:THREE.DoubleSide}));
@@ -247,8 +247,21 @@ function initGlobe() {
       const spGeo=new THREE.BufferGeometry().setFromPoints([dot.position.clone().multiplyScalar(0.99),dot.position.clone().multiplyScalar(1.05)]);
       scene.add(new THREE.Line(spGeo,new THREE.LineBasicMaterial({color,opacity:0.45,transparent:true})));
 
+      // Label (canvas texture)
+      const lc=document.createElement('canvas'); lc.width=128; lc.height=32;
+      const lctx=lc.getContext('2d');
+      lctx.font='bold 18px Arial'; lctx.fillStyle='rgba(0,0,0,0.55)';
+      lctx.fillText(ab,3,22); lctx.fillStyle='#ffffff';
+      lctx.fillText(ab,2,21);
+      const ltex=new THREE.CanvasTexture(lc);
+      const lmat=new THREE.SpriteMaterial({map:ltex,transparent:true,depthTest:false});
+      const lsp=new THREE.Sprite(lmat);
+      lsp.scale.set(0.18,0.045,1);
+      lsp.position.copy(dot.position).multiplyScalar(1.08);
+      scene.add(lsp);
+
       scene.add(dot); scene.add(ring);
-      markers.push({dot,ring}); markerMeshes.push(dot);
+      markers.push({dot,ring,label:lsp}); markerMeshes.push(dot);
     });
   });
 
@@ -259,7 +272,7 @@ function initGlobe() {
   const todayStr = now.toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
 
   function latLonToVec(lat, lon, r=1.02){
-    const phi=(90-lat)*Math.PI/180, theta=(lon+180)*Math.PI/180;
+    const phi=(90-lat)*Math.PI/180, theta=(180-lon)*Math.PI/180;
     return new THREE.Vector3(Math.sin(phi)*Math.cos(theta)*r, Math.cos(phi)*r, Math.sin(phi)*Math.sin(theta)*r);
   }
   function makeArc(p1, p2, color){
@@ -298,11 +311,43 @@ function initGlobe() {
     const aPos=coords[aCmp.team.abbreviation];
     if(!hPos||!aPos) return;
     const arc=makeArc(latLonToVec(...hPos), latLonToVec(...aPos), 0xffd700);
-    arc.userData={matchId:m.id,isArc:true};
+    // Store midpoint for camera rotation
+    const midVec=latLonToVec(...hPos).add(latLonToVec(...aPos)).normalize().multiplyScalar(1.5);
+    arc.userData={matchId:m.id,isArc:true,midVec};
     scene.add(arc);
     todayArcs.push(arc);
     todayMatchIds.push(m.id);
   });
+
+  // Smoothly rotate globe so target point faces the camera
+  function rotateTo(targetVec, duration=1200){
+    controls.autoRotate=false;
+    const startQ=camera.quaternion.clone();
+    // We want camera to look from the direction of targetVec
+    const targetPos=targetVec.clone().normalize().multiplyScalar(camera.position.length());
+    const endQ=new THREE.Quaternion().setFromRotationMatrix(
+      new THREE.Matrix4().lookAt(targetPos, new THREE.Vector3(0,0,0), new THREE.Vector3(0,1,0))
+    );
+    // Rotate the scene (globe) instead — adjust controls target indirectly
+    // Simpler: animate camera position to orbit around to face the point
+    const startPos=camera.position.clone();
+    const dist=startPos.length();
+    const endPos=targetVec.clone().normalize().multiplyScalar(dist);
+    const t0=performance.now();
+    function step(){
+      const t=Math.min((performance.now()-t0)/duration,1);
+      const ease=t<0.5?2*t*t:(4-2*t)*t-1; // ease in-out quad
+      camera.position.lerpVectors(startPos,endPos,ease);
+      camera.lookAt(0,0,0);
+      if(t<1) requestAnimationFrame(step);
+      else setTimeout(()=>{controls.autoRotate=true;},4000);
+    }
+    step();
+  }
+
+  // Expose so today match cards can call it
+  window._globeRotateTo = rotateTo;
+  window._globeTodayArcs = todayArcs;
 
   // Interaction
   const ray=new THREE.Raycaster(), mouse=new THREE.Vector2();
@@ -983,9 +1028,10 @@ function renderGlobeIntro(){
             ? `<span style="font-weight:700;color:${isLive?'var(--red)':'var(--text)'}">${hCmp?.score??0} - ${aCmp?.score??0}</span>`
             : `<span style="color:var(--muted)">${new Date(m.start_time).toLocaleTimeString(lang==='zh'?'zh-CN':'en-US',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Shanghai'})}</span>`;
           const statusDot=isLive?'<span style="color:var(--red);font-size:9px;animation:pulse 1.5s infinite">● LIVE</span>':'';
-          return `<div onclick="activateView('matches');setTimeout(()=>openMatchModal('${m.id}'),150)"
+          return `<div onclick="globeFocusMatch('${m.id}','${hCmp?.team?.abbreviation||''}','${aCmp?.team?.abbreviation||''}')"
             style="display:flex;align-items:center;gap:6px;padding:7px 8px;margin-bottom:5px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:border-color 0.15s"
-            onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'">
+            onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border)'"
+            title="${lang==='zh'?'点击旋转地球仪到连线位置':'Click to rotate globe to match arc'}">
             <img src="${hT.crest||''}" style="width:20px;height:14px;object-fit:cover;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
             <span style="font-size:11px;font-weight:600;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${hT.name||hCmp?.team?.abbreviation||'?'}</span>
             <span style="font-size:11px;flex-shrink:0">${score}</span>
@@ -1046,6 +1092,31 @@ function getTeamCoords(){
     ENG:[52.4,-1.9], CRO:[45.1,15.2], PAN:[8.5,-80.8], GHA:[7.9,-1.0],
   };
 }
+
+// Click today match card → rotate globe to arc midpoint, then open match
+window.globeFocusMatch = function(matchId, hAbbr, aAbbr){
+  const coords = getTeamCoords();
+  const hPos = coords[hAbbr], aPos = coords[aAbbr];
+  if(hPos && aPos && window._globeRotateTo){
+    const phi1=(90-hPos[0])*Math.PI/180, th1=(180-hPos[1])*Math.PI/180;
+    const phi2=(90-aPos[0])*Math.PI/180, th2=(180-aPos[1])*Math.PI/180;
+    const v1=new THREE.Vector3(Math.sin(phi1)*Math.cos(th1),Math.cos(phi1),Math.sin(phi1)*Math.sin(th1));
+    const v2=new THREE.Vector3(Math.sin(phi2)*Math.cos(th2),Math.cos(phi2),Math.sin(phi2)*Math.sin(th2));
+    window._globeRotateTo(v1.add(v2).normalize().multiplyScalar(1.5), 1000);
+    // Highlight the arc
+    if(window._globeTodayArcs){
+      window._globeTodayArcs.forEach(a=>{
+        a.material.color.set(a.userData.matchId===matchId ? 0xffffff : 0xffd700);
+        a.material.opacity = a.userData.matchId===matchId ? 1 : 0.45;
+      });
+      setTimeout(()=>{
+        window._globeTodayArcs.forEach(a=>{a.material.color.set(0xffd700); a.material.opacity=0.7;});
+      }, 3000);
+    }
+  }
+  // Open match detail after rotation
+  setTimeout(()=>openMatchModal(matchId), 1100);
+};
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────
 async function main(){
