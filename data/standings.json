@@ -171,7 +171,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "205",
               "name": "Brazil",
@@ -190,7 +190,7 @@
             "form": ""
           },
           {
-            "position": 4,
+            "position": 1,
             "team": {
               "id": "580",
               "name": "Scotland",
@@ -198,18 +198,18 @@
               "abbreviation": "SCO",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
             },
-            "played": 0,
-            "won": 0,
+            "played": 1,
+            "won": 1,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 0,
+            "goals_for": 1,
             "goals_against": 0,
-            "goal_difference": 0,
-            "points": 0,
+            "goal_difference": 1,
+            "points": 3,
             "form": ""
           },
           {
-            "position": 3,
+            "position": 4,
             "team": {
               "id": "2654",
               "name": "Haiti",
@@ -217,18 +217,18 @@
               "abbreviation": "HAI",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
             "drawn": 0,
-            "lost": 0,
+            "lost": 1,
             "goals_for": 0,
-            "goals_against": 0,
-            "goal_difference": 0,
+            "goals_against": 1,
+            "goal_difference": -1,
             "points": 0,
             "form": ""
           },
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "2869",
               "name": "Morocco",
@@ -272,7 +272,7 @@
             "form": ""
           },
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "465",
               "name": "Türkiye",
@@ -280,18 +280,18 @@
               "abbreviation": "TUR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
             "drawn": 0,
-            "lost": 0,
+            "lost": 1,
             "goals_for": 0,
-            "goals_against": 0,
-            "goal_difference": 0,
+            "goals_against": 2,
+            "goal_difference": -2,
             "points": 0,
             "form": ""
           },
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": "628",
               "name": "Australia",
@@ -299,14 +299,14 @@
               "abbreviation": "AUS",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
             },
-            "played": 0,
-            "won": 0,
+            "played": 1,
+            "won": 1,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 0,
+            "goals_for": 2,
             "goals_against": 0,
-            "goal_difference": 0,
-            "points": 0,
+            "goal_difference": 2,
+            "points": 3,
             "form": ""
           },
           {
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-14T02:31:59.901557+00:00"
+  "updated_at": "2026-06-14T07:08:12.148471+00:00"
 }

@@ -1,0 +1,492 @@
+{
+  "event_id": "760418",
+  "timeline": [
+    {
+      "id": "49500794",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49501452",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49501451",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49501509",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49501508",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49501598",
+      "type": "goal",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "162843",
+        "name": "John McGinn"
+      }
+    },
+    {
+      "id": "49501843",
+      "type": "yellow_card",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "240369",
+        "name": "Jean-Ricner Bellegarde"
+      }
+    },
+    {
+      "id": "49502171",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49502351",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49502364",
+      "type": "yellow_card",
+      "minute": 46,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "283940",
+        "name": "Aaron Hickey"
+      }
+    },
+    {
+      "id": "49502566",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "304212",
+        "name": "Josué Casimir"
+      },
+      "player_in": {
+        "id": "304212",
+        "name": "Josué Casimir"
+      },
+      "player_out": {
+        "id": "291608",
+        "name": "Louicius Deedson"
+      }
+    },
+    {
+      "id": "49502580",
+      "type": "start delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49502582",
+      "type": "start delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49502584",
+      "type": "end delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49502585",
+      "type": "end delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49502641",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49502638",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49502646",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49502645",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49502727",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "93435",
+        "name": "Ryan Christie"
+      },
+      "player_in": {
+        "id": "93435",
+        "name": "Ryan Christie"
+      },
+      "player_out": {
+        "id": "332948",
+        "name": "Ben Gannon-Doak"
+      }
+    },
+    {
+      "id": "49502729",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "207538",
+        "name": "Lyndon Dykes"
+      },
+      "player_in": {
+        "id": "207538",
+        "name": "Lyndon Dykes"
+      },
+      "player_out": {
+        "id": "213725",
+        "name": "Ché Adams"
+      }
+    },
+    {
+      "id": "49502730",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "271191",
+        "name": "Nathan Patterson"
+      },
+      "player_in": {
+        "id": "271191",
+        "name": "Nathan Patterson"
+      },
+      "player_out": {
+        "id": "283940",
+        "name": "Aaron Hickey"
+      }
+    },
+    {
+      "id": "49502731",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "301093",
+        "name": "Lenny Joseph"
+      },
+      "player_in": {
+        "id": "301093",
+        "name": "Lenny Joseph"
+      },
+      "player_out": {
+        "id": "265915",
+        "name": "Wilson Isidor"
+      }
+    },
+    {
+      "id": "49502841",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "368045",
+        "name": "Findlay Curtis"
+      },
+      "player_in": {
+        "id": "368045",
+        "name": "Findlay Curtis"
+      },
+      "player_out": {
+        "id": "162843",
+        "name": "John McGinn"
+      }
+    },
+    {
+      "id": "49502844",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "141870",
+        "name": "Kenny McLean"
+      },
+      "player_in": {
+        "id": "141870",
+        "name": "Kenny McLean"
+      },
+      "player_out": {
+        "id": "173306",
+        "name": "Lawrence Shankland"
+      }
+    },
+    {
+      "id": "49502895",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "275007",
+        "name": "Yassin Fortuné"
+      },
+      "player_in": {
+        "id": "275007",
+        "name": "Yassin Fortuné"
+      },
+      "player_out": {
+        "id": "307861",
+        "name": "Ruben Providence"
+      }
+    },
+    {
+      "id": "49503015",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "368045",
+        "name": "Findlay Curtis"
+      }
+    },
+    {
+      "id": "49503076",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "141870",
+        "name": "Kenny McLean"
+      }
+    },
+    {
+      "id": "49503078",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49503077",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49503080",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49503079",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49503109",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

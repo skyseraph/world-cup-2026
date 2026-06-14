@@ -1,0 +1,484 @@
+{
+  "event_id": "760421",
+  "timeline": [
+    {
+      "id": "49503161",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49503542",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49503545",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49503546",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49503547",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49503574",
+      "type": "goal",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "328535",
+        "name": "Nestory Irankunda"
+      }
+    },
+    {
+      "id": "49503783",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49503782",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49503785",
+      "type": "end delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49503784",
+      "type": "end delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49503876",
+      "type": "start delay",
+      "minute": 44,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49503878",
+      "type": "end delay",
+      "minute": 44,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49504003",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49504008",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "366509",
+        "name": "Kenan Yildiz"
+      },
+      "player_in": {
+        "id": "366509",
+        "name": "Kenan Yildiz"
+      },
+      "player_out": {
+        "id": "322538",
+        "name": "Baris Alper Yilmaz"
+      }
+    },
+    {
+      "id": "49504010",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49504283",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "318429",
+        "name": "Nishan Velupillay"
+      },
+      "player_in": {
+        "id": "318429",
+        "name": "Nishan Velupillay"
+      },
+      "player_out": {
+        "id": "328535",
+        "name": "Nestory Irankunda"
+      }
+    },
+    {
+      "id": "49504298",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "266575",
+        "name": "Yunus Akgün"
+      },
+      "player_in": {
+        "id": "266575",
+        "name": "Yunus Akgün"
+      },
+      "player_out": {
+        "id": "272700",
+        "name": "Orkun Kökçü"
+      }
+    },
+    {
+      "id": "49504421",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49504420",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49504425",
+      "type": "end delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49504423",
+      "type": "end delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49504484",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "312261",
+        "name": "Tete Yengi"
+      },
+      "player_in": {
+        "id": "312261",
+        "name": "Tete Yengi"
+      },
+      "player_out": {
+        "id": "302688",
+        "name": "Mohamed Toure"
+      }
+    },
+    {
+      "id": "49504483",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "172137",
+        "name": "Jason Geria"
+      },
+      "player_in": {
+        "id": "172137",
+        "name": "Jason Geria"
+      },
+      "player_out": {
+        "id": "267053",
+        "name": "Jacob Italiano"
+      }
+    },
+    {
+      "id": "49504497",
+      "type": "goal",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "260643",
+        "name": "Connor Metcalfe"
+      }
+    },
+    {
+      "id": "49504578",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "225563",
+        "name": "Salih Özcan"
+      },
+      "player_in": {
+        "id": "225563",
+        "name": "Salih Özcan"
+      },
+      "player_out": {
+        "id": "305629",
+        "name": "Ismail Yüksek"
+      }
+    },
+    {
+      "id": "49504581",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "266002",
+        "name": "Mert Müldür"
+      },
+      "player_in": {
+        "id": "266002",
+        "name": "Mert Müldür"
+      },
+      "player_out": {
+        "id": "271873",
+        "name": "Zeki Çelik"
+      }
+    },
+    {
+      "id": "49504624",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "200414",
+        "name": "Aziz Behich"
+      },
+      "player_in": {
+        "id": "200414",
+        "name": "Aziz Behich"
+      },
+      "player_out": {
+        "id": "328541",
+        "name": "Jordan Bos"
+      }
+    },
+    {
+      "id": "49504625",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "178071",
+        "name": "Jackson Irvine"
+      },
+      "player_in": {
+        "id": "178071",
+        "name": "Jackson Irvine"
+      },
+      "player_out": {
+        "id": "403528",
+        "name": "Paul Okon-Engstler"
+      }
+    },
+    {
+      "id": "49504639",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "350513",
+        "name": "Deniz Gül"
+      },
+      "player_in": {
+        "id": "350513",
+        "name": "Deniz Gül"
+      },
+      "player_out": {
+        "id": "306789",
+        "name": "Kerem Aktürkoglu"
+      }
+    },
+    {
+      "id": "49504644",
+      "type": "yellow_card",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "266575",
+        "name": "Yunus Akgün"
+      }
+    },
+    {
+      "id": "49504852",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
