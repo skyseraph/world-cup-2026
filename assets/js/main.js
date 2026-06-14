@@ -62,6 +62,44 @@ const I18N = {
 let lang = 'zh';
 const t = k => I18N[lang][k] ?? k;
 
+// ── Fav Teams ──────────────────────────────────────────────────────────────
+let favTeams = new Set(JSON.parse(localStorage.getItem('wc2026_favs') || '[]'));
+function saveFavs() { localStorage.setItem('wc2026_favs', JSON.stringify([...favTeams])); }
+function toggleFav(abbr) {
+  if (favTeams.has(abbr)) favTeams.delete(abbr); else favTeams.add(abbr);
+  saveFavs();
+  renderFavBar();
+  // update all fav buttons on page
+  document.querySelectorAll(`.fav-btn[data-abbr="${abbr}"]`).forEach(b => {
+    b.classList.toggle('active', favTeams.has(abbr));
+    b.title = favTeams.has(abbr) ? (lang==='zh'?'取消关注':'Unfollow') : (lang==='zh'?'关注':'Follow');
+  });
+}
+function favBtnHTML(abbr) {
+  const active = favTeams.has(abbr);
+  return `<button class="fav-btn${active?' active':''}" data-abbr="${abbr}" title="${active?(lang==='zh'?'取消关注':'Unfollow'):(lang==='zh'?'关注':'Follow')}" onclick="toggleFav('${abbr}')">★</button>`;
+}
+function renderFavBar() {
+  const bar = document.getElementById('fav-bar');
+  const chips = document.getElementById('fav-chips');
+  if (!bar || !chips) return;
+  if (favTeams.size === 0) { bar.classList.remove('show'); return; }
+  bar.classList.add('show');
+  document.getElementById('fav-bar-title').textContent = lang==='zh' ? '★ 关注球队赛程' : '★ Followed Teams';
+  chips.innerHTML = [...favTeams].map(abbr => {
+    const team = S.teamIndex[abbr] || {};
+    return `<div class="fav-chip" onclick="filterByFavTeam('${abbr}')">
+      <img src="${team.crest||''}" onerror="this.style.display='none'" alt="">
+      <span>${abbr}</span>
+    </div>`;
+  }).join('');
+}
+window.filterByFavTeam = function(abbr) {
+  currentMatchFilter = 'fav';
+  renderMatches();
+  // highlight the selected team
+};
+
 function applyI18n() {
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
   document.getElementById('lang-btn').textContent = t('lang_switch');
@@ -130,7 +168,33 @@ function prog(pct, msg) {
   document.getElementById('load-text').textContent = msg;
 }
 
-// ── Helpers ────────────────────────────────────────────────────────────────
+// ── Countdown ──────────────────────────────────────────────────────────────
+let _countdownTimer = null;
+function startCountdown() {
+  if (_countdownTimer) clearInterval(_countdownTimer);
+  function tick() {
+    const next = S.recentMatches
+      .filter(m => m.status === 'not_started' || m.status === 'scheduled')
+      .sort((a, b) => new Date(a.start_time) - new Date(b.start_time))[0];
+    const wrap = document.getElementById('countdown-wrap');
+    if (!next || !wrap) return;
+    const diff = new Date(next.start_time) - Date.now();
+    if (diff <= 0) { wrap.style.display = 'none'; return; }
+    wrap.style.display = 'flex';
+    const h = Math.floor(diff / 3600000);
+    const m = Math.floor((diff % 3600000) / 60000);
+    const s = Math.floor((diff % 60000) / 1000);
+    const pad = n => String(n).padStart(2, '0');
+    document.getElementById('countdown-timer').textContent = h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
+    document.getElementById('cd-label').textContent = lang === 'zh' ? '距下场' : 'Next in';
+    const hCmp = next.competitors.find(c => c.qualifier === 'home');
+    const aCmp = next.competitors.find(c => c.qualifier === 'away');
+    document.getElementById('countdown-match').textContent =
+      `${hCmp?.team?.abbreviation || '?'} vs ${aCmp?.team?.abbreviation || '?'}`;
+  }
+  tick();
+  _countdownTimer = setInterval(tick, 1000);
+}
 function flagImg(team, cls='') {
   const src = team?.crest || S.teamIndex[team?.abbreviation]?.crest || '';
   return `<img src="${src}" alt="" class="${cls}" onerror="this.style.display='none'">`;
@@ -450,7 +514,8 @@ function showGlobeTeamDetail(data){
 
   document.getElementById('gtd-flag').src=team.crest||'';
   document.getElementById('gtd-name').textContent=team.name||data.abbr;
-  document.getElementById('gtd-sub').textContent=data.group+(s?` · #${s.position}`:'');
+  const subEl=document.getElementById('gtd-sub');
+  subEl.innerHTML=`${data.group}${s?` · #${s.position}`:''} ${favBtnHTML(data.abbr)}`;
 
   // Stats
   if(s){
@@ -476,7 +541,9 @@ function showGlobeTeamDetail(data){
       .map(e=>{
         const pt=S.teamIndex[e.team.abbreviation]||e.team;
         return `<div class="peer-chip" onclick="showGlobeTeamDetailByAbbr('${e.team.abbreviation}')">
-          ${flagImg(pt,'')}<span>${e.team.abbreviation}</span><span style="color:var(--gold);font-size:10px">${e.standing?.points??e.points??0}pt</span>
+          ${flagImg(pt,'')}<span>${e.team.abbreviation}</span>
+          <span style="color:var(--gold);font-size:10px">${e.standing?.points??e.points??0}pt</span>
+          <button class="compare-btn" style="padding:1px 5px;font-size:9px" onclick="event.stopPropagation();openTeamCompare('${data.abbr}','${e.team.abbreviation}')">${lang==='zh'?'对比':'vs'}</button>
         </div>`;
       }).join('');
   }
@@ -526,6 +593,7 @@ function renderMatches(){
   const container=document.getElementById('matches-list');
   document.getElementById('matches-title-txt').textContent=t('matches_title');
   updateMatchFilterLabels();
+  renderFavBar();
 
   const todayStr=new Date().toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
 
@@ -539,9 +607,9 @@ function renderMatches(){
     if(currentMatchFilter==='done') return isDone;
     if(currentMatchFilter==='upcoming') return isUpcoming;
     if(currentMatchFilter==='today') return mDate===todayStr;
+    if(currentMatchFilter==='fav') return m.competitors.some(c=>favTeams.has(c.team.abbreviation));
     return true;
   }).sort((a,b)=>{
-    // upcoming first within all/upcoming; rest by time desc
     if(currentMatchFilter==='done') return new Date(b.start_time)-new Date(a.start_time);
     return new Date(a.start_time)-new Date(b.start_time);
   });
@@ -549,14 +617,17 @@ function renderMatches(){
   if(!filtered.length){container.innerHTML=`<p style="color:var(--muted);font-size:12px;text-align:center;padding:20px">${t('no_matches')}</p>`;return;}
   container.innerHTML=filtered.map(m=>matchCardHTML(m)).join('');
   container.querySelectorAll('.match-card').forEach((card,i)=>{
-    card.addEventListener('click',()=>openMatchModal(filtered[i].id));
+    card.addEventListener('click',e=>{
+      if(e.target.closest('.ics-btn')||e.target.closest('.fav-btn')) return;
+      openMatchModal(filtered[i].id);
+    });
   });
 }
 
 function updateMatchFilterLabels(){
   const bar=document.getElementById('match-filter-bar');
   if(!bar) return;
-  const labels={all:t('mf_all'),today:t('mf_today'),live:t('mf_live'),upcoming:t('mf_upcoming'),done:t('mf_done')};
+  const labels={all:t('mf_all'),fav:'★ '+(lang==='zh'?'关注':'Fav'),today:t('mf_today'),live:t('mf_live'),upcoming:t('mf_upcoming'),done:t('mf_done')};
   bar.querySelectorAll('.mf-btn').forEach(btn=>{
     btn.textContent=labels[btn.dataset.filter]||btn.textContent;
     btn.classList.toggle('active',btn.dataset.filter===currentMatchFilter);
@@ -572,6 +643,8 @@ function initMatchFilter(){
     currentMatchFilter=btn.dataset.filter;
     renderMatches();
   });
+  const icsBtn=document.getElementById('ics-export-btn');
+  if(icsBtn) icsBtn.addEventListener('click',()=>downloadICS(S.recentMatches));
 }
 
 function matchCardHTML(m){
@@ -585,6 +658,8 @@ function matchCardHTML(m){
   const tagTxt=isLive?t('status_live'):isDone?t('status_done'):'';
   const score=(isDone||isLive)?`${m.scores?.home??0} : ${m.scores?.away??0}`:'vs';
   const odds=m.odds?.moneyline;
+  const hAbbr=hCmp?.team?.abbreviation||'';
+  const aAbbr=aCmp?.team?.abbreviation||'';
   return `<div class="match-card">
     <div class="match-meta">
       <span>${m.venue?.city||''}</span>
@@ -597,12 +672,14 @@ function matchCardHTML(m){
       <div class="team-side">
         ${flagImg(hT,'team-flag-sm')}
         <span class="team-nm">${hCmp?.team?.name||'—'}</span>
+        ${favBtnHTML(hAbbr)}
       </div>
       <div class="score-box">
         <div class="score-main">${score}</div>
         <div class="score-tag${tagCls}">${tagTxt}</div>
       </div>
       <div class="team-side away">
+        ${favBtnHTML(aAbbr)}
         ${flagImg(aT,'team-flag-sm')}
         <span class="team-nm">${aCmp?.team?.name||'—'}</span>
       </div>
@@ -612,6 +689,9 @@ function matchCardHTML(m){
       <div class="odd-chip">${t('odds_d')}<b>${odds.draw}</b></div>
       <div class="odd-chip">${t('odds_a')}<b>${odds.away}</b></div>
     </div>`:''}
+    <div class="match-card-actions">
+      <button class="ics-btn" onclick="downloadICS([${JSON.stringify(m).replace(/"/g,'&quot;')}])" title="${lang==='zh'?'加入日历':'Add to calendar'}">📅</button>
+    </div>
   </div>`;
 }
 
@@ -719,7 +799,7 @@ function renderStandings(){
       const gdStr=(gd>0?'+':'')+gd;
       return `<tr class="${cls} clickable" data-abbr="${e.team.abbreviation}">
         <td class="pos">${e.position}</td>
-        <td><div class="tcell">${flagImg(td,'')} ${lang==='zh'?e.team.name:e.team.abbreviation}</div></td>
+        <td><div class="tcell">${flagImg(td,'')} ${lang==='zh'?e.team.name:e.team.abbreviation} ${favBtnHTML(e.team.abbreviation)}</div></td>
         <td>${e.played}</td><td>${e.won}</td><td>${e.drawn}</td><td>${e.lost}</td>
         <td class="${gdCls}">${gdStr}</td><td class="pts">${e.points}</td>
       </tr>`;
@@ -743,7 +823,8 @@ function renderStandings(){
   }).join('');
 
   container.querySelectorAll('[data-abbr]').forEach(row=>{
-    row.addEventListener('click',()=>{
+    row.addEventListener('click',e=>{
+      if(e.target.closest('.fav-btn')) return;
       showGlobeTeamDetailByAbbr(row.dataset.abbr);
       activateView('globe');
     });
@@ -922,6 +1003,272 @@ function renderLive(){
   `;
 }
 
+// ── ICS Export ─────────────────────────────────────────────────────────────
+function buildICS(matches) {
+  const pad = n => String(n).padStart(2,'0');
+  function toICSDate(iso) {
+    const d = new Date(iso);
+    return `${d.getUTCFullYear()}${pad(d.getUTCMonth()+1)}${pad(d.getUTCDate())}T${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}00Z`;
+  }
+  const lines = [
+    'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//WC2026//World Cup 2026//EN',
+    'CALSCALE:GREGORIAN','METHOD:PUBLISH',
+    'X-WR-CALNAME:FIFA World Cup 2026','X-WR-TIMEZONE:UTC',
+  ];
+  matches.forEach(m => {
+    const hCmp = m.competitors.find(c=>c.qualifier==='home');
+    const aCmp = m.competitors.find(c=>c.qualifier==='away');
+    const summary = `⚽ ${hCmp?.team?.name||'?'} vs ${aCmp?.team?.name||'?'}`;
+    const start = toICSDate(m.start_time);
+    const end = toICSDate(new Date(new Date(m.start_time).getTime()+105*60000).toISOString());
+    const location = m.venue ? `${m.venue.name}\\, ${m.venue.city}` : '';
+    lines.push(
+      'BEGIN:VEVENT',
+      `UID:wc2026-${m.id}@skyseraph.github.io`,
+      `DTSTART:${start}`,`DTEND:${end}`,
+      `SUMMARY:${summary}`,
+      location ? `LOCATION:${location}` : '',
+      `DESCRIPTION:FIFA World Cup 2026 · ${m.venue?.city||''}`,
+      'END:VEVENT',
+    );
+  });
+  lines.push('END:VCALENDAR');
+  return lines.filter(Boolean).join('\r\n');
+}
+window.downloadICS = function(matches) {
+  const blob = new Blob([buildICS(matches)], {type:'text/calendar;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'wc2026.ics';
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 5000);
+};
+
+// ── Bracket ─────────────────────────────────────────────────────────────────
+function renderBracket() {
+  const wrap = document.getElementById('bracket-wrap');
+  const titleEl = document.getElementById('bracket-title-txt');
+  if (titleEl) titleEl.textContent = lang==='zh' ? '🥊 淘汰赛对阵' : '🥊 Knockout Stage';
+  if (!wrap) return;
+
+  // Check if we have knockout matches (round of 32 or later)
+  const knockoutRounds = ['round_of_32','round_of_16','quarterfinal','semifinal','final','third_place'];
+  const koMatches = S.recentMatches.filter(m =>
+    knockoutRounds.some(r => (m.round||m.round_name||'').toLowerCase().includes(r.replace('_',' ').replace('_','').toLowerCase()))
+  );
+
+  if (!koMatches.length) {
+    wrap.innerHTML = `<div class="bracket-placeholder">
+      <div class="bp-icon">🏆</div>
+      <div class="bp-title">${lang==='zh'?'淘汰赛尚未开始':'Knockout stage not yet started'}</div>
+      <div class="bp-sub">${lang==='zh'
+        ?'小组赛结束后（预计 6 月 27 日），本页将自动显示 32 强淘汰赛对阵图。\n目前共 12 个小组，各组前 2 名 + 8 个最佳第三名晋级。'
+        :'Once the group stage ends (est. June 27), the Round of 32 bracket will appear here automatically.\n12 groups — top 2 from each + 8 best 3rd-place teams advance.'
+      }</div>
+    </div>`;
+    return;
+  }
+
+  // When knockout data exists, render a bracket
+  // Group by round
+  const ROUND_ORDER = ['round_of_32','round_of_16','quarterfinal','semifinal','final'];
+  const ROUND_LABELS = {
+    zh: {round_of_32:'32强',round_of_16:'16强',quarterfinal:'8强',semifinal:'四强',final:'决赛'},
+    en: {round_of_32:'R32',round_of_16:'R16',quarterfinal:'QF',semifinal:'SF',final:'Final'},
+  };
+  const byRound = {};
+  koMatches.forEach(m => {
+    const r = ROUND_ORDER.find(rk => (m.round||m.round_name||'').toLowerCase().includes(rk.replace('_',' '))) || 'round_of_32';
+    if (!byRound[r]) byRound[r] = [];
+    byRound[r].push(m);
+  });
+
+  const rounds = ROUND_ORDER.filter(r => byRound[r]);
+  wrap.innerHTML = `<div class="bracket-rounds">
+    ${rounds.map(r => {
+      const ms = byRound[r];
+      const label = ROUND_LABELS[lang][r] || r;
+      return `<div class="bracket-col">
+        <div class="bracket-col-title">${label}</div>
+        <div class="bracket-matches">
+          ${ms.map(m => bracketCardHTML(m)).join('')}
+        </div>
+      </div>`;
+    }).join('')}
+  </div>`;
+}
+
+function bracketCardHTML(m) {
+  const hCmp = m.competitors.find(c=>c.qualifier==='home');
+  const aCmp = m.competitors.find(c=>c.qualifier==='away');
+  const hT = S.teamIndex[hCmp?.team?.abbreviation]||hCmp?.team||{};
+  const aT = S.teamIndex[aCmp?.team?.abbreviation]||aCmp?.team||{};
+  const isDone = m.status==='closed'||m.status==='complete';
+  const hScore = isDone ? (m.scores?.home??0) : '';
+  const aScore = isDone ? (m.scores?.away??0) : '';
+  const hWin = isDone && hScore > aScore;
+  const aWin = isDone && aScore > hScore;
+  const tbd = lang==='zh'?'待定':'TBD';
+  const teamRow = (t2, score, win) =>
+    `<div class="bracket-team${win?' winner':''}">
+      <img src="${t2.crest||''}" onerror="this.style.display='none'" alt="">
+      <span class="bt-name">${t2.name||t2.abbreviation||tbd}</span>
+      ${isDone?`<span class="bt-score">${score}</span>`:''}
+    </div>`;
+  return `<div class="bracket-slot">
+    <div class="bracket-card">
+      ${teamRow(hT, hScore, hWin)}
+      ${teamRow(aT, aScore, aWin)}
+    </div>
+  </div>`;
+}
+
+// ── Scorer Board ────────────────────────────────────────────────────────────
+let currentScorerTab = 'goals';
+
+async function renderScorers() {
+  const listEl = document.getElementById('scorers-list');
+  const titleEl = document.getElementById('scorers-title-txt');
+  if (titleEl) titleEl.textContent = lang==='zh' ? '📊 数据榜单' : '📊 Statistics';
+  if (!listEl) return;
+
+  listEl.innerHTML = `<div style="text-align:center;padding:20px;color:var(--muted);font-size:11px">${lang==='zh'?'加载中...':'Loading...'}</div>`;
+
+  // Load all available timelines
+  const loadedIds = Object.keys(S.matchTimelines);
+  const closedMatches = S.recentMatches.filter(m=>m.status==='closed'||m.status==='complete');
+  for (const m of closedMatches) {
+    if (!S.matchTimelines[m.id]) {
+      S.matchTimelines[m.id] = await fetchTimeline(m.id);
+    }
+  }
+
+  // Aggregate
+  const goalMap = {}, yellowMap = {};
+  Object.entries(S.matchTimelines).forEach(([eid, events]) => {
+    events.forEach(e => {
+      if (e.type === 'goal' && e.player?.name) {
+        const key = e.player.id || e.player.name;
+        if (!goalMap[key]) goalMap[key] = {name:e.player.name, team:e.team?.name||'', abbr:'', count:0};
+        goalMap[key].count++;
+      }
+      if (e.type === 'yellow_card' && e.player?.name) {
+        const key = e.player.id || e.player.name;
+        if (!yellowMap[key]) yellowMap[key] = {name:e.player.name, team:e.team?.name||'', abbr:'', count:0};
+        yellowMap[key].count++;
+      }
+    });
+  });
+
+  // Match abbr from team name
+  Object.values(S.teamIndex).forEach(t2 => {
+    [goalMap, yellowMap].forEach(map => {
+      Object.values(map).forEach(row => {
+        if (row.team === t2.name) row.abbr = t2.abbreviation;
+      });
+    });
+  });
+
+  updateScorerTabUI();
+  renderScorerList(currentScorerTab === 'goals' ? goalMap : yellowMap, currentScorerTab);
+}
+
+function updateScorerTabUI() {
+  document.querySelectorAll('.scorer-tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.stab === currentScorerTab);
+    if (btn.dataset.stab === 'goals') btn.textContent = '⚽ ' + (lang==='zh'?'射手榜':'Top Scorers');
+    if (btn.dataset.stab === 'yellow') btn.textContent = '🟨 ' + (lang==='zh'?'黄牌榜':'Yellow Cards');
+  });
+}
+
+function renderScorerList(map, type) {
+  const listEl = document.getElementById('scorers-list');
+  if (!listEl) return;
+  const sorted = Object.values(map).sort((a,b)=>b.count-a.count).slice(0,20);
+  if (!sorted.length) {
+    listEl.innerHTML=`<p style="text-align:center;color:var(--muted);font-size:11px;padding:20px">${lang==='zh'?'暂无数据':'No data yet'}</p>`;
+    return;
+  }
+  listEl.innerHTML = sorted.map((row,i) => {
+    const team = S.teamIndex[row.abbr] || {};
+    const rankCls = i < 3 ? ' top3' : '';
+    const countCls = type==='yellow' ? ' yellow' : '';
+    return `<div class="scorer-row">
+      <span class="scorer-rank${rankCls}">${i===0?'🥇':i===1?'🥈':i===2?'🥉':i+1}</span>
+      <img class="scorer-flag" src="${team.crest||''}" onerror="this.style.display='none'" alt="">
+      <div style="flex:1;min-width:0">
+        <div class="scorer-name">${row.name}</div>
+        <div class="scorer-team">${row.team}</div>
+      </div>
+      <span class="scorer-count${countCls}">${row.count}</span>
+    </div>`;
+  }).join('');
+}
+
+function initScorerTabs() {
+  document.querySelectorAll('.scorer-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentScorerTab = btn.dataset.stab;
+      renderScorers();
+    });
+  });
+}
+
+// ── Team Compare ────────────────────────────────────────────────────────────
+window.openTeamCompare = function(abbrA, abbrB) {
+  const tA = S.teamIndex[abbrA], tB = S.teamIndex[abbrB];
+  if (!tA || !tB) return;
+  const sA = tA.standing, sB = tB.standing;
+
+  document.getElementById('compare-title').textContent = lang==='zh' ? '球队对比' : 'Team Compare';
+
+  const teamHTML = (team, s) => `
+    <img class="compare-flag" src="${team.crest||''}" onerror="this.style.display='none'" alt="">
+    <div class="compare-name">${team.name||team.abbreviation}</div>
+    <div style="font-size:10px;color:var(--muted)">${team.group||''}</div>
+  `;
+  document.getElementById('compare-team-left').innerHTML = teamHTML(tA, sA);
+  document.getElementById('compare-team-right').innerHTML = teamHTML(tB, sB);
+
+  const stats = [
+    [lang==='zh'?'积分':'Points', sA?.points??'—', sB?.points??'—'],
+    [lang==='zh'?'场次':'Played', sA?.played??'—', sB?.played??'—'],
+    [lang==='zh'?'胜':'W', sA?.won??'—', sB?.won??'—'],
+    [lang==='zh'?'平':'D', sA?.drawn??'—', sB?.drawn??'—'],
+    [lang==='zh'?'负':'L', sA?.lost??'—', sB?.lost??'—'],
+    [lang==='zh'?'进球':'GF', sA?.goals_for??'—', sB?.goals_for??'—'],
+    [lang==='zh'?'失球':'GA', sA?.goals_against??'—', sB?.goals_against??'—'],
+    [lang==='zh'?'净球差':'GD', sA?.goal_difference??'—', sB?.goal_difference??'—'],
+  ];
+
+  document.getElementById('compare-body').innerHTML = stats.map(([label, va, vb]) => {
+    const numA = parseFloat(va), numB = parseFloat(vb);
+    const clsA = (!isNaN(numA)&&!isNaN(numB)) ? (numA>numB?'home':numA<numB?'tie':'tie') : '';
+    const clsB = (!isNaN(numA)&&!isNaN(numB)) ? (numB>numA?'away':numB<numA?'tie':'tie') : '';
+    return `<div class="compare-stat-row">
+      <div class="cs-val ${clsA}">${va}</div>
+      <div class="cs-label">${label}</div>
+      <div class="cs-val ${clsB}">${vb}</div>
+    </div>`;
+  }).join('') + `
+    <div style="display:flex;gap:8px;margin-top:12px;justify-content:center">
+      <button class="compare-btn" onclick="showGlobeTeamDetailByAbbr('${abbrA}');closeCompare();activateView('globe')">${tA.abbreviation} 详情</button>
+      <button class="compare-btn" onclick="showGlobeTeamDetailByAbbr('${abbrB}');closeCompare();activateView('globe')">${tB.abbreviation} 详情</button>
+    </div>`;
+
+  document.getElementById('compare-modal').classList.add('show');
+};
+
+function closeCompare() { document.getElementById('compare-modal').classList.remove('show'); }
+window.closeCompare = closeCompare;
+
+function initCompare() {
+  document.getElementById('compare-close').addEventListener('click', closeCompare);
+  document.getElementById('compare-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('compare-modal')) closeCompare();
+  });
+}
+
 // ── AI Chat ────────────────────────────────────────────────────────────────
 let apiKey='';
 const chatMsgs=document.getElementById('chat-messages');
@@ -1064,7 +1411,10 @@ function activateView(view){
 }
 function initNav(){
   document.querySelectorAll('.nav-btn').forEach(btn=>{
-    btn.addEventListener('click',()=>activateView(btn.dataset.view));
+    btn.addEventListener('click',()=>{
+      activateView(btn.dataset.view);
+      if(btn.dataset.view==='scorers') renderScorers();
+    });
   });
   // WeChat QR toggle (click for mobile, hover handled by CSS)
   const wBtn=document.getElementById('wechat-btn');
@@ -1088,7 +1438,10 @@ document.getElementById('lang-btn').addEventListener('click',()=>{
   renderStandings();
   renderPredictions();
   renderLive();
+  renderBracket();
+  updateScorerTabUI();
   renderQuickBtns();
+  startCountdown();
   chatMsgs.innerHTML='';
   addBubble('assistant', t('ai_intro').replace(/\n/g,'<br>'));
 });
@@ -1233,9 +1586,13 @@ async function main(){
   renderStandings();
   renderPredictions();
   renderLive();
+  renderBracket();
   initNav();
   initMatchFilter();
+  initScorerTabs();
+  initCompare();
   initChat();
+  startCountdown();
   prog(100,'完成!');
   initGlobe();
   setTimeout(()=>{

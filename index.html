@@ -231,6 +231,94 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
 #giscus-wrap { padding: 12px 14px 20px; }
 .giscus-notice { font-size: 11px; color: var(--muted); padding: 10px 0 14px; line-height: 1.7; }
 
+/* ── Countdown ── */
+#countdown-wrap { display: flex; align-items: center; gap: 5px; font-size: 10px; color: var(--muted); flex-shrink: 0; }
+#countdown-wrap .cd-label { white-space: nowrap; }
+#countdown-timer { font-size: 11px; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: 0.5px; }
+#countdown-match { font-size: 10px; color: var(--muted2); white-space: nowrap; max-width: 130px; overflow: hidden; text-overflow: ellipsis; }
+
+/* ── Fav teams ── */
+.fav-btn { background: none; border: none; cursor: pointer; font-size: 14px; padding: 0 2px; line-height: 1; opacity: 0.35; transition: opacity 0.2s, transform 0.15s; }
+.fav-btn.active { opacity: 1; transform: scale(1.2); }
+.fav-btn:hover { opacity: 0.8; }
+#fav-bar { padding: 8px 14px 0; display: none; }
+#fav-bar.show { display: block; }
+.fav-bar-title { font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.fav-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.fav-chip { display: flex; align-items: center; gap: 5px; background: rgba(255,215,0,0.08); border: 1px solid rgba(255,215,0,0.25); border-radius: 6px; padding: 4px 8px; font-size: 11px; cursor: pointer; transition: border-color 0.2s; }
+.fav-chip:hover { border-color: var(--gold); }
+.fav-chip img { width: 18px; height: 13px; object-fit: cover; border-radius: 1px; }
+
+/* ── ICS export ── */
+.ics-btn { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 8px;
+  border: 1px solid var(--border2); background: var(--surface2); color: var(--muted2);
+  font-size: 10px; cursor: pointer; transition: all 0.18s; white-space: nowrap; }
+.ics-btn:hover { border-color: var(--accent); color: var(--accent); }
+.match-card-actions { display: flex; justify-content: flex-end; margin-top: 6px; gap: 5px; }
+
+/* ── Bracket ── */
+.bracket-wrap { padding: 12px 14px; overflow-x: auto; }
+.bracket-placeholder { text-align: center; padding: 30px 0; }
+.bracket-placeholder .bp-icon { font-size: 36px; margin-bottom: 10px; }
+.bracket-placeholder .bp-title { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+.bracket-placeholder .bp-sub { font-size: 11px; color: var(--muted); line-height: 1.7; }
+.bracket-rounds { display: flex; gap: 0; min-width: 640px; }
+.bracket-col { flex: 1; display: flex; flex-direction: column; }
+.bracket-col-title { font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); text-align: center; padding: 6px 0 10px; }
+.bracket-matches { display: flex; flex-direction: column; flex: 1; }
+.bracket-slot { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 3px 4px; }
+.bracket-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.bracket-team { display: flex; align-items: center; gap: 5px; padding: 4px 6px; font-size: 10px; border-bottom: 1px solid var(--border); }
+.bracket-team:last-child { border-bottom: none; }
+.bracket-team img { width: 16px; height: 11px; object-fit: cover; border-radius: 1px; flex-shrink: 0; }
+.bracket-team .bt-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bracket-team .bt-score { font-weight: 700; color: var(--gold); min-width: 14px; text-align: right; }
+.bracket-team.winner { background: rgba(0,212,255,0.07); }
+.bracket-connector { width: 12px; display: flex; align-items: center; }
+.bracket-tbd { color: var(--muted); font-style: italic; font-size: 10px; }
+
+/* ── Scorer board ── */
+.scorer-tabs { display: flex; gap: 4px; padding: 8px 14px 0; }
+.scorer-tab { padding: 4px 12px; border-radius: 10px; border: 1px solid var(--border);
+  background: none; color: var(--muted); font-size: 11px; cursor: pointer; transition: all 0.18s; }
+.scorer-tab.active { background: var(--surface2); border-color: var(--accent2); color: var(--accent2); font-weight: 600; }
+.scorer-row { display: flex; align-items: center; gap: 8px; padding: 7px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 11px; transition: background 0.15s; }
+.scorer-row:hover { background: rgba(255,255,255,0.03); }
+.scorer-rank { width: 20px; text-align: center; color: var(--muted); font-size: 10px; flex-shrink: 0; }
+.scorer-rank.top3 { color: var(--gold); font-weight: 700; }
+.scorer-flag { width: 20px; height: 14px; object-fit: cover; border-radius: 2px; flex-shrink: 0; }
+.scorer-name { flex: 1; font-weight: 600; }
+.scorer-team { font-size: 10px; color: var(--muted); }
+.scorer-count { font-size: 16px; font-weight: 800; color: var(--accent2); min-width: 24px; text-align: right; }
+.scorer-count.yellow { color: var(--gold); }
+
+/* ── Team compare ── */
+#compare-modal { position: fixed; inset: 0; z-index: 300; background: rgba(0,0,0,0.65); backdrop-filter: blur(5px); display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+#compare-modal.show { opacity: 1; pointer-events: all; }
+.compare-box { background: var(--surface); border: 1px solid var(--border2); border-radius: 16px; width: 92%; max-width: 480px; max-height: 88vh; overflow-y: auto; transform: scale(0.95); transition: transform 0.2s; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+#compare-modal.show .compare-box { transform: scale(1); }
+.compare-header { padding: 14px 18px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+.compare-teams-row { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 16px 18px; background: var(--surface2); gap: 8px; }
+.compare-team { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.compare-team.right { }
+.compare-flag { width: 44px; height: 31px; object-fit: cover; border-radius: 4px; }
+.compare-name { font-size: 12px; font-weight: 700; text-align: center; }
+.compare-vs { font-size: 13px; font-weight: 700; color: var(--muted); }
+.compare-body { padding: 12px 18px 18px; }
+.compare-stat-row { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.04); gap: 6px; }
+.compare-stat-row:last-child { border-bottom: none; }
+.cs-val { font-size: 14px; font-weight: 700; text-align: center; }
+.cs-val.home { color: var(--accent); }
+.cs-val.away { color: var(--accent2); }
+.cs-val.tie { color: var(--gold); }
+.cs-label { font-size: 10px; color: var(--muted); text-align: center; }
+.compare-form-row { display: flex; gap: 3px; justify-content: center; margin-top: 3px; }
+.compare-btn { display: inline-flex; align-items: center; gap: 4px; padding: 3px 9px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface2); color: var(--muted2);
+  font-size: 10px; cursor: pointer; transition: all 0.18s; }
+.compare-btn:hover { border-color: var(--accent2); color: var(--accent2); }
+
 /* ── Match detail modal ── */
 #match-modal { position: fixed; inset: 0; z-index: 300; background: rgba(0,0,0,0.65); backdrop-filter: blur(5px); display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
 #match-modal.show { opacity: 1; pointer-events: all; }
@@ -295,11 +383,18 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
     <button class="nav-btn" data-view="matches">📅 赛程</button>
     <button class="nav-btn" data-view="standings">🏆 积分榜</button>
     <button class="nav-btn" data-view="predict">🔮 预测</button>
+    <button class="nav-btn" data-view="bracket">🥊 淘汰赛</button>
+    <button class="nav-btn" data-view="scorers">📊 榜单</button>
     <button class="nav-btn" data-view="live">📺 直播</button>
     <button class="nav-btn" data-view="comments">💬 留言</button>
     <button class="nav-btn" data-view="skill">🤖 AI问答</button>
   </nav>
   <div id="header-right">
+    <div id="countdown-wrap" style="display:none">
+      <span class="cd-label" id="cd-label">距下场</span>
+      <span id="countdown-timer">--:--:--</span>
+      <span id="countdown-match"></span>
+    </div>
     <a href="https://hits.sh/skyseraph.github.io/world-cup-2026/" target="_blank" rel="noopener" style="display:flex;align-items:center;text-decoration:none">
       <img src="https://hits.sh/skyseraph.github.io/world-cup-2026.svg?style=flat-square&label=visits&color=00d4ff&labelColor=0d1829" alt="visits" style="height:16px;border-radius:3px">
     </a>
@@ -370,9 +465,17 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
 
     <!-- Matches -->
     <div class="panel-section" id="view-matches">
-      <div class="section-header"><div class="section-title" id="matches-title-txt">📅 近期赛事</div></div>
+      <div class="section-header" style="display:flex;align-items:center;justify-content:space-between">
+        <div class="section-title" id="matches-title-txt">📅 近期赛事</div>
+        <button class="ics-btn" id="ics-export-btn" title="导出到日历">📅 导出日历</button>
+      </div>
+      <div id="fav-bar">
+        <div class="fav-bar-title" id="fav-bar-title">★ 关注球队赛程</div>
+        <div class="fav-chips" id="fav-chips"></div>
+      </div>
       <div class="match-filter-bar" id="match-filter-bar">
         <button class="mf-btn active" data-filter="all">全部</button>
+        <button class="mf-btn" data-filter="fav">★ 关注</button>
         <button class="mf-btn" data-filter="today">今日</button>
         <button class="mf-btn" data-filter="live">进行中</button>
         <button class="mf-btn" data-filter="upcoming">未开始</button>
@@ -396,6 +499,22 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
       </div>
     </div>
 
+    <!-- Bracket -->
+    <div class="panel-section" id="view-bracket">
+      <div class="section-header"><div class="section-title" id="bracket-title-txt">🥊 淘汰赛对阵</div></div>
+      <div id="bracket-wrap" class="bracket-wrap"></div>
+    </div>
+
+    <!-- Scorers -->
+    <div class="panel-section" id="view-scorers">
+      <div class="section-header"><div class="section-title" id="scorers-title-txt">📊 数据榜单</div></div>
+      <div class="scorer-tabs">
+        <button class="scorer-tab active" data-stab="goals" id="stab-goals">⚽ 射手榜</button>
+        <button class="scorer-tab" data-stab="yellow" id="stab-yellow">🟨 黄牌榜</button>
+      </div>
+      <div id="scorers-list" style="padding-top:6px"></div>
+    </div>
+
     <!-- Live streams -->
     <div class="panel-section" id="view-live">
       <div class="section-header"><div class="section-title" id="live-title-txt">📺 直播入口</div></div>
@@ -410,8 +529,6 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
           留言通过 GitHub Discussions 存储，需要登录 GitHub 账号。<br>
           Comments are stored via GitHub Discussions — a GitHub account is required.
         </p>
-        <!-- Giscus embed -->
-        <!-- TODO: 前往 https://giscus.app/ 获取你的 data-repo-id 和 data-category-id，替换下方占位值 -->
         <script src="https://giscus.app/client.js"
           data-repo="skyseraph/world-cup-2026"
           data-repo-id="R_kgDOS5WucQ"
@@ -448,6 +565,23 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Team compare modal -->
+<div id="compare-modal">
+  <div class="compare-box">
+    <div class="compare-header">
+      <button class="mmodal-close" id="compare-close">← 返回</button>
+      <span style="font-size:13px;font-weight:700" id="compare-title">球队对比</span>
+      <div style="width:56px"></div>
+    </div>
+    <div class="compare-teams-row">
+      <div class="compare-team" id="compare-team-left"></div>
+      <div class="compare-vs">VS</div>
+      <div class="compare-team right" id="compare-team-right"></div>
+    </div>
+    <div class="compare-body" id="compare-body"></div>
   </div>
 </div>
 
@@ -488,6 +622,6 @@ body { font-family: 'Inter','PingFang SC','Microsoft YaHei',sans-serif; backgrou
   }
 }
 </script>
-<script type="module" src="assets/js/main.js?v=20260614a"></script>
+<script type="module" src="assets/js/main.js?v=20260614b"></script>
 </body>
 </html>
