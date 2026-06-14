@@ -841,7 +841,7 @@ function renderStreamLinks(m) {
 // ── Vote / Predict ──────────────────────────────────────────────────────────
 // GitHub OAuth Device Flow
 // TODO: Replace with your GitHub OAuth App Client ID
-const GH_CLIENT_ID = 'TODO_REPLACE_GITHUB_CLIENT_ID';
+const GH_CLIENT_ID = 'Ov23liGoz87ePfsfca0d';
 const GH_SCOPE = 'public_repo';
 const GH_DISCUSS_REPO = 'skyseraph/world-cup-2026';
 
