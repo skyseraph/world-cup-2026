@@ -721,6 +721,10 @@ window.openMatchModal = async function(eventId){
 
   document.getElementById('match-modal').classList.add('show');
 
+  // Stream links + vote panel
+  renderStreamLinks(m);
+  renderVotePanel(m);
+
   // Fetch timeline if not cached
   if(!S.matchTimelines[eventId]&&isDone){
     try{
@@ -784,6 +788,378 @@ document.getElementById('mmodal-close').addEventListener('click',closeMatchModal
 document.getElementById('match-modal').addEventListener('click',e=>{if(e.target===document.getElementById('match-modal'))closeMatchModal();});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMatchModal();});
 function closeMatchModal(){document.getElementById('match-modal').classList.remove('show');}
+
+// ── Stream Links ────────────────────────────────────────────────────────────
+const STREAM_PLATFORMS = [
+  {name:'CCTV5+',  url:'https://tv.cctv.com/live/cctv5p/',      cn:true},
+  {name:'咪咕视频', url:'https://www.miguvideo.com/',             cn:true},
+  {name:'优酷体育', url:'https://sports.youku.com/',              cn:true},
+  {name:'FIFA+',   url:'https://www.fifa.com/fifaplus/en/live',  cn:false},
+  {name:'FOX Sports',url:'https://www.foxsports.com/',           cn:false},
+];
+
+function renderStreamLinks(m) {
+  const el = document.getElementById('mmodal-stream-links');
+  if (!el) return;
+  const isLive = m.status === 'in_progress';
+  const isDone = m.status === 'closed' || m.status === 'complete';
+  const isUpcoming = !isLive && !isDone;
+
+  if (isUpcoming) { el.innerHTML = ''; return; }
+
+  const hCmp = m.competitors.find(c=>c.qualifier==='home');
+  const aCmp = m.competitors.find(c=>c.qualifier==='away');
+  const searchQ = encodeURIComponent(`世界杯 ${hCmp?.team?.name||''} ${aCmp?.team?.name||''}`);
+  const searchQEn = encodeURIComponent(`World Cup ${hCmp?.team?.name||''} ${aCmp?.team?.name||''}`);
+
+  const platforms = isLive
+    ? STREAM_PLATFORMS
+    : [
+        {name:'咪咕回放', url:`https://www.miguvideo.com/mgs/search/v3/search?keyword=${searchQ}`, cn:true},
+        {name:'优酷回放',  url:`https://so.youku.com/search_video/q_${searchQ}`, cn:true},
+        {name:'FIFA+ Replay', url:`https://www.fifa.com/fifaplus/en/search?q=${searchQEn}`, cn:false},
+        {name:'YouTube',  url:`https://www.youtube.com/results?search_query=${searchQEn}+highlight`, cn:false},
+      ];
+
+  const sectionLabel = lang==='zh'
+    ? (isLive ? '🔴 立即观看' : '📺 回放')
+    : (isLive ? '🔴 Watch Live' : '📺 Replay');
+
+  el.innerHTML = `
+    <div style="font-size:10px;font-weight:700;color:${isLive?'var(--red)':'var(--muted)'};margin-bottom:6px;letter-spacing:0.5px">${sectionLabel}</div>
+    <div class="stream-links-bar">
+      ${platforms.map(p=>`
+        <a href="${p.url}" target="_blank" rel="noopener nofollow"
+           class="stream-link-btn ${isLive?'live':'replay'}"
+           title="${p.cn?(lang==='zh'?'中国区':'CN'):'INTL'}">
+          ${p.name}
+          <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>`).join('')}
+    </div>`;
+}
+
+// ── Vote / Predict ──────────────────────────────────────────────────────────
+// GitHub OAuth Device Flow
+// TODO: Replace with your GitHub OAuth App Client ID
+const GH_CLIENT_ID = 'TODO_REPLACE_GITHUB_CLIENT_ID';
+const GH_SCOPE = 'public_repo';
+const GH_DISCUSS_REPO = 'skyseraph/world-cup-2026';
+
+let ghToken = localStorage.getItem('wc2026_gh_token') || null;
+let ghUser = JSON.parse(localStorage.getItem('wc2026_gh_user') || 'null');
+let _devicePollTimer = null;
+
+async function ghFetch(query, variables={}) {
+  const res = await fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers: { Authorization: `bearer ${ghToken}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query, variables }),
+  });
+  return res.json();
+}
+
+async function ghRest(path, opts={}) {
+  const res = await fetch(`https://api.github.com${path}`, {
+    ...opts,
+    headers: { Authorization: `token ${ghToken}`, 'Content-Type': 'application/json', ...(opts.headers||{}) },
+  });
+  return res.json();
+}
+
+async function fetchGhUser() {
+  const u = await ghRest('/user');
+  if (u.login) { ghUser = {login:u.login, avatar:u.avatar_url}; localStorage.setItem('wc2026_gh_user', JSON.stringify(ghUser)); }
+}
+
+// Get or create a Discussion for this match, return discussion number
+async function getOrCreateDiscussion(matchId, matchLabel) {
+  // Search existing discussions by title
+  const owner = GH_DISCUSS_REPO.split('/')[0];
+  const repo  = GH_DISCUSS_REPO.split('/')[1];
+  const searchRes = await ghFetch(`
+    query($q:String!) { search(query:$q, type:DISCUSSION, first:5) {
+      nodes { ... on Discussion { number title } }
+    }}
+  `, { q: `repo:${GH_DISCUSS_REPO} [WC2026-VOTE-${matchId}] in:title` });
+
+  const existing = searchRes?.data?.search?.nodes?.find(n => n.title?.includes(`[WC2026-VOTE-${matchId}]`));
+  if (existing) return existing.number;
+
+  // Create new discussion via REST (Discussions API v2)
+  // Need category ID — use the one already configured for Giscus (General)
+  const catRes = await ghFetch(`
+    query($owner:String!,$repo:String!){ repository(owner:$owner,name:$repo){
+      discussionCategories(first:10){ nodes{ id name } }
+    }}
+  `, {owner, repo});
+  const cats = catRes?.data?.repository?.discussionCategories?.nodes || [];
+  const cat = cats.find(c=>c.name==='General') || cats[0];
+  if (!cat) return null;
+
+  // Get repo node id
+  const repoRes = await ghFetch(`query($owner:String!,$repo:String!){ repository(owner:$owner,name:$repo){ id }}`, {owner,repo});
+  const repoId = repoRes?.data?.repository?.id;
+  if (!repoId) return null;
+
+  const createRes = await ghFetch(`
+    mutation($repoId:ID!,$catId:ID!,$title:String!,$body:String!){
+      createDiscussion(input:{repositoryId:$repoId,categoryId:$catId,title:$title,body:$body}){
+        discussion{ number }
+      }
+    }
+  `, { repoId, catId:cat.id, title:`[WC2026-VOTE-${matchId}] ${matchLabel}`, body:`竞猜：${matchLabel}\n\n请在下方投票回复，格式：主胜/平局/客胜` });
+  return createRes?.data?.createDiscussion?.discussion?.number || null;
+}
+
+// Fetch votes: comments on the discussion, parse "主胜"|"HOME"|"H", "平局"|"DRAW"|"D", "客胜"|"AWAY"|"A"
+async function fetchVotes(discussionNumber) {
+  const owner = GH_DISCUSS_REPO.split('/')[0];
+  const repo  = GH_DISCUSS_REPO.split('/')[1];
+  const res = await ghFetch(`
+    query($owner:String!,$repo:String!,$num:Int!){
+      repository(owner:$owner,name:$repo){
+        discussion(number:$num){
+          comments(first:100){ nodes{ author{login avatarUrl} body createdAt } }
+        }
+      }
+    }
+  `, {owner,repo,num:discussionNumber});
+  const comments = res?.data?.repository?.discussion?.comments?.nodes || [];
+  const votes = {home:[], draw:[], away:[]};
+  const seen = new Set();
+  comments.forEach(c => {
+    if (seen.has(c.author?.login)) return; // one vote per user
+    seen.add(c.author?.login);
+    const b = c.body.trim().toUpperCase();
+    if (/^(主胜|HOME|H|WIN|1)/.test(b)) votes.home.push(c.author?.login);
+    else if (/^(平局|DRAW|D|X)/.test(b)) votes.draw.push(c.author?.login);
+    else if (/^(客胜|AWAY|A|WIN|2)/.test(b)) votes.away.push(c.author?.login);
+  });
+  return votes;
+}
+
+async function postVote(discussionNumber, choice) {
+  const owner = GH_DISCUSS_REPO.split('/')[0];
+  const repo  = GH_DISCUSS_REPO.split('/')[1];
+  // Get discussion node ID
+  const res = await ghFetch(`
+    query($owner:String!,$repo:String!,$num:Int!){
+      repository(owner:$owner,name:$repo){ discussion(number:$num){ id } }
+    }
+  `, {owner,repo,num:discussionNumber});
+  const discId = res?.data?.repository?.discussion?.id;
+  if (!discId) return false;
+  const body = choice==='home'?'主胜':choice==='draw'?'平局':'客胜';
+  await ghFetch(`
+    mutation($discId:ID!,$body:String!){ addDiscussionComment(input:{discussionId:$discId,body:$body}){ comment{ id } }}
+  `, {discId, body});
+  return true;
+}
+
+// Start Device Flow login
+async function startDeviceFlow(onUpdate) {
+  if (GH_CLIENT_ID === 'TODO_REPLACE_GITHUB_CLIENT_ID') {
+    onUpdate({state:'no_client_id'});
+    return;
+  }
+  onUpdate({state:'requesting'});
+  const res = await fetch('https://github.com/login/device/code', {
+    method:'POST',
+    headers:{'Content-Type':'application/x-www-form-urlencoded','Accept':'application/json'},
+    body:`client_id=${GH_CLIENT_ID}&scope=${GH_SCOPE}`,
+  });
+  const d = await res.json();
+  if (!d.device_code) { onUpdate({state:'error'}); return; }
+  onUpdate({state:'code', userCode:d.user_code, verificationUri:d.verification_uri});
+
+  if (_devicePollTimer) clearInterval(_devicePollTimer);
+  _devicePollTimer = setInterval(async () => {
+    const poll = await fetch('https://github.com/login/oauth/access_token', {
+      method:'POST',
+      headers:{'Content-Type':'application/x-www-form-urlencoded','Accept':'application/json'},
+      body:`client_id=${GH_CLIENT_ID}&device_code=${d.device_code}&grant_type=urn:ietf:params:oauth:grant-type:device_code`,
+    });
+    const pd = await poll.json();
+    if (pd.access_token) {
+      clearInterval(_devicePollTimer);
+      ghToken = pd.access_token;
+      localStorage.setItem('wc2026_gh_token', ghToken);
+      await fetchGhUser();
+      onUpdate({state:'done', user:ghUser});
+    } else if (pd.error === 'expired_token' || pd.error === 'access_denied') {
+      clearInterval(_devicePollTimer);
+      onUpdate({state:'error'});
+    }
+    // else: authorization_pending or slow_down → keep polling
+  }, (d.interval || 5) * 1000);
+}
+
+// Render vote panel inside match modal
+const _voteState = {}; // matchId -> {discNum, votes, userChoice, loading}
+
+async function renderVotePanel(m) {
+  const el = document.getElementById('mmodal-vote-wrap');
+  if (!el) return;
+
+  const hCmp = m.competitors.find(c=>c.qualifier==='home');
+  const aCmp = m.competitors.find(c=>c.qualifier==='away');
+  const hName = hCmp?.team?.name || '?';
+  const aName = aCmp?.team?.name || '?';
+  const matchLabel = `${hName} vs ${aName}`;
+
+  const isDone = m.status==='closed'||m.status==='complete';
+  const titleTxt = lang==='zh' ? (isDone?'本场竞猜结果':'竞猜这场比赛') : (isDone?'Poll Results':'Predict This Match');
+
+  // Login state
+  const loginBtn = `<button class="vote-login-btn" onclick="startVoteLogin('${m.id}','${m.id}')">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+    ${lang==='zh'?'GitHub 登录竞猜':'Login with GitHub to vote'}
+  </button>`;
+
+  const userInfo = ghUser
+    ? `<div class="vote-user"><img src="${ghUser.avatar}" alt=""><span>@${ghUser.login}</span>
+       <button style="background:none;border:none;color:var(--muted);font-size:10px;cursor:pointer" onclick="ghLogout()">退出</button></div>`
+    : '';
+
+  // Try to load votes
+  let st = _voteState[m.id];
+  if (!st) {
+    _voteState[m.id] = {loading:true, votes:{home:[],draw:[],away:[]}, discNum:null, userChoice:null};
+    st = _voteState[m.id];
+
+    if (ghToken) {
+      try {
+        const discNum = await getOrCreateDiscussion(m.id, matchLabel);
+        st.discNum = discNum;
+        if (discNum) {
+          st.votes = await fetchVotes(discNum);
+          if (ghUser) {
+            if (st.votes.home.includes(ghUser.login)) st.userChoice='home';
+            else if (st.votes.draw.includes(ghUser.login)) st.userChoice='draw';
+            else if (st.votes.away.includes(ghUser.login)) st.userChoice='away';
+          }
+        }
+      } catch(e) {}
+    }
+    st.loading = false;
+  }
+
+  if (st.loading) {
+    el.innerHTML = `<div class="vote-wrap"><div style="text-align:center;color:var(--muted);font-size:11px;padding:8px">${lang==='zh'?'加载竞猜数据...':'Loading poll...'}</div></div>`;
+    return;
+  }
+
+  const total = st.votes.home.length + st.votes.draw.length + st.votes.away.length;
+  const pct = n => total > 0 ? Math.round(n/total*100) : 0;
+  const hp = pct(st.votes.home.length), dp = pct(st.votes.draw.length), ap = pct(st.votes.away.length);
+
+  const optClass = (key) => {
+    let cls = 'vote-opt';
+    if (st.userChoice === key) cls += key==='home'?' selected':key==='draw'?' selected draw-sel':' selected away-sel';
+    return cls;
+  };
+
+  const voteAction = (key) => {
+    if (!ghToken) return `onclick="startVoteLogin('${m.id}','${key}')"`;
+    if (isDone || st.userChoice) return '';
+    return `onclick="submitVote('${m.id}','${key}')"`;
+  };
+
+  el.innerHTML = `<div class="vote-wrap">
+    <div class="vote-title">
+      <span>${titleTxt}</span>
+      <span style="color:var(--muted)">${total} ${lang==='zh'?'票':'votes'}</span>
+    </div>
+    <div class="vote-options">
+      <div class="${optClass('home')}" ${voteAction('home')}>
+        <div class="vote-opt-label">${lang==='zh'?'主胜':'Home Win'}</div>
+        <div class="vote-opt-name">${hName}</div>
+        <div class="vote-opt-pct" style="color:var(--accent)">${hp}%</div>
+      </div>
+      <div class="${optClass('draw')}" ${voteAction('draw')}>
+        <div class="vote-opt-label">${lang==='zh'?'平局':'Draw'}</div>
+        <div class="vote-opt-name">—</div>
+        <div class="vote-opt-pct" style="color:var(--gold)">${dp}%</div>
+      </div>
+      <div class="${optClass('away')}" ${voteAction('away')}>
+        <div class="vote-opt-label">${lang==='zh'?'客胜':'Away Win'}</div>
+        <div class="vote-opt-name">${aName}</div>
+        <div class="vote-opt-pct" style="color:var(--accent2)">${ap}%</div>
+      </div>
+    </div>
+    <div class="vote-bar-wrap">
+      <div class="vote-bar-h" style="width:${hp}%"></div>
+      <div class="vote-bar-d" style="width:${dp}%"></div>
+      <div class="vote-bar-a" style="width:${ap}%"></div>
+    </div>
+    <div id="vote-device-${m.id}"></div>
+    <div class="vote-footer">
+      ${ghToken ? userInfo : loginBtn}
+      ${st.userChoice ? `<span style="color:var(--green);font-size:10px">✓ ${lang==='zh'?'已投票':'Voted'}</span>` : ''}
+      ${isDone&&!st.userChoice&&ghToken ? `<span style="font-size:10px;color:var(--muted)">${lang==='zh'?'比赛已结束':'Match ended'}</span>` : ''}
+    </div>
+    <div style="font-size:9px;color:var(--muted);margin-top:6px">${lang==='zh'?'数据存储于 GitHub Discussions，需登录 GitHub':'Results stored on GitHub Discussions — login required'}</div>
+  </div>`;
+}
+
+window.submitVote = async function(matchId, choice) {
+  const st = _voteState[matchId];
+  if (!st || !ghToken || st.userChoice) return;
+  if (!st.discNum) return;
+  st.userChoice = choice; // optimistic
+  st.votes[choice].push(ghUser?.login || '?');
+  // Re-render current modal
+  const m = S.recentMatches.find(e=>e.id===matchId);
+  if (m) renderVotePanel(m);
+  await postVote(st.discNum, choice);
+};
+
+window.startVoteLogin = function(matchId, pendingChoice) {
+  const deviceEl = document.getElementById(`vote-device-${matchId}`);
+  if (!deviceEl) return;
+
+  startDeviceFlow(async (state) => {
+    if (state.state === 'no_client_id') {
+      deviceEl.innerHTML = `<div class="vote-device-code" style="color:var(--red);font-size:11px">
+        ⚠ GitHub OAuth App 未配置。请联系站长设置 Client ID。
+      </div>`;
+      return;
+    }
+    if (state.state === 'code') {
+      deviceEl.innerHTML = `<div class="vote-device-code">
+        <div style="font-size:11px;margin-bottom:4px">${lang==='zh'?'1. 打开':'1. Open'} <a href="${state.verificationUri}" target="_blank" style="color:var(--accent)">${state.verificationUri}</a></div>
+        <div style="font-size:11px;margin-bottom:6px">${lang==='zh'?'2. 输入验证码：':'2. Enter code:'}</div>
+        <div class="vote-code-big">${state.userCode}</div>
+        <div class="vote-status-msg">${lang==='zh'?'等待授权...(有效期15分钟)':'Waiting for authorization... (15 min)'}</div>
+      </div>`;
+    }
+    if (state.state === 'done') {
+      deviceEl.innerHTML = '';
+      delete _voteState[matchId]; // force reload
+      const m = S.recentMatches.find(e=>e.id===matchId);
+      if (m) {
+        await renderVotePanel(m);
+        if (pendingChoice && pendingChoice !== matchId) {
+          await window.submitVote(matchId, pendingChoice);
+        }
+      }
+    }
+    if (state.state === 'error') {
+      deviceEl.innerHTML = `<div style="font-size:10px;color:var(--red);padding:4px 0">${lang==='zh'?'授权失败，请重试':'Auth failed, please retry'}</div>`;
+    }
+  });
+};
+
+window.ghLogout = function() {
+  ghToken = null; ghUser = null;
+  localStorage.removeItem('wc2026_gh_token');
+  localStorage.removeItem('wc2026_gh_user');
+  // re-render current open modal if any
+  const openMatch = S.recentMatches.find(m => {
+    const modal = document.getElementById('match-modal');
+    return modal?.classList.contains('show');
+  });
+};
 
 // ── Standings ──────────────────────────────────────────────────────────────
 function renderStandings(){
