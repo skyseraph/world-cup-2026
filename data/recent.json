@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T05:35:15.312517+00:00",
+  "updated_at": "2026-06-15T11:42:11.468159+00:00",
   "events": [
     {
       "id": "760415",
@@ -669,27 +669,27 @@
         "favorite": null,
         "moneyline": {
           "home": "-1400",
-          "away": "+2800",
+          "away": "+3000",
           "draw": "+1200"
         },
         "spread_line": {
           "home": {
             "line": "-2.5",
-            "odds": "-145"
+            "odds": "-155"
           },
           "away": {
             "line": "+2.5",
-            "odds": "+115"
+            "odds": "+120"
           }
         },
         "total": {
           "over": {
             "line": "o3.5",
-            "odds": "-105"
+            "odds": "-125"
           },
           "under": {
             "line": "u3.5",
-            "odds": "-115"
+            "odds": "+100"
           }
         },
         "open": {
@@ -764,16 +764,16 @@
         "moneyline": {
           "home": "-170",
           "away": "+475",
-          "draw": "+295"
+          "draw": "+290"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-170"
+            "odds": "-175"
           },
           "away": {
             "line": "+0.5",
-            "odds": "+135"
+            "odds": "+140"
           }
         },
         "total": {
@@ -851,23 +851,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "URU -215",
+        "details": "URU -220",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+650",
-          "away": "-215",
+          "home": "+700",
+          "away": "-220",
           "draw": "+340"
         },
         "spread_line": {
           "home": {
             "line": "+1.5",
-            "odds": "-170"
+            "odds": "-165"
           },
           "away": {
             "line": "-1.5",
-            "odds": "+135"
+            "odds": "+130"
           }
         },
         "total": {
@@ -945,33 +945,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "IRN -105",
+        "details": "IRN -115",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-105",
-          "away": "+340",
-          "draw": "+230"
+          "home": "-115",
+          "away": "+370",
+          "draw": "+235"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-115"
+            "odds": "-120"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-115"
+            "odds": "-110"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+145"
+            "odds": "+140"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-180"
+            "odds": "-175"
           }
         },
         "open": {
@@ -1535,7 +1535,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-140"
+            "odds": "-145"
           }
         },
         "open": {
@@ -1719,7 +1719,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-110"
+            "odds": "-105"
           },
           "under": {
             "line": "u2.5",
@@ -1885,12 +1885,12 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "SUI -165",
+        "details": "SUI -170",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-165",
+          "home": "-170",
           "away": "+475",
           "draw": "+310"
         },
@@ -1979,12 +1979,12 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "CAN -340",
+        "details": "CAN -360",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-340",
+          "home": "-360",
           "away": "+1000",
           "draw": "+475"
         },
