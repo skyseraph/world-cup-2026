@@ -1,0 +1,592 @@
+{
+  "event_id": "760424",
+  "timeline": [
+    {
+      "id": "49520558",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49520632",
+      "type": "start delay",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49520630",
+      "type": "start delay",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49520633",
+      "type": "end delay",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49520634",
+      "type": "end delay",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49520651",
+      "type": "goal",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "304242",
+        "name": "Yasin Ayari"
+      }
+    },
+    {
+      "id": "49520879",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49520878",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49520887",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49520886",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49520951",
+      "type": "goal",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "235662",
+        "name": "Alexander Isak"
+      }
+    },
+    {
+      "id": "49521122",
+      "type": "goal",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "303848",
+        "name": "Omar Rekik"
+      }
+    },
+    {
+      "id": "49521212",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49521227",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49521345",
+      "type": "yellow_card",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "159152",
+        "name": "Rani Khedira"
+      }
+    },
+    {
+      "id": "49521431",
+      "type": "goal",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "258906",
+        "name": "Viktor Gyökeres"
+      }
+    },
+    {
+      "id": "49521475",
+      "type": "start delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49521474",
+      "type": "start delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49521478",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "357145",
+        "name": "Elliot Stroud"
+      },
+      "player_in": {
+        "id": "357145",
+        "name": "Elliot Stroud"
+      },
+      "player_out": {
+        "id": "250166",
+        "name": "Gabriel Gudmundsson"
+      }
+    },
+    {
+      "id": "49521479",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "356379",
+        "name": "Lucas Bergvall"
+      },
+      "player_in": {
+        "id": "356379",
+        "name": "Lucas Bergvall"
+      },
+      "player_out": {
+        "id": "274522",
+        "name": "Benjamin Nygren"
+      }
+    },
+    {
+      "id": "49521480",
+      "type": "end delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49521481",
+      "type": "end delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49521534",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49521535",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49521539",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49521540",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49521541",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "324510",
+        "name": "Elias Achouri"
+      },
+      "player_in": {
+        "id": "324510",
+        "name": "Elias Achouri"
+      },
+      "player_out": {
+        "id": "209595",
+        "name": "Ellyes Skhiri"
+      }
+    },
+    {
+      "id": "49521542",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "303702",
+        "name": "Sebastian Tounekti"
+      },
+      "player_in": {
+        "id": "303702",
+        "name": "Sebastian Tounekti"
+      },
+      "player_out": {
+        "id": "323950",
+        "name": "Elias Saad"
+      }
+    },
+    {
+      "id": "49521543",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "299861",
+        "name": "Mohamed Hadj Mahmoud"
+      },
+      "player_in": {
+        "id": "299861",
+        "name": "Mohamed Hadj Mahmoud"
+      },
+      "player_out": {
+        "id": "240588",
+        "name": "Yan Valery"
+      }
+    },
+    {
+      "id": "49521698",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "317473",
+        "name": "Ismaël Gharbi"
+      },
+      "player_in": {
+        "id": "317473",
+        "name": "Ismaël Gharbi"
+      },
+      "player_out": {
+        "id": "159152",
+        "name": "Rani Khedira"
+      }
+    },
+    {
+      "id": "49521699",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "265207",
+        "name": "Firas Chaouat"
+      },
+      "player_in": {
+        "id": "265207",
+        "name": "Firas Chaouat"
+      },
+      "player_out": {
+        "id": "302944",
+        "name": "Anis Slimane"
+      }
+    },
+    {
+      "id": "49521700",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "220120",
+        "name": "Mattias Svanberg"
+      },
+      "player_in": {
+        "id": "220120",
+        "name": "Mattias Svanberg"
+      },
+      "player_out": {
+        "id": "237055",
+        "name": "Jesper Karlström"
+      }
+    },
+    {
+      "id": "49521708",
+      "type": "goal",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "220120",
+        "name": "Mattias Svanberg"
+      }
+    },
+    {
+      "id": "49521703",
+      "type": "start delay",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49521705",
+      "type": "end delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49521741",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "296622",
+        "name": "Anthony Elanga"
+      },
+      "player_in": {
+        "id": "296622",
+        "name": "Anthony Elanga"
+      },
+      "player_out": {
+        "id": "235662",
+        "name": "Alexander Isak"
+      }
+    },
+    {
+      "id": "49521742",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "310709",
+        "name": "Daniel Svensson"
+      },
+      "player_in": {
+        "id": "310709",
+        "name": "Daniel Svensson"
+      },
+      "player_out": {
+        "id": "301370",
+        "name": "Alexander Bernhardsson"
+      }
+    },
+    {
+      "id": "49521808",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "304242",
+        "name": "Yasin Ayari"
+      }
+    },
+    {
+      "id": "49521811",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

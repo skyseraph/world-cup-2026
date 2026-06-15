@@ -1,0 +1,515 @@
+{
+  "event_id": "760423",
+  "timeline": [
+    {
+      "id": "49517319",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49518202",
+      "type": "start delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49518201",
+      "type": "start delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49518236",
+      "type": "end delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49518235",
+      "type": "end delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49518503",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49518508",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49518597",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49518598",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49518659",
+      "type": "yellow_card",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "184118",
+        "name": "Seko Fofana"
+      }
+    },
+    {
+      "id": "49519020",
+      "type": "yellow_card",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "194711",
+        "name": "Franck Kessié"
+      }
+    },
+    {
+      "id": "49519088",
+      "type": "yellow_card",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "346636",
+        "name": "Guela Doué"
+      }
+    },
+    {
+      "id": "49519448",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49519725",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49519946",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "318090",
+        "name": "Nilson Angulo"
+      },
+      "player_in": {
+        "id": "318090",
+        "name": "Nilson Angulo"
+      },
+      "player_out": {
+        "id": "319422",
+        "name": "Alan Minda"
+      }
+    },
+    {
+      "id": "49519948",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "309185",
+        "name": "Ange-Yoan Bonny"
+      },
+      "player_in": {
+        "id": "309185",
+        "name": "Ange-Yoan Bonny"
+      },
+      "player_out": {
+        "id": "311118",
+        "name": "Elye Wahi"
+      }
+    },
+    {
+      "id": "49519950",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "291630",
+        "name": "Amad Diallo"
+      },
+      "player_in": {
+        "id": "291630",
+        "name": "Amad Diallo"
+      },
+      "player_out": {
+        "id": "359108",
+        "name": "Bazoumana Touré"
+      }
+    },
+    {
+      "id": "49520046",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "286665",
+        "name": "Jackson Porozo"
+      },
+      "player_in": {
+        "id": "286665",
+        "name": "Jackson Porozo"
+      },
+      "player_out": {
+        "id": "262111",
+        "name": "Alan Franco"
+      }
+    },
+    {
+      "id": "49520045",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "256560",
+        "name": "Ángelo Preciado"
+      },
+      "player_in": {
+        "id": "256560",
+        "name": "Ángelo Preciado"
+      },
+      "player_out": {
+        "id": "265926",
+        "name": "John Yeboah"
+      }
+    },
+    {
+      "id": "49520149",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49520150",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49520158",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49520157",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49520176",
+      "type": "yellow_card",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "286665",
+        "name": "Jackson Porozo"
+      }
+    },
+    {
+      "id": "49520250",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "213718",
+        "name": "Ibrahim Sangaré"
+      },
+      "player_in": {
+        "id": "213718",
+        "name": "Ibrahim Sangaré"
+      },
+      "player_out": {
+        "id": "184118",
+        "name": "Seko Fofana"
+      }
+    },
+    {
+      "id": "49520249",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "386989",
+        "name": "Christ Inao Oulaï"
+      },
+      "player_in": {
+        "id": "386989",
+        "name": "Christ Inao Oulaï"
+      },
+      "player_out": {
+        "id": "210397",
+        "name": "Nicolas Pépé"
+      }
+    },
+    {
+      "id": "49520251",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "281316",
+        "name": "Kevin Rodríguez"
+      },
+      "player_in": {
+        "id": "281316",
+        "name": "Kevin Rodríguez"
+      },
+      "player_out": {
+        "id": "171771",
+        "name": "Enner Valencia"
+      }
+    },
+    {
+      "id": "49520356",
+      "type": "start delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49520357",
+      "type": "start delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49520358",
+      "type": "end delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49520359",
+      "type": "end delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49520412",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "284822",
+        "name": "Odilon Kossounou"
+      },
+      "player_in": {
+        "id": "284822",
+        "name": "Odilon Kossounou"
+      },
+      "player_out": {
+        "id": "346636",
+        "name": "Guela Doué"
+      }
+    },
+    {
+      "id": "49520440",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "291630",
+        "name": "Amad Diallo"
+      }
+    },
+    {
+      "id": "49520551",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
