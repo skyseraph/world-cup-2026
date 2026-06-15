@@ -589,18 +589,18 @@
               "abbreviation": "ESP",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
             "goals_for": 0,
             "goals_against": 0,
             "goal_difference": 0,
-            "points": 0,
+            "points": 1,
             "form": ""
           },
           {
-            "position": 4,
+            "position": 3,
             "team": {
               "id": "212",
               "name": "Uruguay",
@@ -619,7 +619,7 @@
             "form": ""
           },
           {
-            "position": 3,
+            "position": 4,
             "team": {
               "id": "655",
               "name": "Saudi Arabia",
@@ -646,14 +646,14 @@
               "abbreviation": "CPV",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
             "goals_for": 0,
             "goals_against": 0,
             "goal_difference": 0,
-            "points": 0,
+            "points": 1,
             "form": ""
           }
         ]
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-15T16:52:01.594194+00:00"
+  "updated_at": "2026-06-15T20:21:21.147734+00:00"
 }

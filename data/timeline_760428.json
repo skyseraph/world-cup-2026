@@ -1,0 +1,470 @@
+{
+  "event_id": "760428",
+  "timeline": [
+    {
+      "id": "49521938",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49521986",
+      "type": "start delay",
+      "minute": 4,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49521988",
+      "type": "end delay",
+      "minute": 4,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49522229",
+      "type": "yellow_card",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "332394",
+        "name": "Sidny Lopes Cabral"
+      }
+    },
+    {
+      "id": "49522361",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49522362",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49522363",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49522364",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49522769",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49522776",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49523044",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "271675",
+        "name": "Willy Semedo"
+      },
+      "player_in": {
+        "id": "271675",
+        "name": "Willy Semedo"
+      },
+      "player_out": {
+        "id": "250059",
+        "name": "Jovane Cabral"
+      }
+    },
+    {
+      "id": "49523045",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "246442",
+        "name": "Deroy Duarte"
+      },
+      "player_in": {
+        "id": "246442",
+        "name": "Deroy Duarte"
+      },
+      "player_out": {
+        "id": "222236",
+        "name": "Laros Duarte"
+      }
+    },
+    {
+      "id": "49523046",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "224798",
+        "name": "Nuno da Costa"
+      },
+      "player_in": {
+        "id": "224798",
+        "name": "Nuno da Costa"
+      },
+      "player_out": {
+        "id": "330211",
+        "name": "Dailon Livramento"
+      }
+    },
+    {
+      "id": "49523128",
+      "type": "start delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49523129",
+      "type": "start delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49523131",
+      "type": "end delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49523132",
+      "type": "end delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49523193",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49523192",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49523195",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49523198",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49523196",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "209581",
+        "name": "Mikel Merino"
+      },
+      "player_in": {
+        "id": "209581",
+        "name": "Mikel Merino"
+      },
+      "player_out": {
+        "id": "214596",
+        "name": "Fabián Ruiz"
+      }
+    },
+    {
+      "id": "49523197",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "362150",
+        "name": "Lamine Yamal"
+      },
+      "player_in": {
+        "id": "362150",
+        "name": "Lamine Yamal"
+      },
+      "player_out": {
+        "id": "323702",
+        "name": "Gavi"
+      }
+    },
+    {
+      "id": "49523291",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "318631",
+        "name": "João Paulo"
+      },
+      "player_in": {
+        "id": "318631",
+        "name": "João Paulo"
+      },
+      "player_out": {
+        "id": "332394",
+        "name": "Sidny Lopes Cabral"
+      }
+    },
+    {
+      "id": "49523363",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "304076",
+        "name": "Telmo Arcanjo"
+      },
+      "player_in": {
+        "id": "304076",
+        "name": "Telmo Arcanjo"
+      },
+      "player_out": {
+        "id": "227441",
+        "name": "Jamiro Monteiro"
+      }
+    },
+    {
+      "id": "49523399",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "227765",
+        "name": "Dani Olmo"
+      },
+      "player_in": {
+        "id": "227765",
+        "name": "Dani Olmo"
+      },
+      "player_out": {
+        "id": "265869",
+        "name": "Ferran Torres"
+      }
+    },
+    {
+      "id": "49523400",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49523402",
+      "type": "end delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49523541",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "312146",
+        "name": "Nico Williams"
+      },
+      "player_in": {
+        "id": "312146",
+        "name": "Nico Williams"
+      },
+      "player_out": {
+        "id": "231828",
+        "name": "Rodri"
+      }
+    },
+    {
+      "id": "49523628",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "250465",
+        "name": "Pedri"
+      }
+    },
+    {
+      "id": "49523666",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
