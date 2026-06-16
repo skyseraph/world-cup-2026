@@ -1,0 +1,611 @@
+{
+  "event_id": "760427",
+  "timeline": [
+    {
+      "id": "49527980",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49528195",
+      "type": "goal",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "266555",
+        "name": "Elijah Just"
+      }
+    },
+    {
+      "id": "49528683",
+      "type": "start delay",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49528682",
+      "type": "start delay",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49528737",
+      "type": "end delay",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49528736",
+      "type": "end delay",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49528988",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49528989",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49529060",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49529059",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49529312",
+      "type": "goal",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "218086",
+        "name": "Ramin Rezaeian"
+      }
+    },
+    {
+      "id": "49529371",
+      "type": "start delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49529372",
+      "type": "start delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49529373",
+      "type": "end delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49529374",
+      "type": "end delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49529603",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49529601",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49529651",
+      "type": "end delay",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49529652",
+      "type": "end delay",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49530101",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49530194",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "256581",
+        "name": "Mehdi Ghayedi"
+      },
+      "player_in": {
+        "id": "256581",
+        "name": "Mehdi Ghayedi"
+      },
+      "player_out": {
+        "id": "339178",
+        "name": "Arya Yousefi"
+      }
+    },
+    {
+      "id": "49530215",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49530328",
+      "type": "substitution",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "219617",
+        "name": "Ali Alipour"
+      },
+      "player_in": {
+        "id": "219617",
+        "name": "Ali Alipour"
+      },
+      "player_out": {
+        "id": "308077",
+        "name": "Shahriyar Moghanloo"
+      }
+    },
+    {
+      "id": "49530353",
+      "type": "goal",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "266555",
+        "name": "Elijah Just"
+      }
+    },
+    {
+      "id": "49530497",
+      "type": "goal",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "296999",
+        "name": "Mohammad Mohebbi"
+      }
+    },
+    {
+      "id": "49530499",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "203453",
+        "name": "Ehsan Hajsafi"
+      },
+      "player_in": {
+        "id": "203453",
+        "name": "Ehsan Hajsafi"
+      },
+      "player_out": {
+        "id": "235519",
+        "name": "Saman Ghoddos"
+      }
+    },
+    {
+      "id": "49530532",
+      "type": "substitution",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "156146",
+        "name": "Ryan Thomas"
+      },
+      "player_in": {
+        "id": "156146",
+        "name": "Ryan Thomas"
+      },
+      "player_out": {
+        "id": "228279",
+        "name": "Callum McCowatt"
+      }
+    },
+    {
+      "id": "49530534",
+      "type": "substitution",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "297802",
+        "name": "Ben Old"
+      },
+      "player_in": {
+        "id": "297802",
+        "name": "Ben Old"
+      },
+      "player_out": {
+        "id": "266554",
+        "name": "Liberato Cacace"
+      }
+    },
+    {
+      "id": "49530536",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49530535",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49530537",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49530538",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49530632",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "282239",
+        "name": "Callan Elliot"
+      },
+      "player_in": {
+        "id": "282239",
+        "name": "Callan Elliot"
+      },
+      "player_out": {
+        "id": "159470",
+        "name": "Tim Payne"
+      }
+    },
+    {
+      "id": "49530643",
+      "type": "start delay",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49530642",
+      "type": "start delay",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49530645",
+      "type": "end delay",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49530644",
+      "type": "end delay",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49530658",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "266729",
+        "name": "Amirhossein Hosseinzadeh"
+      },
+      "player_in": {
+        "id": "266729",
+        "name": "Amirhossein Hosseinzadeh"
+      },
+      "player_out": {
+        "id": "219611",
+        "name": "Mehdi Taremi"
+      }
+    },
+    {
+      "id": "49530808",
+      "type": "yellow_card",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "203453",
+        "name": "Ehsan Hajsafi"
+      }
+    },
+    {
+      "id": "49530833",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "297794",
+        "name": "Jesse Randall"
+      },
+      "player_in": {
+        "id": "297794",
+        "name": "Jesse Randall"
+      },
+      "player_out": {
+        "id": "228283",
+        "name": "Sarpreet Singh"
+      }
+    },
+    {
+      "id": "49530834",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "367427",
+        "name": "Tyler Bindon"
+      },
+      "player_in": {
+        "id": "367427",
+        "name": "Tyler Bindon"
+      },
+      "player_out": {
+        "id": "297798",
+        "name": "Marko Stamenic"
+      }
+    },
+    {
+      "id": "49530898",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

@@ -499,7 +499,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 1,
+            "position": 3,
             "team": {
               "id": "459",
               "name": "Belgium",
@@ -518,7 +518,7 @@
             "form": ""
           },
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": "469",
               "name": "Iran",
@@ -526,18 +526,18 @@
               "abbreviation": "IRN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
+            "goals_for": 2,
+            "goals_against": 2,
             "goal_difference": 0,
-            "points": 0,
+            "points": 1,
             "form": ""
           },
           {
-            "position": 2,
+            "position": 4,
             "team": {
               "id": "2620",
               "name": "Egypt",
@@ -556,7 +556,7 @@
             "form": ""
           },
           {
-            "position": 4,
+            "position": 1,
             "team": {
               "id": "2666",
               "name": "New Zealand",
@@ -564,14 +564,14 @@
               "abbreviation": "NZL",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
             },
-            "played": 0,
+            "played": 1,
             "won": 0,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
-            "goals_for": 0,
-            "goals_against": 0,
+            "goals_for": 2,
+            "goals_against": 2,
             "goal_difference": 0,
-            "points": 0,
+            "points": 1,
             "form": ""
           }
         ]
@@ -581,7 +581,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 4,
+            "position": 3,
             "team": {
               "id": "164",
               "name": "Spain",
@@ -638,7 +638,7 @@
             "form": ""
           },
           {
-            "position": 3,
+            "position": 4,
             "team": {
               "id": "2597",
               "name": "Cape Verde",
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-16T00:23:10.182723+00:00"
+  "updated_at": "2026-06-16T05:43:15.904312+00:00"
 }
