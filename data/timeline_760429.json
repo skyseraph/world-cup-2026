@@ -1,0 +1,460 @@
+{
+  "event_id": "760429",
+  "timeline": [
+    {
+      "id": "49525226",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49525655",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49525656",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49525662",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49525663",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49525862",
+      "type": "goal",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "256667",
+        "name": "Abdulelah Al-Amri"
+      }
+    },
+    {
+      "id": "49525912",
+      "type": "yellow_card",
+      "minute": 44,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "256667",
+        "name": "Abdulelah Al-Amri"
+      }
+    },
+    {
+      "id": "49525977",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49525980",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "287497",
+        "name": "Juan Manuel Sanabria"
+      },
+      "player_in": {
+        "id": "287497",
+        "name": "Juan Manuel Sanabria"
+      },
+      "player_out": {
+        "id": "254032",
+        "name": "Matías Viña"
+      }
+    },
+    {
+      "id": "49525981",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "241466",
+        "name": "Agustín Canobbio"
+      },
+      "player_in": {
+        "id": "241466",
+        "name": "Agustín Canobbio"
+      },
+      "player_out": {
+        "id": "271788",
+        "name": "Darwin Núñez"
+      }
+    },
+    {
+      "id": "49525984",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49526257",
+      "type": "start delay",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49526256",
+      "type": "start delay",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49526258",
+      "type": "end delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49526259",
+      "type": "end delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49526260",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "270417",
+        "name": "Nasser Al-Dawsari"
+      },
+      "player_in": {
+        "id": "270417",
+        "name": "Nasser Al-Dawsari"
+      },
+      "player_out": {
+        "id": "315523",
+        "name": "Musab Al-Juwayr"
+      }
+    },
+    {
+      "id": "49526339",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49526340",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49526341",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49526342",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49526343",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "251889",
+        "name": "Nicolás de la Cruz"
+      },
+      "player_in": {
+        "id": "251889",
+        "name": "Nicolás de la Cruz"
+      },
+      "player_out": {
+        "id": "241468",
+        "name": "Manuel Ugarte"
+      }
+    },
+    {
+      "id": "49526471",
+      "type": "goal",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "287025",
+        "name": "Maxi Araújo"
+      }
+    },
+    {
+      "id": "49526473",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "144325",
+        "name": "Brian Rodríguez"
+      },
+      "player_in": {
+        "id": "144325",
+        "name": "Brian Rodríguez"
+      },
+      "player_out": {
+        "id": "287025",
+        "name": "Maxi Araújo"
+      }
+    },
+    {
+      "id": "49526474",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "331918",
+        "name": "Nawaf Boushal"
+      },
+      "player_in": {
+        "id": "331918",
+        "name": "Nawaf Boushal"
+      },
+      "player_out": {
+        "id": "361692",
+        "name": "Mohammed Abu Al-Shamat"
+      }
+    },
+    {
+      "id": "49526634",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "159042",
+        "name": "Rodrigo Aguirre"
+      },
+      "player_in": {
+        "id": "159042",
+        "name": "Rodrigo Aguirre"
+      },
+      "player_out": {
+        "id": "295847",
+        "name": "Federico Viñas"
+      }
+    },
+    {
+      "id": "49526665",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "294239",
+        "name": "Abdullah Al-Hamdan"
+      },
+      "player_in": {
+        "id": "294239",
+        "name": "Abdullah Al-Hamdan"
+      },
+      "player_out": {
+        "id": "330543",
+        "name": "Moteb Al-Harbi"
+      }
+    },
+    {
+      "id": "49526667",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "357660",
+        "name": "Ala Al-Hajji"
+      },
+      "player_in": {
+        "id": "357660",
+        "name": "Ala Al-Hajji"
+      },
+      "player_out": {
+        "id": "283331",
+        "name": "Feras Al-Brikan"
+      }
+    },
+    {
+      "id": "49526664",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "296972",
+        "name": "Ali Lajami"
+      },
+      "player_in": {
+        "id": "296972",
+        "name": "Ali Lajami"
+      },
+      "player_out": {
+        "id": "286011",
+        "name": "Saud Abdulhamid"
+      }
+    },
+    {
+      "id": "49526773",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
