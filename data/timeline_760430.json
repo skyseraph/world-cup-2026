@@ -1,0 +1,601 @@
+{
+  "event_id": "760430",
+  "timeline": [
+    {
+      "id": "49532660",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49533034",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49533035",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49533037",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49533036",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49533060",
+      "type": "goal",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "253989",
+        "name": "Erling Haaland"
+      }
+    },
+    {
+      "id": "49533195",
+      "type": "goal",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "244677",
+        "name": "Aymen Hussein"
+      }
+    },
+    {
+      "id": "49533256",
+      "type": "goal",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "253989",
+        "name": "Erling Haaland"
+      }
+    },
+    {
+      "id": "49533374",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49533508",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49533876",
+      "type": "start delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49533875",
+      "type": "start delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49533893",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "325549",
+        "name": "Zidane Iqbal"
+      },
+      "player_in": {
+        "id": "325549",
+        "name": "Zidane Iqbal"
+      },
+      "player_out": {
+        "id": "384274",
+        "name": "Zaid Ismael"
+      }
+    },
+    {
+      "id": "49533895",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "326032",
+        "name": "Marko Farji"
+      },
+      "player_in": {
+        "id": "326032",
+        "name": "Marko Farji"
+      },
+      "player_out": {
+        "id": "330579",
+        "name": "Ali Al-Hamadi"
+      }
+    },
+    {
+      "id": "49533896",
+      "type": "end delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49533894",
+      "type": "end delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49534162",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49534161",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49534164",
+      "type": "end delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49534163",
+      "type": "end delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49534165",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49534184",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49534220",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49534221",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49534243",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      },
+      "player_in": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      },
+      "player_out": {
+        "id": "319368",
+        "name": "Antonio Nusa"
+      }
+    },
+    {
+      "id": "49534244",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "284212",
+        "name": "Kristian Thorstvedt"
+      },
+      "player_in": {
+        "id": "284212",
+        "name": "Kristian Thorstvedt"
+      },
+      "player_out": {
+        "id": "212900",
+        "name": "Fredrik Aursnes"
+      }
+    },
+    {
+      "id": "49534245",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "281736",
+        "name": "Leo Østigard"
+      },
+      "player_in": {
+        "id": "281736",
+        "name": "Leo Østigard"
+      },
+      "player_out": {
+        "id": "313361",
+        "name": "David Møller Wolfe"
+      }
+    },
+    {
+      "id": "49534246",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      },
+      "player_in": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      },
+      "player_out": {
+        "id": "188230",
+        "name": "Alexander Sørloth"
+      }
+    },
+    {
+      "id": "49534247",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "371649",
+        "name": "Mustafa Saadoon"
+      },
+      "player_in": {
+        "id": "371649",
+        "name": "Mustafa Saadoon"
+      },
+      "player_out": {
+        "id": "244679",
+        "name": "Hussein Ali"
+      }
+    },
+    {
+      "id": "49534248",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "313976",
+        "name": "Ahmed Qasim"
+      },
+      "player_in": {
+        "id": "313976",
+        "name": "Ahmed Qasim"
+      },
+      "player_out": {
+        "id": "307750",
+        "name": "Ali Jasim"
+      }
+    },
+    {
+      "id": "49534369",
+      "type": "goal",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "281736",
+        "name": "Leo Østigard"
+      }
+    },
+    {
+      "id": "49534401",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "269478",
+        "name": "Mohanad Ali"
+      },
+      "player_in": {
+        "id": "269478",
+        "name": "Mohanad Ali"
+      },
+      "player_out": {
+        "id": "266496",
+        "name": "Ibrahim Bayesh"
+      }
+    },
+    {
+      "id": "49534482",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "205924",
+        "name": "Patrick Berg"
+      },
+      "player_in": {
+        "id": "205924",
+        "name": "Patrick Berg"
+      },
+      "player_out": {
+        "id": "203669",
+        "name": "Martin Ødegaard"
+      }
+    },
+    {
+      "id": "49534624",
+      "type": "yellow_card",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "378968",
+        "name": "Zaid Tahseen"
+      }
+    },
+    {
+      "id": "49534784",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49534783",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49534786",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49534785",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49534845",
+      "type": "own_goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "244677",
+        "name": "Aymen Hussein"
+      }
+    },
+    {
+      "id": "49534848",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
