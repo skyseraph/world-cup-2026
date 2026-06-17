@@ -1,0 +1,505 @@
+{
+  "event_id": "760437",
+  "timeline": [
+    {
+      "id": "49540391",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49540526",
+      "type": "start delay",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49540528",
+      "type": "end delay",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49540529",
+      "type": "red_card",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "142200",
+        "name": "Harry Kane"
+      }
+    },
+    {
+      "id": "49540575",
+      "type": "start delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49540577",
+      "type": "end delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49540694",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49540693",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49540696",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49540695",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49540900",
+      "type": "goal",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "311475",
+        "name": "Martin Baturina"
+      }
+    },
+    {
+      "id": "49540988",
+      "type": "goal",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "142200",
+        "name": "Harry Kane"
+      }
+    },
+    {
+      "id": "49541091",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "277128",
+        "name": "Petar Musa"
+      }
+    },
+    {
+      "id": "49541093",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49541104",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49541128",
+      "type": "goal",
+      "minute": 47,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49541271",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "154595",
+        "name": "Mateo Kovacic"
+      },
+      "player_in": {
+        "id": "154595",
+        "name": "Mateo Kovacic"
+      },
+      "player_out": {
+        "id": "76762",
+        "name": "Luka Modric"
+      }
+    },
+    {
+      "id": "49541404",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "310883",
+        "name": "Igor Matanovic"
+      },
+      "player_in": {
+        "id": "310883",
+        "name": "Igor Matanovic"
+      },
+      "player_out": {
+        "id": "277128",
+        "name": "Petar Musa"
+      }
+    },
+    {
+      "id": "49541403",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "324270",
+        "name": "Marco Pasalic"
+      },
+      "player_in": {
+        "id": "324270",
+        "name": "Marco Pasalic"
+      },
+      "player_out": {
+        "id": "364962",
+        "name": "Luka Vuskovic"
+      }
+    },
+    {
+      "id": "49541448",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49541449",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49541451",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "265653",
+        "name": "Morgan Rogers"
+      },
+      "player_in": {
+        "id": "265653",
+        "name": "Morgan Rogers"
+      },
+      "player_out": {
+        "id": "238262",
+        "name": "Declan Rice"
+      }
+    },
+    {
+      "id": "49541454",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      },
+      "player_in": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      },
+      "player_out": {
+        "id": "293236",
+        "name": "Noni Madueke"
+      }
+    },
+    {
+      "id": "49541452",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      },
+      "player_in": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      },
+      "player_out": {
+        "id": "268782",
+        "name": "Anthony Gordon"
+      }
+    },
+    {
+      "id": "49541455",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49541453",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49541564",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "206378",
+        "name": "Nikola Vlasic"
+      },
+      "player_in": {
+        "id": "206378",
+        "name": "Nikola Vlasic"
+      },
+      "player_out": {
+        "id": "311475",
+        "name": "Martin Baturina"
+      }
+    },
+    {
+      "id": "49541565",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "139520",
+        "name": "Andrej Kramaric"
+      },
+      "player_in": {
+        "id": "139520",
+        "name": "Andrej Kramaric"
+      },
+      "player_out": {
+        "id": "189668",
+        "name": "Mario Pasalic"
+      }
+    },
+    {
+      "id": "49541575",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "267711",
+        "name": "Djed Spence"
+      },
+      "player_in": {
+        "id": "267711",
+        "name": "Djed Spence"
+      },
+      "player_out": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49541683",
+      "type": "goal",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      }
+    },
+    {
+      "id": "49541685",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "265907",
+        "name": "Marc Guéhi"
+      },
+      "player_in": {
+        "id": "265907",
+        "name": "Marc Guéhi"
+      },
+      "player_out": {
+        "id": "157974",
+        "name": "John Stones"
+      }
+    },
+    {
+      "id": "49541870",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
