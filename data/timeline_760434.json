@@ -1,0 +1,596 @@
+{
+  "event_id": "760434",
+  "timeline": [
+    {
+      "id": "49541879",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49542138",
+      "type": "yellow_card",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "387659",
+        "name": "Caleb Yirenkyi"
+      }
+    },
+    {
+      "id": "49542264",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49542263",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49542265",
+      "type": "end delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49542266",
+      "type": "end delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49542268",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49542267",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49542270",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49542271",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49542414",
+      "type": "start delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49542413",
+      "type": "start delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49542416",
+      "type": "end delay",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49542415",
+      "type": "end delay",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49542514",
+      "type": "start delay",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49542513",
+      "type": "start delay",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49542516",
+      "type": "end delay",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49542515",
+      "type": "end delay",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49542631",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49542634",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "378501",
+        "name": "Benjamin Asare"
+      },
+      "player_in": {
+        "id": "378501",
+        "name": "Benjamin Asare"
+      },
+      "player_out": {
+        "id": "219562",
+        "name": "Lawrence Ati Zigi"
+      }
+    },
+    {
+      "id": "49542636",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49542864",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "240495",
+        "name": "Brandon Thomas-Asante"
+      },
+      "player_in": {
+        "id": "240495",
+        "name": "Brandon Thomas-Asante"
+      },
+      "player_out": {
+        "id": "303115",
+        "name": "Kamaldeen Sulemana"
+      }
+    },
+    {
+      "id": "49542865",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      },
+      "player_in": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      },
+      "player_out": {
+        "id": "333310",
+        "name": "Ernest Nuamah"
+      }
+    },
+    {
+      "id": "49542937",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "267996",
+        "name": "José Fajardo"
+      },
+      "player_in": {
+        "id": "267996",
+        "name": "José Fajardo"
+      },
+      "player_out": {
+        "id": "155913",
+        "name": "Cecilio Waterman"
+      }
+    },
+    {
+      "id": "49542938",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "340539",
+        "name": "Azarias Londoño"
+      },
+      "player_in": {
+        "id": "340539",
+        "name": "Azarias Londoño"
+      },
+      "player_out": {
+        "id": "176145",
+        "name": "Cristian Martínez"
+      }
+    },
+    {
+      "id": "49543010",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49543009",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49543018",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49543017",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49543039",
+      "type": "yellow_card",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "260346",
+        "name": "César Blackman"
+      }
+    },
+    {
+      "id": "49543054",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "195326",
+        "name": "Ismael Díaz"
+      },
+      "player_in": {
+        "id": "195326",
+        "name": "Ismael Díaz"
+      },
+      "player_out": {
+        "id": "238763",
+        "name": "José Luis Rodríguez"
+      }
+    },
+    {
+      "id": "49543103",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "274697",
+        "name": "Kwasi Sibo"
+      },
+      "player_in": {
+        "id": "274697",
+        "name": "Kwasi Sibo"
+      },
+      "player_out": {
+        "id": "266057",
+        "name": "Elisha Owusu"
+      }
+    },
+    {
+      "id": "49543280",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "387861",
+        "name": "Prince Adu"
+      },
+      "player_in": {
+        "id": "387861",
+        "name": "Prince Adu"
+      },
+      "player_out": {
+        "id": "123518",
+        "name": "Jordan Ayew"
+      }
+    },
+    {
+      "id": "49543320",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "116825",
+        "name": "Aníbal Godoy"
+      },
+      "player_in": {
+        "id": "116825",
+        "name": "Aníbal Godoy"
+      },
+      "player_out": {
+        "id": "260346",
+        "name": "César Blackman"
+      }
+    },
+    {
+      "id": "49543397",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "387659",
+        "name": "Caleb Yirenkyi"
+      }
+    },
+    {
+      "id": "49543421",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "285452",
+        "name": "Carlos Harvey"
+      }
+    },
+    {
+      "id": "49543422",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49543423",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49543425",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49543426",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49543441",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
