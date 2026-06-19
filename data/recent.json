@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T22:44:07.756900+00:00",
+  "updated_at": "2026-06-19T23:58:46.421293+00:00",
   "events": [
     {
       "id": "760428",
@@ -870,7 +870,7 @@
     },
     {
       "id": "760445",
-      "status": "1st_half",
+      "status": "2nd_half",
       "start_time": "2026-06-19T22:00Z",
       "matchday": null,
       "round": "",
@@ -1018,13 +1018,13 @@
         "favorite": null,
         "moneyline": {
           "home": "-900",
-          "away": "+1900",
+          "away": "+2000",
           "draw": "+950"
         },
         "spread_line": {
           "home": {
             "line": "-2.5",
-            "odds": "-120"
+            "odds": "-125"
           },
           "away": {
             "line": "+2.5",
@@ -1034,11 +1034,11 @@
         "total": {
           "over": {
             "line": "o3.5",
-            "odds": "-130"
+            "odds": "-120"
           },
           "under": {
             "line": "u3.5",
-            "odds": "+105"
+            "odds": "-105"
           }
         },
         "open": {
