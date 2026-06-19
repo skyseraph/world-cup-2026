@@ -15,14 +15,14 @@
               "abbreviation": "MEX",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
             },
-            "played": 1,
-            "won": 1,
+            "played": 2,
+            "won": 2,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 2,
+            "goals_for": 3,
             "goals_against": 0,
-            "goal_difference": 2,
-            "points": 3,
+            "goal_difference": 3,
+            "points": 6,
             "form": ""
           },
           {
@@ -53,13 +53,13 @@
               "abbreviation": "KOR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 1,
             "drawn": 0,
-            "lost": 0,
+            "lost": 1,
             "goals_for": 2,
-            "goals_against": 1,
-            "goal_difference": 1,
+            "goals_against": 2,
+            "goal_difference": 0,
             "points": 3,
             "form": ""
           },
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-19T00:10:24.518571+00:00"
+  "updated_at": "2026-06-19T05:32:38.235814+00:00"
 }

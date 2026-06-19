@@ -1,0 +1,460 @@
+{
+  "event_id": "760441",
+  "timeline": [
+    {
+      "id": "49550595",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49550649",
+      "type": "yellow_card",
+      "minute": 4,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "274197",
+        "name": "Lee Kang-In"
+      }
+    },
+    {
+      "id": "49551392",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49551393",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49551474",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49551473",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49552455",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49552685",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49552774",
+      "type": "goal",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "242614",
+        "name": "Luis Romo"
+      }
+    },
+    {
+      "id": "49552857",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "237224",
+        "name": "Hwang Hee-Chan"
+      },
+      "player_in": {
+        "id": "237224",
+        "name": "Hwang Hee-Chan"
+      },
+      "player_out": {
+        "id": "134103",
+        "name": "Lee Jae-Sung"
+      }
+    },
+    {
+      "id": "49552858",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "302434",
+        "name": "Oh Hyeon-Gyu"
+      },
+      "player_in": {
+        "id": "302434",
+        "name": "Oh Hyeon-Gyu"
+      },
+      "player_out": {
+        "id": "149945",
+        "name": "Son Heung-Min"
+      }
+    },
+    {
+      "id": "49552870",
+      "type": "yellow_card",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "256598",
+        "name": "Paik Seung-Ho"
+      }
+    },
+    {
+      "id": "49553008",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49553007",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49553010",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49553009",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49553011",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "207011",
+        "name": "Orbelín Pineda"
+      },
+      "player_in": {
+        "id": "207011",
+        "name": "Orbelín Pineda"
+      },
+      "player_out": {
+        "id": "303577",
+        "name": "Brian Gutiérrez"
+      }
+    },
+    {
+      "id": "49553012",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "318554",
+        "name": "Obed Vargas"
+      },
+      "player_in": {
+        "id": "318554",
+        "name": "Obed Vargas"
+      },
+      "player_out": {
+        "id": "242614",
+        "name": "Luis Romo"
+      }
+    },
+    {
+      "id": "49553013",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "297791",
+        "name": "Eom Ji-Sung"
+      },
+      "player_in": {
+        "id": "297791",
+        "name": "Eom Ji-Sung"
+      },
+      "player_out": {
+        "id": "280060",
+        "name": "Kim Moon-Hwan"
+      }
+    },
+    {
+      "id": "49553014",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "350711",
+        "name": "Yang Hyun-Jun"
+      },
+      "player_in": {
+        "id": "350711",
+        "name": "Yang Hyun-Jun"
+      },
+      "player_out": {
+        "id": "302793",
+        "name": "Seol Young-Woo"
+      }
+    },
+    {
+      "id": "49553092",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "303464",
+        "name": "Cho Gue-Sung"
+      },
+      "player_in": {
+        "id": "303464",
+        "name": "Cho Gue-Sung"
+      },
+      "player_out": {
+        "id": "256598",
+        "name": "Paik Seung-Ho"
+      }
+    },
+    {
+      "id": "49553150",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "290414",
+        "name": "Israel Reyes"
+      },
+      "player_in": {
+        "id": "290414",
+        "name": "Israel Reyes"
+      },
+      "player_out": {
+        "id": "194308",
+        "name": "Roberto Alvarado"
+      }
+    },
+    {
+      "id": "49553149",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "260775",
+        "name": "Santiago Gimenez"
+      },
+      "player_in": {
+        "id": "260775",
+        "name": "Santiago Gimenez"
+      },
+      "player_out": {
+        "id": "167060",
+        "name": "Raúl Jiménez"
+      }
+    },
+    {
+      "id": "49553216",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "265969",
+        "name": "César Huerta"
+      },
+      "player_in": {
+        "id": "265969",
+        "name": "César Huerta"
+      },
+      "player_out": {
+        "id": "233075",
+        "name": "Julián Quiñones"
+      }
+    },
+    {
+      "id": "49553279",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49553281",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49553285",
+      "type": "end delay",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49553284",
+      "type": "end delay",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49553414",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
