@@ -1,0 +1,568 @@
+{
+  "event_id": "760444",
+  "timeline": [
+    {
+      "id": "49556663",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49556718",
+      "type": "yellow_card",
+      "minute": 4,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "218703",
+        "name": "Carlens Arcus"
+      }
+    },
+    {
+      "id": "49557057",
+      "type": "goal",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "259902",
+        "name": "Matheus Cunha"
+      }
+    },
+    {
+      "id": "49557071",
+      "type": "start delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49557072",
+      "type": "start delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49557074",
+      "type": "end delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49557075",
+      "type": "end delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49557207",
+      "type": "goal",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "259902",
+        "name": "Matheus Cunha"
+      }
+    },
+    {
+      "id": "49557232",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49557230",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49557234",
+      "type": "end delay",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49557235",
+      "type": "end delay",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49557236",
+      "type": "substitution",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "357719",
+        "name": "Rayan"
+      },
+      "player_in": {
+        "id": "357719",
+        "name": "Rayan"
+      },
+      "player_out": {
+        "id": "231050",
+        "name": "Raphinha "
+      }
+    },
+    {
+      "id": "49557289",
+      "type": "start delay",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49557270",
+      "type": "start delay",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49557291",
+      "type": "end delay",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49557271",
+      "type": "end delay",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49557372",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "252107",
+        "name": "Vinícius Júnior"
+      }
+    },
+    {
+      "id": "49557381",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "250241",
+        "name": "Frantzdy Pierrot"
+      }
+    },
+    {
+      "id": "49557419",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49557426",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "342631",
+        "name": "Dominique Simon"
+      },
+      "player_in": {
+        "id": "342631",
+        "name": "Dominique Simon"
+      },
+      "player_out": {
+        "id": "218703",
+        "name": "Carlens Arcus"
+      }
+    },
+    {
+      "id": "49557427",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "265915",
+        "name": "Wilson Isidor"
+      },
+      "player_in": {
+        "id": "265915",
+        "name": "Wilson Isidor"
+      },
+      "player_out": {
+        "id": "250241",
+        "name": "Frantzdy Pierrot"
+      }
+    },
+    {
+      "id": "49557433",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49557761",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "291608",
+        "name": "Louicius Deedson"
+      },
+      "player_in": {
+        "id": "291608",
+        "name": "Louicius Deedson"
+      },
+      "player_out": {
+        "id": "304212",
+        "name": "Josué Casimir"
+      }
+    },
+    {
+      "id": "49557770",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "269844",
+        "name": "Gabriel Martinelli"
+      },
+      "player_in": {
+        "id": "269844",
+        "name": "Gabriel Martinelli"
+      },
+      "player_out": {
+        "id": "234715",
+        "name": "Lucas Paquetá"
+      }
+    },
+    {
+      "id": "49557771",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "346612",
+        "name": "Endrick"
+      },
+      "player_in": {
+        "id": "346612",
+        "name": "Endrick"
+      },
+      "player_out": {
+        "id": "259902",
+        "name": "Matheus Cunha"
+      }
+    },
+    {
+      "id": "49557803",
+      "type": "yellow_card",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "186575",
+        "name": "Douglas Santos"
+      }
+    },
+    {
+      "id": "49557839",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49557831",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49557842",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "301093",
+        "name": "Lenny Joseph"
+      },
+      "player_in": {
+        "id": "301093",
+        "name": "Lenny Joseph"
+      },
+      "player_out": {
+        "id": "307861",
+        "name": "Ruben Providence"
+      }
+    },
+    {
+      "id": "49557845",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49557844",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49557857",
+      "type": "yellow_card",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "333939",
+        "name": "Danley Jean Jacques"
+      }
+    },
+    {
+      "id": "49557961",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "306764",
+        "name": "Danilo Santos"
+      },
+      "player_in": {
+        "id": "306764",
+        "name": "Danilo Santos"
+      },
+      "player_out": {
+        "id": "252107",
+        "name": "Vinícius Júnior"
+      }
+    },
+    {
+      "id": "49557962",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "278210",
+        "name": "Éderson"
+      },
+      "player_in": {
+        "id": "278210",
+        "name": "Éderson"
+      },
+      "player_out": {
+        "id": "218522",
+        "name": "Bruno Guimarães"
+      }
+    },
+    {
+      "id": "49557963",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "231098",
+        "name": "Derrick Etienne Jr."
+      },
+      "player_in": {
+        "id": "231098",
+        "name": "Derrick Etienne Jr."
+      },
+      "player_out": {
+        "id": "240369",
+        "name": "Jean-Ricner Bellegarde"
+      }
+    },
+    {
+      "id": "49558181",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "event_id": "760445",
+  "timeline": [
+    {
+      "id": "49555044",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49555063",
+      "type": "goal",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "304572",
+        "name": "Ismael Saibari"
+      }
+    },
+    {
+      "id": "49555433",
+      "type": "yellow_card",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "230963",
+        "name": "Issa Diop"
+      }
+    },
+    {
+      "id": "49555440",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49555441",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49555442",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49555443",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49555606",
+      "type": "start delay",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49555605",
+      "type": "start delay",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49555607",
+      "type": "end delay",
+      "minute": 37,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49555608",
+      "type": "end delay",
+      "minute": 37,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49555809",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49555815",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49556022",
+      "type": "start delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49556021",
+      "type": "start delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49556024",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "332948",
+        "name": "Ben Gannon-Doak"
+      },
+      "player_in": {
+        "id": "332948",
+        "name": "Ben Gannon-Doak"
+      },
+      "player_out": {
+        "id": "214794",
+        "name": "Kieran Tierney"
+      }
+    },
+    {
+      "id": "49556025",
+      "type": "end delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49556023",
+      "type": "end delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49556127",
+      "type": "yellow_card",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "104943",
+        "name": "Andy Robertson"
+      }
+    },
+    {
+      "id": "49556185",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49556184",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49556186",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49556187",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49556188",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "207538",
+        "name": "Lyndon Dykes"
+      },
+      "player_in": {
+        "id": "207538",
+        "name": "Lyndon Dykes"
+      },
+      "player_out": {
+        "id": "213725",
+        "name": "Ché Adams"
+      }
+    },
+    {
+      "id": "49556189",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "141870",
+        "name": "Kenny McLean"
+      },
+      "player_in": {
+        "id": "141870",
+        "name": "Kenny McLean"
+      },
+      "player_out": {
+        "id": "93435",
+        "name": "Ryan Christie"
+      }
+    },
+    {
+      "id": "49556400",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      },
+      "player_in": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      },
+      "player_out": {
+        "id": "304572",
+        "name": "Ismael Saibari"
+      }
+    },
+    {
+      "id": "49556401",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "360062",
+        "name": "Chemsdine Talbi"
+      },
+      "player_in": {
+        "id": "360062",
+        "name": "Chemsdine Talbi"
+      },
+      "player_out": {
+        "id": "336595",
+        "name": "Bilal El Khannouss"
+      }
+    },
+    {
+      "id": "49556402",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "416636",
+        "name": "Ayoube Amaimouni"
+      },
+      "player_in": {
+        "id": "416636",
+        "name": "Ayoube Amaimouni"
+      },
+      "player_out": {
+        "id": "246532",
+        "name": "Brahim Díaz"
+      }
+    },
+    {
+      "id": "49556472",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49556471",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49556474",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "224305",
+        "name": "Anthony Ralston"
+      },
+      "player_in": {
+        "id": "224305",
+        "name": "Anthony Ralston"
+      },
+      "player_out": {
+        "id": "271191",
+        "name": "Nathan Patterson"
+      }
+    },
+    {
+      "id": "49556476",
+      "type": "end delay",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49556475",
+      "type": "end delay",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49556477",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "251936",
+        "name": "Ross Stewart"
+      },
+      "player_in": {
+        "id": "251936",
+        "name": "Ross Stewart"
+      },
+      "player_out": {
+        "id": "162843",
+        "name": "John McGinn"
+      }
+    },
+    {
+      "id": "49556483",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "378491",
+        "name": "Samir El Mourabet"
+      },
+      "player_in": {
+        "id": "378491",
+        "name": "Samir El Mourabet"
+      },
+      "player_out": {
+        "id": "291552",
+        "name": "Azzedine Ounahi"
+      }
+    },
+    {
+      "id": "49556613",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
