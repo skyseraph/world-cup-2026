@@ -253,7 +253,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 4,
+            "position": 3,
             "team": {
               "id": "210",
               "name": "Paraguay",
@@ -261,18 +261,18 @@
               "abbreviation": "PAR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
             },
-            "played": 1,
-            "won": 0,
+            "played": 2,
+            "won": 1,
             "drawn": 0,
             "lost": 1,
-            "goals_for": 1,
+            "goals_for": 2,
             "goals_against": 4,
-            "goal_difference": -3,
-            "points": 0,
+            "goal_difference": -2,
+            "points": 3,
             "form": ""
           },
           {
-            "position": 3,
+            "position": 4,
             "team": {
               "id": "465",
               "name": "Türkiye",
@@ -280,13 +280,13 @@
               "abbreviation": "TUR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 0,
             "drawn": 0,
-            "lost": 1,
+            "lost": 2,
             "goals_for": 0,
-            "goals_against": 2,
-            "goal_difference": -2,
+            "goals_against": 3,
+            "goal_difference": -3,
             "points": 0,
             "form": ""
           },
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-20T02:40:40.657752+00:00"
+  "updated_at": "2026-06-20T06:54:32.499954+00:00"
 }
