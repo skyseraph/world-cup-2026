@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T15:45:30.050965+00:00",
+  "updated_at": "2026-06-21T17:17:26.002698+00:00",
   "events": [
     {
       "id": "760431",
@@ -870,7 +870,7 @@
     },
     {
       "id": "760453",
-      "status": "not_started",
+      "status": "2nd_half",
       "start_time": "2026-06-21T16:00Z",
       "matchday": null,
       "round": "",
@@ -899,7 +899,7 @@
             "abbreviation": "ESP"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 4
         },
         {
           "team": {
@@ -913,7 +913,7 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 4,
         "away": 0
       },
       "odds": {
@@ -1012,23 +1012,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BEL -235",
+        "details": "BEL -240",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-235",
-          "away": "+650",
+          "home": "-240",
+          "away": "+700",
           "draw": "+380"
         },
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "+115"
+            "odds": "+110"
           },
           "away": {
             "line": "+1.5",
-            "odds": "-145"
+            "odds": "-140"
           }
         },
         "total": {
@@ -1106,14 +1106,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "URU -220",
+        "details": "URU -230",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-220",
-          "away": "+800",
-          "draw": "+320"
+          "home": "-230",
+          "away": "+850",
+          "draw": "+330"
         },
         "spread_line": {
           "home": {
