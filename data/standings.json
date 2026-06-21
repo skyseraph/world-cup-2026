@@ -499,7 +499,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": "459",
               "name": "Belgium",
@@ -507,18 +507,18 @@
               "abbreviation": "BEL",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 0,
-            "drawn": 1,
+            "drawn": 2,
             "lost": 0,
             "goals_for": 1,
             "goals_against": 1,
             "goal_difference": 0,
-            "points": 1,
+            "points": 2,
             "form": ""
           },
           {
-            "position": 2,
+            "position": 1,
             "team": {
               "id": "469",
               "name": "Iran",
@@ -526,14 +526,14 @@
               "abbreviation": "IRN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 0,
-            "drawn": 1,
+            "drawn": 2,
             "lost": 0,
             "goals_for": 2,
             "goals_against": 2,
             "goal_difference": 0,
-            "points": 1,
+            "points": 2,
             "form": ""
           },
           {
@@ -556,7 +556,7 @@
             "form": ""
           },
           {
-            "position": 1,
+            "position": 3,
             "team": {
               "id": "2666",
               "name": "New Zealand",
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-21T20:22:45.649157+00:00"
+  "updated_at": "2026-06-21T21:51:06.741743+00:00"
 }
