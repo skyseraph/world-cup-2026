@@ -1,0 +1,577 @@
+{
+  "event_id": "760453",
+  "timeline": [
+    {
+      "id": "49572024",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49572197",
+      "type": "goal",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "362150",
+        "name": "Lamine Yamal"
+      }
+    },
+    {
+      "id": "49572355",
+      "type": "goal",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "229018",
+        "name": "Mikel Oyarzabal"
+      }
+    },
+    {
+      "id": "49572378",
+      "type": "goal",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "229018",
+        "name": "Mikel Oyarzabal"
+      }
+    },
+    {
+      "id": "49572394",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49572395",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49572396",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49572397",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49572445",
+      "type": "yellow_card",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "163850",
+        "name": "Salem Al-Dawsari"
+      }
+    },
+    {
+      "id": "49572833",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49572849",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "297370",
+        "name": "Yéremy Pino"
+      },
+      "player_in": {
+        "id": "297370",
+        "name": "Yéremy Pino"
+      },
+      "player_out": {
+        "id": "362150",
+        "name": "Lamine Yamal"
+      }
+    },
+    {
+      "id": "49572850",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "265869",
+        "name": "Ferran Torres"
+      },
+      "player_in": {
+        "id": "265869",
+        "name": "Ferran Torres"
+      },
+      "player_out": {
+        "id": "229018",
+        "name": "Mikel Oyarzabal"
+      }
+    },
+    {
+      "id": "49572851",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "262468",
+        "name": "Mohamed Kanno"
+      },
+      "player_in": {
+        "id": "262468",
+        "name": "Mohamed Kanno"
+      },
+      "player_out": {
+        "id": "271461",
+        "name": "Abdullah Al-Khaibari"
+      }
+    },
+    {
+      "id": "49572852",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "294239",
+        "name": "Abdullah Al-Hamdan"
+      },
+      "player_in": {
+        "id": "294239",
+        "name": "Abdullah Al-Hamdan"
+      },
+      "player_out": {
+        "id": "315523",
+        "name": "Musab Al-Juwayr"
+      }
+    },
+    {
+      "id": "49572856",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49572906",
+      "type": "own_goal",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "256666",
+        "name": "Hassan Al-Tambakti"
+      }
+    },
+    {
+      "id": "49573104",
+      "type": "yellow_card",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "262468",
+        "name": "Mohamed Kanno"
+      }
+    },
+    {
+      "id": "49573106",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49573107",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49573110",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "361692",
+        "name": "Mohammed Abu Al-Shamat"
+      },
+      "player_in": {
+        "id": "361692",
+        "name": "Mohammed Abu Al-Shamat"
+      },
+      "player_out": {
+        "id": "283331",
+        "name": "Feras Al-Brikan"
+      }
+    },
+    {
+      "id": "49573108",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "357660",
+        "name": "Ala Al-Hajji"
+      },
+      "player_in": {
+        "id": "357660",
+        "name": "Ala Al-Hajji"
+      },
+      "player_out": {
+        "id": "256667",
+        "name": "Abdulelah Al-Amri"
+      }
+    },
+    {
+      "id": "49573114",
+      "type": "end delay",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49573113",
+      "type": "end delay",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49573115",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "209581",
+        "name": "Mikel Merino"
+      },
+      "player_in": {
+        "id": "209581",
+        "name": "Mikel Merino"
+      },
+      "player_out": {
+        "id": "227765",
+        "name": "Dani Olmo"
+      }
+    },
+    {
+      "id": "49573116",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "312146",
+        "name": "Nico Williams"
+      },
+      "player_in": {
+        "id": "312146",
+        "name": "Nico Williams"
+      },
+      "player_out": {
+        "id": "297373",
+        "name": "Álex Baena"
+      }
+    },
+    {
+      "id": "49573214",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49573215",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49573218",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "214596",
+        "name": "Fabián Ruiz"
+      },
+      "player_in": {
+        "id": "214596",
+        "name": "Fabián Ruiz"
+      },
+      "player_out": {
+        "id": "250465",
+        "name": "Pedri "
+      }
+    },
+    {
+      "id": "49573216",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49573217",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49573544",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49573545",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49573548",
+      "type": "end delay",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49573549",
+      "type": "end delay",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49573550",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "288570",
+        "name": "Khalid Al-Ghannam"
+      },
+      "player_in": {
+        "id": "288570",
+        "name": "Khalid Al-Ghannam"
+      },
+      "player_out": {
+        "id": "270417",
+        "name": "Nasser Al-Dawsari"
+      }
+    },
+    {
+      "id": "49573587",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49573589",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49573652",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
