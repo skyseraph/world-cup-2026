@@ -1,0 +1,475 @@
+{
+  "event_id": "760449",
+  "timeline": [
+    {
+      "id": "49569094",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49569138",
+      "type": "goal",
+      "minute": 4,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "219362",
+        "name": "Daichi Kamada"
+      }
+    },
+    {
+      "id": "49569466",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49569467",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49569473",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49569472",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49569538",
+      "type": "goal",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "274277",
+        "name": "Ayase Ueda"
+      }
+    },
+    {
+      "id": "49569841",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49569847",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "317473",
+        "name": "Ismaël Gharbi"
+      },
+      "player_in": {
+        "id": "317473",
+        "name": "Ismaël Gharbi"
+      },
+      "player_out": {
+        "id": "323950",
+        "name": "Elias Saad"
+      }
+    },
+    {
+      "id": "49569848",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "296982",
+        "name": "Mohamed Amine Ben Hamida"
+      },
+      "player_in": {
+        "id": "296982",
+        "name": "Mohamed Amine Ben Hamida"
+      },
+      "player_out": {
+        "id": "240371",
+        "name": "Dylan Bronn"
+      }
+    },
+    {
+      "id": "49569849",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49570215",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "265207",
+        "name": "Firas Chaouat"
+      },
+      "player_in": {
+        "id": "265207",
+        "name": "Firas Chaouat"
+      },
+      "player_out": {
+        "id": "303702",
+        "name": "Sebastian Tounekti"
+      }
+    },
+    {
+      "id": "49570288",
+      "type": "goal",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "219350",
+        "name": "Junya Ito"
+      }
+    },
+    {
+      "id": "49570299",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49570300",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49570303",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49570304",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49570305",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "333663",
+        "name": "Junnosuke Suzuki"
+      },
+      "player_in": {
+        "id": "333663",
+        "name": "Junnosuke Suzuki"
+      },
+      "player_out": {
+        "id": "219362",
+        "name": "Daichi Kamada"
+      }
+    },
+    {
+      "id": "49570306",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "265965",
+        "name": "Yukinari Sugawara"
+      },
+      "player_in": {
+        "id": "265965",
+        "name": "Yukinari Sugawara"
+      },
+      "player_out": {
+        "id": "219627",
+        "name": "Ritsu Doan"
+      }
+    },
+    {
+      "id": "49570367",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "303031",
+        "name": "Yuito Suzuki"
+      },
+      "player_in": {
+        "id": "303031",
+        "name": "Yuito Suzuki"
+      },
+      "player_out": {
+        "id": "265953",
+        "name": "Keito Nakamura"
+      }
+    },
+    {
+      "id": "49570368",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "258270",
+        "name": "Ayumu Seko"
+      },
+      "player_in": {
+        "id": "258270",
+        "name": "Ayumu Seko"
+      },
+      "player_out": {
+        "id": "238004",
+        "name": "Takehiro Tomiyasu"
+      }
+    },
+    {
+      "id": "49570440",
+      "type": "goal",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "274277",
+        "name": "Ayase Ueda"
+      }
+    },
+    {
+      "id": "49570447",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "346208",
+        "name": "Keisuke Goto"
+      },
+      "player_in": {
+        "id": "346208",
+        "name": "Keisuke Goto"
+      },
+      "player_out": {
+        "id": "274277",
+        "name": "Ayase Ueda"
+      }
+    },
+    {
+      "id": "49570451",
+      "type": "start delay",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49570453",
+      "type": "start delay",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49570459",
+      "type": "end delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": null
+    },
+    {
+      "id": "49570460",
+      "type": "end delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49570513",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "159152",
+        "name": "Rani Khedira"
+      },
+      "player_in": {
+        "id": "159152",
+        "name": "Rani Khedira"
+      },
+      "player_out": {
+        "id": "209595",
+        "name": "Ellyes Skhiri"
+      }
+    },
+    {
+      "id": "49570514",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "659",
+        "name": "Tunisia"
+      },
+      "player": {
+        "id": "324510",
+        "name": "Elias Achouri"
+      },
+      "player_in": {
+        "id": "324510",
+        "name": "Elias Achouri"
+      },
+      "player_out": {
+        "id": "265234",
+        "name": "Ali Abdi"
+      }
+    },
+    {
+      "id": "49570611",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
