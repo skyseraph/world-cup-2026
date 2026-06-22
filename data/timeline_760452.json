@@ -1,0 +1,663 @@
+{
+  "event_id": "760452",
+  "timeline": [
+    {
+      "id": "49581149",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49581295",
+      "type": "start delay",
+      "minute": 8,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49581296",
+      "type": "start delay",
+      "minute": 8,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49581297",
+      "type": "end delay",
+      "minute": 8,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49581299",
+      "type": "end delay",
+      "minute": 8,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49581424",
+      "type": "goal",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "332367",
+        "name": "Finn Surman"
+      }
+    },
+    {
+      "id": "49581449",
+      "type": "yellow_card",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "328932",
+        "name": "Mohanad Lashin"
+      }
+    },
+    {
+      "id": "49581482",
+      "type": "yellow_card",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "228283",
+        "name": "Sarpreet Singh"
+      }
+    },
+    {
+      "id": "49581500",
+      "type": "start delay",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49581502",
+      "type": "end delay",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49581521",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49581520",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49581526",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49581527",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49581715",
+      "type": "yellow_card",
+      "minute": 34,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "228279",
+        "name": "Callum McCowatt"
+      }
+    },
+    {
+      "id": "49581813",
+      "type": "start delay",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49581812",
+      "type": "start delay",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49581815",
+      "type": "end delay",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49581814",
+      "type": "end delay",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49581816",
+      "type": "substitution",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "187571",
+        "name": "Ramy Rabia"
+      },
+      "player_in": {
+        "id": "187571",
+        "name": "Ramy Rabia"
+      },
+      "player_out": {
+        "id": "285057",
+        "name": "Hamdy Fathy"
+      }
+    },
+    {
+      "id": "49581939",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49581948",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49582192",
+      "type": "goal",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "378495",
+        "name": "Mostafa Zico"
+      }
+    },
+    {
+      "id": "49582296",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "297802",
+        "name": "Ben Old"
+      },
+      "player_in": {
+        "id": "297802",
+        "name": "Ben Old"
+      },
+      "player_out": {
+        "id": "228279",
+        "name": "Callum McCowatt"
+      }
+    },
+    {
+      "id": "49582331",
+      "type": "goal",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "173896",
+        "name": "Mohamed Salah"
+      }
+    },
+    {
+      "id": "49582413",
+      "type": "start delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49582412",
+      "type": "start delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49582415",
+      "type": "end delay",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49582414",
+      "type": "end delay",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49582416",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "297794",
+        "name": "Jesse Randall"
+      },
+      "player_in": {
+        "id": "297794",
+        "name": "Jesse Randall"
+      },
+      "player_out": {
+        "id": "266554",
+        "name": "Liberato Cacace"
+      }
+    },
+    {
+      "id": "49582417",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "156146",
+        "name": "Ryan Thomas"
+      },
+      "player_in": {
+        "id": "156146",
+        "name": "Ryan Thomas"
+      },
+      "player_out": {
+        "id": "228283",
+        "name": "Sarpreet Singh"
+      }
+    },
+    {
+      "id": "49582418",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "157825",
+        "name": "Trézéguet"
+      },
+      "player_in": {
+        "id": "157825",
+        "name": "Trézéguet"
+      },
+      "player_out": {
+        "id": "303745",
+        "name": "Omar Marmoush"
+      }
+    },
+    {
+      "id": "49582419",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "399200",
+        "name": "Hamza Abdelkarim"
+      },
+      "player_in": {
+        "id": "399200",
+        "name": "Hamza Abdelkarim"
+      },
+      "player_out": {
+        "id": "378495",
+        "name": "Mostafa Zico"
+      }
+    },
+    {
+      "id": "49582496",
+      "type": "goal",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "157825",
+        "name": "Trézéguet"
+      }
+    },
+    {
+      "id": "49582515",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "195154",
+        "name": "Zizo"
+      },
+      "player_in": {
+        "id": "195154",
+        "name": "Zizo"
+      },
+      "player_out": {
+        "id": "299365",
+        "name": "Emam Ashour"
+      }
+    },
+    {
+      "id": "49582514",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "308926",
+        "name": "Hossam Abdelmaguid"
+      },
+      "player_in": {
+        "id": "308926",
+        "name": "Hossam Abdelmaguid"
+      },
+      "player_out": {
+        "id": "173896",
+        "name": "Mohamed Salah"
+      }
+    },
+    {
+      "id": "49582516",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "367427",
+        "name": "Tyler Bindon"
+      },
+      "player_in": {
+        "id": "367427",
+        "name": "Tyler Bindon"
+      },
+      "player_out": {
+        "id": "159470",
+        "name": "Tim Payne"
+      }
+    },
+    {
+      "id": "49582517",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "254441",
+        "name": "Francis de Vries"
+      },
+      "player_in": {
+        "id": "254441",
+        "name": "Francis de Vries"
+      },
+      "player_out": {
+        "id": "266555",
+        "name": "Elijah Just"
+      }
+    },
+    {
+      "id": "49582666",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49582665",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49582668",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49582667",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49582693",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "236957",
+        "name": "Mohamed Abdelmoneim"
+      },
+      "player_in": {
+        "id": "236957",
+        "name": "Mohamed Abdelmoneim"
+      },
+      "player_out": {
+        "id": "308926",
+        "name": "Hossam Abdelmaguid"
+      }
+    },
+    {
+      "id": "49582731",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

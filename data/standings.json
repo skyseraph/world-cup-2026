@@ -499,7 +499,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "459",
               "name": "Belgium",
@@ -518,7 +518,7 @@
             "form": ""
           },
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "469",
               "name": "Iran",
@@ -537,7 +537,7 @@
             "form": ""
           },
           {
-            "position": 4,
+            "position": 1,
             "team": {
               "id": "2620",
               "name": "Egypt",
@@ -545,18 +545,18 @@
               "abbreviation": "EGY",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
             },
-            "played": 1,
-            "won": 0,
+            "played": 2,
+            "won": 1,
             "drawn": 1,
             "lost": 0,
-            "goals_for": 1,
-            "goals_against": 1,
-            "goal_difference": 0,
-            "points": 1,
+            "goals_for": 4,
+            "goals_against": 2,
+            "goal_difference": 2,
+            "points": 4,
             "form": ""
           },
           {
-            "position": 3,
+            "position": 4,
             "team": {
               "id": "2666",
               "name": "New Zealand",
@@ -564,13 +564,13 @@
               "abbreviation": "NZL",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 0,
             "drawn": 1,
-            "lost": 0,
-            "goals_for": 2,
-            "goals_against": 2,
-            "goal_difference": 0,
+            "lost": 1,
+            "goals_for": 3,
+            "goals_against": 5,
+            "goal_difference": -2,
             "points": 1,
             "form": ""
           }
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-22T00:08:59.709060+00:00"
+  "updated_at": "2026-06-22T05:39:28.816927+00:00"
 }
