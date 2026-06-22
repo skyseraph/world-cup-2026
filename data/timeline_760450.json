@@ -1,0 +1,609 @@
+{
+  "event_id": "760450",
+  "timeline": [
+    {
+      "id": "49578700",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49578818",
+      "type": "yellow_card",
+      "minute": 5,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "332394",
+        "name": "Sidny Lopes Cabral"
+      }
+    },
+    {
+      "id": "49579200",
+      "type": "yellow_card",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "215772",
+        "name": "Rodrigo Bentancur"
+      }
+    },
+    {
+      "id": "49579201",
+      "type": "goal",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "327173",
+        "name": "Kevin Pina"
+      }
+    },
+    {
+      "id": "49579233",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49579234",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49579237",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49579236",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49579665",
+      "type": "goal",
+      "minute": 44,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "287025",
+        "name": "Maxi Araújo"
+      }
+    },
+    {
+      "id": "49579685",
+      "type": "start delay",
+      "minute": 44,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49579687",
+      "type": "start delay",
+      "minute": 44,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49579688",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49579689",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49579817",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "241466",
+        "name": "Agustín Cano"
+      }
+    },
+    {
+      "id": "49579886",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49580150",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "246442",
+        "name": "Deroy Duarte"
+      },
+      "player_in": {
+        "id": "246442",
+        "name": "Deroy Duarte"
+      },
+      "player_out": {
+        "id": "304076",
+        "name": "Telmo Arcanjo"
+      }
+    },
+    {
+      "id": "49580154",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49580317",
+      "type": "start delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49580319",
+      "type": "start delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49580320",
+      "type": "end delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49580321",
+      "type": "end delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49580583",
+      "type": "yellow_card",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "234881",
+        "name": "Mathías Olivera"
+      }
+    },
+    {
+      "id": "49580587",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "224798",
+        "name": "Nuno da Costa"
+      },
+      "player_in": {
+        "id": "224798",
+        "name": "Nuno da Costa"
+      },
+      "player_out": {
+        "id": "310261",
+        "name": "Gilson Benchimol"
+      }
+    },
+    {
+      "id": "49580588",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "366092",
+        "name": "Hélio Varela"
+      },
+      "player_in": {
+        "id": "366092",
+        "name": "Hélio Varela"
+      },
+      "player_out": {
+        "id": "175012",
+        "name": "Garry Rodrigues"
+      }
+    },
+    {
+      "id": "49580615",
+      "type": "goal",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "366092",
+        "name": "Hélio Varela"
+      }
+    },
+    {
+      "id": "49580646",
+      "type": "start delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49580647",
+      "type": "start delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49580648",
+      "type": "end delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49580649",
+      "type": "end delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49580716",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "271788",
+        "name": "Darwin Núñez"
+      },
+      "player_in": {
+        "id": "271788",
+        "name": "Darwin Núñez"
+      },
+      "player_out": {
+        "id": "295847",
+        "name": "Federico Viñas"
+      }
+    },
+    {
+      "id": "49580717",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "251889",
+        "name": "Nicolás de la Cruz"
+      },
+      "player_in": {
+        "id": "251889",
+        "name": "Nicolás de la Cruz"
+      },
+      "player_out": {
+        "id": "241468",
+        "name": "Manuel Ugarte"
+      }
+    },
+    {
+      "id": "49580719",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "222236",
+        "name": "Laros Duarte"
+      },
+      "player_in": {
+        "id": "222236",
+        "name": "Laros Duarte"
+      },
+      "player_out": {
+        "id": "327173",
+        "name": "Kevin Pina"
+      }
+    },
+    {
+      "id": "49580720",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49580721",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49580723",
+      "type": "end delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49580722",
+      "type": "end delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49580829",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "101251",
+        "name": "Yannick Semedo"
+      },
+      "player_in": {
+        "id": "101251",
+        "name": "Yannick Semedo"
+      },
+      "player_out": {
+        "id": "227441",
+        "name": "Jamiro Monteiro"
+      }
+    },
+    {
+      "id": "49580859",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "144325",
+        "name": "Brian Rodríguez"
+      },
+      "player_in": {
+        "id": "144325",
+        "name": "Brian Rodríguez"
+      },
+      "player_out": {
+        "id": "287025",
+        "name": "Maxi Araújo"
+      }
+    },
+    {
+      "id": "49581040",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "214683",
+        "name": "Diney Borges"
+      }
+    },
+    {
+      "id": "49581105",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49581108",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49581125",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
