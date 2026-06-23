@@ -917,14 +917,14 @@
               "abbreviation": "ENG",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 1,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
             "goals_for": 4,
             "goals_against": 2,
             "goal_difference": 2,
-            "points": 3,
+            "points": 4,
             "form": ""
           },
           {
@@ -974,14 +974,14 @@
               "abbreviation": "GHA",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 1,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
             "goals_for": 1,
             "goals_against": 0,
             "goal_difference": 1,
-            "points": 3,
+            "points": 4,
             "form": ""
           }
         ]
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-23T21:02:20.137432+00:00"
+  "updated_at": "2026-06-23T22:48:14.712300+00:00"
 }

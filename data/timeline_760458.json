@@ -1,0 +1,470 @@
+{
+  "event_id": "760458",
+  "timeline": [
+    {
+      "id": "49592144",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49592448",
+      "type": "start delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49592449",
+      "type": "start delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49592454",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49592455",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49592509",
+      "type": "start delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49592510",
+      "type": "start delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49592513",
+      "type": "end delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49592514",
+      "type": "end delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49592714",
+      "type": "yellow_card",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "238262",
+        "name": "Declan Rice"
+      }
+    },
+    {
+      "id": "49592845",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49592853",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49593099",
+      "type": "yellow_card",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "214412",
+        "name": "Iñaki Williams"
+      }
+    },
+    {
+      "id": "49593145",
+      "type": "start delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49593146",
+      "type": "start delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49593147",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      },
+      "player_in": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      },
+      "player_out": {
+        "id": "268782",
+        "name": "Anthony Gordon"
+      }
+    },
+    {
+      "id": "49593148",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "328464",
+        "name": "Nico O'Reilly"
+      },
+      "player_in": {
+        "id": "328464",
+        "name": "Nico O'Reilly"
+      },
+      "player_out": {
+        "id": "267711",
+        "name": "Djed Spence"
+      }
+    },
+    {
+      "id": "49593152",
+      "type": "end delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49593149",
+      "type": "end delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49593150",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      },
+      "player_in": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      },
+      "player_out": {
+        "id": "214412",
+        "name": "Iñaki Williams"
+      }
+    },
+    {
+      "id": "49593151",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "387861",
+        "name": "Prince Adu"
+      },
+      "player_in": {
+        "id": "387861",
+        "name": "Prince Adu"
+      },
+      "player_out": {
+        "id": "123518",
+        "name": "Jordan Ayew"
+      }
+    },
+    {
+      "id": "49593214",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49593213",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49593216",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49593215",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49593218",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "265653",
+        "name": "Morgan Rogers"
+      },
+      "player_in": {
+        "id": "265653",
+        "name": "Morgan Rogers"
+      },
+      "player_out": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49593217",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "251400",
+        "name": "Eberechi Eze"
+      },
+      "player_in": {
+        "id": "251400",
+        "name": "Eberechi Eze"
+      },
+      "player_out": {
+        "id": "238472",
+        "name": "Elliot Anderson"
+      }
+    },
+    {
+      "id": "49593326",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      },
+      "player_in": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      },
+      "player_out": {
+        "id": "293236",
+        "name": "Noni Madueke"
+      }
+    },
+    {
+      "id": "49593389",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "357205",
+        "name": "Kojo Peprah Oppong"
+      },
+      "player_in": {
+        "id": "357205",
+        "name": "Kojo Peprah Oppong"
+      },
+      "player_out": {
+        "id": "309638",
+        "name": "Marvin Senaya"
+      }
+    },
+    {
+      "id": "49593494",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "174508",
+        "name": "Baba Rahman"
+      },
+      "player_in": {
+        "id": "174508",
+        "name": "Baba Rahman"
+      },
+      "player_out": {
+        "id": "387861",
+        "name": "Prince Adu"
+      }
+    },
+    {
+      "id": "49593507",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
