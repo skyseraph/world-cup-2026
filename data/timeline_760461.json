@@ -1,0 +1,544 @@
+{
+  "event_id": "760461",
+  "timeline": [
+    {
+      "id": "49590602",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49590692",
+      "type": "goal",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "22774",
+        "name": "Cristiano Ronaldo"
+      }
+    },
+    {
+      "id": "49590805",
+      "type": "yellow_card",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "195266",
+        "name": "Odiljon Xamrobekov"
+      }
+    },
+    {
+      "id": "49590807",
+      "type": "goal",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "290591",
+        "name": "Nuno Mendes"
+      }
+    },
+    {
+      "id": "49590894",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49590893",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49590897",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49590896",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49590961",
+      "type": "start delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49590963",
+      "type": "end delay",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49591092",
+      "type": "goal",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "22774",
+        "name": "Cristiano Ronaldo"
+      }
+    },
+    {
+      "id": "49591257",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49591343",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49591258",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49591344",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49591342",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49591350",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "274005",
+        "name": "Khojiakbar Alijonov"
+      },
+      "player_in": {
+        "id": "274005",
+        "name": "Khojiakbar Alijonov"
+      },
+      "player_out": {
+        "id": "321728",
+        "name": "Sherzod Nasrullaev"
+      }
+    },
+    {
+      "id": "49591351",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "270461",
+        "name": "Akmal Mozgovoy"
+      },
+      "player_in": {
+        "id": "270461",
+        "name": "Akmal Mozgovoy"
+      },
+      "player_out": {
+        "id": "195266",
+        "name": "Odiljon Xamrobekov"
+      }
+    },
+    {
+      "id": "49591352",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "222670",
+        "name": "Nélson Semedo"
+      },
+      "player_in": {
+        "id": "222670",
+        "name": "Nélson Semedo"
+      },
+      "player_out": {
+        "id": "176399",
+        "name": "João Cancelo"
+      }
+    },
+    {
+      "id": "49591353",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "312659",
+        "name": "Francisco Conceição"
+      },
+      "player_in": {
+        "id": "312659",
+        "name": "Francisco Conceição"
+      },
+      "player_out": {
+        "id": "256115",
+        "name": "Pedro Neto"
+      }
+    },
+    {
+      "id": "49591362",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49591560",
+      "type": "own_goal",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "308612",
+        "name": "Abduvohid Nematov"
+      }
+    },
+    {
+      "id": "49591608",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "274159",
+        "name": "Francisco Trincão"
+      },
+      "player_in": {
+        "id": "274159",
+        "name": "Francisco Trincão"
+      },
+      "player_out": {
+        "id": "276350",
+        "name": "João Félix"
+      }
+    },
+    {
+      "id": "49591700",
+      "type": "yellow_card",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "337011",
+        "name": "Renato Veiga"
+      }
+    },
+    {
+      "id": "49591702",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49591701",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49591704",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49591703",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49591736",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "156663",
+        "name": "Igor Sergeev"
+      },
+      "player_in": {
+        "id": "156663",
+        "name": "Igor Sergeev"
+      },
+      "player_out": {
+        "id": "317793",
+        "name": "Abbosbek Fayzullaev"
+      }
+    },
+    {
+      "id": "49591796",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "199833",
+        "name": "Bernardo Silva"
+      },
+      "player_in": {
+        "id": "199833",
+        "name": "Bernardo Silva"
+      },
+      "player_out": {
+        "id": "355061",
+        "name": "João Neves"
+      }
+    },
+    {
+      "id": "49591915",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "258917",
+        "name": "Rafael Leão"
+      },
+      "player_in": {
+        "id": "258917",
+        "name": "Rafael Leão"
+      },
+      "player_out": {
+        "id": "288897",
+        "name": "Vitinha "
+      }
+    },
+    {
+      "id": "49592008",
+      "type": "goal",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "258917",
+        "name": "Rafael Leão"
+      }
+    },
+    {
+      "id": "49592071",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "354940",
+        "name": "Ruslanbek Jiyanov"
+      },
+      "player_in": {
+        "id": "354940",
+        "name": "Ruslanbek Jiyanov"
+      },
+      "player_out": {
+        "id": "376370",
+        "name": "Behruzjon Karimov"
+      }
+    },
+    {
+      "id": "49592072",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "362333",
+        "name": "Sherzod Esanov"
+      },
+      "player_in": {
+        "id": "362333",
+        "name": "Sherzod Esanov"
+      },
+      "player_out": {
+        "id": "195281",
+        "name": "Otabek Shukurov"
+      }
+    },
+    {
+      "id": "49592128",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
