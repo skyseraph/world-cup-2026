@@ -1,0 +1,538 @@
+{
+  "event_id": "760454",
+  "timeline": [
+    {
+      "id": "49586006",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49586365",
+      "type": "substitution",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "129285",
+        "name": "Marcus Holmgren Pedersen"
+      },
+      "player_in": {
+        "id": "129285",
+        "name": "Marcus Holmgren Pedersen"
+      },
+      "player_out": {
+        "id": "222991",
+        "name": "Julian Ryerson"
+      }
+    },
+    {
+      "id": "49586816",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49586817",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49586894",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49586896",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49587783",
+      "type": "goal",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "129285",
+        "name": "Marcus Holmgren Pedersen"
+      }
+    },
+    {
+      "id": "49588049",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49588224",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "205924",
+        "name": "Patrick Berg"
+      },
+      "player_in": {
+        "id": "205924",
+        "name": "Patrick Berg"
+      },
+      "player_out": {
+        "id": "212900",
+        "name": "Fredrik Aursnes"
+      }
+    },
+    {
+      "id": "49588232",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49588273",
+      "type": "goal",
+      "minute": 48,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "253989",
+        "name": "Erling Haaland"
+      }
+    },
+    {
+      "id": "49588357",
+      "type": "goal",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "241012",
+        "name": "Ismaïla Sarr"
+      }
+    },
+    {
+      "id": "49588360",
+      "type": "substitution",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "268796",
+        "name": "Ismail Jakobs"
+      },
+      "player_in": {
+        "id": "268796",
+        "name": "Ismail Jakobs"
+      },
+      "player_out": {
+        "id": "359796",
+        "name": "El Hadji Malick Diouf"
+      }
+    },
+    {
+      "id": "49588361",
+      "type": "substitution",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "388522",
+        "name": "Ibrahim Mbaye"
+      },
+      "player_in": {
+        "id": "388522",
+        "name": "Ibrahim Mbaye"
+      },
+      "player_out": {
+        "id": "255889",
+        "name": "Pape Gueye"
+      }
+    },
+    {
+      "id": "49588416",
+      "type": "goal",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "253989",
+        "name": "Erling Haaland"
+      }
+    },
+    {
+      "id": "49588422",
+      "type": "start delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49588421",
+      "type": "start delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49588425",
+      "type": "end delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49588427",
+      "type": "end delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49588426",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "197631",
+        "name": "Mory Diaw"
+      },
+      "player_in": {
+        "id": "197631",
+        "name": "Mory Diaw"
+      },
+      "player_out": {
+        "id": "238362",
+        "name": "Édouard Mendy"
+      }
+    },
+    {
+      "id": "49588428",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "294228",
+        "name": "Pathé Ciss"
+      },
+      "player_in": {
+        "id": "294228",
+        "name": "Pathé Ciss"
+      },
+      "player_out": {
+        "id": "38721",
+        "name": "Lamine Camara"
+      }
+    },
+    {
+      "id": "49588516",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49588515",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49588518",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      },
+      "player_in": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      },
+      "player_out": {
+        "id": "319368",
+        "name": "Antonio Nusa"
+      }
+    },
+    {
+      "id": "49588519",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49588520",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49588521",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "297337",
+        "name": "Pape Matar Sarr"
+      },
+      "player_in": {
+        "id": "297337",
+        "name": "Pape Matar Sarr"
+      },
+      "player_out": {
+        "id": "150312",
+        "name": "Kalidou Koulibaly"
+      }
+    },
+    {
+      "id": "49588678",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      },
+      "player_in": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      },
+      "player_out": {
+        "id": "188230",
+        "name": "Alexander Sørloth"
+      }
+    },
+    {
+      "id": "49588677",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "281736",
+        "name": "Leo Østigard"
+      },
+      "player_in": {
+        "id": "281736",
+        "name": "Leo Østigard"
+      },
+      "player_out": {
+        "id": "272867",
+        "name": "Torbjørn Heggem"
+      }
+    },
+    {
+      "id": "49588808",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "241012",
+        "name": "Ismaïla Sarr"
+      }
+    },
+    {
+      "id": "49588849",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49588850",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49588851",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49588852",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49588893",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

@@ -671,14 +671,14 @@
               "abbreviation": "NOR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
             },
-            "played": 1,
-            "won": 1,
+            "played": 2,
+            "won": 2,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 4,
-            "goals_against": 1,
-            "goal_difference": 3,
-            "points": 3,
+            "goals_for": 7,
+            "goals_against": 3,
+            "goal_difference": 4,
+            "points": 6,
             "form": ""
           },
           {
@@ -709,13 +709,13 @@
               "abbreviation": "SEN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 0,
             "drawn": 0,
-            "lost": 1,
-            "goals_for": 1,
-            "goals_against": 3,
-            "goal_difference": -2,
+            "lost": 2,
+            "goals_for": 3,
+            "goals_against": 6,
+            "goal_difference": -3,
             "points": 0,
             "form": ""
           },
@@ -783,7 +783,7 @@
             "form": ""
           },
           {
-            "position": 4,
+            "position": 3,
             "team": {
               "id": "624",
               "name": "Algeria",
@@ -791,18 +791,18 @@
               "abbreviation": "ALG",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
             },
-            "played": 1,
-            "won": 0,
+            "played": 2,
+            "won": 1,
             "drawn": 0,
             "lost": 1,
-            "goals_for": 0,
-            "goals_against": 3,
-            "goal_difference": -3,
-            "points": 0,
+            "goals_for": 2,
+            "goals_against": 4,
+            "goal_difference": -2,
+            "points": 3,
             "form": ""
           },
           {
-            "position": 3,
+            "position": 4,
             "team": {
               "id": "2917",
               "name": "Jordan",
@@ -810,13 +810,13 @@
               "abbreviation": "JOR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 0,
             "drawn": 0,
-            "lost": 1,
-            "goals_for": 1,
-            "goals_against": 3,
-            "goal_difference": -2,
+            "lost": 2,
+            "goals_for": 2,
+            "goals_against": 5,
+            "goal_difference": -3,
             "points": 0,
             "form": ""
           }
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-23T01:29:15.580024+00:00"
+  "updated_at": "2026-06-23T05:38:19.304151+00:00"
 }

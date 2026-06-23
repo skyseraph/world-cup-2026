@@ -1,0 +1,442 @@
+{
+  "event_id": "760455",
+  "timeline": [
+    {
+      "id": "49588910",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49589331",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49589332",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": null
+    },
+    {
+      "id": "49589335",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49589334",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": null
+    },
+    {
+      "id": "49589468",
+      "type": "goal",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": {
+        "id": "321515",
+        "name": "Nizar Al-Rashdan"
+      }
+    },
+    {
+      "id": "49589575",
+      "type": "yellow_card",
+      "minute": 44,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "290517",
+        "name": "Ramiz Zerrouki"
+      }
+    },
+    {
+      "id": "49589696",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49589699",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "179187",
+        "name": "Nabil Bentaleb"
+      },
+      "player_in": {
+        "id": "179187",
+        "name": "Nabil Bentaleb"
+      },
+      "player_out": {
+        "id": "290517",
+        "name": "Ramiz Zerrouki"
+      }
+    },
+    {
+      "id": "49589700",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "346186",
+        "name": "Nadhir Benbouali"
+      },
+      "player_in": {
+        "id": "346186",
+        "name": "Nadhir Benbouali"
+      },
+      "player_out": {
+        "id": "287078",
+        "name": "Hicham Boudaoui"
+      }
+    },
+    {
+      "id": "49589701",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49590032",
+      "type": "yellow_card",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": {
+        "id": "321503",
+        "name": "Husam Abu Dahab"
+      }
+    },
+    {
+      "id": "49590090",
+      "type": "goal",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "346186",
+        "name": "Nadhir Benbouali"
+      }
+    },
+    {
+      "id": "49590163",
+      "type": "start delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49590172",
+      "type": "start delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": null
+    },
+    {
+      "id": "49590165",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "341711",
+        "name": "Anis Hadj Moussa"
+      },
+      "player_in": {
+        "id": "341711",
+        "name": "Anis Hadj Moussa"
+      },
+      "player_out": {
+        "id": "163940",
+        "name": "Riyad Mahrez"
+      }
+    },
+    {
+      "id": "49590166",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": {
+        "id": "392204",
+        "name": "Odeh Fakhoury"
+      },
+      "player_in": {
+        "id": "392204",
+        "name": "Odeh Fakhoury"
+      },
+      "player_out": {
+        "id": "229023",
+        "name": "Mahmoud Al-Mardi"
+      }
+    },
+    {
+      "id": "49590167",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49590173",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": null
+    },
+    {
+      "id": "49590251",
+      "type": "goal",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "259743",
+        "name": "Amine Gouiri"
+      }
+    },
+    {
+      "id": "49590255",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": {
+        "id": "400062",
+        "name": "Ali Azaizeh"
+      },
+      "player_in": {
+        "id": "400062",
+        "name": "Ali Azaizeh"
+      },
+      "player_out": {
+        "id": "257489",
+        "name": "Mousa Al-Tamari"
+      }
+    },
+    {
+      "id": "49590256",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": {
+        "id": "321484",
+        "name": "Mohammad Abu Hasheesh"
+      },
+      "player_in": {
+        "id": "321484",
+        "name": "Mohammad Abu Hasheesh"
+      },
+      "player_out": {
+        "id": "317847",
+        "name": "Mohannad Abu Taha"
+      }
+    },
+    {
+      "id": "49590257",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "306033",
+        "name": "Jaouen Hadjam"
+      },
+      "player_in": {
+        "id": "306033",
+        "name": "Jaouen Hadjam"
+      },
+      "player_out": {
+        "id": "272512",
+        "name": "Rayan Aït-Nouri"
+      }
+    },
+    {
+      "id": "49590258",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "285547",
+        "name": "Zineddine Belaïd"
+      },
+      "player_in": {
+        "id": "285547",
+        "name": "Zineddine Belaïd"
+      },
+      "player_out": {
+        "id": "259743",
+        "name": "Amine Gouiri"
+      }
+    },
+    {
+      "id": "49590381",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": {
+        "id": "289005",
+        "name": "Saleem Obaid"
+      },
+      "player_in": {
+        "id": "289005",
+        "name": "Saleem Obaid"
+      },
+      "player_out": {
+        "id": "321503",
+        "name": "Husam Abu Dahab"
+      }
+    },
+    {
+      "id": "49590380",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2917",
+        "name": "Jordan"
+      },
+      "player": {
+        "id": "289004",
+        "name": "Mohammed Abu Zraiq"
+      },
+      "player_in": {
+        "id": "289004",
+        "name": "Mohammed Abu Zraiq"
+      },
+      "player_out": {
+        "id": "320908",
+        "name": "Ali Olwan"
+      }
+    },
+    {
+      "id": "49590568",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
