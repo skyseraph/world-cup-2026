@@ -1,0 +1,453 @@
+{
+  "event_id": "760459",
+  "timeline": [
+    {
+      "id": "49596384",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49596479",
+      "type": "start delay",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49596480",
+      "type": "start delay",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49596481",
+      "type": "end delay",
+      "minute": 8,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49596482",
+      "type": "end delay",
+      "minute": 8,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49596760",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49596759",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49596763",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49596762",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49597120",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49597122",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49597126",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49597134",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "340240",
+        "name": "Noah Sadiki"
+      },
+      "player_in": {
+        "id": "340240",
+        "name": "Noah Sadiki"
+      },
+      "player_out": {
+        "id": "345988",
+        "name": "Ngal'ayel Mukau"
+      }
+    },
+    {
+      "id": "49597137",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49597332",
+      "type": "yellow_card",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "227697",
+        "name": "Jhon Lucumí"
+      }
+    },
+    {
+      "id": "49597333",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "231161",
+        "name": "Simon Banza"
+      },
+      "player_in": {
+        "id": "231161",
+        "name": "Simon Banza"
+      },
+      "player_out": {
+        "id": "147193",
+        "name": "Cédric Bakambu"
+      }
+    },
+    {
+      "id": "49597334",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "176058",
+        "name": "Jhon Córdoba"
+      },
+      "player_in": {
+        "id": "176058",
+        "name": "Jhon Córdoba"
+      },
+      "player_out": {
+        "id": "272722",
+        "name": "Luis Suárez"
+      }
+    },
+    {
+      "id": "49597335",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "177780",
+        "name": "Juan Fernando Quintero"
+      },
+      "player_in": {
+        "id": "177780",
+        "name": "Juan Fernando Quintero"
+      },
+      "player_out": {
+        "id": "82816",
+        "name": "James Rodríguez"
+      }
+    },
+    {
+      "id": "49597478",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49597477",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49597481",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49597480",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49597482",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "204329",
+        "name": "Joris Kayembe"
+      },
+      "player_in": {
+        "id": "204329",
+        "name": "Joris Kayembe"
+      },
+      "player_out": {
+        "id": "165892",
+        "name": "Arthur Masuaku"
+      }
+    },
+    {
+      "id": "49597483",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "235875",
+        "name": "Charles Pickel"
+      },
+      "player_in": {
+        "id": "235875",
+        "name": "Charles Pickel"
+      },
+      "player_out": {
+        "id": "268986",
+        "name": "Edo Kayembe"
+      }
+    },
+    {
+      "id": "49597544",
+      "type": "goal",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "146679",
+        "name": "Daniel Muñoz"
+      }
+    },
+    {
+      "id": "49597549",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      },
+      "player_in": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      },
+      "player_out": {
+        "id": "239566",
+        "name": "Jhon Arias"
+      }
+    },
+    {
+      "id": "49597608",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "291750",
+        "name": "Nathanaël Mbuku"
+      },
+      "player_in": {
+        "id": "291750",
+        "name": "Nathanaël Mbuku"
+      },
+      "player_out": {
+        "id": "260932",
+        "name": "Samuel Moutoussamy"
+      }
+    },
+    {
+      "id": "49597764",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "235875",
+        "name": "Charles Pickel"
+      }
+    },
+    {
+      "id": "49597763",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "197399",
+        "name": "Jefferson Lerma"
+      }
+    },
+    {
+      "id": "49597792",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

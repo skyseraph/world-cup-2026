@@ -827,7 +827,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 2,
+            "position": 1,
             "team": {
               "id": "208",
               "name": "Colombia",
@@ -835,18 +835,18 @@
               "abbreviation": "COL",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
             },
-            "played": 1,
-            "won": 1,
+            "played": 2,
+            "won": 2,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 3,
+            "goals_for": 4,
             "goals_against": 1,
-            "goal_difference": 2,
-            "points": 3,
+            "goal_difference": 3,
+            "points": 6,
             "form": ""
           },
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "482",
               "name": "Portugal",
@@ -892,13 +892,13 @@
               "abbreviation": "COD",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
             },
-            "played": 1,
+            "played": 2,
             "won": 0,
             "drawn": 1,
-            "lost": 0,
+            "lost": 1,
             "goals_for": 1,
-            "goals_against": 1,
-            "goal_difference": 0,
+            "goals_against": 2,
+            "goal_difference": -1,
             "points": 1,
             "form": ""
           }
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-24T02:00:06.881535+00:00"
+  "updated_at": "2026-06-24T06:05:38.947013+00:00"
 }
