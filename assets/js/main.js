@@ -243,8 +243,8 @@ function calcPcts(odds) {
 function initGlobe() {
   const canvas = document.getElementById('globe-canvas');
   const wrap = document.getElementById('canvas-wrap');
-  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:true});
-  renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:false, alpha:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,1));
   renderer.setSize(wrap.clientWidth, wrap.clientHeight);
 
   const scene = new THREE.Scene();
@@ -260,9 +260,9 @@ function initGlobe() {
 
   // Globe
   const earthMat = new THREE.MeshPhongMaterial({color:0x1a3a5c,emissive:0x061224,specular:0x2255aa,shininess:25});
-  scene.add(new THREE.Mesh(new THREE.SphereGeometry(1,64,64), earthMat));
+  scene.add(new THREE.Mesh(new THREE.SphereGeometry(1,48,48), earthMat));
   // Atmosphere
-  scene.add(new THREE.Mesh(new THREE.SphereGeometry(1.03,64,64),
+  scene.add(new THREE.Mesh(new THREE.SphereGeometry(1.03,48,48),
     new THREE.MeshPhongMaterial({color:0x0088ff,transparent:true,opacity:0.07})));
 
   // Load earth texture — try multiple CDNs
@@ -279,21 +279,21 @@ function initGlobe() {
   }
   tryLoadTex(earthTexUrls);
 
-  // Graticule
+  // Graticule (reduced density for performance)
   const gMat = new THREE.LineBasicMaterial({color:0x1a3d66,opacity:0.3,transparent:true});
   for (let lat=-60;lat<=60;lat+=30) {
     const pts=[];const phi=(90-lat)*Math.PI/180;
-    for(let lon=0;lon<=360;lon+=4){const th=lon*Math.PI/180;pts.push(new THREE.Vector3(Math.sin(phi)*Math.cos(th),Math.cos(phi),Math.sin(phi)*Math.sin(th)));}
+    for(let lon=0;lon<=360;lon+=6){const th=lon*Math.PI/180;pts.push(new THREE.Vector3(Math.sin(phi)*Math.cos(th),Math.cos(phi),Math.sin(phi)*Math.sin(th)));}
     scene.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),gMat));
   }
-  for(let lon=0;lon<360;lon+=30){
+  for(let lon=0;lon<360;lon+=60){
     const pts=[];const th=lon*Math.PI/180;
-    for(let lat=-90;lat<=90;lat+=3){const phi=(90-lat)*Math.PI/180;pts.push(new THREE.Vector3(Math.sin(phi)*Math.cos(th),Math.cos(phi),Math.sin(phi)*Math.sin(th)));}
+    for(let lat=-90;lat<=90;lat+=5){const phi=(90-lat)*Math.PI/180;pts.push(new THREE.Vector3(Math.sin(phi)*Math.cos(th),Math.cos(phi),Math.sin(phi)*Math.sin(th)));}
     scene.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),gMat));
   }
 
   // Stars
-  const sv=[];for(let i=0;i<4000;i++){const r=35+Math.random()*15,th=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);sv.push(r*Math.sin(ph)*Math.cos(th),r*Math.cos(ph),r*Math.sin(ph)*Math.sin(th));}
+  const sv=[];for(let i=0;i<2000;i++){const r=35+Math.random()*15,th=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);sv.push(r*Math.sin(ph)*Math.cos(th),r*Math.cos(ph),r*Math.sin(ph)*Math.sin(th));}
   const sg=new THREE.BufferGeometry();sg.setAttribute('position',new THREE.Float32BufferAttribute(sv,3));
   scene.add(new THREE.Points(sg,new THREE.PointsMaterial({color:0xffffff,size:0.05})));
 
@@ -369,7 +369,7 @@ function initGlobe() {
       }
     }
     const curve=new PolylineCurve(pts);
-    const geo=new THREE.TubeGeometry(curve,50,0.006,6,false);
+    const geo=new THREE.TubeGeometry(curve,20,0.006,6,false);
     const mat=new THREE.MeshBasicMaterial({color,transparent:true,opacity:0.75});
     return new THREE.Mesh(geo,mat);
   }
@@ -484,6 +484,7 @@ function initGlobe() {
   let tick=0;
   (function animate(){
     requestAnimationFrame(animate);
+    if(document.hidden) return;
     tick+=0.025;
     markers.forEach(({ring},i)=>{
       const s=1+0.2*Math.sin(tick+i*0.6);
@@ -604,7 +605,7 @@ function renderMatches(){
 
   const filtered=[...S.recentMatches].filter(m=>{
     if(currentMatchFilter==='all') return true;
-    const isLive=m.status==='in_progress';
+    const isLive=m.status==='in_progress'||m.status==='1st_half'||m.status==='2nd_half'||m.status==='halftime';
     const isDone=m.status==='closed'||m.status==='complete';
     const isUpcoming=!isLive&&!isDone;
     const mDate=new Date(m.start_time).toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
@@ -657,7 +658,7 @@ function matchCardHTML(m){
   const aCmp=m.competitors.find(c=>c.qualifier==='away');
   const hT=S.teamIndex[hCmp?.team?.abbreviation]||hCmp?.team||{};
   const aT=S.teamIndex[aCmp?.team?.abbreviation]||aCmp?.team||{};
-  const isLive=m.status==='in_progress';
+  const isLive=m.status==='in_progress'||m.status==='1st_half'||m.status==='2nd_half'||m.status==='halftime';
   const isDone=m.status==='closed'||m.status==='complete';
   const tagCls=isLive?' live':isDone?' done':'';
   const tagTxt=isLive?t('status_live'):isDone?t('status_done'):'';
@@ -708,6 +709,7 @@ window.openMatchModal = async function(eventId){
   const aCmp=m.competitors.find(c=>c.qualifier==='away');
   const hT=S.teamIndex[hCmp?.team?.abbreviation]||hCmp?.team||{};
   const aT=S.teamIndex[aCmp?.team?.abbreviation]||aCmp?.team||{};
+  const isLiveModal=m.status==='in_progress'||m.status==='1st_half'||m.status==='2nd_half'||m.status==='halftime';
   const isDone=m.status==='closed'||m.status==='complete';
 
   document.getElementById('mmodal-flag-h').src=hT.crest||'';
@@ -715,7 +717,7 @@ window.openMatchModal = async function(eventId){
   document.getElementById('mmodal-name-h').textContent=hCmp?.team?.name||'—';
   document.getElementById('mmodal-name-a').textContent=aCmp?.team?.name||'—';
   document.getElementById('mmodal-score').textContent=
-    isDone?`${m.scores?.home??0} – ${m.scores?.away??0}`:'vs';
+    (isDone||isLiveModal)?`${m.scores?.home??0} – ${m.scores?.away??0}`:'vs';
   document.getElementById('mmodal-meta').textContent=
     `${fmtTime(m.start_time)}  ·  ${m.venue?.city||''}`;
   document.getElementById('mmodal-title').textContent=
@@ -732,13 +734,6 @@ window.openMatchModal = async function(eventId){
 
   // Fetch timeline if not cached
   if(!S.matchTimelines[eventId]&&isDone){
-    try{
-      const r=await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(
-        `https://raw.githubusercontent.com/skyseraph/world-cup-2026/main/data/timeline_${eventId}.json`
-      )}`);
-      // Fallback: render from local data only
-    }catch(e){}
-    // Use sports-skills data embedded at build time if available
     S.matchTimelines[eventId] = await fetchTimeline(eventId);
   }
 
@@ -806,7 +801,7 @@ const STREAM_PLATFORMS = [
 function renderStreamLinks(m) {
   const el = document.getElementById('mmodal-stream-links');
   if (!el) return;
-  const isLive = m.status === 'in_progress';
+  const isLive = m.status === 'in_progress' || m.status === '1st_half' || m.status === '2nd_half' || m.status === 'halftime';
   const isDone = m.status === 'closed' || m.status === 'complete';
   const isUpcoming = !isLive && !isDone;
 
@@ -1861,7 +1856,7 @@ function renderGlobeIntro(){
           const aCmp=m.competitors.find(c=>c.qualifier==='away');
           const hT=S.teamIndex[hCmp?.team?.abbreviation]||hCmp?.team||{};
           const aT=S.teamIndex[aCmp?.team?.abbreviation]||aCmp?.team||{};
-          const isLive=m.status==='in_progress';
+          const isLive=m.status==='in_progress'||m.status==='1st_half'||m.status==='2nd_half'||m.status==='halftime';
           const isDone=m.status==='closed'||m.status==='complete';
           const score=isDone||isLive
             ? `<span style="font-weight:700;color:${isLive?'var(--red)':'var(--text)'}">${hCmp?.score??0} - ${aCmp?.score??0}</span>`
