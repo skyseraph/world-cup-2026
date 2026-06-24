@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T21:06:06.033052+00:00",
+  "updated_at": "2026-06-24T22:45:16.522153+00:00",
   "events": [
     {
       "id": "760447",
@@ -921,7 +921,7 @@
     },
     {
       "id": "760464",
-      "status": "not_started",
+      "status": "live",
       "start_time": "2026-06-24T22:00Z",
       "matchday": null,
       "round": "",
@@ -950,7 +950,7 @@
             "abbreviation": "MAR"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -960,42 +960,42 @@
             "abbreviation": "HAI"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 2
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "MAR -450",
+        "details": "MAR -330",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-450",
-          "away": "+1200",
-          "draw": "+550"
+          "home": "-330",
+          "away": "+900",
+          "draw": "+475"
         },
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "-160"
+            "odds": "-115"
           },
           "away": {
             "line": "+1.5",
-            "odds": "+125"
+            "odds": "-115"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-165"
+            "odds": "-160"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+135"
+            "odds": "+130"
           }
         },
         "open": {
@@ -1015,7 +1015,7 @@
     },
     {
       "id": "760465",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-06-24T22:00Z",
       "matchday": null,
       "round": "",
@@ -1054,32 +1054,32 @@
             "abbreviation": "BRA"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 1
         }
       ],
       "scores": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BRA -320",
+        "details": "BRA -300",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
           "home": "+900",
-          "away": "-320",
+          "away": "-300",
           "draw": "+425"
         },
         "spread_line": {
           "home": {
             "line": "+1.5",
-            "odds": "-115"
+            "odds": "-120"
           },
           "away": {
             "line": "-1.5",
-            "odds": "-110"
+            "odds": "-105"
           }
         },
         "total": {
@@ -1157,23 +1157,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "MEX -105",
+        "details": "MEX -110",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+275",
-          "away": "-105",
-          "draw": "+275"
+          "home": "+295",
+          "away": "-110",
+          "draw": "+280"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-115"
+            "odds": "-110"
           },
           "away": {
             "line": "-0.5",
-            "odds": "-110"
+            "odds": "-115"
           }
         },
         "total": {
@@ -1183,7 +1183,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-125"
+            "odds": "-120"
           }
         },
         "open": {
@@ -1251,19 +1251,19 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "KOR -170",
+        "details": "KOR -165",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
           "home": "+500",
-          "away": "-170",
-          "draw": "+310"
+          "away": "-165",
+          "draw": "+295"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "+140"
+            "odds": "+135"
           },
           "away": {
             "line": "-0.5",
@@ -1371,7 +1371,7 @@
           },
           "under": {
             "line": "u3.5",
-            "odds": "-160"
+            "odds": "-165"
           }
         },
         "open": {
@@ -1444,7 +1444,7 @@
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+285",
+          "home": "+295",
           "away": "-120",
           "draw": "+320"
         },
@@ -1461,7 +1461,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-140"
+            "odds": "-145"
           },
           "under": {
             "line": "u2.5",
@@ -1555,11 +1555,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-135"
+            "odds": "-130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+110"
+            "odds": "+105"
           }
         },
         "open": {
@@ -1931,7 +1931,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-145"
+            "odds": "-150"
           },
           "under": {
             "line": "u2.5",
@@ -2583,7 +2583,7 @@
           },
           "away": {
             "line": "-2.5",
-            "odds": "+125"
+            "odds": "+120"
           }
         },
         "total": {
@@ -2755,19 +2755,19 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "COD -125",
+        "details": "COD -130",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-125",
+          "home": "-130",
           "away": "+330",
           "draw": "+310"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-135"
+            "odds": "-140"
           },
           "away": {
             "line": "+0.5",
