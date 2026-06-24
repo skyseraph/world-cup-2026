@@ -1,0 +1,673 @@
+{
+  "event_id": "760462",
+  "timeline": [
+    {
+      "id": "49597861",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49598520",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49598519",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49598523",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49598522",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49598524",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49598525",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49598539",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49598547",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49598594",
+      "type": "start delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49598600",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49598649",
+      "type": "goal",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "391034",
+        "name": "Kerim Alajbegovic"
+      }
+    },
+    {
+      "id": "49598792",
+      "type": "own_goal",
+      "minute": 34,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "310372",
+        "name": "Mahmoud Abunada"
+      }
+    },
+    {
+      "id": "49599029",
+      "type": "goal",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "236586",
+        "name": "Hassan Al-Haydos"
+      }
+    },
+    {
+      "id": "49599267",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49599292",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "352660",
+        "name": "Benjamin Tahirovic"
+      },
+      "player_in": {
+        "id": "352660",
+        "name": "Benjamin Tahirovic"
+      },
+      "player_out": {
+        "id": "194767",
+        "name": "Ivan Sunjic"
+      }
+    },
+    {
+      "id": "49599296",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "338199",
+        "name": "Amar Memic"
+      },
+      "player_in": {
+        "id": "338199",
+        "name": "Amar Memic"
+      },
+      "player_out": {
+        "id": "374533",
+        "name": "Arjan Malic"
+      }
+    },
+    {
+      "id": "49599301",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "143613",
+        "name": "Abdulaziz Hatem"
+      },
+      "player_in": {
+        "id": "143613",
+        "name": "Abdulaziz Hatem"
+      },
+      "player_out": {
+        "id": "310373",
+        "name": "Jassem Gaber"
+      }
+    },
+    {
+      "id": "49599317",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49599755",
+      "type": "start delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49599602",
+      "type": "start delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49599756",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49599611",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49599619",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "336120",
+        "name": "Ahmed Al-Ganehi"
+      },
+      "player_in": {
+        "id": "336120",
+        "name": "Ahmed Al-Ganehi"
+      },
+      "player_out": {
+        "id": "236586",
+        "name": "Hassan Al-Haydos"
+      }
+    },
+    {
+      "id": "49599842",
+      "type": "start delay",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49599841",
+      "type": "start delay",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49599857",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "246836",
+        "name": "Dennis Hadzikadunic"
+      },
+      "player_in": {
+        "id": "246836",
+        "name": "Dennis Hadzikadunic"
+      },
+      "player_out": {
+        "id": "220538",
+        "name": "Nikola Katic"
+      }
+    },
+    {
+      "id": "49599873",
+      "type": "end delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49599875",
+      "type": "end delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49599870",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      },
+      "player_in": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      },
+      "player_out": {
+        "id": "102337",
+        "name": "Edin Dzeko"
+      }
+    },
+    {
+      "id": "49599997",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49599998",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49600024",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "219252",
+        "name": "Almoez Ali"
+      },
+      "player_in": {
+        "id": "219252",
+        "name": "Almoez Ali"
+      },
+      "player_out": {
+        "id": "172245",
+        "name": "Karim Boudiaf"
+      }
+    },
+    {
+      "id": "49600020",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49600014",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49600203",
+      "type": "yellow_card",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "268018",
+        "name": "Ahmed Fathy"
+      }
+    },
+    {
+      "id": "49600209",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "263311",
+        "name": "Ahmed Alaaeldin"
+      },
+      "player_in": {
+        "id": "263311",
+        "name": "Ahmed Alaaeldin"
+      },
+      "player_out": {
+        "id": "109204",
+        "name": "Edmílson Junior"
+      }
+    },
+    {
+      "id": "49600211",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": {
+        "id": "309315",
+        "name": "Mohamed Manai"
+      },
+      "player_in": {
+        "id": "309315",
+        "name": "Mohamed Manai"
+      },
+      "player_out": {
+        "id": "268018",
+        "name": "Ahmed Fathy"
+      }
+    },
+    {
+      "id": "49600259",
+      "type": "goal",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      }
+    },
+    {
+      "id": "49600268",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "225571",
+        "name": "Dzenis Burnic"
+      },
+      "player_in": {
+        "id": "225571",
+        "name": "Dzenis Burnic"
+      },
+      "player_out": {
+        "id": "391034",
+        "name": "Kerim Alajbegovic"
+      }
+    },
+    {
+      "id": "49600279",
+      "type": "yellow_card",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      }
+    },
+    {
+      "id": "49600459",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49600467",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49600466",
+      "type": "end delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49600469",
+      "type": "end delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4398",
+        "name": "Qatar"
+      },
+      "player": null
+    },
+    {
+      "id": "49600672",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

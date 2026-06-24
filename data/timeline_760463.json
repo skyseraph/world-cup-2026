@@ -1,0 +1,457 @@
+{
+  "event_id": "760463",
+  "timeline": [
+    {
+      "id": "49597847",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49598517",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49598516",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49598526",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49598527",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49598689",
+      "type": "yellow_card",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      }
+    },
+    {
+      "id": "49598695",
+      "type": "yellow_card",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "149981",
+        "name": "Granit Xhaka"
+      }
+    },
+    {
+      "id": "49599229",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49599273",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49599283",
+      "type": "goal",
+      "minute": 46,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "259513",
+        "name": "Rubén Vargas"
+      }
+    },
+    {
+      "id": "49599590",
+      "type": "goal",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      }
+    },
+    {
+      "id": "49599603",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "270505",
+        "name": "Stephen Eustáquio"
+      },
+      "player_in": {
+        "id": "270505",
+        "name": "Stephen Eustáquio"
+      },
+      "player_out": {
+        "id": "274296",
+        "name": "Mathieu Choinière"
+      }
+    },
+    {
+      "id": "49599605",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "294039",
+        "name": "Tani Oluwaseyi"
+      },
+      "player_in": {
+        "id": "294039",
+        "name": "Tani Oluwaseyi"
+      },
+      "player_out": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      }
+    },
+    {
+      "id": "49599604",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "271879",
+        "name": "Liam Millar"
+      },
+      "player_in": {
+        "id": "271879",
+        "name": "Liam Millar"
+      },
+      "player_out": {
+        "id": "340228",
+        "name": "Ali Ahmed"
+      }
+    },
+    {
+      "id": "49599980",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49599976",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49600002",
+      "type": "end delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49600003",
+      "type": "end delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49600006",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "245623",
+        "name": "Michel Aebischer"
+      },
+      "player_in": {
+        "id": "245623",
+        "name": "Michel Aebischer"
+      },
+      "player_out": {
+        "id": "222446",
+        "name": "Djibril Sow"
+      }
+    },
+    {
+      "id": "49600005",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "175905",
+        "name": "Silvan Widmer"
+      },
+      "player_in": {
+        "id": "175905",
+        "name": "Silvan Widmer"
+      },
+      "player_out": {
+        "id": "332574",
+        "name": "Luca Jaquez"
+      }
+    },
+    {
+      "id": "49600007",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "318522",
+        "name": "Promise David"
+      },
+      "player_in": {
+        "id": "318522",
+        "name": "Promise David"
+      },
+      "player_out": {
+        "id": "284769",
+        "name": "Tajon Buchanan"
+      }
+    },
+    {
+      "id": "49600045",
+      "type": "goal",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "318522",
+        "name": "Promise David"
+      }
+    },
+    {
+      "id": "49600148",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "275842",
+        "name": "Dan Ndoye"
+      },
+      "player_in": {
+        "id": "275842",
+        "name": "Dan Ndoye"
+      },
+      "player_out": {
+        "id": "259513",
+        "name": "Rubén Vargas"
+      }
+    },
+    {
+      "id": "49600229",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_in": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_out": {
+        "id": "230626",
+        "name": "Richie Laryea"
+      }
+    },
+    {
+      "id": "49600265",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "238502",
+        "name": "Christian Fassnacht"
+      },
+      "player_in": {
+        "id": "238502",
+        "name": "Christian Fassnacht"
+      },
+      "player_out": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      }
+    },
+    {
+      "id": "49600266",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "234153",
+        "name": "Cedric Itten"
+      },
+      "player_in": {
+        "id": "234153",
+        "name": "Cedric Itten"
+      },
+      "player_out": {
+        "id": "202099",
+        "name": "Breel Embolo"
+      }
+    },
+    {
+      "id": "49600345",
+      "type": "yellow_card",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "271879",
+        "name": "Liam Millar"
+      }
+    },
+    {
+      "id": "49600627",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
