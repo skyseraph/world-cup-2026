@@ -1,0 +1,389 @@
+{
+  "event_id": "760460",
+  "timeline": [
+    {
+      "id": "49593528",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49594199",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49594198",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49594202",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49594203",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49594947",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49594969",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "207288",
+        "name": "Ante Budimir"
+      },
+      "player_in": {
+        "id": "207288",
+        "name": "Ante Budimir"
+      },
+      "player_out": {
+        "id": "277128",
+        "name": "Petar Musa"
+      }
+    },
+    {
+      "id": "49594970",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "139520",
+        "name": "Andrej Kramaric"
+      },
+      "player_in": {
+        "id": "139520",
+        "name": "Andrej Kramaric"
+      },
+      "player_out": {
+        "id": "299910",
+        "name": "Josko Gvardiol"
+      }
+    },
+    {
+      "id": "49594974",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49595202",
+      "type": "goal",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "207288",
+        "name": "Ante Budimir"
+      }
+    },
+    {
+      "id": "49595366",
+      "type": "yellow_card",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "201919",
+        "name": "Édgar Yoel Bárcenas"
+      }
+    },
+    {
+      "id": "49595600",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49595601",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49595619",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49595640",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49595620",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "306263",
+        "name": "Luka Sucic"
+      },
+      "player_in": {
+        "id": "306263",
+        "name": "Luka Sucic"
+      },
+      "player_out": {
+        "id": "324270",
+        "name": "Marco Pasalic"
+      }
+    },
+    {
+      "id": "49595639",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "341494",
+        "name": "Petar Sucic"
+      },
+      "player_in": {
+        "id": "341494",
+        "name": "Petar Sucic"
+      },
+      "player_out": {
+        "id": "154595",
+        "name": "Mateo Kovacic"
+      }
+    },
+    {
+      "id": "49595816",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "155913",
+        "name": "Cecilio Waterman"
+      },
+      "player_in": {
+        "id": "155913",
+        "name": "Cecilio Waterman"
+      },
+      "player_out": {
+        "id": "291014",
+        "name": "Jiovany Ramos"
+      }
+    },
+    {
+      "id": "49595937",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "189668",
+        "name": "Mario Pasalic"
+      },
+      "player_in": {
+        "id": "189668",
+        "name": "Mario Pasalic"
+      },
+      "player_out": {
+        "id": "76762",
+        "name": "Luka Modric"
+      }
+    },
+    {
+      "id": "49595979",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "340539",
+        "name": "Azarias Londoño"
+      },
+      "player_in": {
+        "id": "340539",
+        "name": "Azarias Londoño"
+      },
+      "player_out": {
+        "id": "267996",
+        "name": "José Fajardo"
+      }
+    },
+    {
+      "id": "49596181",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "138183",
+        "name": "Éric Davis"
+      },
+      "player_in": {
+        "id": "138183",
+        "name": "Éric Davis"
+      },
+      "player_out": {
+        "id": "260346",
+        "name": "César Blackman"
+      }
+    },
+    {
+      "id": "49596174",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "288563",
+        "name": "Tomás Rodríguez"
+      },
+      "player_in": {
+        "id": "288563",
+        "name": "Tomás Rodríguez"
+      },
+      "player_out": {
+        "id": "201919",
+        "name": "Édgar Yoel Bárcenas"
+      }
+    },
+    {
+      "id": "49596217",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "341494",
+        "name": "Petar Sucic"
+      }
+    },
+    {
+      "id": "49596299",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
