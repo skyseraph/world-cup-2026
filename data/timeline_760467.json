@@ -1,0 +1,571 @@
+{
+  "event_id": "760467",
+  "timeline": [
+    {
+      "id": "49603893",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49604638",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49604637",
+      "type": "start delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49604644",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49604643",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49605253",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49605256",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49605264",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49605267",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49605382",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49605403",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49605439",
+      "type": "start delay",
+      "minute": 46,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49605434",
+      "type": "start delay",
+      "minute": 46,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49605447",
+      "type": "end delay",
+      "minute": 47,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49605451",
+      "type": "end delay",
+      "minute": 47,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49605753",
+      "type": "goal",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "379193",
+        "name": "Mateo Chávez"
+      }
+    },
+    {
+      "id": "49605778",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "294618",
+        "name": "Lukás Provod"
+      },
+      "player_in": {
+        "id": "294618",
+        "name": "Lukás Provod"
+      },
+      "player_out": {
+        "id": "310027",
+        "name": "Denis Visinský"
+      }
+    },
+    {
+      "id": "49605967",
+      "type": "goal",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "233075",
+        "name": "Julián Quiñones"
+      }
+    },
+    {
+      "id": "49605992",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "260775",
+        "name": "Santiago Gimenez"
+      },
+      "player_in": {
+        "id": "260775",
+        "name": "Santiago Gimenez"
+      },
+      "player_out": {
+        "id": "193566",
+        "name": "Guillermo Martínez"
+      }
+    },
+    {
+      "id": "49605994",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "318554",
+        "name": "Obed Vargas"
+      },
+      "player_in": {
+        "id": "318554",
+        "name": "Obed Vargas"
+      },
+      "player_out": {
+        "id": "242614",
+        "name": "Luis Romo"
+      }
+    },
+    {
+      "id": "49606010",
+      "type": "yellow_card",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "241627",
+        "name": "Edson Álvarez"
+      }
+    },
+    {
+      "id": "49606013",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "212330",
+        "name": "Patrik Schick"
+      },
+      "player_in": {
+        "id": "212330",
+        "name": "Patrik Schick"
+      },
+      "player_out": {
+        "id": "292169",
+        "name": "Adam Hlozek"
+      }
+    },
+    {
+      "id": "49606017",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "230666",
+        "name": "Tomás Soucek"
+      },
+      "player_in": {
+        "id": "230666",
+        "name": "Tomás Soucek"
+      },
+      "player_out": {
+        "id": "280885",
+        "name": "Tomás Holes"
+      }
+    },
+    {
+      "id": "49606123",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49606124",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49606139",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49606140",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49606161",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "283827",
+        "name": "Álvaro Fidalgo"
+      },
+      "player_in": {
+        "id": "283827",
+        "name": "Álvaro Fidalgo"
+      },
+      "player_out": {
+        "id": "389575",
+        "name": "Gilberto Mora"
+      }
+    },
+    {
+      "id": "49606318",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "137038",
+        "name": "Guillermo Ochoa"
+      },
+      "player_in": {
+        "id": "137038",
+        "name": "Guillermo Ochoa"
+      },
+      "player_out": {
+        "id": "290899",
+        "name": "Raúl Rangel"
+      }
+    },
+    {
+      "id": "49606320",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "132098",
+        "name": "Jesús Gallardo"
+      },
+      "player_in": {
+        "id": "132098",
+        "name": "Jesús Gallardo"
+      },
+      "player_out": {
+        "id": "379193",
+        "name": "Mateo Chávez"
+      }
+    },
+    {
+      "id": "49606512",
+      "type": "start delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49606510",
+      "type": "start delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49606535",
+      "type": "end delay",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": null
+    },
+    {
+      "id": "49606548",
+      "type": "end delay",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49606545",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "257336",
+        "name": "Tomás Chorý"
+      },
+      "player_in": {
+        "id": "257336",
+        "name": "Tomás Chorý"
+      },
+      "player_out": {
+        "id": "303726",
+        "name": "Lukás Cerv"
+      }
+    },
+    {
+      "id": "49606546",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "450",
+        "name": "Czechia"
+      },
+      "player": {
+        "id": "387865",
+        "name": "Alexandr Sojka"
+      },
+      "player_in": {
+        "id": "387865",
+        "name": "Alexandr Sojka"
+      },
+      "player_out": {
+        "id": "230666",
+        "name": "Tomás Soucek"
+      }
+    },
+    {
+      "id": "49606810",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "283827",
+        "name": "Álvaro Fidalgo"
+      }
+    },
+    {
+      "id": "49606874",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "event_id": "760466",
+  "timeline": [
+    {
+      "id": "49603886",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49604642",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49604641",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49604651",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49604654",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49605384",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49605398",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "149945",
+        "name": "Son Heung-Min"
+      },
+      "player_in": {
+        "id": "149945",
+        "name": "Son Heung-Min"
+      },
+      "player_out": {
+        "id": "237224",
+        "name": "Hwang Hee-Chan"
+      }
+    },
+    {
+      "id": "49605399",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "90721",
+        "name": "Kim Jin-Gyu"
+      },
+      "player_in": {
+        "id": "90721",
+        "name": "Kim Jin-Gyu"
+      },
+      "player_out": {
+        "id": "256598",
+        "name": "Paik Seung-Ho"
+      }
+    },
+    {
+      "id": "49605400",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "304793",
+        "name": "Jens Castrop"
+      },
+      "player_in": {
+        "id": "304793",
+        "name": "Jens Castrop"
+      },
+      "player_out": {
+        "id": "297270",
+        "name": "Lee Tae-Seok"
+      }
+    },
+    {
+      "id": "49605414",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49605982",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "313399",
+        "name": "Tshepang Moremi"
+      },
+      "player_in": {
+        "id": "313399",
+        "name": "Tshepang Moremi"
+      },
+      "player_out": {
+        "id": "288771",
+        "name": "Oswin Appollis"
+      }
+    },
+    {
+      "id": "49606007",
+      "type": "goal",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "335450",
+        "name": "Thapelo Maseko"
+      }
+    },
+    {
+      "id": "49606055",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "336178",
+        "name": "Park Jin-Seop"
+      },
+      "player_in": {
+        "id": "336178",
+        "name": "Park Jin-Seop"
+      },
+      "player_out": {
+        "id": "157688",
+        "name": "Kim Min-Jae"
+      }
+    },
+    {
+      "id": "49606141",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49606137",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49606143",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": null
+    },
+    {
+      "id": "49606142",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49606168",
+      "type": "yellow_card",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "223818",
+        "name": "Aubrey Modiba"
+      }
+    },
+    {
+      "id": "49606220",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "303464",
+        "name": "Cho Gue-Sung"
+      },
+      "player_in": {
+        "id": "303464",
+        "name": "Cho Gue-Sung"
+      },
+      "player_out": {
+        "id": "302434",
+        "name": "Oh Hyeon-Gyu"
+      }
+    },
+    {
+      "id": "49606239",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "291141",
+        "name": "Iqraam Rayners"
+      },
+      "player_in": {
+        "id": "291141",
+        "name": "Iqraam Rayners"
+      },
+      "player_out": {
+        "id": "335450",
+        "name": "Thapelo Maseko"
+      }
+    },
+    {
+      "id": "49606345",
+      "type": "yellow_card",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "451",
+        "name": "South Korea"
+      },
+      "player": {
+        "id": "303464",
+        "name": "Cho Gue-Sung"
+      }
+    },
+    {
+      "id": "49606383",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "304736",
+        "name": "Jayden Adams"
+      },
+      "player_in": {
+        "id": "304736",
+        "name": "Jayden Adams"
+      },
+      "player_out": {
+        "id": "361211",
+        "name": "Relebohile Mofokeng"
+      }
+    },
+    {
+      "id": "49606882",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
