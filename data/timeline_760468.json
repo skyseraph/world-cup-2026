@@ -1,0 +1,544 @@
+{
+  "event_id": "760468",
+  "timeline": [
+    {
+      "id": "49606932",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49606989",
+      "type": "goal",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "202641",
+        "name": "Leroy Sané"
+      }
+    },
+    {
+      "id": "49607208",
+      "type": "goal",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "318090",
+        "name": "Nilson Angulo"
+      }
+    },
+    {
+      "id": "49607836",
+      "type": "start delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49607835",
+      "type": "start delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49607894",
+      "type": "end delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49607893",
+      "type": "end delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49608126",
+      "type": "start delay",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49608128",
+      "type": "start delay",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49608127",
+      "type": "end delay",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49608131",
+      "type": "end delay",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49608302",
+      "type": "yellow_card",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "292062",
+        "name": "Piero Hincapié"
+      }
+    },
+    {
+      "id": "49608324",
+      "type": "yellow_card",
+      "minute": 44,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "359370",
+        "name": "Aleksandar Pavlovic"
+      }
+    },
+    {
+      "id": "49608517",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49608542",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "290232",
+        "name": "Angelo Stiller"
+      },
+      "player_in": {
+        "id": "290232",
+        "name": "Angelo Stiller"
+      },
+      "player_out": {
+        "id": "359370",
+        "name": "Aleksandar Pavlovic"
+      }
+    },
+    {
+      "id": "49608552",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49608569",
+      "type": "start delay",
+      "minute": 47,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49608590",
+      "type": "end delay",
+      "minute": 48,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49608655",
+      "type": "yellow_card",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "262111",
+        "name": "Alan Franco"
+      }
+    },
+    {
+      "id": "49608993",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      },
+      "player_in": {
+        "id": "273300",
+        "name": "Deniz Undav"
+      },
+      "player_out": {
+        "id": "231182",
+        "name": "Kai Havertz"
+      }
+    },
+    {
+      "id": "49608996",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "303444",
+        "name": "Malick Thiaw"
+      },
+      "player_in": {
+        "id": "303444",
+        "name": "Malick Thiaw"
+      },
+      "player_out": {
+        "id": "190161",
+        "name": "Joshua Kimmich"
+      }
+    },
+    {
+      "id": "49609147",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "281316",
+        "name": "Kevin Rodríguez"
+      },
+      "player_in": {
+        "id": "281316",
+        "name": "Kevin Rodríguez"
+      },
+      "player_out": {
+        "id": "171771",
+        "name": "Enner Valencia"
+      }
+    },
+    {
+      "id": "49609157",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "256560",
+        "name": "Ángelo Preciado"
+      },
+      "player_in": {
+        "id": "256560",
+        "name": "Ángelo Preciado"
+      },
+      "player_out": {
+        "id": "262111",
+        "name": "Alan Franco"
+      }
+    },
+    {
+      "id": "49609158",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "290639",
+        "name": "Maximilian Beier"
+      },
+      "player_in": {
+        "id": "290639",
+        "name": "Maximilian Beier"
+      },
+      "player_out": {
+        "id": "281122",
+        "name": "Felix Nmecha"
+      }
+    },
+    {
+      "id": "49609271",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49609273",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49609278",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": null
+    },
+    {
+      "id": "49609275",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49609279",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "214689",
+        "name": "Pervis Estupiñán"
+      },
+      "player_in": {
+        "id": "214689",
+        "name": "Pervis Estupiñán"
+      },
+      "player_out": {
+        "id": "292062",
+        "name": "Piero Hincapié"
+      }
+    },
+    {
+      "id": "49609313",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "481",
+        "name": "Germany"
+      },
+      "player": {
+        "id": "132659",
+        "name": "Pascal Gross"
+      },
+      "player_in": {
+        "id": "132659",
+        "name": "Pascal Gross"
+      },
+      "player_out": {
+        "id": "303748",
+        "name": "Florian Wirtz"
+      }
+    },
+    {
+      "id": "49609448",
+      "type": "goal",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "277352",
+        "name": "Gonzalo Plata"
+      }
+    },
+    {
+      "id": "49609642",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "251963",
+        "name": "Félix Torres"
+      },
+      "player_in": {
+        "id": "251963",
+        "name": "Félix Torres"
+      },
+      "player_out": {
+        "id": "265926",
+        "name": "John Yeboah"
+      }
+    },
+    {
+      "id": "49609641",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "217079",
+        "name": "Jordy Caicedo"
+      },
+      "player_in": {
+        "id": "217079",
+        "name": "Jordy Caicedo"
+      },
+      "player_out": {
+        "id": "318090",
+        "name": "Nilson Angulo"
+      }
+    },
+    {
+      "id": "49609762",
+      "type": "yellow_card",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "277352",
+        "name": "Gonzalo Plata"
+      }
+    },
+    {
+      "id": "49610063",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

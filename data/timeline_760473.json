@@ -1,0 +1,490 @@
+{
+  "event_id": "760473",
+  "timeline": [
+    {
+      "id": "49606964",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49607162",
+      "type": "goal",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "210397",
+        "name": "Nicolas Pépé"
+      }
+    },
+    {
+      "id": "49607748",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49607749",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49607759",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49607758",
+      "type": "end delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49607761",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49607762",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49607825",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49607828",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49608080",
+      "type": "yellow_card",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "210397",
+        "name": "Nicolas Pépé"
+      }
+    },
+    {
+      "id": "49608535",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49608545",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "386989",
+        "name": "Christ Inao Oulaï"
+      },
+      "player_in": {
+        "id": "386989",
+        "name": "Christ Inao Oulaï"
+      },
+      "player_out": {
+        "id": "291630",
+        "name": "Amad Diallo"
+      }
+    },
+    {
+      "id": "49608563",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49609072",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "310925",
+        "name": "Jeremy Antonisse"
+      },
+      "player_in": {
+        "id": "310925",
+        "name": "Jeremy Antonisse"
+      },
+      "player_out": {
+        "id": "317285",
+        "name": "Livano Comenencia"
+      }
+    },
+    {
+      "id": "49609165",
+      "type": "goal",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "210397",
+        "name": "Nicolas Pépé"
+      }
+    },
+    {
+      "id": "49609238",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "329483",
+        "name": "Oumar Diakité"
+      },
+      "player_in": {
+        "id": "329483",
+        "name": "Oumar Diakité"
+      },
+      "player_out": {
+        "id": "309185",
+        "name": "Ange-Yoan Bonny"
+      }
+    },
+    {
+      "id": "49609237",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "311118",
+        "name": "Elye Wahi"
+      },
+      "player_in": {
+        "id": "311118",
+        "name": "Elye Wahi"
+      },
+      "player_out": {
+        "id": "210397",
+        "name": "Nicolas Pépé"
+      }
+    },
+    {
+      "id": "49609240",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "359108",
+        "name": "Bazoumana Touré"
+      },
+      "player_in": {
+        "id": "359108",
+        "name": "Bazoumana Touré"
+      },
+      "player_out": {
+        "id": "402479",
+        "name": "Yan Diomande"
+      }
+    },
+    {
+      "id": "49609274",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49609272",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49609277",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49609276",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": null
+    },
+    {
+      "id": "49609409",
+      "type": "yellow_card",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "216287",
+        "name": "Juninho Bacuna"
+      }
+    },
+    {
+      "id": "49609441",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "178273",
+        "name": "Gervane Kastaneer"
+      },
+      "player_in": {
+        "id": "178273",
+        "name": "Gervane Kastaneer"
+      },
+      "player_out": {
+        "id": "246281",
+        "name": "Juriën Gaari"
+      }
+    },
+    {
+      "id": "49609444",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "359132",
+        "name": "Tyrese Noslin"
+      },
+      "player_in": {
+        "id": "359132",
+        "name": "Tyrese Noslin"
+      },
+      "player_out": {
+        "id": "335203",
+        "name": "Deveron Fonville"
+      }
+    },
+    {
+      "id": "49609445",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "193539",
+        "name": "Jean Michaël Seri"
+      },
+      "player_in": {
+        "id": "193539",
+        "name": "Jean Michaël Seri"
+      },
+      "player_out": {
+        "id": "194711",
+        "name": "Franck Kessié"
+      }
+    },
+    {
+      "id": "49609640",
+      "type": "yellow_card",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "178273",
+        "name": "Gervane Kastaneer"
+      }
+    },
+    {
+      "id": "49609819",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "301456",
+        "name": "Shurandy Sambo"
+      },
+      "player_in": {
+        "id": "301456",
+        "name": "Shurandy Sambo"
+      },
+      "player_out": {
+        "id": "178433",
+        "name": "Joshua Brenet"
+      }
+    },
+    {
+      "id": "49609821",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "11678",
+        "name": "Curaçao"
+      },
+      "player": {
+        "id": "177058",
+        "name": "Brandley Kuwas"
+      },
+      "player_in": {
+        "id": "177058",
+        "name": "Brandley Kuwas"
+      },
+      "player_out": {
+        "id": "167213",
+        "name": "Jürgen Locadia"
+      }
+    },
+    {
+      "id": "49610056",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
