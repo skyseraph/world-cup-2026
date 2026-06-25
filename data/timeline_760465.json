@@ -1,0 +1,529 @@
+{
+  "event_id": "760465",
+  "timeline": [
+    {
+      "id": "49600719",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49600768",
+      "type": "start delay",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49600774",
+      "type": "start delay",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49600781",
+      "type": "end delay",
+      "minute": 3,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49600788",
+      "type": "end delay",
+      "minute": 3,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49600967",
+      "type": "goal",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "252107",
+        "name": "Vinícius Júnior"
+      }
+    },
+    {
+      "id": "49601470",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49601472",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49601479",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49601478",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49601523",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49601522",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49602205",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "252107",
+        "name": "Vinícius Júnior"
+      }
+    },
+    {
+      "id": "49602260",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49602311",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "214794",
+        "name": "Kieran Tierney"
+      },
+      "player_in": {
+        "id": "214794",
+        "name": "Kieran Tierney"
+      },
+      "player_out": {
+        "id": "104943",
+        "name": "Andy Robertson"
+      }
+    },
+    {
+      "id": "49602324",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49602878",
+      "type": "goal",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "259902",
+        "name": "Matheus Cunha"
+      }
+    },
+    {
+      "id": "49602906",
+      "type": "yellow_card",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "170369",
+        "name": "Danilo"
+      }
+    },
+    {
+      "id": "49602977",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "176287",
+        "name": "Fabinho"
+      },
+      "player_in": {
+        "id": "176287",
+        "name": "Fabinho"
+      },
+      "player_out": {
+        "id": "173666",
+        "name": "Casemiro"
+      }
+    },
+    {
+      "id": "49602979",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "269844",
+        "name": "Gabriel Martinelli"
+      },
+      "player_in": {
+        "id": "269844",
+        "name": "Gabriel Martinelli"
+      },
+      "player_out": {
+        "id": "234715",
+        "name": "Lucas Paquetá"
+      }
+    },
+    {
+      "id": "49603037",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49603035",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49603083",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49603082",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": null
+    },
+    {
+      "id": "49603231",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "132948",
+        "name": "Neymar"
+      },
+      "player_in": {
+        "id": "132948",
+        "name": "Neymar"
+      },
+      "player_out": {
+        "id": "259902",
+        "name": "Matheus Cunha"
+      }
+    },
+    {
+      "id": "49603389",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "224305",
+        "name": "Anthony Ralston"
+      },
+      "player_in": {
+        "id": "224305",
+        "name": "Anthony Ralston"
+      },
+      "player_out": {
+        "id": "271191",
+        "name": "Nathan Patterson"
+      }
+    },
+    {
+      "id": "49603393",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "346612",
+        "name": "Endrick"
+      },
+      "player_in": {
+        "id": "346612",
+        "name": "Endrick"
+      },
+      "player_out": {
+        "id": "357719",
+        "name": "Rayan"
+      }
+    },
+    {
+      "id": "49603397",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "125514",
+        "name": "Alex Sandro"
+      },
+      "player_in": {
+        "id": "125514",
+        "name": "Alex Sandro"
+      },
+      "player_out": {
+        "id": "186575",
+        "name": "Douglas Santos"
+      }
+    },
+    {
+      "id": "49603394",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "93435",
+        "name": "Ryan Christie"
+      },
+      "player_in": {
+        "id": "93435",
+        "name": "Ryan Christie"
+      },
+      "player_out": {
+        "id": "332948",
+        "name": "Ben Gannon-Doak"
+      }
+    },
+    {
+      "id": "49603414",
+      "type": "yellow_card",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "176287",
+        "name": "Fabinho"
+      }
+    },
+    {
+      "id": "49603610",
+      "type": "yellow_card",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "93435",
+        "name": "Ryan Christie"
+      }
+    },
+    {
+      "id": "49603665",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "368045",
+        "name": "Findlay Curtis"
+      },
+      "player_in": {
+        "id": "368045",
+        "name": "Findlay Curtis"
+      },
+      "player_out": {
+        "id": "162843",
+        "name": "John McGinn"
+      }
+    },
+    {
+      "id": "49603661",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "580",
+        "name": "Scotland"
+      },
+      "player": {
+        "id": "213725",
+        "name": "Ché Adams"
+      },
+      "player_in": {
+        "id": "213725",
+        "name": "Ché Adams"
+      },
+      "player_out": {
+        "id": "173306",
+        "name": "Lawrence Shankland"
+      }
+    },
+    {
+      "id": "49603793",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

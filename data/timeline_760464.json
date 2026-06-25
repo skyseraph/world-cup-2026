@@ -1,0 +1,670 @@
+{
+  "event_id": "760464",
+  "timeline": [
+    {
+      "id": "49600695",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49601051",
+      "type": "own_goal",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "175149",
+        "name": "Yassine Bounou"
+      }
+    },
+    {
+      "id": "49601468",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49601464",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49601474",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49601480",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49601642",
+      "type": "start delay",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49601648",
+      "type": "start delay",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49601656",
+      "type": "end delay",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49601663",
+      "type": "end delay",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49601885",
+      "type": "goal",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "240233",
+        "name": "Achraf Hakimi"
+      }
+    },
+    {
+      "id": "49602007",
+      "type": "goal",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "265915",
+        "name": "Wilson Isidor"
+      }
+    },
+    {
+      "id": "49602082",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "304572",
+        "name": "Ismael Saibari"
+      }
+    },
+    {
+      "id": "49602231",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49602276",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49602539",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49602536",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49602568",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49602570",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49602658",
+      "type": "start delay",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49602676",
+      "type": "end delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49602937",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "210778",
+        "name": "Duckens Nazon"
+      },
+      "player_in": {
+        "id": "210778",
+        "name": "Duckens Nazon"
+      },
+      "player_out": {
+        "id": "307861",
+        "name": "Ruben Providence"
+      }
+    },
+    {
+      "id": "49602940",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "291608",
+        "name": "Louicius Deedson"
+      },
+      "player_in": {
+        "id": "291608",
+        "name": "Louicius Deedson"
+      },
+      "player_out": {
+        "id": "265915",
+        "name": "Wilson Isidor"
+      }
+    },
+    {
+      "id": "49602978",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49602976",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49603029",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      },
+      "player_in": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      },
+      "player_out": {
+        "id": "304572",
+        "name": "Ismael Saibari"
+      }
+    },
+    {
+      "id": "49603016",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "291552",
+        "name": "Azzedine Ounahi"
+      },
+      "player_in": {
+        "id": "291552",
+        "name": "Azzedine Ounahi"
+      },
+      "player_out": {
+        "id": "246532",
+        "name": "Brahim Díaz"
+      }
+    },
+    {
+      "id": "49603020",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "379012",
+        "name": "Gessime Yassine"
+      },
+      "player_in": {
+        "id": "379012",
+        "name": "Gessime Yassine"
+      },
+      "player_out": {
+        "id": "269562",
+        "name": "Ayoub El Kaabi"
+      }
+    },
+    {
+      "id": "49603022",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49603028",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49603221",
+      "type": "goal",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      }
+    },
+    {
+      "id": "49603446",
+      "type": "yellow_card",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "89090",
+        "name": "Johny Placide"
+      }
+    },
+    {
+      "id": "49603321",
+      "type": "yellow_card",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "210778",
+        "name": "Duckens Nazon"
+      }
+    },
+    {
+      "id": "49603257",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "218703",
+        "name": "Carlens Arcus"
+      },
+      "player_in": {
+        "id": "218703",
+        "name": "Carlens Arcus"
+      },
+      "player_out": {
+        "id": "241032",
+        "name": "Jean-Kévin Duverne"
+      }
+    },
+    {
+      "id": "49603259",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "342631",
+        "name": "Dominique Simon"
+      },
+      "player_in": {
+        "id": "342631",
+        "name": "Dominique Simon"
+      },
+      "player_out": {
+        "id": "333939",
+        "name": "Danley Jean Jacques"
+      }
+    },
+    {
+      "id": "49603353",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "239350",
+        "name": "Noussair Mazraoui"
+      },
+      "player_in": {
+        "id": "239350",
+        "name": "Noussair Mazraoui"
+      },
+      "player_out": {
+        "id": "297296",
+        "name": "Anass Salah-Eddine"
+      }
+    },
+    {
+      "id": "49603354",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "378491",
+        "name": "Samir El Mourabet"
+      },
+      "player_in": {
+        "id": "378491",
+        "name": "Samir El Mourabet"
+      },
+      "player_out": {
+        "id": "323807",
+        "name": "Neil El Aynaoui"
+      }
+    },
+    {
+      "id": "49603364",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "250241",
+        "name": "Frantzdy Pierrot"
+      },
+      "player_in": {
+        "id": "250241",
+        "name": "Frantzdy Pierrot"
+      },
+      "player_out": {
+        "id": "301093",
+        "name": "Lenny Joseph"
+      }
+    },
+    {
+      "id": "49603551",
+      "type": "goal",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "379012",
+        "name": "Gessime Yassine"
+      }
+    },
+    {
+      "id": "49603647",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": {
+        "id": "304212",
+        "name": "Josué Casimir"
+      }
+    },
+    {
+      "id": "49603694",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49603693",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49603732",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49603733",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2654",
+        "name": "Haiti"
+      },
+      "player": null
+    },
+    {
+      "id": "49603784",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
