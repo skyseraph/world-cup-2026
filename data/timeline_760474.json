@@ -1,0 +1,661 @@
+{
+  "event_id": "760474",
+  "timeline": [
+    {
+      "id": "49619079",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49619195",
+      "type": "goal",
+      "minute": 4,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "324991",
+        "name": "Habib Diarra"
+      }
+    },
+    {
+      "id": "49619393",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49619417",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49619419",
+      "type": "red_card",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "244675",
+        "name": "Rebin Sulaka"
+      }
+    },
+    {
+      "id": "49619464",
+      "type": "start delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49619470",
+      "type": "start delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49619483",
+      "type": "substitution",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "331621",
+        "name": "Munaf Younus"
+      },
+      "player_in": {
+        "id": "331621",
+        "name": "Munaf Younus"
+      },
+      "player_out": {
+        "id": "313976",
+        "name": "Ahmed Qasim"
+      }
+    },
+    {
+      "id": "49619491",
+      "type": "end delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49619497",
+      "type": "end delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49619554",
+      "type": "yellow_card",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "251614",
+        "name": "Abdoulaye Seck"
+      }
+    },
+    {
+      "id": "49619672",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49619670",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49619681",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49619682",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49620238",
+      "type": "start delay",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49620241",
+      "type": "start delay",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49620260",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49620263",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49620502",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49620563",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "257421",
+        "name": "Jalal Hassan"
+      },
+      "player_in": {
+        "id": "257421",
+        "name": "Jalal Hassan"
+      },
+      "player_out": {
+        "id": "285998",
+        "name": "Ahmed Basil"
+      }
+    },
+    {
+      "id": "49620565",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49620914",
+      "type": "goal",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "241012",
+        "name": "Ismaïla Sarr"
+      }
+    },
+    {
+      "id": "49620941",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "268641",
+        "name": "Iliman Ndiaye"
+      },
+      "player_in": {
+        "id": "268641",
+        "name": "Iliman Ndiaye"
+      },
+      "player_out": {
+        "id": "388522",
+        "name": "Ibrahim Mbaye"
+      }
+    },
+    {
+      "id": "49620942",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "308524",
+        "name": "Nicolas Jackson"
+      },
+      "player_in": {
+        "id": "308524",
+        "name": "Nicolas Jackson"
+      },
+      "player_out": {
+        "id": "38721",
+        "name": "Lamine Camara"
+      }
+    },
+    {
+      "id": "49620943",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "255889",
+        "name": "Pape Gueye"
+      },
+      "player_in": {
+        "id": "255889",
+        "name": "Pape Gueye"
+      },
+      "player_out": {
+        "id": "324991",
+        "name": "Habib Diarra"
+      }
+    },
+    {
+      "id": "49620946",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "369408",
+        "name": "Ahmed Maknazi"
+      },
+      "player_in": {
+        "id": "369408",
+        "name": "Ahmed Maknazi"
+      },
+      "player_out": {
+        "id": "307750",
+        "name": "Ali Jasim"
+      }
+    },
+    {
+      "id": "49620954",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "274166",
+        "name": "Ali Yousif"
+      },
+      "player_in": {
+        "id": "274166",
+        "name": "Ali Yousif"
+      },
+      "player_out": {
+        "id": "330579",
+        "name": "Ali Al-Hamadi"
+      }
+    },
+    {
+      "id": "49620968",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "294228",
+        "name": "Pathé Ciss"
+      },
+      "player_in": {
+        "id": "294228",
+        "name": "Pathé Ciss"
+      },
+      "player_out": {
+        "id": "251614",
+        "name": "Abdoulaye Seck"
+      }
+    },
+    {
+      "id": "49620988",
+      "type": "goal",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "255889",
+        "name": "Pape Gueye"
+      }
+    },
+    {
+      "id": "49621186",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "274173",
+        "name": "Kevin Yakob"
+      },
+      "player_in": {
+        "id": "274173",
+        "name": "Kevin Yakob"
+      },
+      "player_out": {
+        "id": "325549",
+        "name": "Zidane Iqbal"
+      }
+    },
+    {
+      "id": "49621191",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49621190",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49621231",
+      "type": "end delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49621229",
+      "type": "end delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": null
+    },
+    {
+      "id": "49621270",
+      "type": "goal",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "255889",
+        "name": "Pape Gueye"
+      }
+    },
+    {
+      "id": "49621439",
+      "type": "yellow_card",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "311149",
+        "name": "Amir Al-Ammari"
+      }
+    },
+    {
+      "id": "49621618",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "364742",
+        "name": "Assane Diao"
+      },
+      "player_in": {
+        "id": "364742",
+        "name": "Assane Diao"
+      },
+      "player_out": {
+        "id": "241012",
+        "name": "Ismaïla Sarr"
+      }
+    },
+    {
+      "id": "49621644",
+      "type": "yellow_card",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "255889",
+        "name": "Pape Gueye"
+      }
+    },
+    {
+      "id": "49621680",
+      "type": "goal",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": {
+        "id": "268641",
+        "name": "Iliman Ndiaye"
+      }
+    },
+    {
+      "id": "49621861",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49621868",
+      "type": "end delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "654",
+        "name": "Senegal"
+      },
+      "player": null
+    },
+    {
+      "id": "49621971",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4375",
+        "name": "Iraq"
+      },
+      "player": {
+        "id": "345320",
+        "name": "Merchas Doski"
+      }
+    },
+    {
+      "id": "49622081",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

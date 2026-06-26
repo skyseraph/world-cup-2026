@@ -709,14 +709,14 @@
               "abbreviation": "SEN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
             },
-            "played": 2,
-            "won": 0,
+            "played": 3,
+            "won": 1,
             "drawn": 0,
             "lost": 2,
-            "goals_for": 3,
+            "goals_for": 8,
             "goals_against": 6,
-            "goal_difference": -3,
-            "points": 0,
+            "goal_difference": 2,
+            "points": 3,
             "form": ""
           },
           {
@@ -728,13 +728,13 @@
               "abbreviation": "IRQ",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
             "drawn": 0,
-            "lost": 2,
+            "lost": 3,
             "goals_for": 1,
-            "goals_against": 7,
-            "goal_difference": -6,
+            "goals_against": 12,
+            "goal_difference": -11,
             "points": 0,
             "form": ""
           }
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-26T21:03:31.904608+00:00"
+  "updated_at": "2026-06-26T22:42:06.703112+00:00"
 }
