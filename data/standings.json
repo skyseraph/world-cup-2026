@@ -671,13 +671,13 @@
               "abbreviation": "NOR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 2,
             "drawn": 0,
-            "lost": 0,
-            "goals_for": 7,
-            "goals_against": 3,
-            "goal_difference": 4,
+            "lost": 1,
+            "goals_for": 8,
+            "goals_against": 7,
+            "goal_difference": 1,
             "points": 6,
             "form": ""
           },
@@ -690,14 +690,14 @@
               "abbreviation": "FRA",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
             },
-            "played": 2,
-            "won": 2,
+            "played": 3,
+            "won": 3,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 6,
-            "goals_against": 1,
-            "goal_difference": 5,
-            "points": 6,
+            "goals_for": 10,
+            "goals_against": 2,
+            "goal_difference": 8,
+            "points": 9,
             "form": ""
           },
           {
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-26T19:18:48.024520+00:00"
+  "updated_at": "2026-06-26T21:03:31.904608+00:00"
 }

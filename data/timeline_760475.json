@@ -1,0 +1,583 @@
+{
+  "event_id": "760475",
+  "timeline": [
+    {
+      "id": "49619057",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49619108",
+      "type": "start delay",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49619110",
+      "type": "start delay",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49619111",
+      "type": "end delay",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49619114",
+      "type": "end delay",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49619249",
+      "type": "goal",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49619331",
+      "type": "yellow_card",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "205924",
+        "name": "Patrick Berg"
+      }
+    },
+    {
+      "id": "49619578",
+      "type": "goal",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49619592",
+      "type": "goal",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "307477",
+        "name": "Thelo Aasgaard"
+      }
+    },
+    {
+      "id": "49619675",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49619674",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49619683",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49619684",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49619882",
+      "type": "goal",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49620423",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49620508",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "202686",
+        "name": "Morten Thorsby"
+      },
+      "player_in": {
+        "id": "202686",
+        "name": "Morten Thorsby"
+      },
+      "player_out": {
+        "id": "284212",
+        "name": "Kristian Thorstvedt"
+      }
+    },
+    {
+      "id": "49620509",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "129285",
+        "name": "Marcus Holmgren Pedersen"
+      },
+      "player_in": {
+        "id": "129285",
+        "name": "Marcus Holmgren Pedersen"
+      },
+      "player_out": {
+        "id": "238088",
+        "name": "Fredrik André Bjørkan"
+      }
+    },
+    {
+      "id": "49620512",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49620579",
+      "type": "penalty_missed",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "252747",
+        "name": "Jørgen Strand Larsen"
+      }
+    },
+    {
+      "id": "49620809",
+      "type": "start delay",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49620810",
+      "type": "start delay",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49620833",
+      "type": "end delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49620844",
+      "type": "end delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49621058",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      },
+      "player_in": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      },
+      "player_out": {
+        "id": "286831",
+        "name": "Michael Olise"
+      }
+    },
+    {
+      "id": "49621063",
+      "type": "substitution",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      },
+      "player_in": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      },
+      "player_out": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49621076",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "366455",
+        "name": "Sondre Langas"
+      },
+      "player_in": {
+        "id": "366455",
+        "name": "Sondre Langas"
+      },
+      "player_out": {
+        "id": "303281",
+        "name": "Henrik Falchener"
+      }
+    },
+    {
+      "id": "49621180",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49621127",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49621184",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49621183",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49621246",
+      "type": "yellow_card",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "265919",
+        "name": "Aurélien Tchouaméni"
+      }
+    },
+    {
+      "id": "49621280",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "251634",
+        "name": "Ibrahima Konaté"
+      },
+      "player_in": {
+        "id": "251634",
+        "name": "Ibrahima Konaté"
+      },
+      "player_out": {
+        "id": "222793",
+        "name": "Dayot Upamecano"
+      }
+    },
+    {
+      "id": "49621587",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "235789",
+        "name": "Jens Petter Hauge"
+      },
+      "player_in": {
+        "id": "235789",
+        "name": "Jens Petter Hauge"
+      },
+      "player_out": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      }
+    },
+    {
+      "id": "49621591",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "319368",
+        "name": "Antonio Nusa"
+      },
+      "player_in": {
+        "id": "319368",
+        "name": "Antonio Nusa"
+      },
+      "player_out": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      }
+    },
+    {
+      "id": "49621687",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "308947",
+        "name": "Malo Gusto"
+      },
+      "player_in": {
+        "id": "308947",
+        "name": "Malo Gusto"
+      },
+      "player_out": {
+        "id": "231692",
+        "name": "Jules Koundé"
+      }
+    },
+    {
+      "id": "49621688",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "241187",
+        "name": "Jean-Philippe Mateta"
+      },
+      "player_in": {
+        "id": "241187",
+        "name": "Jean-Philippe Mateta"
+      },
+      "player_out": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49621964",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "336388",
+        "name": "Désiré Doué"
+      }
+    },
+    {
+      "id": "49622002",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
