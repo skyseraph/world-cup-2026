@@ -261,14 +261,14 @@
               "abbreviation": "PAR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 1,
             "goals_for": 2,
             "goals_against": 4,
             "goal_difference": -2,
-            "points": 3,
+            "points": 4,
             "form": ""
           },
           {
@@ -280,14 +280,14 @@
               "abbreviation": "TUR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
             },
-            "played": 2,
-            "won": 0,
+            "played": 3,
+            "won": 1,
             "drawn": 0,
             "lost": 2,
-            "goals_for": 0,
-            "goals_against": 3,
-            "goal_difference": -3,
-            "points": 0,
+            "goals_for": 3,
+            "goals_against": 5,
+            "goal_difference": -2,
+            "points": 3,
             "form": ""
           },
           {
@@ -299,14 +299,14 @@
               "abbreviation": "AUS",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 1,
             "goals_for": 2,
             "goals_against": 2,
             "goal_difference": 0,
-            "points": 3,
+            "points": 4,
             "form": ""
           },
           {
@@ -318,13 +318,13 @@
               "abbreviation": "USA",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 2,
             "drawn": 0,
-            "lost": 0,
-            "goals_for": 6,
-            "goals_against": 1,
-            "goal_difference": 5,
+            "lost": 1,
+            "goals_for": 8,
+            "goals_against": 4,
+            "goal_difference": 4,
             "points": 6,
             "form": ""
           }
@@ -425,14 +425,14 @@
               "abbreviation": "NED",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
             },
-            "played": 2,
-            "won": 1,
+            "played": 3,
+            "won": 2,
             "drawn": 1,
             "lost": 0,
-            "goals_for": 7,
-            "goals_against": 3,
-            "goal_difference": 4,
-            "points": 4,
+            "goals_for": 10,
+            "goals_against": 4,
+            "goal_difference": 6,
+            "points": 7,
             "form": ""
           },
           {
@@ -444,14 +444,14 @@
               "abbreviation": "SWE",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 1,
-            "goals_for": 6,
-            "goals_against": 6,
+            "goals_for": 7,
+            "goals_against": 7,
             "goal_difference": 0,
-            "points": 3,
+            "points": 4,
             "form": ""
           },
           {
@@ -463,14 +463,14 @@
               "abbreviation": "JPN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "drawn": 1,
+            "drawn": 2,
             "lost": 0,
-            "goals_for": 6,
-            "goals_against": 2,
+            "goals_for": 7,
+            "goals_against": 3,
             "goal_difference": 4,
-            "points": 4,
+            "points": 5,
             "form": ""
           },
           {
@@ -482,13 +482,13 @@
               "abbreviation": "TUN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
             "drawn": 0,
-            "lost": 2,
-            "goals_for": 1,
-            "goals_against": 9,
-            "goal_difference": -8,
+            "lost": 3,
+            "goals_for": 2,
+            "goals_against": 12,
+            "goal_difference": -10,
             "points": 0,
             "form": ""
           }
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-26T00:04:18.068509+00:00"
+  "updated_at": "2026-06-26T04:49:16.999211+00:00"
 }

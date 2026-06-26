@@ -1,0 +1,601 @@
+{
+  "event_id": "760470",
+  "timeline": [
+    {
+      "id": "49614368",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49614444",
+      "type": "goal",
+      "minute": 3,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "228619",
+        "name": "Auston Trusty"
+      }
+    },
+    {
+      "id": "49614701",
+      "type": "goal",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "310452",
+        "name": "Arda Güler"
+      }
+    },
+    {
+      "id": "49615000",
+      "type": "yellow_card",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      }
+    },
+    {
+      "id": "49615012",
+      "type": "start delay",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49615009",
+      "type": "start delay",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49615020",
+      "type": "end delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49615021",
+      "type": "end delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49615116",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49615134",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49615136",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49615135",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49615262",
+      "type": "goal",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "322538",
+        "name": "Baris Alper Yilmaz"
+      }
+    },
+    {
+      "id": "49615947",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49615968",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49616083",
+      "type": "goal",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      }
+    },
+    {
+      "id": "49616389",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "225607",
+        "name": "Christian Pulisic"
+      },
+      "player_in": {
+        "id": "225607",
+        "name": "Christian Pulisic"
+      },
+      "player_out": {
+        "id": "266027",
+        "name": "Timothy Weah"
+      }
+    },
+    {
+      "id": "49616608",
+      "type": "start delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49616625",
+      "type": "start delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49616641",
+      "type": "end delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49616642",
+      "type": "end delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49616701",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49616703",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49616730",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49616731",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49616920",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "266291",
+        "name": "Sergiño Dest"
+      },
+      "player_in": {
+        "id": "266291",
+        "name": "Sergiño Dest"
+      },
+      "player_out": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      }
+    },
+    {
+      "id": "49616922",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "212824",
+        "name": "Alejandro Zendejas"
+      },
+      "player_in": {
+        "id": "212824",
+        "name": "Alejandro Zendejas"
+      },
+      "player_out": {
+        "id": "259653",
+        "name": "Brenden Aaronson"
+      }
+    },
+    {
+      "id": "49616928",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "248276",
+        "name": "Alex Freeman"
+      },
+      "player_in": {
+        "id": "248276",
+        "name": "Alex Freeman"
+      },
+      "player_out": {
+        "id": "272135",
+        "name": "Joe Scally"
+      }
+    },
+    {
+      "id": "49617183",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "230757",
+        "name": "Çaglar Söyüncü"
+      },
+      "player_in": {
+        "id": "230757",
+        "name": "Çaglar Söyüncü"
+      },
+      "player_out": {
+        "id": "271873",
+        "name": "Zeki Çelik"
+      }
+    },
+    {
+      "id": "49617184",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "355369",
+        "name": "Can Uzun"
+      },
+      "player_in": {
+        "id": "355369",
+        "name": "Can Uzun"
+      },
+      "player_out": {
+        "id": "366509",
+        "name": "Kenan Yildiz"
+      }
+    },
+    {
+      "id": "49617259",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "301416",
+        "name": "Malik Tillman"
+      },
+      "player_in": {
+        "id": "301416",
+        "name": "Malik Tillman"
+      },
+      "player_out": {
+        "id": "256715",
+        "name": "Weston McKennie"
+      }
+    },
+    {
+      "id": "49617309",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "159146",
+        "name": "Kaan Ayhan"
+      },
+      "player_in": {
+        "id": "159146",
+        "name": "Kaan Ayhan"
+      },
+      "player_out": {
+        "id": "272700",
+        "name": "Orkun Kökçü"
+      }
+    },
+    {
+      "id": "49617371",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49617370",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49617390",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "266002",
+        "name": "Mert Müldür"
+      },
+      "player_in": {
+        "id": "266002",
+        "name": "Mert Müldür"
+      },
+      "player_out": {
+        "id": "322813",
+        "name": "Oguz Aydin"
+      }
+    },
+    {
+      "id": "49617392",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "211923",
+        "name": "Irfan Can Kahveci"
+      },
+      "player_in": {
+        "id": "211923",
+        "name": "Irfan Can Kahveci"
+      },
+      "player_out": {
+        "id": "322538",
+        "name": "Baris Alper Yilmaz"
+      }
+    },
+    {
+      "id": "49617394",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49617396",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": null
+    },
+    {
+      "id": "49617570",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "465",
+        "name": "Türkiye"
+      },
+      "player": {
+        "id": "159146",
+        "name": "Kaan Ayhan"
+      }
+    },
+    {
+      "id": "49617573",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

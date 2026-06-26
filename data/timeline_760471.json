@@ -1,0 +1,538 @@
+{
+  "event_id": "760471",
+  "timeline": [
+    {
+      "id": "49610067",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49610773",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49610774",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49610798",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49610796",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49610952",
+      "type": "yellow_card",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "312862",
+        "name": "Isak Hien"
+      }
+    },
+    {
+      "id": "49611089",
+      "type": "start delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49611087",
+      "type": "start delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49611127",
+      "type": "end delay",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49611125",
+      "type": "end delay",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49611170",
+      "type": "substitution",
+      "minute": 37,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "356379",
+        "name": "Lucas Bergvall"
+      },
+      "player_in": {
+        "id": "356379",
+        "name": "Lucas Bergvall"
+      },
+      "player_out": {
+        "id": "312862",
+        "name": "Isak Hien"
+      }
+    },
+    {
+      "id": "49611231",
+      "type": "substitution",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "202728",
+        "name": "Shogo Taniguchi"
+      },
+      "player_in": {
+        "id": "202728",
+        "name": "Shogo Taniguchi"
+      },
+      "player_out": {
+        "id": "238033",
+        "name": "Kou Itakura"
+      }
+    },
+    {
+      "id": "49611751",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49611982",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49612506",
+      "type": "goal",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "286347",
+        "name": "Daizen Maeda"
+      }
+    },
+    {
+      "id": "49612729",
+      "type": "goal",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "296622",
+        "name": "Anthony Elanga"
+      }
+    },
+    {
+      "id": "49612844",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "238016",
+        "name": "Koki Ogawa"
+      },
+      "player_in": {
+        "id": "238016",
+        "name": "Koki Ogawa"
+      },
+      "player_out": {
+        "id": "274277",
+        "name": "Ayase Ueda"
+      }
+    },
+    {
+      "id": "49612854",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "219350",
+        "name": "Junya Ito"
+      },
+      "player_in": {
+        "id": "219350",
+        "name": "Junya Ito"
+      },
+      "player_out": {
+        "id": "219627",
+        "name": "Ritsu Doan"
+      }
+    },
+    {
+      "id": "49612882",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49612883",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49612894",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49612895",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49613021",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "310709",
+        "name": "Daniel Svensson"
+      },
+      "player_in": {
+        "id": "310709",
+        "name": "Daniel Svensson"
+      },
+      "player_out": {
+        "id": "301370",
+        "name": "Alexander Bernhardsson"
+      }
+    },
+    {
+      "id": "49613022",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "186004",
+        "name": "Ken Sema"
+      },
+      "player_in": {
+        "id": "186004",
+        "name": "Ken Sema"
+      },
+      "player_out": {
+        "id": "357145",
+        "name": "Elliot Stroud"
+      }
+    },
+    {
+      "id": "49613023",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "119082",
+        "name": "Yuto Nagatomo"
+      },
+      "player_in": {
+        "id": "119082",
+        "name": "Yuto Nagatomo"
+      },
+      "player_out": {
+        "id": "265953",
+        "name": "Keito Nakamura"
+      }
+    },
+    {
+      "id": "49613024",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "276279",
+        "name": "Tsuyoshi Watanabe"
+      },
+      "player_in": {
+        "id": "276279",
+        "name": "Tsuyoshi Watanabe"
+      },
+      "player_out": {
+        "id": "258270",
+        "name": "Ayumu Seko"
+      }
+    },
+    {
+      "id": "49613055",
+      "type": "yellow_card",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "202728",
+        "name": "Shogo Taniguchi"
+      }
+    },
+    {
+      "id": "49613364",
+      "type": "yellow_card",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "258906",
+        "name": "Viktor Gyökeres"
+      }
+    },
+    {
+      "id": "49613407",
+      "type": "start delay",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49613406",
+      "type": "start delay",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49613490",
+      "type": "end delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49613435",
+      "type": "end delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49613436",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "195790",
+        "name": "Carl Starfelt"
+      },
+      "player_in": {
+        "id": "195790",
+        "name": "Carl Starfelt"
+      },
+      "player_out": {
+        "id": "204679",
+        "name": "Victor Lindelöf"
+      }
+    },
+    {
+      "id": "49613487",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "274522",
+        "name": "Benjamin Nygren"
+      },
+      "player_in": {
+        "id": "274522",
+        "name": "Benjamin Nygren"
+      },
+      "player_out": {
+        "id": "250166",
+        "name": "Gabriel Gudmundsson"
+      }
+    },
+    {
+      "id": "49613917",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "event_id": "760469",
+  "timeline": [
+    {
+      "id": "49614365",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49615133",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49615132",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49615137",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49615141",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49615200",
+      "type": "start delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49615196",
+      "type": "start delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49615219",
+      "type": "end delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49615220",
+      "type": "end delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49615951",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49615960",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "289046",
+        "name": "Maurício"
+      },
+      "player_in": {
+        "id": "289046",
+        "name": "Maurício"
+      },
+      "player_out": {
+        "id": "399687",
+        "name": "Alexandro Maidana"
+      }
+    },
+    {
+      "id": "49615984",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49616018",
+      "type": "yellow_card",
+      "minute": 46,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "178071",
+        "name": "Jackson Irvine"
+      }
+    },
+    {
+      "id": "49616393",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "227289",
+        "name": "Ajdin Hrustic"
+      },
+      "player_in": {
+        "id": "227289",
+        "name": "Ajdin Hrustic"
+      },
+      "player_out": {
+        "id": "330259",
+        "name": "Cristian Volpato"
+      }
+    },
+    {
+      "id": "49616704",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "257754",
+        "name": "Alex Arce"
+      },
+      "player_in": {
+        "id": "257754",
+        "name": "Alex Arce"
+      },
+      "player_out": {
+        "id": "208421",
+        "name": "Gabriel Ávalos"
+      }
+    },
+    {
+      "id": "49616728",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49616727",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49616749",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49616729",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49616943",
+      "type": "yellow_card",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "192278",
+        "name": "Diego Gómez"
+      }
+    },
+    {
+      "id": "49617182",
+      "type": "start delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49617173",
+      "type": "start delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49617188",
+      "type": "end delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49617180",
+      "type": "end delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": null
+    },
+    {
+      "id": "49617192",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "227682",
+        "name": "José Canale"
+      },
+      "player_in": {
+        "id": "227682",
+        "name": "José Canale"
+      },
+      "player_out": {
+        "id": "215401",
+        "name": "Omar Alderete"
+      }
+    },
+    {
+      "id": "49617194",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "403528",
+        "name": "Paul Okon-Engstler"
+      },
+      "player_in": {
+        "id": "403528",
+        "name": "Paul Okon-Engstler"
+      },
+      "player_out": {
+        "id": "178071",
+        "name": "Jackson Irvine"
+      }
+    },
+    {
+      "id": "49617197",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "628",
+        "name": "Australia"
+      },
+      "player": {
+        "id": "312261",
+        "name": "Tete Yengi"
+      },
+      "player_in": {
+        "id": "312261",
+        "name": "Tete Yengi"
+      },
+      "player_out": {
+        "id": "328535",
+        "name": "Nestory Irankunda"
+      }
+    },
+    {
+      "id": "49617393",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "301516",
+        "name": "Damián Bobadilla"
+      },
+      "player_in": {
+        "id": "301516",
+        "name": "Damián Bobadilla"
+      },
+      "player_out": {
+        "id": "192278",
+        "name": "Diego Gómez"
+      }
+    },
+    {
+      "id": "49617395",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "181657",
+        "name": "Júnior Alonso"
+      },
+      "player_in": {
+        "id": "181657",
+        "name": "Júnior Alonso"
+      },
+      "player_out": {
+        "id": "297328",
+        "name": "Matías Galarza"
+      }
+    },
+    {
+      "id": "49617527",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
