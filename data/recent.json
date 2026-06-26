@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T17:29:49.845051+00:00",
+  "updated_at": "2026-06-26T19:18:47.719797+00:00",
   "events": [
     {
       "id": "760456",
@@ -1023,7 +1023,7 @@
     },
     {
       "id": "760475",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-06-26T19:00Z",
       "matchday": null,
       "round": "",
@@ -1062,42 +1062,42 @@
             "abbreviation": "FRA"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 1
         }
       ],
       "scores": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "FRA -240",
+        "details": "FRA -290",
         "spread": "",
         "over_under": 3.5,
         "favorite": null,
         "moneyline": {
-          "home": "+600",
-          "away": "-240",
-          "draw": "+425"
+          "home": "+700",
+          "away": "-290",
+          "draw": "+475"
         },
         "spread_line": {
           "home": {
             "line": "+1.5",
-            "odds": "-130"
+            "odds": "-125"
           },
           "away": {
             "line": "-1.5",
-            "odds": "+105"
+            "odds": "+100"
           }
         },
         "total": {
           "over": {
             "line": "o3.5",
-            "odds": "+125"
+            "odds": "+120"
           },
           "under": {
             "line": "u3.5",
-            "odds": "-155"
+            "odds": "-150"
           }
         },
         "open": {
@@ -1117,7 +1117,7 @@
     },
     {
       "id": "760474",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-06-26T19:00Z",
       "matchday": null,
       "round": "",
@@ -1146,7 +1146,7 @@
             "abbreviation": "SEN"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -1160,38 +1160,38 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "SEN -450",
+        "details": "SEN -475",
         "spread": "",
         "over_under": 3.5,
         "favorite": null,
         "moneyline": {
-          "home": "-450",
+          "home": "-475",
           "away": "+1100",
           "draw": "+600"
         },
         "spread_line": {
           "home": {
-            "line": "-1.5",
-            "odds": "-165"
+            "line": "-2.5",
+            "odds": "+135"
           },
           "away": {
-            "line": "+1.5",
-            "odds": "+130"
+            "line": "+2.5",
+            "odds": "-170"
           }
         },
         "total": {
           "over": {
             "line": "o3.5",
-            "odds": "+130"
+            "odds": "+120"
           },
           "under": {
             "line": "u3.5",
-            "odds": "-160"
+            "odds": "-145"
           }
         },
         "open": {
@@ -1281,11 +1281,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+115"
+            "odds": "+120"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-140"
+            "odds": "-150"
           }
         },
         "open": {
@@ -1358,9 +1358,9 @@
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+475",
+          "home": "+500",
           "away": "-145",
-          "draw": "+260"
+          "draw": "+250"
         },
         "spread_line": {
           "home": {
@@ -1375,11 +1375,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+120"
+            "odds": "+145"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-150"
+            "odds": "-180"
           }
         },
         "open": {
@@ -1453,8 +1453,8 @@
         "favorite": null,
         "moneyline": {
           "home": "+150",
-          "away": "+290",
-          "draw": "+160"
+          "away": "+295",
+          "draw": "+155"
         },
         "spread_line": {
           "home": {
@@ -1469,7 +1469,7 @@
         "total": {
           "over": {
             "line": "o1.5",
-            "odds": "-165"
+            "odds": "-160"
           },
           "under": {
             "line": "u1.5",
@@ -1729,23 +1729,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ENG -600",
+        "details": "ENG -650",
         "spread": "",
         "over_under": 3.5,
         "favorite": null,
         "moneyline": {
           "home": "+1500",
-          "away": "-600",
+          "away": "-650",
           "draw": "+750"
         },
         "spread_line": {
           "home": {
             "line": "+2.5",
-            "odds": "-150"
+            "odds": "-145"
           },
           "away": {
             "line": "-2.5",
-            "odds": "+120"
+            "odds": "+115"
           }
         },
         "total": {
@@ -1755,7 +1755,7 @@
           },
           "under": {
             "line": "u3.5",
-            "odds": "-140"
+            "odds": "-135"
           }
         },
         "open": {
@@ -1929,7 +1929,7 @@
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-135"
+            "odds": "-130"
           },
           "away": {
             "line": "+0.5",
@@ -2107,7 +2107,7 @@
         "provider": "DraftKings",
         "details": "ARG -550",
         "spread": "",
-        "over_under": 3.5,
+        "over_under": 2.5,
         "favorite": null,
         "moneyline": {
           "home": "+1400",
@@ -2126,12 +2126,12 @@
         },
         "total": {
           "over": {
-            "line": "o3.5",
-            "odds": "+145"
+            "line": "o2.5",
+            "odds": "-180"
           },
           "under": {
-            "line": "u3.5",
-            "odds": "-180"
+            "line": "u2.5",
+            "odds": "+145"
           }
         },
         "open": {
