@@ -2058,27 +2058,31 @@ window.globeFocusMatch = function(matchId, hAbbr, aAbbr){
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────
 async function main(){
-  await loadData();
-  prog(90,'渲染界面...');
-  applyI18n();
-  renderGlobeIntro();
-  renderMatches();
-  renderStandings();
-  renderPredictions();
-  renderLive();
-  renderBracket();
-  initNav();
-  initMatchFilter();
-  initScorerTabs();
-  initCompare();
-  initChat();
-  startCountdown();
-  prog(100,'完成!');
-  initGlobe();
+  try {
+    await loadData();
+    prog(90,'渲染界面...');
+    applyI18n();
+    renderGlobeIntro();
+    renderMatches();
+    renderStandings();
+    renderPredictions();
+    renderLive();
+    renderBracket();
+    initNav();
+    initMatchFilter();
+    initScorerTabs();
+    initCompare();
+    initChat();
+    startCountdown();
+    prog(100,'完成!');
+    initGlobe();
+  } catch(e) {
+    console.error('main() error:', e);
+    prog(100, '加载完成');
+  }
   setTimeout(()=>{
     const l=document.getElementById('loading');
-    l.classList.add('hidden');
-    setTimeout(()=>l.remove(),600);
+    if(l){ l.classList.add('hidden'); setTimeout(()=>l.remove(),600); }
   },300);
 }
 main();
