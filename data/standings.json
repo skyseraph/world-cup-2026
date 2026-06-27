@@ -499,7 +499,7 @@
         "type": "TOTAL",
         "entries": [
           {
-            "position": 3,
+            "position": 1,
             "team": {
               "id": "459",
               "name": "Belgium",
@@ -507,18 +507,18 @@
               "abbreviation": "BEL",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
             },
-            "played": 2,
-            "won": 0,
+            "played": 3,
+            "won": 1,
             "drawn": 2,
             "lost": 0,
-            "goals_for": 1,
-            "goals_against": 1,
-            "goal_difference": 0,
-            "points": 2,
+            "goals_for": 6,
+            "goals_against": 2,
+            "goal_difference": 4,
+            "points": 5,
             "form": ""
           },
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "469",
               "name": "Iran",
@@ -526,18 +526,18 @@
               "abbreviation": "IRN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
-            "drawn": 2,
+            "drawn": 3,
             "lost": 0,
-            "goals_for": 2,
-            "goals_against": 2,
+            "goals_for": 3,
+            "goals_against": 3,
             "goal_difference": 0,
-            "points": 2,
+            "points": 3,
             "form": ""
           },
           {
-            "position": 1,
+            "position": 2,
             "team": {
               "id": "2620",
               "name": "Egypt",
@@ -545,14 +545,14 @@
               "abbreviation": "EGY",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "drawn": 1,
+            "drawn": 2,
             "lost": 0,
-            "goals_for": 4,
-            "goals_against": 2,
+            "goals_for": 5,
+            "goals_against": 3,
             "goal_difference": 2,
-            "points": 4,
+            "points": 5,
             "form": ""
           },
           {
@@ -564,13 +564,13 @@
               "abbreviation": "NZL",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
             "drawn": 1,
-            "lost": 1,
-            "goals_for": 3,
-            "goals_against": 5,
-            "goal_difference": -2,
+            "lost": 2,
+            "goals_for": 4,
+            "goals_against": 10,
+            "goal_difference": -6,
             "points": 1,
             "form": ""
           }
@@ -589,18 +589,18 @@
               "abbreviation": "ESP",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
             },
-            "played": 2,
-            "won": 1,
+            "played": 3,
+            "won": 2,
             "drawn": 1,
             "lost": 0,
-            "goals_for": 4,
+            "goals_for": 5,
             "goals_against": 0,
-            "goal_difference": 4,
-            "points": 4,
+            "goal_difference": 5,
+            "points": 7,
             "form": ""
           },
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "212",
               "name": "Uruguay",
@@ -608,13 +608,13 @@
               "abbreviation": "URU",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
             "drawn": 2,
-            "lost": 0,
+            "lost": 1,
             "goals_for": 3,
-            "goals_against": 3,
-            "goal_difference": 0,
+            "goals_against": 4,
+            "goal_difference": -1,
             "points": 2,
             "form": ""
           },
@@ -627,18 +627,18 @@
               "abbreviation": "KSA",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
-            "drawn": 1,
+            "drawn": 2,
             "lost": 1,
             "goals_for": 1,
             "goals_against": 5,
             "goal_difference": -4,
-            "points": 1,
+            "points": 2,
             "form": ""
           },
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": "2597",
               "name": "Cape Verde",
@@ -646,14 +646,14 @@
               "abbreviation": "CPV",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
-            "drawn": 2,
+            "drawn": 3,
             "lost": 0,
             "goals_for": 2,
             "goals_against": 2,
             "goal_difference": 0,
-            "points": 2,
+            "points": 3,
             "form": ""
           }
         ]
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-27T01:58:06.966044+00:00"
+  "updated_at": "2026-06-27T05:48:04.399306+00:00"
 }

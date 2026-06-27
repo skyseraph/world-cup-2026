@@ -1,0 +1,559 @@
+{
+  "event_id": "760477",
+  "timeline": [
+    {
+      "id": "49626565",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49626947",
+      "type": "start delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49626950",
+      "type": "start delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49626966",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49626968",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49627193",
+      "type": "start delay",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49627220",
+      "type": "end delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49627240",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49627239",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49627243",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49627245",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49627289",
+      "type": "goal",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "174980",
+        "name": "Leandro Trossard"
+      }
+    },
+    {
+      "id": "49628111",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49628120",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "297802",
+        "name": "Ben Old"
+      },
+      "player_in": {
+        "id": "297802",
+        "name": "Ben Old"
+      },
+      "player_out": {
+        "id": "156146",
+        "name": "Ryan Thomas"
+      }
+    },
+    {
+      "id": "49628121",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "297794",
+        "name": "Jesse Randall"
+      },
+      "player_in": {
+        "id": "297794",
+        "name": "Jesse Randall"
+      },
+      "player_out": {
+        "id": "228283",
+        "name": "Sarpreet Singh"
+      }
+    },
+    {
+      "id": "49628123",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49628139",
+      "type": "yellow_card",
+      "minute": 46,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "297798",
+        "name": "Marko Stamenic"
+      }
+    },
+    {
+      "id": "49628266",
+      "type": "goal",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "174980",
+        "name": "Leandro Trossard"
+      }
+    },
+    {
+      "id": "49628438",
+      "type": "yellow_card",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "266555",
+        "name": "Elijah Just"
+      }
+    },
+    {
+      "id": "49628446",
+      "type": "substitution",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "359651",
+        "name": "Matias Fernandez-Pardo"
+      },
+      "player_in": {
+        "id": "359651",
+        "name": "Matias Fernandez-Pardo"
+      },
+      "player_out": {
+        "id": "283672",
+        "name": "Jérémy Doku"
+      }
+    },
+    {
+      "id": "49628688",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "101934",
+        "name": "Michael Boxall"
+      },
+      "player_in": {
+        "id": "101934",
+        "name": "Michael Boxall"
+      },
+      "player_out": {
+        "id": "159470",
+        "name": "Tim Payne"
+      }
+    },
+    {
+      "id": "49628689",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "228279",
+        "name": "Callum McCowatt"
+      },
+      "player_in": {
+        "id": "228279",
+        "name": "Callum McCowatt"
+      },
+      "player_out": {
+        "id": "228294",
+        "name": "Joe Bell"
+      }
+    },
+    {
+      "id": "49628749",
+      "type": "goal",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "134947",
+        "name": "Kevin De Bruyne"
+      }
+    },
+    {
+      "id": "49628811",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49628810",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49628847",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49628848",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": null
+    },
+    {
+      "id": "49628850",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "271132",
+        "name": "Alexis Saelemaekers"
+      },
+      "player_in": {
+        "id": "271132",
+        "name": "Alexis Saelemaekers"
+      },
+      "player_out": {
+        "id": "174980",
+        "name": "Leandro Trossard"
+      }
+    },
+    {
+      "id": "49628851",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "304799",
+        "name": "Amadou Onana"
+      },
+      "player_in": {
+        "id": "304799",
+        "name": "Amadou Onana"
+      },
+      "player_out": {
+        "id": "134947",
+        "name": "Kevin De Bruyne"
+      }
+    },
+    {
+      "id": "49629066",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "254441",
+        "name": "Francis de Vries"
+      },
+      "player_in": {
+        "id": "254441",
+        "name": "Francis de Vries"
+      },
+      "player_out": {
+        "id": "266554",
+        "name": "Liberato Cacace"
+      }
+    },
+    {
+      "id": "49629246",
+      "type": "goal",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2666",
+        "name": "New Zealand"
+      },
+      "player": {
+        "id": "266555",
+        "name": "Elijah Just"
+      }
+    },
+    {
+      "id": "49629267",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "139437",
+        "name": "Romelu Lukaku"
+      },
+      "player_in": {
+        "id": "139437",
+        "name": "Romelu Lukaku"
+      },
+      "player_out": {
+        "id": "296319",
+        "name": "Charles De Ketelaere"
+      }
+    },
+    {
+      "id": "49629272",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "260027",
+        "name": "Nicolas Raskin"
+      },
+      "player_in": {
+        "id": "260027",
+        "name": "Nicolas Raskin"
+      },
+      "player_out": {
+        "id": "193297",
+        "name": "Youri Tielemans"
+      }
+    },
+    {
+      "id": "49629301",
+      "type": "goal",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "139437",
+        "name": "Romelu Lukaku"
+      }
+    },
+    {
+      "id": "49629569",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "271132",
+        "name": "Alexis Saelemaekers"
+      }
+    },
+    {
+      "id": "49629578",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

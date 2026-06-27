@@ -1,0 +1,578 @@
+{
+  "event_id": "760479",
+  "timeline": [
+    {
+      "id": "49623457",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49624221",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49624222",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49624257",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49624258",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49624619",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49624620",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49624638",
+      "type": "end delay",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49624641",
+      "type": "end delay",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49624682",
+      "type": "goal",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "297373",
+        "name": "Álex Baena"
+      }
+    },
+    {
+      "id": "49624702",
+      "type": "start delay",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49624710",
+      "type": "start delay",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49624746",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49624747",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49624751",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "251889",
+        "name": "Nicolás de la Cruz"
+      },
+      "player_in": {
+        "id": "251889",
+        "name": "Nicolás de la Cruz"
+      },
+      "player_out": {
+        "id": "241468",
+        "name": "Manuel Ugarte"
+      }
+    },
+    {
+      "id": "49625021",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49625023",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "184206",
+        "name": "Sergio Rochet"
+      },
+      "player_in": {
+        "id": "184206",
+        "name": "Sergio Rochet"
+      },
+      "player_out": {
+        "id": "108622",
+        "name": "Fernando Muslera"
+      }
+    },
+    {
+      "id": "49625039",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49625064",
+      "type": "yellow_card",
+      "minute": 46,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "297373",
+        "name": "Álex Baena"
+      }
+    },
+    {
+      "id": "49625307",
+      "type": "yellow_card",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "287497",
+        "name": "Juan Manuel Sanabria"
+      }
+    },
+    {
+      "id": "49625386",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "295847",
+        "name": "Federico Viñas"
+      },
+      "player_in": {
+        "id": "295847",
+        "name": "Federico Viñas"
+      },
+      "player_out": {
+        "id": "235818",
+        "name": "Federico Valverde"
+      }
+    },
+    {
+      "id": "49625440",
+      "type": "yellow_card",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "188368",
+        "name": "Guillermo Varela"
+      }
+    },
+    {
+      "id": "49625501",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "214596",
+        "name": "Fabián Ruiz"
+      },
+      "player_in": {
+        "id": "214596",
+        "name": "Fabián Ruiz"
+      },
+      "player_out": {
+        "id": "250465",
+        "name": "Pedri "
+      }
+    },
+    {
+      "id": "49625505",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "227765",
+        "name": "Dani Olmo"
+      },
+      "player_in": {
+        "id": "227765",
+        "name": "Dani Olmo"
+      },
+      "player_out": {
+        "id": "209581",
+        "name": "Mikel Merino"
+      }
+    },
+    {
+      "id": "49625702",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "297370",
+        "name": "Yéremy Pino"
+      },
+      "player_in": {
+        "id": "297370",
+        "name": "Yéremy Pino"
+      },
+      "player_out": {
+        "id": "297373",
+        "name": "Álex Baena"
+      }
+    },
+    {
+      "id": "49625743",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49625747",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49625763",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49625765",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49625766",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "144325",
+        "name": "Brian Rodríguez"
+      },
+      "player_in": {
+        "id": "144325",
+        "name": "Brian Rodríguez"
+      },
+      "player_out": {
+        "id": "287497",
+        "name": "Juan Manuel Sanabria"
+      }
+    },
+    {
+      "id": "49625942",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "312146",
+        "name": "Nico Williams"
+      },
+      "player_in": {
+        "id": "312146",
+        "name": "Nico Williams"
+      },
+      "player_out": {
+        "id": "362150",
+        "name": "Lamine Yamal"
+      }
+    },
+    {
+      "id": "49625946",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "265869",
+        "name": "Ferran Torres"
+      },
+      "player_in": {
+        "id": "265869",
+        "name": "Ferran Torres"
+      },
+      "player_out": {
+        "id": "229018",
+        "name": "Mikel Oyarzabal"
+      }
+    },
+    {
+      "id": "49626308",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49626310",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49626336",
+      "type": "end delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49626335",
+      "type": "end delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49626465",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "251889",
+        "name": "Nicolás de la Cruz"
+      }
+    },
+    {
+      "id": "49626510",
+      "type": "red_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "212",
+        "name": "Uruguay"
+      },
+      "player": {
+        "id": "241466",
+        "name": "Agustín Canobbio"
+      }
+    },
+    {
+      "id": "49626537",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

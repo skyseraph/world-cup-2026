@@ -1,0 +1,571 @@
+{
+  "event_id": "760478",
+  "timeline": [
+    {
+      "id": "49623466",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49623589",
+      "type": "yellow_card",
+      "minute": 4,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "286011",
+        "name": "Saud Abdulhamid"
+      }
+    },
+    {
+      "id": "49623722",
+      "type": "yellow_card",
+      "minute": 8,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "365810",
+        "name": "Wagner Pina"
+      }
+    },
+    {
+      "id": "49623860",
+      "type": "start delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49623861",
+      "type": "start delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49623863",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49623862",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49624256",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49624255",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49624288",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49624290",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49624376",
+      "type": "start delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49624375",
+      "type": "start delay",
+      "minute": 30,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49624425",
+      "type": "end delay",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49624426",
+      "type": "end delay",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49624428",
+      "type": "substitution",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "296972",
+        "name": "Ali Lajami"
+      },
+      "player_in": {
+        "id": "296972",
+        "name": "Ali Lajami"
+      },
+      "player_out": {
+        "id": "256666",
+        "name": "Hassan Al-Tambakti"
+      }
+    },
+    {
+      "id": "49624793",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49624799",
+      "type": "end delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49624983",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49625022",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "315523",
+        "name": "Musab Al-Juwayr"
+      },
+      "player_in": {
+        "id": "315523",
+        "name": "Musab Al-Juwayr"
+      },
+      "player_out": {
+        "id": "271461",
+        "name": "Abdullah Al-Khaibari"
+      }
+    },
+    {
+      "id": "49625028",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49625516",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "224798",
+        "name": "Nuno da Costa"
+      },
+      "player_in": {
+        "id": "224798",
+        "name": "Nuno da Costa"
+      },
+      "player_out": {
+        "id": "330211",
+        "name": "Dailon Livramento"
+      }
+    },
+    {
+      "id": "49625517",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "366092",
+        "name": "Hélio Varela"
+      },
+      "player_in": {
+        "id": "366092",
+        "name": "Hélio Varela"
+      },
+      "player_out": {
+        "id": "271675",
+        "name": "Willy Semedo"
+      }
+    },
+    {
+      "id": "49625673",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "361692",
+        "name": "Mohammed Abu Al-Shamat"
+      },
+      "player_in": {
+        "id": "361692",
+        "name": "Mohammed Abu Al-Shamat"
+      },
+      "player_out": {
+        "id": "163850",
+        "name": "Salem Al-Dawsari"
+      }
+    },
+    {
+      "id": "49625674",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "294239",
+        "name": "Abdullah Al-Hamdan"
+      },
+      "player_in": {
+        "id": "294239",
+        "name": "Abdullah Al-Hamdan"
+      },
+      "player_out": {
+        "id": "287054",
+        "name": "Sultan Mandash"
+      }
+    },
+    {
+      "id": "49625707",
+      "type": "yellow_card",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "270417",
+        "name": "Nasser Al-Dawsari"
+      }
+    },
+    {
+      "id": "49625759",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49625760",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49625777",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "222236",
+        "name": "Laros Duarte"
+      },
+      "player_in": {
+        "id": "222236",
+        "name": "Laros Duarte"
+      },
+      "player_out": {
+        "id": "227441",
+        "name": "Jamiro Monteiro"
+      }
+    },
+    {
+      "id": "49625782",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "175012",
+        "name": "Garry Rodrigues"
+      },
+      "player_in": {
+        "id": "175012",
+        "name": "Garry Rodrigues"
+      },
+      "player_out": {
+        "id": "135216",
+        "name": "Ryan Mendes"
+      }
+    },
+    {
+      "id": "49625787",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49625788",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": null
+    },
+    {
+      "id": "49626115",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "330543",
+        "name": "Moteb Al-Harbi"
+      },
+      "player_in": {
+        "id": "330543",
+        "name": "Moteb Al-Harbi"
+      },
+      "player_out": {
+        "id": "331918",
+        "name": "Nawaf Boushal"
+      }
+    },
+    {
+      "id": "49626315",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49626317",
+      "type": "end delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": null
+    },
+    {
+      "id": "49626462",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "655",
+        "name": "Saudi Arabia"
+      },
+      "player": {
+        "id": "283331",
+        "name": "Feras Al-Brikan"
+      }
+    },
+    {
+      "id": "49626468",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2597",
+        "name": "Cape Verde"
+      },
+      "player": {
+        "id": "180113",
+        "name": "Steven Moreira"
+      },
+      "player_in": {
+        "id": "180113",
+        "name": "Steven Moreira"
+      },
+      "player_out": {
+        "id": "365810",
+        "name": "Wagner Pina"
+      }
+    },
+    {
+      "id": "49626522",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

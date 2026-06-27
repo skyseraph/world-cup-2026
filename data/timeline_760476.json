@@ -1,0 +1,639 @@
+{
+  "event_id": "760476",
+  "timeline": [
+    {
+      "id": "49626544",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49626724",
+      "type": "goal",
+      "minute": 5,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "314444",
+        "name": "Mahmoud Saber"
+      }
+    },
+    {
+      "id": "49626888",
+      "type": "penalty_missed",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "219611",
+        "name": "Mehdi Taremi"
+      }
+    },
+    {
+      "id": "49626915",
+      "type": "start delay",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49626905",
+      "type": "start delay",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49626949",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49626948",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49626965",
+      "type": "goal",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "218086",
+        "name": "Ramin Rezaeian"
+      }
+    },
+    {
+      "id": "49627016",
+      "type": "substitution",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "265417",
+        "name": "Yasser Ibrahim"
+      },
+      "player_in": {
+        "id": "265417",
+        "name": "Yasser Ibrahim"
+      },
+      "player_out": {
+        "id": "236957",
+        "name": "Mohamed Abdelmoneim"
+      }
+    },
+    {
+      "id": "49627119",
+      "type": "yellow_card",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "243943",
+        "name": "Hossein Kanani"
+      }
+    },
+    {
+      "id": "49627155",
+      "type": "yellow_card",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "314444",
+        "name": "Mahmoud Saber"
+      }
+    },
+    {
+      "id": "49627598",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49627234",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49627602",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49627244",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49627764",
+      "type": "yellow_card",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "265417",
+        "name": "Yasser Ibrahim"
+      }
+    },
+    {
+      "id": "49627810",
+      "type": "yellow_card",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "302404",
+        "name": "Ali Nemati"
+      }
+    },
+    {
+      "id": "49628100",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49628130",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "317748",
+        "name": "Saleh Hardani"
+      },
+      "player_in": {
+        "id": "317748",
+        "name": "Saleh Hardani"
+      },
+      "player_out": {
+        "id": "243943",
+        "name": "Hossein Kanani"
+      }
+    },
+    {
+      "id": "49628138",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "357112",
+        "name": "Marawan Attia"
+      },
+      "player_in": {
+        "id": "357112",
+        "name": "Marawan Attia"
+      },
+      "player_out": {
+        "id": "314444",
+        "name": "Mahmoud Saber"
+      }
+    },
+    {
+      "id": "49628140",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "303745",
+        "name": "Omar Marmoush"
+      },
+      "player_in": {
+        "id": "303745",
+        "name": "Omar Marmoush"
+      },
+      "player_out": {
+        "id": "299365",
+        "name": "Emam Ashour"
+      }
+    },
+    {
+      "id": "49628160",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49628474",
+      "type": "start delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49628484",
+      "type": "start delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49628489",
+      "type": "end delay",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49628492",
+      "type": "end delay",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49628524",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "195154",
+        "name": "Zizo"
+      },
+      "player_in": {
+        "id": "195154",
+        "name": "Zizo"
+      },
+      "player_out": {
+        "id": "173896",
+        "name": "Mohamed Salah"
+      }
+    },
+    {
+      "id": "49628795",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "308077",
+        "name": "Shahriyar Moghanloo"
+      },
+      "player_in": {
+        "id": "308077",
+        "name": "Shahriyar Moghanloo"
+      },
+      "player_out": {
+        "id": "235519",
+        "name": "Saman Ghoddos"
+      }
+    },
+    {
+      "id": "49628845",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49628846",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49628870",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49628869",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49629047",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "399200",
+        "name": "Hamza Abdelkarim"
+      },
+      "player_in": {
+        "id": "399200",
+        "name": "Hamza Abdelkarim"
+      },
+      "player_out": {
+        "id": "378495",
+        "name": "Mostafa Zico"
+      }
+    },
+    {
+      "id": "49629167",
+      "type": "yellow_card",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "194863",
+        "name": "Saeid Ezatolahi"
+      }
+    },
+    {
+      "id": "49629235",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49629233",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49629247",
+      "type": "end delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49629248",
+      "type": "end delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49629513",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "188055",
+        "name": "Alireza Jahanbakhsh"
+      },
+      "player_in": {
+        "id": "188055",
+        "name": "Alireza Jahanbakhsh"
+      },
+      "player_out": {
+        "id": "296999",
+        "name": "Mohammad Mohebbi"
+      }
+    },
+    {
+      "id": "49629552",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "328932",
+        "name": "Mohanad Lashin"
+      }
+    },
+    {
+      "id": "49629582",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": {
+        "id": "180674",
+        "name": "Shoja Khalilzadeh"
+      }
+    },
+    {
+      "id": "49629583",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49629585",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "469",
+        "name": "Iran"
+      },
+      "player": null
+    },
+    {
+      "id": "49629651",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
