@@ -265,17 +265,28 @@ function initGlobe() {
   scene.add(new THREE.Mesh(new THREE.SphereGeometry(1.03,48,48),
     new THREE.MeshPhongMaterial({color:0x0088ff,transparent:true,opacity:0.07})));
 
-  // Load earth texture — try multiple CDNs
+  // Load earth texture — fetch with timeout so a blocked CDN doesn't stall the connection pool
   const tl = new THREE.TextureLoader();
   const earthTexUrls = [
     'https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-blue-marble.jpg',
     'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
     'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Land_ocean_ice_2048.jpg/2048px-Land_ocean_ice_2048.jpg',
   ];
-  function tryLoadTex(urls, idx=0){
+  async function tryLoadTex(urls, idx=0){
     if(idx>=urls.length) return;
-    tl.load(urls[idx], tex=>{earthMat.map=tex;earthMat.color.set(0xffffff);earthMat.needsUpdate=true;},
-      undefined, ()=>tryLoadTex(urls, idx+1));
+    try {
+      const ctrl = new AbortController();
+      const timer = setTimeout(()=>ctrl.abort(), 5000);
+      const res = await fetch(urls[idx], {signal: ctrl.signal});
+      clearTimeout(timer);
+      if(!res.ok) throw new Error('status '+res.status);
+      const blob = await res.blob();
+      const objUrl = URL.createObjectURL(blob);
+      tl.load(objUrl, tex=>{
+        earthMat.map=tex; earthMat.color.set(0xffffff); earthMat.needsUpdate=true;
+        URL.revokeObjectURL(objUrl);
+      });
+    } catch(e) { tryLoadTex(urls, idx+1); }
   }
   tryLoadTex(earthTexUrls);
 
