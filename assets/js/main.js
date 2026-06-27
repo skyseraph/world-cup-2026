@@ -743,7 +743,10 @@ window.openMatchModal = async function(eventId){
 async function fetchTimeline(eventId){
   // Try pre-fetched file in data/
   try{
-    const r=await fetch(`data/timeline_${eventId}.json`);
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 5000); // 5s timeout
+    const r=await fetch(`data/timeline_${eventId}.json`, {signal: ctrl.signal});
+    clearTimeout(t);
     if(r.ok){const d=await r.json();return d.timeline||[];}
   }catch(e){}
   return [];
@@ -1501,6 +1504,7 @@ function bracketCardHTML(m) {
 
 // ── Scorer Board ────────────────────────────────────────────────────────────
 let currentScorerTab = 'goals';
+let _scorersLoading = false;
 
 async function renderScorers() {
   const listEl = document.getElementById('scorers-list');
@@ -1508,16 +1512,18 @@ async function renderScorers() {
   if (titleEl) titleEl.textContent = lang==='zh' ? '📊 数据榜单' : '📊 Statistics';
   if (!listEl) return;
 
+  // Prevent concurrent calls
+  if (_scorersLoading) return;
+  _scorersLoading = true;
+
   listEl.innerHTML = `<div style="text-align:center;padding:20px;color:var(--muted);font-size:11px">${lang==='zh'?'加载中...':'Loading...'}</div>`;
 
-  // Load all available timelines
-  const loadedIds = Object.keys(S.matchTimelines);
+  // Load all timelines in parallel (not sequentially)
   const closedMatches = S.recentMatches.filter(m=>m.status==='closed'||m.status==='complete');
-  for (const m of closedMatches) {
-    if (!S.matchTimelines[m.id]) {
-      S.matchTimelines[m.id] = await fetchTimeline(m.id);
-    }
-  }
+  const missing = closedMatches.filter(m => !S.matchTimelines[m.id]);
+  await Promise.allSettled(missing.map(async m => {
+    S.matchTimelines[m.id] = await fetchTimeline(m.id);
+  }));
 
   // Aggregate
   const goalMap = {}, yellowMap = {};
@@ -1547,6 +1553,7 @@ async function renderScorers() {
 
   updateScorerTabUI();
   renderScorerList(currentScorerTab === 'goals' ? goalMap : yellowMap, currentScorerTab);
+  _scorersLoading = false;
 }
 
 function updateScorerTabUI() {
@@ -1898,9 +1905,10 @@ async function renderGlobeHotspot(){
     return d===todayStr&&(m.status==='closed'||m.status==='complete');
   });
 
-  for(const m of todayDone){
-    if(!S.matchTimelines[m.id]) S.matchTimelines[m.id]=await fetchTimeline(m.id);
-  }
+  await Promise.allSettled(todayDone.filter(m=>!S.matchTimelines[m.id]).map(async m=>{
+    S.matchTimelines[m.id]=await fetchTimeline(m.id);
+  }));
+
 
   const HOT_TYPES={'score_change':'⚽','red_card':'🟥','yellow_red_card':'🟨🟥'};
   const events=[];
