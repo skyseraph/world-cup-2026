@@ -884,7 +884,6 @@ async function ghRest(path, opts={}) {
     return res.json();
   } finally { clearTimeout(t); }
 }
-}
 
 async function fetchGhUser() {
   const u = await ghRest('/user');
