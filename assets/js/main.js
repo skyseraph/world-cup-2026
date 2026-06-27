@@ -393,7 +393,10 @@ function initGlobe() {
   });
 
   // Smoothly rotate globe so target point faces the camera
+  let _rotateRafId = null, _autoRotateTimer = null;
   function rotateTo(targetVec, duration=1200){
+    if (_rotateRafId) { cancelAnimationFrame(_rotateRafId); _rotateRafId = null; }
+    if (_autoRotateTimer) { clearTimeout(_autoRotateTimer); _autoRotateTimer = null; }
     controls.autoRotate=false;
     const startQ=camera.quaternion.clone();
     // We want camera to look from the direction of targetVec
@@ -412,8 +415,8 @@ function initGlobe() {
       const ease=t<0.5?2*t*t:(4-2*t)*t-1; // ease in-out quad
       camera.position.lerpVectors(startPos,endPos,ease);
       camera.lookAt(0,0,0);
-      if(t<1) requestAnimationFrame(step);
-      else setTimeout(()=>{controls.autoRotate=true;},4000);
+      if(t<1) { _rotateRafId = requestAnimationFrame(step); }
+      else { _rotateRafId = null; _autoRotateTimer = setTimeout(()=>{controls.autoRotate=true; _autoRotateTimer=null;},4000); }
     }
     step();
   }
@@ -484,7 +487,7 @@ function initGlobe() {
   let tick=0;
   (function animate(){
     requestAnimationFrame(animate);
-    if(document.hidden) return;
+    if(document.hidden || !globeVisible) return;
     tick+=0.025;
     markers.forEach(({ring},i)=>{
       const s=1+0.2*Math.sin(tick+i*0.6);
@@ -702,6 +705,7 @@ function matchCardHTML(m){
 }
 
 // ── Match detail modal ─────────────────────────────────────────────────────
+const _timelineFetching = new Set();
 window.openMatchModal = async function(eventId){
   const m=S.recentMatches.find(e=>e.id===eventId);
   if(!m) return;
@@ -733,8 +737,10 @@ window.openMatchModal = async function(eventId){
   renderVotePanel(m);
 
   // Fetch timeline if not cached
-  if(!S.matchTimelines[eventId]&&isDone){
+  if(!S.matchTimelines[eventId] && isDone && !_timelineFetching.has(eventId)){
+    _timelineFetching.add(eventId);
     S.matchTimelines[eventId] = await fetchTimeline(eventId);
+    _timelineFetching.delete(eventId);
   }
 
   renderTimeline(eventId, hCmp?.team, aCmp?.team);
@@ -853,20 +859,31 @@ let ghUser = JSON.parse(localStorage.getItem('wc2026_gh_user') || 'null');
 let _devicePollTimer = null;
 
 async function ghFetch(query, variables={}) {
-  const res = await fetch('https://api.github.com/graphql', {
-    method: 'POST',
-    headers: { Authorization: `bearer ${ghToken}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ query, variables }),
-  });
-  return res.json();
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), 10000);
+  try {
+    const res = await fetch('https://api.github.com/graphql', {
+      method: 'POST',
+      headers: { Authorization: `bearer ${ghToken}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query, variables }),
+      signal: ctrl.signal,
+    });
+    return res.json();
+  } finally { clearTimeout(t); }
 }
 
 async function ghRest(path, opts={}) {
-  const res = await fetch(`https://api.github.com${path}`, {
-    ...opts,
-    headers: { Authorization: `token ${ghToken}`, 'Content-Type': 'application/json', ...(opts.headers||{}) },
-  });
-  return res.json();
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), 10000);
+  try {
+    const res = await fetch(`https://api.github.com${path}`, {
+      ...opts,
+      headers: { Authorization: `token ${ghToken}`, 'Content-Type': 'application/json', ...(opts.headers||{}) },
+      signal: ctrl.signal,
+    });
+    return res.json();
+  } finally { clearTimeout(t); }
+}
 }
 
 async function fetchGhUser() {
@@ -975,26 +992,34 @@ async function startDeviceFlow(onUpdate) {
   if (!d.device_code) { onUpdate({state:'error'}); return; }
   onUpdate({state:'code', userCode:d.user_code, verificationUri:d.verification_uri});
 
-  if (_devicePollTimer) clearInterval(_devicePollTimer);
-  _devicePollTimer = setInterval(async () => {
-    const poll = await fetch('https://github.com/login/oauth/access_token', {
-      method:'POST',
-      headers:{'Content-Type':'application/x-www-form-urlencoded','Accept':'application/json'},
-      body:`client_id=${GH_CLIENT_ID}&device_code=${d.device_code}&grant_type=urn:ietf:params:oauth:grant-type:device_code`,
-    });
-    const pd = await poll.json();
-    if (pd.access_token) {
-      clearInterval(_devicePollTimer);
-      ghToken = pd.access_token;
-      localStorage.setItem('wc2026_gh_token', ghToken);
-      await fetchGhUser();
-      onUpdate({state:'done', user:ghUser});
-    } else if (pd.error === 'expired_token' || pd.error === 'access_denied') {
-      clearInterval(_devicePollTimer);
-      onUpdate({state:'error'});
-    }
-    // else: authorization_pending or slow_down → keep polling
-  }, (d.interval || 5) * 1000);
+  if (_devicePollTimer) clearTimeout(_devicePollTimer);
+  let _pollInterval = (d.interval || 5) * 1000;
+  async function doPoll() {
+    try {
+      const poll = await fetch('https://github.com/login/oauth/access_token', {
+        method:'POST',
+        headers:{'Content-Type':'application/x-www-form-urlencoded','Accept':'application/json'},
+        body:`client_id=${GH_CLIENT_ID}&device_code=${d.device_code}&grant_type=urn:ietf:params:oauth:grant-type:device_code`,
+      });
+      const pd = await poll.json();
+      if (pd.access_token) {
+        _devicePollTimer = null;
+        ghToken = pd.access_token;
+        localStorage.setItem('wc2026_gh_token', ghToken);
+        await fetchGhUser();
+        onUpdate({state:'done', user:ghUser});
+        return;
+      } else if (pd.error === 'expired_token' || pd.error === 'access_denied') {
+        _devicePollTimer = null;
+        onUpdate({state:'error'});
+        return;
+      } else if (pd.error === 'slow_down') {
+        _pollInterval += 5000;
+      }
+    } catch(e) { /* network error — keep polling */ }
+    _devicePollTimer = setTimeout(doPoll, _pollInterval);
+  }
+  _devicePollTimer = setTimeout(doPoll, _pollInterval);
 }
 
 // Render vote panel inside match modal
@@ -1505,6 +1530,7 @@ function bracketCardHTML(m) {
 // ── Scorer Board ────────────────────────────────────────────────────────────
 let currentScorerTab = 'goals';
 let _scorersLoading = false;
+let _scorerGoalMap = null, _scorerYellowMap = null; // cached aggregates
 
 async function renderScorers() {
   const listEl = document.getElementById('scorers-list');
@@ -1512,7 +1538,14 @@ async function renderScorers() {
   if (titleEl) titleEl.textContent = lang==='zh' ? '📊 数据榜单' : '📊 Statistics';
   if (!listEl) return;
 
-  // Prevent concurrent calls
+  // If cached data exists, just re-render (e.g. on language switch or tab click)
+  if (_scorerGoalMap && _scorerYellowMap) {
+    updateScorerTabUI();
+    renderScorerList(currentScorerTab === 'goals' ? _scorerGoalMap : _scorerYellowMap, currentScorerTab);
+    return;
+  }
+
+  // Prevent concurrent loads
   if (_scorersLoading) return;
   _scorersLoading = true;
 
@@ -1551,6 +1584,8 @@ async function renderScorers() {
     });
   });
 
+  _scorerGoalMap = goalMap;
+  _scorerYellowMap = yellowMap;
   updateScorerTabUI();
   renderScorerList(currentScorerTab === 'goals' ? goalMap : yellowMap, currentScorerTab);
   _scorersLoading = false;
@@ -1592,7 +1627,13 @@ function initScorerTabs() {
   document.querySelectorAll('.scorer-tab').forEach(btn => {
     btn.addEventListener('click', () => {
       currentScorerTab = btn.dataset.stab;
-      renderScorers();
+      // If data already loaded, just switch the list without re-fetching
+      if (_scorerGoalMap && _scorerYellowMap) {
+        updateScorerTabUI();
+        renderScorerList(currentScorerTab === 'goals' ? _scorerGoalMap : _scorerYellowMap, currentScorerTab);
+      } else {
+        renderScorers();
+      }
     });
   });
 }
@@ -1788,7 +1829,9 @@ function formatAIResponse(text){
 }
 
 // ── Nav ────────────────────────────────────────────────────────────────────
+let globeVisible = true; // checked by the RAF loop in initGlobe
 function activateView(view){
+  globeVisible = view === 'globe';
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.view===view));
   document.querySelectorAll('.panel-section').forEach(s=>s.classList.toggle('active',s.id==='view-'+view));
 }
@@ -1815,6 +1858,8 @@ function initNav(){
 // Language toggle
 document.getElementById('lang-btn').addEventListener('click',()=>{
   lang=lang==='zh'?'en':'zh';
+  _hotspotLoading = false; // allow hotspot to re-render in new language
+  _scorerGoalMap = null; _scorerYellowMap = null; // scorer labels need re-render
   applyI18n();
   renderGlobeIntro();
   renderMatches();
@@ -1895,9 +1940,11 @@ function renderGlobeIntro(){
   renderGlobeHotspot();
 }
 
+let _hotspotLoading = false;
 async function renderGlobeHotspot(){
   const el=document.getElementById('globe-hotspot');
-  if(!el) return;
+  if(!el || _hotspotLoading) return;
+  _hotspotLoading = true;
 
   const todayStr=new Date().toLocaleDateString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).replace(/\//g,'-');
   const todayDone=S.recentMatches.filter(m=>{
@@ -1921,6 +1968,7 @@ async function renderGlobeHotspot(){
 
   if(!events.length){
     el.innerHTML=`<div style="font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--accent2);margin-bottom:6px">🔥 ${lang==='zh'?'今日热点':'Today\'s Highlights'}</div><div style="font-size:11px;color:var(--muted);padding:4px 0">${lang==='zh'?'暂无热点事件':'No highlights yet'}</div>`;
+    _hotspotLoading = false;
     return;
   }
 
@@ -1940,6 +1988,7 @@ async function renderGlobeHotspot(){
         <span style="color:var(--muted);font-size:10px;flex-shrink:0">${e.minute??'?'}'</span>
       </div>`;
     }).join('')}`;
+  _hotspotLoading = false;
 }
 
 // ── Team coords ────────────────────────────────────────────────────────────
