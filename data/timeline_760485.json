@@ -1,0 +1,586 @@
+{
+  "event_id": "760485",
+  "timeline": [
+    {
+      "id": "49638956",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49639747",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49639748",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49639798",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49639795",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49640499",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49640519",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "267996",
+        "name": "José Fajardo"
+      },
+      "player_in": {
+        "id": "267996",
+        "name": "José Fajardo"
+      },
+      "player_out": {
+        "id": "288563",
+        "name": "Tomás Rodríguez"
+      }
+    },
+    {
+      "id": "49640528",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49640606",
+      "type": "start delay",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49640608",
+      "type": "start delay",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49640617",
+      "type": "end delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49640619",
+      "type": "end delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49640752",
+      "type": "yellow_card",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "267996",
+        "name": "José Fajardo"
+      }
+    },
+    {
+      "id": "49640789",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49640791",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49640790",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49640792",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49640992",
+      "type": "yellow_card",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "298524",
+        "name": "Jarell Quansah"
+      }
+    },
+    {
+      "id": "49640980",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49641015",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49641024",
+      "type": "end delay",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49641023",
+      "type": "end delay",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49641027",
+      "type": "goal",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49641058",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "267711",
+        "name": "Djed Spence"
+      },
+      "player_in": {
+        "id": "267711",
+        "name": "Djed Spence"
+      },
+      "player_out": {
+        "id": "298524",
+        "name": "Jarell Quansah"
+      }
+    },
+    {
+      "id": "49641065",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "293236",
+        "name": "Noni Madueke"
+      },
+      "player_in": {
+        "id": "293236",
+        "name": "Noni Madueke"
+      },
+      "player_out": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      }
+    },
+    {
+      "id": "49641198",
+      "type": "goal",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "142200",
+        "name": "Harry Kane"
+      }
+    },
+    {
+      "id": "49641232",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49641231",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49641297",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "195326",
+        "name": "Ismael Díaz"
+      },
+      "player_in": {
+        "id": "195326",
+        "name": "Ismael Díaz"
+      },
+      "player_out": {
+        "id": "201919",
+        "name": "Édgar Yoel Bárcenas"
+      }
+    },
+    {
+      "id": "49641300",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "251400",
+        "name": "Eberechi Eze"
+      },
+      "player_in": {
+        "id": "251400",
+        "name": "Eberechi Eze"
+      },
+      "player_out": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49641299",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "340539",
+        "name": "Azarias Londoño"
+      },
+      "player_in": {
+        "id": "340539",
+        "name": "Azarias Londoño"
+      },
+      "player_out": {
+        "id": "238763",
+        "name": "José Luis Rodríguez"
+      }
+    },
+    {
+      "id": "49641303",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49641302",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": null
+    },
+    {
+      "id": "49641600",
+      "type": "yellow_card",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "189775",
+        "name": "Andrés Andrade"
+      }
+    },
+    {
+      "id": "49641614",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "127262",
+        "name": "Jordan Henderson"
+      },
+      "player_in": {
+        "id": "127262",
+        "name": "Jordan Henderson"
+      },
+      "player_out": {
+        "id": "238472",
+        "name": "Elliot Anderson"
+      }
+    },
+    {
+      "id": "49641616",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "198825",
+        "name": "Ollie Watkins"
+      },
+      "player_in": {
+        "id": "198825",
+        "name": "Ollie Watkins"
+      },
+      "player_out": {
+        "id": "142200",
+        "name": "Harry Kane"
+      }
+    },
+    {
+      "id": "49641721",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "102167",
+        "name": "Alberto Quintero"
+      },
+      "player_in": {
+        "id": "102167",
+        "name": "Alberto Quintero"
+      },
+      "player_out": {
+        "id": "285452",
+        "name": "Carlos Harvey"
+      }
+    },
+    {
+      "id": "49641725",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2659",
+        "name": "Panama"
+      },
+      "player": {
+        "id": "138183",
+        "name": "Éric Davis"
+      },
+      "player_in": {
+        "id": "138183",
+        "name": "Éric Davis"
+      },
+      "player_out": {
+        "id": "271294",
+        "name": "Jorge Gutiérrez"
+      }
+    },
+    {
+      "id": "49641970",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

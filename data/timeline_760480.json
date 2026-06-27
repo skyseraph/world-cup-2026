@@ -1,0 +1,491 @@
+{
+  "event_id": "760480",
+  "timeline": [
+    {
+      "id": "49638971",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49639803",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49639802",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49639849",
+      "type": "end delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49639850",
+      "type": "end delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49639959",
+      "type": "goal",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "341494",
+        "name": "Petar Sucic"
+      }
+    },
+    {
+      "id": "49640516",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49640554",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "357205",
+        "name": "Kojo Peprah Oppong"
+      },
+      "player_in": {
+        "id": "357205",
+        "name": "Kojo Peprah Oppong"
+      },
+      "player_out": {
+        "id": "341627",
+        "name": "Jonas Adjetey"
+      }
+    },
+    {
+      "id": "49640556",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      },
+      "player_in": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      },
+      "player_out": {
+        "id": "266057",
+        "name": "Elisha Owusu"
+      }
+    },
+    {
+      "id": "49640584",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49641230",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "310883",
+        "name": "Igor Matanovic"
+      },
+      "player_in": {
+        "id": "310883",
+        "name": "Igor Matanovic"
+      },
+      "player_out": {
+        "id": "207288",
+        "name": "Ante Budimir"
+      }
+    },
+    {
+      "id": "49641294",
+      "type": "yellow_card",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "103485",
+        "name": "Ivan Perisic"
+      }
+    },
+    {
+      "id": "49641296",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49641298",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49641339",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49641347",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49641342",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "240495",
+        "name": "Brandon Thomas-Asante"
+      },
+      "player_in": {
+        "id": "240495",
+        "name": "Brandon Thomas-Asante"
+      },
+      "player_out": {
+        "id": "123518",
+        "name": "Jordan Ayew"
+      }
+    },
+    {
+      "id": "49641344",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "333310",
+        "name": "Ernest Nuamah"
+      },
+      "player_in": {
+        "id": "333310",
+        "name": "Ernest Nuamah"
+      },
+      "player_out": {
+        "id": "303115",
+        "name": "Kamaldeen Sulemana"
+      }
+    },
+    {
+      "id": "49641474",
+      "type": "goal",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "205737",
+        "name": "Derrick Luckassen"
+      }
+    },
+    {
+      "id": "49641453",
+      "type": "start delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49641472",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49641486",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "189668",
+        "name": "Mario Pasalic"
+      },
+      "player_in": {
+        "id": "189668",
+        "name": "Mario Pasalic"
+      },
+      "player_out": {
+        "id": "154595",
+        "name": "Mateo Kovacic"
+      }
+    },
+    {
+      "id": "49641627",
+      "type": "goal",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "206378",
+        "name": "Nikola Vlasic"
+      }
+    },
+    {
+      "id": "49641689",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "387659",
+        "name": "Caleb Yirenkyi"
+      },
+      "player_in": {
+        "id": "387659",
+        "name": "Caleb Yirenkyi"
+      },
+      "player_out": {
+        "id": "274697",
+        "name": "Kwasi Sibo"
+      }
+    },
+    {
+      "id": "49641749",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49641750",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49641775",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "299910",
+        "name": "Josko Gvardiol"
+      },
+      "player_in": {
+        "id": "299910",
+        "name": "Josko Gvardiol"
+      },
+      "player_out": {
+        "id": "206378",
+        "name": "Nikola Vlasic"
+      }
+    },
+    {
+      "id": "49641772",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "324270",
+        "name": "Marco Pasalic"
+      },
+      "player_in": {
+        "id": "324270",
+        "name": "Marco Pasalic"
+      },
+      "player_out": {
+        "id": "311475",
+        "name": "Martin Baturina"
+      }
+    },
+    {
+      "id": "49641778",
+      "type": "end delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49641782",
+      "type": "end delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49641973",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "357205",
+        "name": "Kojo Peprah Oppong"
+      }
+    },
+    {
+      "id": "49642029",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

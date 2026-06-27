@@ -917,18 +917,18 @@
               "abbreviation": "ENG",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
             },
-            "played": 2,
-            "won": 1,
+            "played": 3,
+            "won": 2,
             "drawn": 1,
             "lost": 0,
-            "goals_for": 4,
+            "goals_for": 6,
             "goals_against": 2,
-            "goal_difference": 2,
-            "points": 4,
+            "goal_difference": 4,
+            "points": 7,
             "form": ""
           },
           {
-            "position": 3,
+            "position": 2,
             "team": {
               "id": "477",
               "name": "Croatia",
@@ -936,14 +936,14 @@
               "abbreviation": "CRO",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
             },
-            "played": 2,
-            "won": 1,
+            "played": 3,
+            "won": 2,
             "drawn": 0,
             "lost": 1,
-            "goals_for": 3,
-            "goals_against": 4,
-            "goal_difference": -1,
-            "points": 3,
+            "goals_for": 5,
+            "goals_against": 5,
+            "goal_difference": 0,
+            "points": 6,
             "form": ""
           },
           {
@@ -955,18 +955,18 @@
               "abbreviation": "PAN",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
             "drawn": 0,
-            "lost": 2,
+            "lost": 3,
             "goals_for": 0,
-            "goals_against": 2,
-            "goal_difference": -2,
+            "goals_against": 4,
+            "goal_difference": -4,
             "points": 0,
             "form": ""
           },
           {
-            "position": 2,
+            "position": 3,
             "team": {
               "id": "4469",
               "name": "Ghana",
@@ -974,13 +974,13 @@
               "abbreviation": "GHA",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
             "drawn": 1,
-            "lost": 0,
-            "goals_for": 1,
-            "goals_against": 0,
-            "goal_difference": 1,
+            "lost": 1,
+            "goals_for": 2,
+            "goals_against": 2,
+            "goal_difference": 0,
             "points": 4,
             "form": ""
           }
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-27T22:53:04.891304+00:00"
+  "updated_at": "2026-06-27T23:52:45.161703+00:00"
 }
