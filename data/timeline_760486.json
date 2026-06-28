@@ -1,0 +1,510 @@
+{
+  "event_id": "760486",
+  "timeline": [
+    {
+      "id": "49651201",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49651982",
+      "type": "start delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49652004",
+      "type": "end delay",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49652420",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49652419",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49652555",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49652556",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49653039",
+      "type": "start delay",
+      "minute": 37,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49653043",
+      "type": "end delay",
+      "minute": 37,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49653680",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49653821",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "301321",
+        "name": "Thalente Mbatha"
+      },
+      "player_in": {
+        "id": "301321",
+        "name": "Thalente Mbatha"
+      },
+      "player_out": {
+        "id": "361211",
+        "name": "Relebohile Mofokeng"
+      }
+    },
+    {
+      "id": "49653822",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49654271",
+      "type": "yellow_card",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "311163",
+        "name": "Nathan Saliba"
+      }
+    },
+    {
+      "id": "49654415",
+      "type": "start delay",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49654416",
+      "type": "start delay",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49654487",
+      "type": "end delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49654489",
+      "type": "end delay",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49654490",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "363538",
+        "name": "Niko Sigur"
+      },
+      "player_in": {
+        "id": "363538",
+        "name": "Niko Sigur"
+      },
+      "player_out": {
+        "id": "311163",
+        "name": "Nathan Saliba"
+      }
+    },
+    {
+      "id": "49654491",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "365345",
+        "name": "Luc de Fougerolles"
+      },
+      "player_in": {
+        "id": "365345",
+        "name": "Luc de Fougerolles"
+      },
+      "player_out": {
+        "id": "358975",
+        "name": "Moïse Bombito"
+      }
+    },
+    {
+      "id": "49654585",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49654584",
+      "type": "start delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49654586",
+      "type": "end delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49654588",
+      "type": "end delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49654965",
+      "type": "yellow_card",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "363538",
+        "name": "Niko Sigur"
+      }
+    },
+    {
+      "id": "49654974",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49654975",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49655111",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": null
+    },
+    {
+      "id": "49655099",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49655101",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "318522",
+        "name": "Promise David"
+      },
+      "player_in": {
+        "id": "318522",
+        "name": "Promise David"
+      },
+      "player_out": {
+        "id": "294039",
+        "name": "Tani Oluwaseyi"
+      }
+    },
+    {
+      "id": "49655112",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_in": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_out": {
+        "id": "271879",
+        "name": "Liam Millar"
+      }
+    },
+    {
+      "id": "49655317",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "236721",
+        "name": "Alphonso Davies"
+      },
+      "player_in": {
+        "id": "236721",
+        "name": "Alphonso Davies"
+      },
+      "player_out": {
+        "id": "284769",
+        "name": "Tajon Buchanan"
+      }
+    },
+    {
+      "id": "49655964",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "291141",
+        "name": "Iqraam Rayners"
+      },
+      "player_in": {
+        "id": "291141",
+        "name": "Iqraam Rayners"
+      },
+      "player_out": {
+        "id": "303312",
+        "name": "Evidence Makgopa"
+      }
+    },
+    {
+      "id": "49655965",
+      "type": "substitution",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "467",
+        "name": "South Africa"
+      },
+      "player": {
+        "id": "313399",
+        "name": "Tshepang Moremi"
+      },
+      "player_in": {
+        "id": "313399",
+        "name": "Tshepang Moremi"
+      },
+      "player_out": {
+        "id": "335450",
+        "name": "Thapelo Maseko"
+      }
+    },
+    {
+      "id": "49656325",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "270505",
+        "name": "Stephen Eustáquio"
+      }
+    },
+    {
+      "id": "49656584",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
