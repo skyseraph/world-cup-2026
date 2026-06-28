@@ -1,0 +1,454 @@
+{
+  "event_id": "760481",
+  "timeline": [
+    {
+      "id": "49642067",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49642780",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49642779",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49642812",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49642800",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49642930",
+      "type": "start delay",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49642942",
+      "type": "end delay",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49643466",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49643519",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "238902",
+        "name": "Diogo Dalot"
+      },
+      "player_in": {
+        "id": "238902",
+        "name": "Diogo Dalot"
+      },
+      "player_out": {
+        "id": "176399",
+        "name": "João Cancelo"
+      }
+    },
+    {
+      "id": "49643520",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "355061",
+        "name": "João Neves"
+      },
+      "player_in": {
+        "id": "355061",
+        "name": "João Neves"
+      },
+      "player_out": {
+        "id": "208128",
+        "name": "Rúben Neves"
+      }
+    },
+    {
+      "id": "49643531",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49644038",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      },
+      "player_in": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      },
+      "player_out": {
+        "id": "197399",
+        "name": "Jefferson Lerma"
+      }
+    },
+    {
+      "id": "49644040",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "272722",
+        "name": "Luis Suárez"
+      },
+      "player_in": {
+        "id": "272722",
+        "name": "Luis Suárez"
+      },
+      "player_out": {
+        "id": "176058",
+        "name": "Jhon Córdoba"
+      }
+    },
+    {
+      "id": "49644293",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49644297",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49644294",
+      "type": "end delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49644298",
+      "type": "end delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49644284",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49644286",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49644303",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "258917",
+        "name": "Rafael Leão"
+      },
+      "player_in": {
+        "id": "258917",
+        "name": "Rafael Leão"
+      },
+      "player_out": {
+        "id": "276350",
+        "name": "João Félix"
+      }
+    },
+    {
+      "id": "49644308",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "183466",
+        "name": "Samú Costa"
+      },
+      "player_in": {
+        "id": "183466",
+        "name": "Samú Costa"
+      },
+      "player_out": {
+        "id": "288897",
+        "name": "Vitinha "
+      }
+    },
+    {
+      "id": "49644314",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49644311",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49644460",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "307756",
+        "name": "Kevin Castaño"
+      },
+      "player_in": {
+        "id": "307756",
+        "name": "Kevin Castaño"
+      },
+      "player_out": {
+        "id": "239566",
+        "name": "Jhon Arias"
+      }
+    },
+    {
+      "id": "49644464",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "177780",
+        "name": "Juan Fernando Quintero"
+      },
+      "player_in": {
+        "id": "177780",
+        "name": "Juan Fernando Quintero"
+      },
+      "player_out": {
+        "id": "82816",
+        "name": "James Rodríguez"
+      }
+    },
+    {
+      "id": "49644758",
+      "type": "yellow_card",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "341736",
+        "name": "Gustavo Puerta"
+      }
+    },
+    {
+      "id": "49644781",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "146679",
+        "name": "Daniel Muñoz"
+      },
+      "player_in": {
+        "id": "146679",
+        "name": "Daniel Muñoz"
+      },
+      "player_out": {
+        "id": "164756",
+        "name": "Santiago Arias"
+      }
+    },
+    {
+      "id": "49644944",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "303785",
+        "name": "Matheus Nunes"
+      },
+      "player_in": {
+        "id": "303785",
+        "name": "Matheus Nunes"
+      },
+      "player_out": {
+        "id": "290591",
+        "name": "Nuno Mendes"
+      }
+    },
+    {
+      "id": "49645050",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

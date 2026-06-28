@@ -1,210 +1,6 @@
 {
-  "updated_at": "2026-06-27T23:52:44.930901+00:00",
+  "updated_at": "2026-06-28T02:09:00.070891+00:00",
   "events": [
-    {
-      "id": "760461",
-      "status": "closed",
-      "start_time": "2026-06-23T17:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "6262",
-        "name": "NRG Stadium",
-        "city": "Houston, Texas",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "482",
-            "name": "Portugal",
-            "short_name": "Portugal",
-            "abbreviation": "POR"
-          },
-          "qualifier": "home",
-          "score": 5
-        },
-        {
-          "team": {
-            "id": "2570",
-            "name": "Uzbekistan",
-            "short_name": "Uzbekistan",
-            "abbreviation": "UZB"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 5,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760458",
-      "status": "closed",
-      "start_time": "2026-06-23T20:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "10660",
-        "name": "Gillette Stadium",
-        "city": "Foxborough, Massachusetts",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "448",
-            "name": "England",
-            "short_name": "England",
-            "abbreviation": "ENG"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "4469",
-            "name": "Ghana",
-            "short_name": "Ghana",
-            "abbreviation": "GHA"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760460",
-      "status": "closed",
-      "start_time": "2026-06-23T23:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "10143",
-        "name": "BMO Field",
-        "city": "Toronto",
-        "country": "Canada"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "2659",
-            "name": "Panama",
-            "short_name": "Panama",
-            "abbreviation": "PAN"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "477",
-            "name": "Croatia",
-            "short_name": "Croatia",
-            "abbreviation": "CRO"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760459",
-      "status": "closed",
-      "start_time": "2026-06-24T02:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "5009",
-        "name": "Estadio Akron",
-        "city": "Guadalajara",
-        "country": "Mexico"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "208",
-            "name": "Colombia",
-            "short_name": "Colombia",
-            "abbreviation": "COL"
-          },
-          "qualifier": "home",
-          "score": 1
-        },
-        {
-          "team": {
-            "id": "2850",
-            "name": "Congo DR",
-            "short_name": "Congo DR",
-            "abbreviation": "COD"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 1,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760462",
       "status": "closed",
@@ -1227,7 +1023,7 @@
     },
     {
       "id": "760481",
-      "status": "1st_half",
+      "status": "closed",
       "start_time": "2026-06-27T23:30Z",
       "matchday": null,
       "round": "",
@@ -1273,55 +1069,12 @@
         "home": 0,
         "away": 0
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "POR -125",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "+320",
-          "away": "-125",
-          "draw": "+300"
-        },
-        "spread_line": {
-          "home": {
-            "line": "+0.5",
-            "odds": "+100"
-          },
-          "away": {
-            "line": "-0.5",
-            "odds": "-125"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-140"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "+115"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+250",
-            "away": "+115",
-            "draw": "+235"
-          },
-          "spread": {
-            "home": "+0.5",
-            "away": "-0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
       "id": "760482",
-      "status": "live",
+      "status": "closed",
       "start_time": "2026-06-27T23:30Z",
       "matchday": null,
       "round": "",
@@ -1350,7 +1103,7 @@
             "abbreviation": "COD"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 3
         },
         {
           "team": {
@@ -1364,58 +1117,15 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 3,
         "away": 1
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "COD -145",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-145",
-          "away": "+425",
-          "draw": "+290"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "-155"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "+120"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "+115"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "-145"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+155",
-            "away": "+185",
-            "draw": "+230"
-          },
-          "spread": {
-            "home": "-0.5",
-            "away": "+0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
       "id": "760484",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-06-28T02:00Z",
       "matchday": null,
       "round": "",
@@ -1463,33 +1173,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ALG +265",
+        "details": "ALG +250",
         "spread": "",
         "over_under": 1.5,
         "favorite": null,
         "moneyline": {
-          "home": "+265",
-          "away": "+275",
-          "draw": "+100"
+          "home": "+250",
+          "away": "+270",
+          "draw": "+105"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+240"
+            "odds": "+225"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-320"
+            "odds": "-300"
           }
         },
         "total": {
           "over": {
             "line": "o1.5",
-            "odds": "-135"
+            "odds": "-180"
           },
           "under": {
             "line": "u1.5",
-            "odds": "+110"
+            "odds": "+145"
           }
         },
         "open": {
@@ -1509,7 +1219,7 @@
     },
     {
       "id": "760483",
-      "status": "not_started",
+      "status": "live",
       "start_time": "2026-06-28T02:00Z",
       "matchday": null,
       "round": "",
@@ -1559,31 +1269,31 @@
         "provider": "DraftKings",
         "details": "ARG -700",
         "spread": "",
-        "over_under": 3.5,
+        "over_under": 2.5,
         "favorite": null,
         "moneyline": {
           "home": "+1800",
           "away": "-700",
-          "draw": "+800"
+          "draw": "+750"
         },
         "spread_line": {
           "home": {
             "line": "+2.5",
-            "odds": "-140"
+            "odds": "-150"
           },
           "away": {
             "line": "-2.5",
-            "odds": "+110"
+            "odds": "+115"
           }
         },
         "total": {
           "over": {
-            "line": "o3.5",
-            "odds": "+135"
+            "line": "o2.5",
+            "odds": "-175"
           },
           "under": {
-            "line": "u3.5",
-            "odds": "-170"
+            "line": "u2.5",
+            "odds": "+140"
           }
         },
         "open": {
@@ -1651,19 +1361,19 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "CAN -140",
+        "details": "CAN -145",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
           "home": "+450",
-          "away": "-140",
-          "draw": "+265"
+          "away": "-145",
+          "draw": "+270"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "+115"
+            "odds": "+120"
           },
           "away": {
             "line": "-0.5",
@@ -1673,11 +1383,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+125"
+            "odds": "+115"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-155"
+            "odds": "-140"
           }
         },
         "open": {
@@ -1955,7 +1665,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+120"
+            "odds": "+125"
           },
           "under": {
             "line": "u2.5",
@@ -2143,11 +1853,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-175"
+            "odds": "-180"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+140"
+            "odds": "+145"
           }
         },
         "open": {
@@ -2214,6 +1924,202 @@
         "away": 0
       },
       "odds": null,
+      "referees": []
+    },
+    {
+      "id": "760495",
+      "status": "not_started",
+      "start_time": "2026-07-01T16:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "7485",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta, Georgia",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "448",
+            "name": "England",
+            "short_name": "England",
+            "abbreviation": "ENG"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "2850",
+            "name": "Congo DR",
+            "short_name": "Congo DR",
+            "abbreviation": "COD"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": null,
+      "referees": []
+    },
+    {
+      "id": "760493",
+      "status": "not_started",
+      "start_time": "2026-07-01T20:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "4485",
+        "name": "Lumen Field",
+        "city": "Seattle, Washington",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "459",
+            "name": "Belgium",
+            "short_name": "Belgium",
+            "abbreviation": "BEL"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "654",
+            "name": "Senegal",
+            "short_name": "Senegal",
+            "abbreviation": "SEN"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": null,
+      "referees": []
+    },
+    {
+      "id": "760494",
+      "status": "not_started",
+      "start_time": "2026-07-02T00:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "5960",
+        "name": "Levi's Stadium",
+        "city": "Santa Clara, California",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "660",
+            "name": "United States",
+            "short_name": "USA",
+            "abbreviation": "USA"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "452",
+            "name": "Bosnia-Herzegovina",
+            "short_name": "Bosnia-Herz",
+            "abbreviation": "BIH"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "USA -255",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "-255",
+          "away": "+750",
+          "draw": "+390"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-1.5",
+            "odds": "+110"
+          },
+          "away": {
+            "line": "+1.5",
+            "odds": "-140"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "-130"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "+105"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "-185",
+            "away": "+550",
+            "draw": "+320"
+          },
+          "spread": {
+            "home": "-1.5",
+            "away": "+1.5"
+          },
+          "total": "o2.5"
+        }
+      },
       "referees": []
     }
   ]

@@ -1,0 +1,622 @@
+{
+  "event_id": "760482",
+  "timeline": [
+    {
+      "id": "49642057",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49642361",
+      "type": "goal",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "216937",
+        "name": "Eldor Shomurodov"
+      }
+    },
+    {
+      "id": "49642615",
+      "type": "start delay",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49642629",
+      "type": "end delay",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49642688",
+      "type": "yellow_card",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "340240",
+        "name": "Noah Sadiki"
+      }
+    },
+    {
+      "id": "49642766",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49642767",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49642783",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49642782",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49643068",
+      "type": "start delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49643064",
+      "type": "start delay",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49643084",
+      "type": "end delay",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49643085",
+      "type": "end delay",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49643287",
+      "type": "yellow_card",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "362211",
+        "name": "Abdukodir Khusanov"
+      }
+    },
+    {
+      "id": "49643481",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "291750",
+        "name": "Nathanaël Mbuku"
+      }
+    },
+    {
+      "id": "49643508",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49643564",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49643630",
+      "type": "yellow_card",
+      "minute": 48,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "321728",
+        "name": "Sherzod Nasrullaev"
+      }
+    },
+    {
+      "id": "49643764",
+      "type": "substitution",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "299324",
+        "name": "Fiston Mayele"
+      },
+      "player_in": {
+        "id": "299324",
+        "name": "Fiston Mayele"
+      },
+      "player_out": {
+        "id": "147193",
+        "name": "Cédric Bakambu"
+      }
+    },
+    {
+      "id": "49643898",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49643888",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49643918",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49643921",
+      "type": "end delay",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49644039",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "195266",
+        "name": "Odiljon Xamrobekov"
+      },
+      "player_in": {
+        "id": "195266",
+        "name": "Odiljon Xamrobekov"
+      },
+      "player_out": {
+        "id": "195281",
+        "name": "Otabek Shukurov"
+      }
+    },
+    {
+      "id": "49644041",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "268558",
+        "name": "Azizjon Ganiev"
+      },
+      "player_in": {
+        "id": "268558",
+        "name": "Azizjon Ganiev"
+      },
+      "player_out": {
+        "id": "195274",
+        "name": "Dostonbek Khamdamov"
+      }
+    },
+    {
+      "id": "49644163",
+      "type": "yellow_card",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "260932",
+        "name": "Samuel Moutoussamy"
+      }
+    },
+    {
+      "id": "49644299",
+      "type": "red_card",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "224077",
+        "name": "Yoane Wissa"
+      }
+    },
+    {
+      "id": "49644328",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49644330",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49644392",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49644391",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": null
+    },
+    {
+      "id": "49644404",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "232492",
+        "name": "Meschack Elia"
+      },
+      "player_in": {
+        "id": "232492",
+        "name": "Meschack Elia"
+      },
+      "player_out": {
+        "id": "291750",
+        "name": "Nathanaël Mbuku"
+      }
+    },
+    {
+      "id": "49644394",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "182337",
+        "name": "Théo Bongonda"
+      },
+      "player_in": {
+        "id": "182337",
+        "name": "Théo Bongonda"
+      },
+      "player_out": {
+        "id": "352285",
+        "name": "Brian Cipenga"
+      }
+    },
+    {
+      "id": "49644401",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "345988",
+        "name": "Ngal'ayel Mukau"
+      },
+      "player_in": {
+        "id": "345988",
+        "name": "Ngal'ayel Mukau"
+      },
+      "player_out": {
+        "id": "260932",
+        "name": "Samuel Moutoussamy"
+      }
+    },
+    {
+      "id": "49644407",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "288949",
+        "name": "Oston Urunov"
+      },
+      "player_in": {
+        "id": "288949",
+        "name": "Oston Urunov"
+      },
+      "player_out": {
+        "id": "317793",
+        "name": "Abbosbek Fayzullaev"
+      }
+    },
+    {
+      "id": "49644544",
+      "type": "goal",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "299324",
+        "name": "Fiston Mayele"
+      }
+    },
+    {
+      "id": "49644658",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "185631",
+        "name": "Jamshid Iskanderov"
+      },
+      "player_in": {
+        "id": "185631",
+        "name": "Jamshid Iskanderov"
+      },
+      "player_out": {
+        "id": "270461",
+        "name": "Akmal Mozgovoy"
+      }
+    },
+    {
+      "id": "49644651",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2570",
+        "name": "Uzbekistan"
+      },
+      "player": {
+        "id": "156663",
+        "name": "Igor Sergeev"
+      },
+      "player_in": {
+        "id": "156663",
+        "name": "Igor Sergeev"
+      },
+      "player_out": {
+        "id": "362329",
+        "name": "Jakhongir Urozov"
+      }
+    },
+    {
+      "id": "49644668",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "204329",
+        "name": "Joris Kayembe"
+      },
+      "player_in": {
+        "id": "204329",
+        "name": "Joris Kayembe"
+      },
+      "player_out": {
+        "id": "165892",
+        "name": "Arthur Masuaku"
+      }
+    },
+    {
+      "id": "49644943",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "224077",
+        "name": "Yoane Wissa"
+      }
+    },
+    {
+      "id": "49645119",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

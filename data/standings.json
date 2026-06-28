@@ -835,14 +835,14 @@
               "abbreviation": "COL",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 2,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 0,
             "goals_for": 4,
             "goals_against": 1,
             "goal_difference": 3,
-            "points": 6,
+            "points": 7,
             "form": ""
           },
           {
@@ -854,14 +854,14 @@
               "abbreviation": "POR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "drawn": 1,
+            "drawn": 2,
             "lost": 0,
             "goals_for": 6,
             "goals_against": 1,
             "goal_difference": 5,
-            "points": 4,
+            "points": 5,
             "form": ""
           },
           {
@@ -873,13 +873,13 @@
               "abbreviation": "UZB",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
             "drawn": 0,
-            "lost": 2,
-            "goals_for": 1,
-            "goals_against": 8,
-            "goal_difference": -7,
+            "lost": 3,
+            "goals_for": 2,
+            "goals_against": 11,
+            "goal_difference": -9,
             "points": 0,
             "form": ""
           },
@@ -892,14 +892,14 @@
               "abbreviation": "COD",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
             },
-            "played": 2,
-            "won": 0,
+            "played": 3,
+            "won": 1,
             "drawn": 1,
             "lost": 1,
-            "goals_for": 1,
-            "goals_against": 2,
-            "goal_difference": -1,
-            "points": 1,
+            "goals_for": 4,
+            "goals_against": 3,
+            "goal_difference": 1,
+            "points": 4,
             "form": ""
           }
         ]
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-27T23:52:45.161703+00:00"
+  "updated_at": "2026-06-28T02:09:00.508718+00:00"
 }
