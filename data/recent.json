@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T06:42:21.280289+00:00",
+  "updated_at": "2026-06-28T09:52:26.823138+00:00",
   "events": [
     {
       "id": "760462",
@@ -1275,23 +1275,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "CAN -145",
+        "details": "CAN -150",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+450",
-          "away": "-145",
-          "draw": "+270"
+          "home": "+475",
+          "away": "-150",
+          "draw": "+275"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "+120"
+            "odds": "+125"
           },
           "away": {
             "line": "-0.5",
-            "odds": "-150"
+            "odds": "-160"
           }
         },
         "total": {
@@ -1369,14 +1369,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BRA -140",
+        "details": "BRA -145",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-140",
+          "home": "-145",
           "away": "+400",
-          "draw": "+285"
+          "draw": "+290"
         },
         "spread_line": {
           "home": {
@@ -1757,21 +1757,21 @@
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "-125"
+            "odds": "-130"
           },
           "away": {
             "line": "+1.5",
-            "odds": "+100"
+            "odds": "+105"
           }
         },
         "total": {
           "over": {
             "line": "o3.5",
-            "odds": "+140"
+            "odds": "+135"
           },
           "under": {
             "line": "u3.5",
-            "odds": "-175"
+            "odds": "-165"
           }
         },
         "open": {
@@ -1839,33 +1839,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "MEX +115",
+        "details": "MEX +120",
         "spread": "",
         "over_under": 1.5,
         "favorite": null,
         "moneyline": {
-          "home": "+115",
-          "away": "+295",
-          "draw": "+210"
+          "home": "+120",
+          "away": "+280",
+          "draw": "+205"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+110"
+            "odds": "+115"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-135"
+            "odds": "-145"
           }
         },
         "total": {
           "over": {
             "line": "o1.5",
-            "odds": "-175"
+            "odds": "-170"
           },
           "under": {
             "line": "u1.5",
-            "odds": "+145"
+            "odds": "+135"
           }
         },
         "open": {
