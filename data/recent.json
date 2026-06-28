@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T17:42:38.449494+00:00",
+  "updated_at": "2026-06-28T19:00:43.382151+00:00",
   "events": [
     {
       "id": "760462",
@@ -1275,33 +1275,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "CAN -130",
+        "details": "CAN -115",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+425",
-          "away": "-130",
-          "draw": "+250"
+          "home": "+380",
+          "away": "-115",
+          "draw": "+240"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "+105"
+            "odds": "-105"
           },
           "away": {
             "line": "-0.5",
-            "odds": "-135"
+            "odds": "-125"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+130"
+            "odds": "+120"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-160"
+            "odds": "-150"
           }
         },
         "open": {
@@ -1385,17 +1385,17 @@
           },
           "away": {
             "line": "+0.5",
-            "odds": "+120"
+            "odds": "+115"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-105"
+            "odds": "+105"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-120"
+            "odds": "-130"
           }
         },
         "open": {
