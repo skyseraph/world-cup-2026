@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T19:00:43.382151+00:00",
+  "updated_at": "2026-06-28T20:13:44.875559+00:00",
   "events": [
     {
       "id": "760462",
@@ -1227,7 +1227,7 @@
     },
     {
       "id": "760486",
-      "status": "not_started",
+      "status": "live",
       "start_time": "2026-06-28T19:00Z",
       "matchday": null,
       "round": "",
@@ -1369,14 +1369,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BRA -145",
+        "details": "BRA -140",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-145",
+          "home": "-140",
           "away": "+400",
-          "draw": "+290"
+          "draw": "+280"
         },
         "spread_line": {
           "home": {
@@ -1391,11 +1391,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+105"
+            "odds": "+110"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-130"
+            "odds": "-135"
           }
         },
         "open": {
@@ -1557,23 +1557,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "NED +120",
+        "details": "NED +130",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+120",
-          "away": "+270",
+          "home": "+130",
+          "away": "+250",
           "draw": "+215"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+115"
+            "odds": "+125"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-145"
+            "odds": "-155"
           }
         },
         "total": {
