@@ -753,14 +753,14 @@
               "abbreviation": "ARG",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
             },
-            "played": 2,
-            "won": 2,
+            "played": 3,
+            "won": 3,
             "drawn": 0,
             "lost": 0,
-            "goals_for": 5,
-            "goals_against": 0,
-            "goal_difference": 5,
-            "points": 6,
+            "goals_for": 8,
+            "goals_against": 1,
+            "goal_difference": 7,
+            "points": 9,
             "form": ""
           },
           {
@@ -772,14 +772,14 @@
               "abbreviation": "AUT",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 1,
-            "goals_for": 3,
-            "goals_against": 3,
+            "goals_for": 6,
+            "goals_against": 6,
             "goal_difference": 0,
-            "points": 3,
+            "points": 4,
             "form": ""
           },
           {
@@ -791,14 +791,14 @@
               "abbreviation": "ALG",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "drawn": 0,
+            "drawn": 1,
             "lost": 1,
-            "goals_for": 2,
-            "goals_against": 4,
+            "goals_for": 5,
+            "goals_against": 7,
             "goal_difference": -2,
-            "points": 3,
+            "points": 4,
             "form": ""
           },
           {
@@ -810,13 +810,13 @@
               "abbreviation": "JOR",
               "crest": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
             },
-            "played": 2,
+            "played": 3,
             "won": 0,
             "drawn": 0,
-            "lost": 2,
-            "goals_for": 2,
-            "goals_against": 5,
-            "goal_difference": -3,
+            "lost": 3,
+            "goals_for": 3,
+            "goals_against": 8,
+            "goal_difference": -5,
             "points": 0,
             "form": ""
           }
@@ -989,5 +989,5 @@
     ]
   },
   "message": "",
-  "updated_at": "2026-06-28T02:09:00.508718+00:00"
+  "updated_at": "2026-06-28T06:42:21.688696+00:00"
 }

@@ -1,0 +1,545 @@
+{
+  "event_id": "760484",
+  "timeline": [
+    {
+      "id": "49645168",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49645162",
+      "type": "start delay",
+      "minute": 1,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645160",
+      "type": "start delay",
+      "minute": 1,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645163",
+      "type": "end delay",
+      "minute": 1,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645161",
+      "type": "end delay",
+      "minute": 1,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645549",
+      "type": "yellow_card",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "98193",
+        "name": "Marko Arnautovic"
+      }
+    },
+    {
+      "id": "49645557",
+      "type": "start delay",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645573",
+      "type": "start delay",
+      "minute": 11,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645575",
+      "type": "end delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645576",
+      "type": "end delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645933",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645934",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645954",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49645952",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49646012",
+      "type": "goal",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "98193",
+        "name": "Marko Arnautovic"
+      }
+    },
+    {
+      "id": "49646557",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "364590",
+        "name": "Rafik Belghali"
+      }
+    },
+    {
+      "id": "49646704",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49646740",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "146804",
+        "name": "Michael Gregoritsch"
+      },
+      "player_in": {
+        "id": "146804",
+        "name": "Michael Gregoritsch"
+      },
+      "player_out": {
+        "id": "98193",
+        "name": "Marko Arnautovic"
+      }
+    },
+    {
+      "id": "49646741",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "219304",
+        "name": "Florian Grillitsch"
+      },
+      "player_in": {
+        "id": "219304",
+        "name": "Florian Grillitsch"
+      },
+      "player_out": {
+        "id": "238886",
+        "name": "Xaver Schlager"
+      }
+    },
+    {
+      "id": "49646742",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "333399",
+        "name": "Paul Wanner"
+      },
+      "player_in": {
+        "id": "333399",
+        "name": "Paul Wanner"
+      },
+      "player_out": {
+        "id": "238296",
+        "name": "Romano Schmid"
+      }
+    },
+    {
+      "id": "49646756",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49647091",
+      "type": "goal",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "173907",
+        "name": "Marcel Sabitzer"
+      }
+    },
+    {
+      "id": "49647237",
+      "type": "goal",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "163940",
+        "name": "Riyad Mahrez"
+      }
+    },
+    {
+      "id": "49647295",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "250543",
+        "name": "Kevin Danso"
+      },
+      "player_in": {
+        "id": "250543",
+        "name": "Kevin Danso"
+      },
+      "player_out": {
+        "id": "118444",
+        "name": "David Alaba"
+      }
+    },
+    {
+      "id": "49647480",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49647477",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49647489",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49647487",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49647492",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "272512",
+        "name": "Rayan Aït-Nouri"
+      },
+      "player_in": {
+        "id": "272512",
+        "name": "Rayan Aït-Nouri"
+      },
+      "player_out": {
+        "id": "306033",
+        "name": "Jaouen Hadjam"
+      }
+    },
+    {
+      "id": "49647496",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "285547",
+        "name": "Zineddine Belaïd"
+      },
+      "player_in": {
+        "id": "285547",
+        "name": "Zineddine Belaïd"
+      },
+      "player_out": {
+        "id": "259743",
+        "name": "Amine Gouiri"
+      }
+    },
+    {
+      "id": "49647499",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "287572",
+        "name": "Samir Chergui"
+      },
+      "player_in": {
+        "id": "287572",
+        "name": "Samir Chergui"
+      },
+      "player_out": {
+        "id": "364590",
+        "name": "Rafik Belghali"
+      }
+    },
+    {
+      "id": "49648211",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "163940",
+        "name": "Riyad Mahrez"
+      }
+    },
+    {
+      "id": "49648234",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "356536",
+        "name": "Farès Ghedjemis"
+      },
+      "player_in": {
+        "id": "356536",
+        "name": "Farès Ghedjemis"
+      },
+      "player_out": {
+        "id": "241116",
+        "name": "Houssem Aouar"
+      }
+    },
+    {
+      "id": "49648236",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "259131",
+        "name": "Sasa Kalajdzic"
+      },
+      "player_in": {
+        "id": "259131",
+        "name": "Sasa Kalajdzic"
+      },
+      "player_out": {
+        "id": "239574",
+        "name": "Phillipp Mwene"
+      }
+    },
+    {
+      "id": "49648270",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "259131",
+        "name": "Sasa Kalajdzic"
+      }
+    },
+    {
+      "id": "49648275",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
