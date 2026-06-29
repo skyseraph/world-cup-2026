@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T08:32:17.778589+00:00",
+  "updated_at": "2026-06-29T12:56:29.751609+00:00",
   "events": [
     {
       "id": "760473",
@@ -1020,23 +1020,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BRA -140",
+        "details": "BRA -130",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-140",
-          "away": "+425",
-          "draw": "+275"
+          "home": "-130",
+          "away": "+390",
+          "draw": "+265"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-150"
+            "odds": "-140"
           },
           "away": {
             "line": "+0.5",
-            "odds": "+120"
+            "odds": "+110"
           }
         },
         "total": {
@@ -1230,11 +1230,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+120"
+            "odds": "+115"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-150"
+            "odds": "-145"
           }
         },
         "open": {
@@ -1403,7 +1403,7 @@
         "moneyline": {
           "home": "-370",
           "away": "+950",
-          "draw": "+550"
+          "draw": "+500"
         },
         "spread_line": {
           "home": {
@@ -1422,7 +1422,7 @@
           },
           "under": {
             "line": "u3.5",
-            "odds": "-155"
+            "odds": "-150"
           }
         },
         "open": {
@@ -1584,14 +1584,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ENG -360",
+        "details": "ENG -350",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-360",
+          "home": "-350",
           "away": "+1100",
-          "draw": "+475"
+          "draw": "+450"
         },
         "spread_line": {
           "home": {
@@ -1610,7 +1610,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-110"
+            "odds": "-115"
           }
         },
         "open": {
@@ -1892,7 +1892,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-105"
+            "odds": "+100"
           }
         },
         "open": {
