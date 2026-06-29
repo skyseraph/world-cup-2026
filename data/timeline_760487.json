@@ -1,0 +1,512 @@
+{
+  "event_id": "760487",
+  "timeline": [
+    {
+      "id": "49659763",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49659956",
+      "type": "yellow_card",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "357030",
+        "name": "Kaishu Sano"
+      }
+    },
+    {
+      "id": "49659996",
+      "type": "yellow_card",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "173666",
+        "name": "Casemiro"
+      }
+    },
+    {
+      "id": "49660132",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49660131",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49660134",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49660133",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49660180",
+      "type": "goal",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "357030",
+        "name": "Kaishu Sano"
+      }
+    },
+    {
+      "id": "49660457",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "219362",
+        "name": "Daichi Kamada"
+      }
+    },
+    {
+      "id": "49660531",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49660534",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "346612",
+        "name": "Endrick"
+      },
+      "player_in": {
+        "id": "346612",
+        "name": "Endrick"
+      },
+      "player_out": {
+        "id": "234715",
+        "name": "Lucas Paquetá"
+      }
+    },
+    {
+      "id": "49660537",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49660580",
+      "type": "yellow_card",
+      "minute": 48,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "170369",
+        "name": "Danilo"
+      }
+    },
+    {
+      "id": "49660720",
+      "type": "goal",
+      "minute": 56,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "173666",
+        "name": "Casemiro"
+      }
+    },
+    {
+      "id": "49660871",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "269844",
+        "name": "Gabriel Martinelli"
+      },
+      "player_in": {
+        "id": "269844",
+        "name": "Gabriel Martinelli"
+      },
+      "player_out": {
+        "id": "259902",
+        "name": "Matheus Cunha"
+      }
+    },
+    {
+      "id": "49660872",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "333663",
+        "name": "Junnosuke Suzuki"
+      },
+      "player_in": {
+        "id": "333663",
+        "name": "Junnosuke Suzuki"
+      },
+      "player_out": {
+        "id": "265953",
+        "name": "Keito Nakamura"
+      }
+    },
+    {
+      "id": "49660873",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "265965",
+        "name": "Yukinari Sugawara"
+      },
+      "player_in": {
+        "id": "265965",
+        "name": "Yukinari Sugawara"
+      },
+      "player_out": {
+        "id": "219627",
+        "name": "Ritsu Doan"
+      }
+    },
+    {
+      "id": "49660916",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49660915",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49660918",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49660917",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49661021",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "271352",
+        "name": "Shuto Machino"
+      },
+      "player_in": {
+        "id": "271352",
+        "name": "Shuto Machino"
+      },
+      "player_out": {
+        "id": "219350",
+        "name": "Junya Ito"
+      }
+    },
+    {
+      "id": "49661022",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "253173",
+        "name": "Ao Tanaka"
+      },
+      "player_in": {
+        "id": "253173",
+        "name": "Ao Tanaka"
+      },
+      "player_out": {
+        "id": "219362",
+        "name": "Daichi Kamada"
+      }
+    },
+    {
+      "id": "49661129",
+      "type": "yellow_card",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "333663",
+        "name": "Junnosuke Suzuki"
+      }
+    },
+    {
+      "id": "49661215",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49661216",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49661218",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49661219",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": null
+    },
+    {
+      "id": "49661220",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "176287",
+        "name": "Fabinho"
+      },
+      "player_in": {
+        "id": "176287",
+        "name": "Fabinho"
+      },
+      "player_out": {
+        "id": "173666",
+        "name": "Casemiro"
+      }
+    },
+    {
+      "id": "49661275",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "269844",
+        "name": "Gabriel Martinelli"
+      }
+    },
+    {
+      "id": "49661277",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "627",
+        "name": "Japan"
+      },
+      "player": {
+        "id": "238016",
+        "name": "Koki Ogawa"
+      },
+      "player_in": {
+        "id": "238016",
+        "name": "Koki Ogawa"
+      },
+      "player_out": {
+        "id": "286347",
+        "name": "Daizen Maeda"
+      }
+    },
+    {
+      "id": "49661278",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "306764",
+        "name": "Danilo Santos"
+      },
+      "player_in": {
+        "id": "306764",
+        "name": "Danilo Santos"
+      },
+      "player_out": {
+        "id": "218522",
+        "name": "Bruno Guimarães"
+      }
+    },
+    {
+      "id": "49661318",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
