@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T22:03:54.264696+00:00",
+  "updated_at": "2026-06-29T23:32:59.770930+00:00",
   "events": [
     {
       "id": "760473",
@@ -1023,7 +1023,7 @@
     },
     {
       "id": "760489",
-      "status": "2nd_half",
+      "status": "not_started",
       "start_time": "2026-06-29T20:30Z",
       "matchday": null,
       "round": "",
@@ -1069,50 +1069,7 @@
         "home": 1,
         "away": 1
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "GER -300",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-300",
-          "away": "+950",
-          "draw": "+400"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-1.5",
-            "odds": "+100"
-          },
-          "away": {
-            "line": "+1.5",
-            "odds": "-125"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-150"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "+120"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "-245",
-            "away": "+700",
-            "draw": "+390"
-          },
-          "spread": {
-            "home": "-1.5",
-            "away": "+1.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -1191,7 +1148,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-135"
+            "odds": "-130"
           }
         },
         "open": {
@@ -1264,7 +1221,7 @@
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+255",
+          "home": "+265",
           "away": "+110",
           "draw": "+245"
         },
@@ -1275,7 +1232,7 @@
           },
           "away": {
             "line": "-0.5",
-            "odds": "+105"
+            "odds": "+100"
           }
         },
         "total": {
