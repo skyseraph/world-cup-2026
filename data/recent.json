@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T22:48:09.959922+00:00",
+  "updated_at": "2026-06-30T23:57:41.184787+00:00",
   "events": [
     {
       "id": "760475",
@@ -870,7 +870,7 @@
     },
     {
       "id": "760492",
-      "status": "2nd_half",
+      "status": "closed",
       "start_time": "2026-06-30T21:00Z",
       "matchday": null,
       "round": "",
@@ -916,50 +916,7 @@
         "home": 3,
         "away": 0
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "FRA -340",
-        "spread": "",
-        "over_under": 3.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-340",
-          "away": "+900",
-          "draw": "+500"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-1.5",
-            "odds": "-120"
-          },
-          "away": {
-            "line": "+1.5",
-            "odds": "-105"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o3.5",
-            "odds": "+105"
-          },
-          "under": {
-            "line": "u3.5",
-            "odds": "-130"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "-330",
-            "away": "+900",
-            "draw": "+475"
-          },
-          "spread": {
-            "home": "-1.5",
-            "away": "+1.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -1012,14 +969,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "MEX +120",
+        "details": "MEX +125",
         "spread": "",
         "over_under": 1.5,
         "favorite": null,
         "moneyline": {
-          "home": "+120",
-          "away": "+310",
-          "draw": "+190"
+          "home": "+125",
+          "away": "+300",
+          "draw": "+185"
         },
         "spread_line": {
           "home": {
@@ -1028,17 +985,17 @@
           },
           "away": {
             "line": "+0.5",
-            "odds": "-145"
+            "odds": "-150"
           }
         },
         "total": {
           "over": {
             "line": "o1.5",
-            "odds": "-170"
+            "odds": "-155"
           },
           "under": {
             "line": "u1.5",
-            "odds": "+135"
+            "odds": "+125"
           }
         },
         "open": {
@@ -1200,14 +1157,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BEL +120",
+        "details": "BEL +115",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+120",
-          "away": "+255",
-          "draw": "+235"
+          "home": "+115",
+          "away": "+265",
+          "draw": "+230"
         },
         "spread_line": {
           "home": {
@@ -1222,11 +1179,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+105"
+            "odds": "-105"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-130"
+            "odds": "-120"
           }
         },
         "open": {
@@ -1504,7 +1461,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+105"
+            "odds": "+110"
           },
           "under": {
             "line": "u2.5",
@@ -1576,23 +1533,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "SUI +110",
+        "details": "SUI +105",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+110",
-          "away": "+290",
-          "draw": "+225"
+          "home": "+105",
+          "away": "+300",
+          "draw": "+230"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+105"
+            "odds": "+100"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-130"
+            "odds": "-125"
           }
         },
         "total": {

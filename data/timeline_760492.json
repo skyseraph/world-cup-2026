@@ -1,0 +1,412 @@
+{
+  "event_id": "760492",
+  "timeline": [
+    {
+      "id": "49666728",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49667059",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49667060",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49667062",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49667061",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49667350",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49667399",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49667404",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49667506",
+      "type": "goal",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      }
+    },
+    {
+      "id": "49667718",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "314164",
+        "name": "Taha Ali"
+      },
+      "player_in": {
+        "id": "314164",
+        "name": "Taha Ali"
+      },
+      "player_out": {
+        "id": "357145",
+        "name": "Elliot Stroud"
+      }
+    },
+    {
+      "id": "49667719",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "334024",
+        "name": "Besfort Zeneli"
+      },
+      "player_in": {
+        "id": "334024",
+        "name": "Besfort Zeneli"
+      },
+      "player_out": {
+        "id": "356379",
+        "name": "Lucas Bergvall"
+      }
+    },
+    {
+      "id": "49667765",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49667764",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49667768",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49667767",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": null
+    },
+    {
+      "id": "49667819",
+      "type": "goal",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49667821",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "308947",
+        "name": "Malo Gusto"
+      },
+      "player_in": {
+        "id": "308947",
+        "name": "Malo Gusto"
+      },
+      "player_out": {
+        "id": "231692",
+        "name": "Jules Koundé"
+      }
+    },
+    {
+      "id": "49667822",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "336388",
+        "name": "Désiré Doué"
+      },
+      "player_in": {
+        "id": "336388",
+        "name": "Désiré Doué"
+      },
+      "player_out": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49667876",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "233621",
+        "name": "Theo Hernández"
+      },
+      "player_in": {
+        "id": "233621",
+        "name": "Theo Hernández"
+      },
+      "player_out": {
+        "id": "160115",
+        "name": "Lucas Digne"
+      }
+    },
+    {
+      "id": "49667943",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "220120",
+        "name": "Mattias Svanberg"
+      },
+      "player_in": {
+        "id": "220120",
+        "name": "Mattias Svanberg"
+      },
+      "player_out": {
+        "id": "310709",
+        "name": "Daniel Svensson"
+      }
+    },
+    {
+      "id": "49667945",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "274522",
+        "name": "Benjamin Nygren"
+      },
+      "player_in": {
+        "id": "274522",
+        "name": "Benjamin Nygren"
+      },
+      "player_out": {
+        "id": "304242",
+        "name": "Yasin Ayari"
+      }
+    },
+    {
+      "id": "49667987",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "241187",
+        "name": "Jean-Philippe Mateta"
+      },
+      "player_in": {
+        "id": "241187",
+        "name": "Jean-Philippe Mateta"
+      },
+      "player_out": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49667988",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      },
+      "player_in": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      },
+      "player_out": {
+        "id": "286831",
+        "name": "Michael Olise"
+      }
+    },
+    {
+      "id": "49668060",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "466",
+        "name": "Sweden"
+      },
+      "player": {
+        "id": "238183",
+        "name": "Gustaf Nilsson"
+      },
+      "player_in": {
+        "id": "238183",
+        "name": "Gustaf Nilsson"
+      },
+      "player_out": {
+        "id": "235662",
+        "name": "Alexander Isak"
+      }
+    },
+    {
+      "id": "49668163",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
