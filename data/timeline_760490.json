@@ -1,0 +1,429 @@
+{
+  "event_id": "760490",
+  "timeline": [
+    {
+      "id": "49665236",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49665631",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49665632",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49665634",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49665633",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49665838",
+      "type": "goal",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "319368",
+        "name": "Antonio Nusa"
+      }
+    },
+    {
+      "id": "49665917",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "319368",
+        "name": "Antonio Nusa"
+      }
+    },
+    {
+      "id": "49665966",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49665970",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49666200",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "291630",
+        "name": "Amad Diallo"
+      },
+      "player_in": {
+        "id": "291630",
+        "name": "Amad Diallo"
+      },
+      "player_out": {
+        "id": "386989",
+        "name": "Christ Inao Oulaï"
+      }
+    },
+    {
+      "id": "49666201",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "311118",
+        "name": "Elye Wahi"
+      },
+      "player_in": {
+        "id": "311118",
+        "name": "Elye Wahi"
+      },
+      "player_out": {
+        "id": "309185",
+        "name": "Ange-Yoan Bonny"
+      }
+    },
+    {
+      "id": "49666321",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49666322",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49666325",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      },
+      "player_in": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      },
+      "player_out": {
+        "id": "319368",
+        "name": "Antonio Nusa"
+      }
+    },
+    {
+      "id": "49666326",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      },
+      "player_in": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      },
+      "player_out": {
+        "id": "188230",
+        "name": "Alexander Sørloth"
+      }
+    },
+    {
+      "id": "49666328",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49666327",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49666375",
+      "type": "goal",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "291630",
+        "name": "Amad Diallo"
+      }
+    },
+    {
+      "id": "49666491",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49666490",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49666492",
+      "type": "end delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": null
+    },
+    {
+      "id": "49666493",
+      "type": "end delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49666506",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "212900",
+        "name": "Fredrik Aursnes"
+      },
+      "player_in": {
+        "id": "212900",
+        "name": "Fredrik Aursnes"
+      },
+      "player_out": {
+        "id": "129285",
+        "name": "Marcus Holmgren Pedersen"
+      }
+    },
+    {
+      "id": "49666558",
+      "type": "goal",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "253989",
+        "name": "Erling Haaland"
+      }
+    },
+    {
+      "id": "49666560",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "329483",
+        "name": "Oumar Diakité"
+      },
+      "player_in": {
+        "id": "329483",
+        "name": "Oumar Diakité"
+      },
+      "player_out": {
+        "id": "210397",
+        "name": "Nicolas Pépé"
+      }
+    },
+    {
+      "id": "49666655",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "288924",
+        "name": "Evann Guessand"
+      },
+      "player_in": {
+        "id": "288924",
+        "name": "Evann Guessand"
+      },
+      "player_out": {
+        "id": "402479",
+        "name": "Yan Diomande"
+      }
+    },
+    {
+      "id": "49666656",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4789",
+        "name": "Ivory Coast"
+      },
+      "player": {
+        "id": "359108",
+        "name": "Bazoumana Touré"
+      },
+      "player_in": {
+        "id": "359108",
+        "name": "Bazoumana Touré"
+      },
+      "player_out": {
+        "id": "250888",
+        "name": "Ghislain Konan"
+      }
+    },
+    {
+      "id": "49666716",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
