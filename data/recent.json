@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T12:29:01.600728+00:00",
+  "updated_at": "2026-06-30T15:09:21.410258+00:00",
   "events": [
     {
       "id": "760475",
@@ -883,7 +883,7 @@
           },
           "away": {
             "line": "-0.5",
-            "odds": "+110"
+            "odds": "+105"
           }
         },
         "total": {
@@ -967,8 +967,8 @@
         "favorite": null,
         "moneyline": {
           "home": "-340",
-          "away": "+900",
-          "draw": "+475"
+          "away": "+950",
+          "draw": "+500"
         },
         "spread_line": {
           "home": {
@@ -977,17 +977,17 @@
           },
           "away": {
             "line": "+1.5",
-            "odds": "-105"
+            "odds": "+100"
           }
         },
         "total": {
           "over": {
             "line": "o3.5",
-            "odds": "+115"
+            "odds": "+110"
           },
           "under": {
             "line": "u3.5",
-            "odds": "-140"
+            "odds": "-135"
           }
         },
         "open": {
@@ -1061,8 +1061,8 @@
         "favorite": null,
         "moneyline": {
           "home": "+130",
-          "away": "+285",
-          "draw": "+190"
+          "away": "+295",
+          "draw": "+185"
         },
         "spread_line": {
           "home": {
@@ -1077,7 +1077,7 @@
         "total": {
           "over": {
             "line": "o1.5",
-            "odds": "-170"
+            "odds": "-165"
           },
           "under": {
             "line": "u1.5",
@@ -1161,21 +1161,21 @@
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "-120"
+            "odds": "-115"
           },
           "away": {
             "line": "+1.5",
-            "odds": "-105"
+            "odds": "-110"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-110"
+            "odds": "-105"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-110"
+            "odds": "-120"
           }
         },
         "open": {
