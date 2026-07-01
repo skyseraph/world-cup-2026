@@ -1,0 +1,467 @@
+{
+  "event_id": "760495",
+  "timeline": [
+    {
+      "id": "49671031",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49671136",
+      "type": "goal",
+      "minute": 7,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "352285",
+        "name": "Brian Cipenga"
+      }
+    },
+    {
+      "id": "49671145",
+      "type": "start delay",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49671146",
+      "type": "start delay",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49671147",
+      "type": "end delay",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49671148",
+      "type": "end delay",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49671298",
+      "type": "yellow_card",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49671344",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49671343",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49671347",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49671346",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49671384",
+      "type": "yellow_card",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "340240",
+        "name": "Noah Sadiki"
+      }
+    },
+    {
+      "id": "49671805",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49671819",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49672063",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      },
+      "player_in": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      },
+      "player_out": {
+        "id": "293236",
+        "name": "Noni Madueke"
+      }
+    },
+    {
+      "id": "49672064",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "268782",
+        "name": "Anthony Gordon"
+      },
+      "player_in": {
+        "id": "268782",
+        "name": "Anthony Gordon"
+      },
+      "player_out": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      }
+    },
+    {
+      "id": "49672114",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "232492",
+        "name": "Meschack Elia"
+      },
+      "player_in": {
+        "id": "232492",
+        "name": "Meschack Elia"
+      },
+      "player_out": {
+        "id": "291750",
+        "name": "Nathanaël Mbuku"
+      }
+    },
+    {
+      "id": "49672174",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49672173",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49672176",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49672175",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": null
+    },
+    {
+      "id": "49672177",
+      "type": "substitution",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "251400",
+        "name": "Eberechi Eze"
+      },
+      "player_in": {
+        "id": "251400",
+        "name": "Eberechi Eze"
+      },
+      "player_out": {
+        "id": "267711",
+        "name": "Djed Spence"
+      }
+    },
+    {
+      "id": "49672227",
+      "type": "goal",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "142200",
+        "name": "Harry Kane"
+      }
+    },
+    {
+      "id": "49672230",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "182337",
+        "name": "Théo Bongonda"
+      },
+      "player_in": {
+        "id": "182337",
+        "name": "Théo Bongonda"
+      },
+      "player_out": {
+        "id": "352285",
+        "name": "Brian Cipenga"
+      }
+    },
+    {
+      "id": "49672231",
+      "type": "substitution",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "268986",
+        "name": "Edo Kayembe"
+      },
+      "player_in": {
+        "id": "268986",
+        "name": "Edo Kayembe"
+      },
+      "player_out": {
+        "id": "345988",
+        "name": "Ngal'ayel Mukau"
+      }
+    },
+    {
+      "id": "49672418",
+      "type": "goal",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "142200",
+        "name": "Harry Kane"
+      }
+    },
+    {
+      "id": "49672444",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "204329",
+        "name": "Joris Kayembe"
+      },
+      "player_in": {
+        "id": "204329",
+        "name": "Joris Kayembe"
+      },
+      "player_out": {
+        "id": "165892",
+        "name": "Arthur Masuaku"
+      }
+    },
+    {
+      "id": "49672449",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2850",
+        "name": "Congo DR"
+      },
+      "player": {
+        "id": "299324",
+        "name": "Fiston Mayele"
+      },
+      "player_in": {
+        "id": "299324",
+        "name": "Fiston Mayele"
+      },
+      "player_out": {
+        "id": "260932",
+        "name": "Samuel Moutoussamy"
+      }
+    },
+    {
+      "id": "49672481",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "157974",
+        "name": "John Stones"
+      },
+      "player_in": {
+        "id": "157974",
+        "name": "John Stones"
+      },
+      "player_out": {
+        "id": "238262",
+        "name": "Declan Rice"
+      }
+    },
+    {
+      "id": "49672530",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
