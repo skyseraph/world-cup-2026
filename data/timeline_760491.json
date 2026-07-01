@@ -1,0 +1,541 @@
+{
+  "event_id": "760491",
+  "timeline": [
+    {
+      "id": "49669085",
+      "type": "start delay",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49669661",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49669961",
+      "type": "goal",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "233075",
+        "name": "Julián Quiñones"
+      }
+    },
+    {
+      "id": "49669992",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49669991",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49669993",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49669994",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49670048",
+      "type": "goal",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "167060",
+        "name": "Raúl Jiménez"
+      }
+    },
+    {
+      "id": "49670225",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "262111",
+        "name": "Alan Franco"
+      }
+    },
+    {
+      "id": "49670266",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49670267",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "256560",
+        "name": "Ángelo Preciado"
+      },
+      "player_in": {
+        "id": "256560",
+        "name": "Ángelo Preciado"
+      },
+      "player_out": {
+        "id": "336589",
+        "name": "Joel Ordóñez"
+      }
+    },
+    {
+      "id": "49670268",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "315600",
+        "name": "Yaimar Medina"
+      },
+      "player_in": {
+        "id": "315600",
+        "name": "Yaimar Medina"
+      },
+      "player_out": {
+        "id": "262111",
+        "name": "Alan Franco"
+      }
+    },
+    {
+      "id": "49670272",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49670484",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "303577",
+        "name": "Brian Gutiérrez"
+      },
+      "player_in": {
+        "id": "303577",
+        "name": "Brian Gutiérrez"
+      },
+      "player_out": {
+        "id": "389575",
+        "name": "Gilberto Mora"
+      }
+    },
+    {
+      "id": "49670485",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "281316",
+        "name": "Kevin Rodríguez"
+      },
+      "player_in": {
+        "id": "281316",
+        "name": "Kevin Rodríguez"
+      },
+      "player_out": {
+        "id": "171771",
+        "name": "Enner Valencia"
+      }
+    },
+    {
+      "id": "49670604",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49670606",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49670608",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49670607",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49670632",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "318554",
+        "name": "Obed Vargas"
+      },
+      "player_in": {
+        "id": "318554",
+        "name": "Obed Vargas"
+      },
+      "player_out": {
+        "id": "242614",
+        "name": "Luis Romo"
+      }
+    },
+    {
+      "id": "49670633",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "260775",
+        "name": "Santiago Gimenez"
+      },
+      "player_in": {
+        "id": "260775",
+        "name": "Santiago Gimenez"
+      },
+      "player_out": {
+        "id": "167060",
+        "name": "Raúl Jiménez"
+      }
+    },
+    {
+      "id": "49670652",
+      "type": "start delay",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49670653",
+      "type": "start delay",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49670655",
+      "type": "end delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49670654",
+      "type": "end delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49670692",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "217079",
+        "name": "Jordy Caicedo"
+      },
+      "player_in": {
+        "id": "217079",
+        "name": "Jordy Caicedo"
+      },
+      "player_out": {
+        "id": "265926",
+        "name": "John Yeboah"
+      }
+    },
+    {
+      "id": "49670693",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "358746",
+        "name": "Kendry Páez"
+      },
+      "player_in": {
+        "id": "358746",
+        "name": "Kendry Páez"
+      },
+      "player_out": {
+        "id": "318090",
+        "name": "Nilson Angulo"
+      }
+    },
+    {
+      "id": "49670694",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "207011",
+        "name": "Orbelín Pineda"
+      },
+      "player_in": {
+        "id": "207011",
+        "name": "Orbelín Pineda"
+      },
+      "player_out": {
+        "id": "233075",
+        "name": "Julián Quiñones"
+      }
+    },
+    {
+      "id": "49670695",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "290414",
+        "name": "Israel Reyes"
+      },
+      "player_in": {
+        "id": "290414",
+        "name": "Israel Reyes"
+      },
+      "player_out": {
+        "id": "194308",
+        "name": "Roberto Alvarado"
+      }
+    },
+    {
+      "id": "49670910",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "358746",
+        "name": "Kendry Páez"
+      }
+    },
+    {
+      "id": "49670914",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49670916",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": null
+    },
+    {
+      "id": "49670917",
+      "type": "red_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "292062",
+        "name": "Piero Hincapié"
+      }
+    },
+    {
+      "id": "49670953",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "209",
+        "name": "Ecuador"
+      },
+      "player": {
+        "id": "289877",
+        "name": "Moisés Caicedo"
+      }
+    },
+    {
+      "id": "49670960",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
