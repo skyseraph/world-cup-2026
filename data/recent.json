@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T18:22:20.335959+00:00",
+  "updated_at": "2026-07-01T20:22:08.550942+00:00",
   "events": [
     {
       "id": "760480",
@@ -717,7 +717,7 @@
     },
     {
       "id": "760493",
-      "status": "not_started",
+      "status": "live",
       "start_time": "2026-07-01T20:00Z",
       "matchday": null,
       "round": "",
@@ -765,33 +765,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BEL +110",
+        "details": "BEL -105",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+110",
-          "away": "+265",
-          "draw": "+235"
+          "home": "-105",
+          "away": "+310",
+          "draw": "+245"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+110"
+            "odds": "-110"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-140"
+            "odds": "-115"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-120"
+            "odds": "-135"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-105"
+            "odds": "+110"
           }
         },
         "open": {
@@ -875,13 +875,13 @@
           },
           "away": {
             "line": "+1.5",
-            "odds": "-130"
+            "odds": "-125"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-160"
+            "odds": "-155"
           },
           "under": {
             "line": "u2.5",
@@ -965,21 +965,21 @@
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "+100"
+            "odds": "-105"
           },
           "away": {
             "line": "+1.5",
-            "odds": "-125"
+            "odds": "-120"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-120"
+            "odds": "-125"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-105"
+            "odds": "+100"
           }
         },
         "open": {
@@ -1522,9 +1522,9 @@
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+380",
+          "home": "+390",
           "away": "-120",
-          "draw": "+255"
+          "draw": "+250"
         },
         "spread_line": {
           "home": {
@@ -1539,11 +1539,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+125"
+            "odds": "+130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-155"
+            "odds": "-160"
           }
         },
         "open": {
@@ -1633,11 +1633,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-170"
+            "odds": "-160"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+135"
+            "odds": "+130"
           }
         },
         "open": {
