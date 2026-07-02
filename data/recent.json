@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T18:55:45.693072+00:00",
+  "updated_at": "2026-07-02T20:15:01.271526+00:00",
   "events": [
     {
       "id": "760486",
@@ -513,7 +513,7 @@
     },
     {
       "id": "760497",
-      "status": "not_started",
+      "status": "2nd_half",
       "start_time": "2026-07-02T19:00Z",
       "matchday": null,
       "round": "",
@@ -542,7 +542,7 @@
             "abbreviation": "ESP"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -556,7 +556,7 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "odds": {
@@ -583,7 +583,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-145"
+            "odds": "-140"
           },
           "under": {
             "line": "u2.5",
@@ -865,11 +865,11 @@
         "total": {
           "over": {
             "line": "o1.5",
-            "odds": "-160"
+            "odds": "-165"
           },
           "under": {
             "line": "u1.5",
-            "odds": "+130"
+            "odds": "+135"
           }
         },
         "open": {
@@ -1031,13 +1031,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "COL -205",
+        "details": "COL -210",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-205",
-          "away": "+650",
+          "home": "-210",
+          "away": "+700",
           "draw": "+320"
         },
         "spread_line": {
@@ -1053,11 +1053,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+120"
+            "odds": "+115"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-150"
+            "odds": "-145"
           }
         },
         "open": {
