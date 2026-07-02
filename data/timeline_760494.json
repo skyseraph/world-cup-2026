@@ -1,0 +1,693 @@
+{
+  "event_id": "760494",
+  "timeline": [
+    {
+      "id": "49674736",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49674811",
+      "type": "start delay",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49674810",
+      "type": "start delay",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49674813",
+      "type": "end delay",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49674812",
+      "type": "end delay",
+      "minute": 6,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675010",
+      "type": "start delay",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675011",
+      "type": "start delay",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675013",
+      "type": "end delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675012",
+      "type": "end delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675066",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675067",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675069",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675068",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675351",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "282643",
+        "name": "Folarin Balogun"
+      }
+    },
+    {
+      "id": "49675357",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675356",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675358",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675359",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675420",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675421",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675422",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675423",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675427",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49675438",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49675512",
+      "type": "substitution",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "325410",
+        "name": "Esmir Bajraktarevic"
+      },
+      "player_in": {
+        "id": "325410",
+        "name": "Esmir Bajraktarevic"
+      },
+      "player_out": {
+        "id": "288932",
+        "name": "Armin Gigovic"
+      }
+    },
+    {
+      "id": "49675513",
+      "type": "substitution",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "352660",
+        "name": "Benjamin Tahirovic"
+      },
+      "player_in": {
+        "id": "352660",
+        "name": "Benjamin Tahirovic"
+      },
+      "player_out": {
+        "id": "194767",
+        "name": "Ivan Sunjic"
+      }
+    },
+    {
+      "id": "49675514",
+      "type": "substitution",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      },
+      "player_in": {
+        "id": "414676",
+        "name": "Ermin Mahmic"
+      },
+      "player_out": {
+        "id": "102337",
+        "name": "Edin Dzeko"
+      }
+    },
+    {
+      "id": "49675681",
+      "type": "start delay",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675682",
+      "type": "start delay",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675683",
+      "type": "end delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675685",
+      "type": "end delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675684",
+      "type": "start delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675688",
+      "type": "end delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675689",
+      "type": "red_card",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "282643",
+        "name": "Folarin Balogun"
+      }
+    },
+    {
+      "id": "49675760",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675761",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675763",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675764",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675817",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "184869",
+        "name": "Haris Tabakovic"
+      },
+      "player_in": {
+        "id": "184869",
+        "name": "Haris Tabakovic"
+      },
+      "player_out": {
+        "id": "170553",
+        "name": "Sead Kolasinac"
+      }
+    },
+    {
+      "id": "49675818",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "338199",
+        "name": "Amar Memic"
+      },
+      "player_in": {
+        "id": "338199",
+        "name": "Amar Memic"
+      },
+      "player_out": {
+        "id": "220538",
+        "name": "Nikola Katic"
+      }
+    },
+    {
+      "id": "49675880",
+      "type": "yellow_card",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": {
+        "id": "275414",
+        "name": "Stjepan Radeljic"
+      }
+    },
+    {
+      "id": "49675883",
+      "type": "goal",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "301416",
+        "name": "Malik Tillman"
+      }
+    },
+    {
+      "id": "49675940",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675941",
+      "type": "start delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675942",
+      "type": "end delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49675943",
+      "type": "end delay",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina"
+      },
+      "player": null
+    },
+    {
+      "id": "49675944",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      },
+      "player_in": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      },
+      "player_out": {
+        "id": "266291",
+        "name": "Sergiño Dest"
+      }
+    },
+    {
+      "id": "49675945",
+      "type": "substitution",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "289120",
+        "name": "Ricardo Pepi"
+      },
+      "player_in": {
+        "id": "289120",
+        "name": "Ricardo Pepi"
+      },
+      "player_out": {
+        "id": "225607",
+        "name": "Christian Pulisic"
+      }
+    },
+    {
+      "id": "49676066",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      },
+      "player_in": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      },
+      "player_out": {
+        "id": "256715",
+        "name": "Weston McKennie"
+      }
+    },
+    {
+      "id": "49676165",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
