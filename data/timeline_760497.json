@@ -1,0 +1,547 @@
+{
+  "event_id": "760497",
+  "timeline": [
+    {
+      "id": "49676256",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49676407",
+      "type": "start delay",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49676409",
+      "type": "end delay",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49676646",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49676647",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49676648",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49676649",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49676791",
+      "type": "goal",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "229018",
+        "name": "Mikel Oyarzabal"
+      }
+    },
+    {
+      "id": "49677003",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49677004",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49677006",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49677005",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49677013",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49677015",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "219304",
+        "name": "Florian Grillitsch"
+      },
+      "player_in": {
+        "id": "219304",
+        "name": "Florian Grillitsch"
+      },
+      "player_out": {
+        "id": "238886",
+        "name": "Xaver Schlager"
+      }
+    },
+    {
+      "id": "49677016",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "294317",
+        "name": "Carney Chukwuemeka"
+      },
+      "player_in": {
+        "id": "294317",
+        "name": "Carney Chukwuemeka"
+      },
+      "player_out": {
+        "id": "305956",
+        "name": "Nicolas Seiwald"
+      }
+    },
+    {
+      "id": "49677017",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49677262",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "259131",
+        "name": "Sasa Kalajdzic"
+      },
+      "player_in": {
+        "id": "259131",
+        "name": "Sasa Kalajdzic"
+      },
+      "player_out": {
+        "id": "238296",
+        "name": "Romano Schmid"
+      }
+    },
+    {
+      "id": "49677264",
+      "type": "substitution",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "98193",
+        "name": "Marko Arnautovic"
+      },
+      "player_in": {
+        "id": "98193",
+        "name": "Marko Arnautovic"
+      },
+      "player_out": {
+        "id": "146804",
+        "name": "Michael Gregoritsch"
+      }
+    },
+    {
+      "id": "49677322",
+      "type": "start delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49677319",
+      "type": "start delay",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49677324",
+      "type": "end delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49677323",
+      "type": "end delay",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49677367",
+      "type": "goal",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "268533",
+        "name": "Pedro Porro"
+      }
+    },
+    {
+      "id": "49677375",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49677376",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49677377",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "265869",
+        "name": "Ferran Torres"
+      },
+      "player_in": {
+        "id": "265869",
+        "name": "Ferran Torres"
+      },
+      "player_out": {
+        "id": "297373",
+        "name": "Álex Baena"
+      }
+    },
+    {
+      "id": "49677379",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "209581",
+        "name": "Mikel Merino"
+      },
+      "player_in": {
+        "id": "209581",
+        "name": "Mikel Merino"
+      },
+      "player_out": {
+        "id": "227765",
+        "name": "Dani Olmo"
+      }
+    },
+    {
+      "id": "49677381",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": null
+    },
+    {
+      "id": "49677378",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": null
+    },
+    {
+      "id": "49677578",
+      "type": "yellow_card",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "238906",
+        "name": "Stefan Posch"
+      }
+    },
+    {
+      "id": "49677614",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "323702",
+        "name": "Gavi"
+      },
+      "player_in": {
+        "id": "323702",
+        "name": "Gavi"
+      },
+      "player_out": {
+        "id": "362150",
+        "name": "Lamine Yamal"
+      }
+    },
+    {
+      "id": "49677615",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "474",
+        "name": "Austria"
+      },
+      "player": {
+        "id": "320939",
+        "name": "Alexander Prass"
+      },
+      "player_in": {
+        "id": "320939",
+        "name": "Alexander Prass"
+      },
+      "player_out": {
+        "id": "238906",
+        "name": "Stefan Posch"
+      }
+    },
+    {
+      "id": "49677667",
+      "type": "goal",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "229018",
+        "name": "Mikel Oyarzabal"
+      }
+    },
+    {
+      "id": "49677709",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "214596",
+        "name": "Fabián Ruiz"
+      },
+      "player_in": {
+        "id": "214596",
+        "name": "Fabián Ruiz"
+      },
+      "player_out": {
+        "id": "250465",
+        "name": "Pedri"
+      }
+    },
+    {
+      "id": "49677710",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "164",
+        "name": "Spain"
+      },
+      "player": {
+        "id": "332613",
+        "name": "Marc Pubill"
+      },
+      "player_in": {
+        "id": "332613",
+        "name": "Marc Pubill"
+      },
+      "player_out": {
+        "id": "159317",
+        "name": "Aymeric Laporte"
+      }
+    },
+    {
+      "id": "49677777",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
