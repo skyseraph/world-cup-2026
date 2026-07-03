@@ -1,0 +1,619 @@
+{
+  "event_id": "760498",
+  "timeline": [
+    {
+      "id": "49682072",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49682284",
+      "type": "goal",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "202099",
+        "name": "Breel Embolo"
+      }
+    },
+    {
+      "id": "49682372",
+      "type": "start delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49682371",
+      "type": "start delay",
+      "minute": 16,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49682373",
+      "type": "end delay",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49682374",
+      "type": "end delay",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49682521",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49682523",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49682525",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49682526",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49682655",
+      "type": "yellow_card",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "337306",
+        "name": "Farès Chaïbi"
+      }
+    },
+    {
+      "id": "49682902",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49682914",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49682927",
+      "type": "goal",
+      "minute": 46,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "275842",
+        "name": "Dan Ndoye"
+      }
+    },
+    {
+      "id": "49682981",
+      "type": "start delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49682983",
+      "type": "start delay",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49682984",
+      "type": "end delay",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49682986",
+      "type": "end delay",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49683135",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "306033",
+        "name": "Jaouen Hadjam"
+      },
+      "player_in": {
+        "id": "306033",
+        "name": "Jaouen Hadjam"
+      },
+      "player_out": {
+        "id": "241116",
+        "name": "Houssem Aouar"
+      }
+    },
+    {
+      "id": "49683134",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "259743",
+        "name": "Amine Gouiri"
+      },
+      "player_in": {
+        "id": "259743",
+        "name": "Amine Gouiri"
+      },
+      "player_out": {
+        "id": "290517",
+        "name": "Ramiz Zerrouki"
+      }
+    },
+    {
+      "id": "49683275",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49683274",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49683281",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49683278",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49683279",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "308908",
+        "name": "Fabian Rieder"
+      },
+      "player_in": {
+        "id": "308908",
+        "name": "Fabian Rieder"
+      },
+      "player_out": {
+        "id": "259513",
+        "name": "Rubén Vargas"
+      }
+    },
+    {
+      "id": "49683280",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "270641",
+        "name": "Noah Okafor"
+      },
+      "player_in": {
+        "id": "270641",
+        "name": "Noah Okafor"
+      },
+      "player_out": {
+        "id": "386992",
+        "name": "Johan Manzambi"
+      }
+    },
+    {
+      "id": "49683282",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "341711",
+        "name": "Anis Hadj Moussa"
+      },
+      "player_in": {
+        "id": "341711",
+        "name": "Anis Hadj Moussa"
+      },
+      "player_out": {
+        "id": "163940",
+        "name": "Riyad Mahrez"
+      }
+    },
+    {
+      "id": "49683283",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "287078",
+        "name": "Hicham Boudaoui"
+      },
+      "player_in": {
+        "id": "287078",
+        "name": "Hicham Boudaoui"
+      },
+      "player_out": {
+        "id": "179187",
+        "name": "Nabil Bentaleb"
+      }
+    },
+    {
+      "id": "49683298",
+      "type": "yellow_card",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "287078",
+        "name": "Hicham Boudaoui"
+      }
+    },
+    {
+      "id": "49683301",
+      "type": "start delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49683300",
+      "type": "start delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49683302",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49683303",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49683459",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": {
+        "id": "341706",
+        "name": "Adil Boulbina"
+      },
+      "player_in": {
+        "id": "341706",
+        "name": "Adil Boulbina"
+      },
+      "player_out": {
+        "id": "364590",
+        "name": "Rafik Belghali"
+      }
+    },
+    {
+      "id": "49683468",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "320757",
+        "name": "Zeki Amdouni"
+      },
+      "player_in": {
+        "id": "320757",
+        "name": "Zeki Amdouni"
+      },
+      "player_out": {
+        "id": "202099",
+        "name": "Breel Embolo"
+      }
+    },
+    {
+      "id": "49683502",
+      "type": "start delay",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49683503",
+      "type": "start delay",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49683505",
+      "type": "end delay",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": null
+    },
+    {
+      "id": "49683504",
+      "type": "end delay",
+      "minute": 86,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "624",
+        "name": "Algeria"
+      },
+      "player": null
+    },
+    {
+      "id": "49683530",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "175905",
+        "name": "Silvan Widmer"
+      },
+      "player_in": {
+        "id": "175905",
+        "name": "Silvan Widmer"
+      },
+      "player_out": {
+        "id": "222628",
+        "name": "Denis Zakaria"
+      }
+    },
+    {
+      "id": "49683529",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "475",
+        "name": "Switzerland"
+      },
+      "player": {
+        "id": "245623",
+        "name": "Michel Aebischer"
+      },
+      "player_in": {
+        "id": "245623",
+        "name": "Michel Aebischer"
+      },
+      "player_out": {
+        "id": "275842",
+        "name": "Dan Ndoye"
+      }
+    },
+    {
+      "id": "49683684",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
