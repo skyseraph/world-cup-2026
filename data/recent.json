@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T18:45:38.863610+00:00",
+  "updated_at": "2026-07-03T20:09:33.295241+00:00",
   "events": [
     {
       "id": "760487",
@@ -615,7 +615,7 @@
     },
     {
       "id": "760499",
-      "status": "1st_half",
+      "status": "not_started",
       "start_time": "2026-07-03T18:00Z",
       "matchday": null,
       "round": "",
@@ -644,7 +644,7 @@
             "abbreviation": "AUS"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -658,7 +658,7 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "odds": {
@@ -773,17 +773,17 @@
           },
           "away": {
             "line": "+2.5",
-            "odds": "-155"
+            "odds": "-160"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-160"
+            "odds": "-155"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+130"
+            "odds": "+125"
           }
         },
         "open": {
@@ -1415,23 +1415,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "USA +160",
+        "details": "USA +165",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+160",
-          "away": "+170",
+          "home": "+165",
+          "away": "+165",
           "draw": "+240"
         },
         "spread_line": {
           "home": {
-            "line": "-0.5",
-            "odds": "+155"
+            "line": "+0.5",
+            "odds": "-195"
           },
           "away": {
-            "line": "+0.5",
-            "odds": "-200"
+            "line": "-0.5",
+            "odds": "+150"
           }
         },
         "total": {
