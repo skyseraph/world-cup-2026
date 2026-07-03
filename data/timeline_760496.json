@@ -1,0 +1,530 @@
+{
+  "event_id": "760496",
+  "timeline": [
+    {
+      "id": "49677790",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49678243",
+      "type": "yellow_card",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "234878",
+        "name": "Rúben Dias"
+      }
+    },
+    {
+      "id": "49678507",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49678492",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49678558",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49678557",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49679244",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49679343",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "310883",
+        "name": "Igor Matanovic"
+      },
+      "player_in": {
+        "id": "310883",
+        "name": "Igor Matanovic"
+      },
+      "player_out": {
+        "id": "207288",
+        "name": "Ante Budimir"
+      }
+    },
+    {
+      "id": "49679363",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49679761",
+      "type": "goal",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "103485",
+        "name": "Ivan Perisic"
+      }
+    },
+    {
+      "id": "49680009",
+      "type": "yellow_card",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "76762",
+        "name": "Luka Modric"
+      }
+    },
+    {
+      "id": "49680098",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "199833",
+        "name": "Bernardo Silva"
+      },
+      "player_in": {
+        "id": "199833",
+        "name": "Bernardo Silva"
+      },
+      "player_out": {
+        "id": "288897",
+        "name": "Vitinha"
+      }
+    },
+    {
+      "id": "49680099",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "312659",
+        "name": "Francisco Conceição"
+      },
+      "player_in": {
+        "id": "312659",
+        "name": "Francisco Conceição"
+      },
+      "player_out": {
+        "id": "256115",
+        "name": "Pedro Neto"
+      }
+    },
+    {
+      "id": "49680100",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "222670",
+        "name": "Nélson Semedo"
+      },
+      "player_in": {
+        "id": "222670",
+        "name": "Nélson Semedo"
+      },
+      "player_out": {
+        "id": "124091",
+        "name": "Bruno Fernandes"
+      }
+    },
+    {
+      "id": "49680101",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "288896",
+        "name": "Gonçalo Ramos"
+      },
+      "player_in": {
+        "id": "288896",
+        "name": "Gonçalo Ramos"
+      },
+      "player_out": {
+        "id": "176399",
+        "name": "João Cancelo"
+      }
+    },
+    {
+      "id": "49680207",
+      "type": "start delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49680226",
+      "type": "end delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49680272",
+      "type": "red_card",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "22774",
+        "name": "Cristiano Ronaldo"
+      }
+    },
+    {
+      "id": "49680273",
+      "type": "substitution",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "189668",
+        "name": "Mario Pasalic"
+      },
+      "player_in": {
+        "id": "189668",
+        "name": "Mario Pasalic"
+      },
+      "player_out": {
+        "id": "311475",
+        "name": "Martin Baturina"
+      }
+    },
+    {
+      "id": "49680300",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49680299",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49680368",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49680367",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49680778",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "208128",
+        "name": "Rúben Neves"
+      },
+      "player_in": {
+        "id": "208128",
+        "name": "Rúben Neves"
+      },
+      "player_out": {
+        "id": "22774",
+        "name": "Cristiano Ronaldo"
+      }
+    },
+    {
+      "id": "49681186",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "299910",
+        "name": "Josko Gvardiol"
+      },
+      "player_in": {
+        "id": "299910",
+        "name": "Josko Gvardiol"
+      },
+      "player_out": {
+        "id": "206378",
+        "name": "Nikola Vlasic"
+      }
+    },
+    {
+      "id": "49681233",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": {
+        "id": "288896",
+        "name": "Gonçalo Ramos"
+      }
+    },
+    {
+      "id": "49681262",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "139520",
+        "name": "Andrej Kramaric"
+      },
+      "player_in": {
+        "id": "139520",
+        "name": "Andrej Kramaric"
+      },
+      "player_out": {
+        "id": "154595",
+        "name": "Mateo Kovacic"
+      }
+    },
+    {
+      "id": "49681323",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": {
+        "id": "103485",
+        "name": "Ivan Perisic"
+      }
+    },
+    {
+      "id": "49681420",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49681422",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49681426",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49681425",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49681444",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "482",
+        "name": "Portugal"
+      },
+      "player": null
+    },
+    {
+      "id": "49681445",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "477",
+        "name": "Croatia"
+      },
+      "player": null
+    },
+    {
+      "id": "49681456",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

@@ -1,57 +1,6 @@
 {
-  "updated_at": "2026-07-02T23:55:47.316285+00:00",
+  "updated_at": "2026-07-03T01:45:33.840190+00:00",
   "events": [
-    {
-      "id": "760486",
-      "status": "closed",
-      "start_time": "2026-06-28T19:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "9115",
-        "name": "SoFi Stadium",
-        "city": "Inglewood, California",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "467",
-            "name": "South Africa",
-            "short_name": "South Africa",
-            "abbreviation": "RSA"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "206",
-            "name": "Canada",
-            "short_name": "Canada",
-            "abbreviation": "CAN"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760487",
       "status": "closed",
@@ -564,7 +513,7 @@
     },
     {
       "id": "760496",
-      "status": "halftime",
+      "status": "closed",
       "start_time": "2026-07-02T23:00Z",
       "matchday": null,
       "round": "",
@@ -593,7 +542,7 @@
             "abbreviation": "POR"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 2
         },
         {
           "team": {
@@ -603,57 +552,14 @@
             "abbreviation": "CRO"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 1
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "POR -145",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-145",
-          "away": "+450",
-          "draw": "+270"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "-155"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "+120"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-130"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "+105"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "-110",
-            "away": "+320",
-            "draw": "+250"
-          },
-          "spread": {
-            "home": "-0.5",
-            "away": "+0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -712,8 +618,8 @@
         "favorite": null,
         "moneyline": {
           "home": "+100",
-          "away": "+330",
-          "draw": "+225"
+          "away": "+340",
+          "draw": "+220"
         },
         "spread_line": {
           "home": {
@@ -728,11 +634,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+120"
+            "odds": "+125"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-145"
+            "odds": "-155"
           }
         },
         "open": {
@@ -906,17 +812,17 @@
         "spread_line": {
           "home": {
             "line": "-2.5",
-            "odds": "+140"
+            "odds": "+130"
           },
           "away": {
             "line": "+2.5",
-            "odds": "-180"
+            "odds": "-170"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-160"
+            "odds": "-165"
           },
           "under": {
             "line": "u2.5",
@@ -988,23 +894,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "COL -225",
+        "details": "COL -230",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-225",
+          "home": "-230",
           "away": "+750",
-          "draw": "+330"
+          "draw": "+340"
         },
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "+130"
+            "odds": "+125"
           },
           "away": {
             "line": "+1.5",
-            "odds": "-160"
+            "odds": "-155"
           }
         },
         "total": {
@@ -1386,11 +1292,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+145"
+            "odds": "+140"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-180"
+            "odds": "-175"
           }
         },
         "open": {
@@ -1398,6 +1304,151 @@
             "home": "+245",
             "away": "+125",
             "draw": "+220"
+          },
+          "spread": {
+            "home": "+0.5",
+            "away": "-0.5"
+          },
+          "total": "o2.5"
+        }
+      },
+      "referees": []
+    },
+    {
+      "id": "760506",
+      "status": "not_started",
+      "start_time": "2026-07-06T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "3871",
+        "name": "AT&T Stadium",
+        "city": "Arlington, Texas",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "482",
+            "name": "Portugal",
+            "short_name": "Portugal",
+            "abbreviation": "POR"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "164",
+            "name": "Spain",
+            "short_name": "Spain",
+            "abbreviation": "ESP"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": null,
+      "referees": []
+    },
+    {
+      "id": "760507",
+      "status": "not_started",
+      "start_time": "2026-07-07T00:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "4485",
+        "name": "Lumen Field",
+        "city": "Seattle, Washington",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "660",
+            "name": "United States",
+            "short_name": "USA",
+            "abbreviation": "USA"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "459",
+            "name": "Belgium",
+            "short_name": "Belgium",
+            "abbreviation": "BEL"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "USA +155",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "+155",
+          "away": "+180",
+          "draw": "+240"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-0.5",
+            "odds": "+155"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "-195"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "-130"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "+105"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "+160",
+            "away": "+175",
+            "draw": "+235"
           },
           "spread": {
             "home": "+0.5",
