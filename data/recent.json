@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T16:51:50.556835+00:00",
+  "updated_at": "2026-07-04T17:55:33.966421+00:00",
   "events": [
     {
       "id": "760490",
@@ -615,7 +615,7 @@
     },
     {
       "id": "760502",
-      "status": "not_started",
+      "status": "halftime",
       "start_time": "2026-07-04T17:00Z",
       "matchday": null,
       "round": "",
@@ -685,7 +685,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+130"
+            "odds": "+135"
           },
           "under": {
             "line": "u2.5",
