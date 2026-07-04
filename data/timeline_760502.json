@@ -1,0 +1,628 @@
+{
+  "event_id": "760502",
+  "timeline": [
+    {
+      "id": "49701541",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49701885",
+      "type": "yellow_card",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "328300",
+        "name": "Redouane Halhal"
+      }
+    },
+    {
+      "id": "49701887",
+      "type": "start delay",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49701886",
+      "type": "start delay",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49701888",
+      "type": "end delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49701890",
+      "type": "end delay",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49701889",
+      "type": "substitution",
+      "minute": 22,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      },
+      "player_in": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      },
+      "player_out": {
+        "id": "304572",
+        "name": "Ismael Saibari"
+      }
+    },
+    {
+      "id": "49701915",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49701916",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49701918",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49701919",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49702131",
+      "type": "yellow_card",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "240233",
+        "name": "Achraf Hakimi"
+      }
+    },
+    {
+      "id": "49702132",
+      "type": "yellow_card",
+      "minute": 40,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "230626",
+        "name": "Richie Laryea"
+      }
+    },
+    {
+      "id": "49702184",
+      "type": "yellow_card",
+      "minute": 43,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "273499",
+        "name": "Jonathan David"
+      }
+    },
+    {
+      "id": "49702201",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "291552",
+        "name": "Azzedine Ounahi"
+      }
+    },
+    {
+      "id": "49702306",
+      "type": "yellow_card",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "336595",
+        "name": "Bilal El Khannouss"
+      }
+    },
+    {
+      "id": "49702314",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49702325",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49702396",
+      "type": "yellow_card",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "365345",
+        "name": "Luc de Fougerolles"
+      }
+    },
+    {
+      "id": "49702398",
+      "type": "goal",
+      "minute": 50,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "291552",
+        "name": "Azzedine Ounahi"
+      }
+    },
+    {
+      "id": "49702584",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "360062",
+        "name": "Chemsdine Talbi"
+      },
+      "player_in": {
+        "id": "360062",
+        "name": "Chemsdine Talbi"
+      },
+      "player_out": {
+        "id": "336595",
+        "name": "Bilal El Khannouss"
+      }
+    },
+    {
+      "id": "49702585",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "195226",
+        "name": "Sofyan Amrabat"
+      },
+      "player_in": {
+        "id": "195226",
+        "name": "Sofyan Amrabat"
+      },
+      "player_out": {
+        "id": "373927",
+        "name": "Ayyoub Bouaddi"
+      }
+    },
+    {
+      "id": "49702586",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      },
+      "player_in": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      },
+      "player_out": {
+        "id": "294039",
+        "name": "Tani Oluwaseyi"
+      }
+    },
+    {
+      "id": "49702663",
+      "type": "yellow_card",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "205024",
+        "name": "Cyle Larin"
+      }
+    },
+    {
+      "id": "49702666",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49702665",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49702668",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49702669",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49702772",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "318522",
+        "name": "Promise David"
+      },
+      "player_in": {
+        "id": "318522",
+        "name": "Promise David"
+      },
+      "player_out": {
+        "id": "340228",
+        "name": "Ali Ahmed"
+      }
+    },
+    {
+      "id": "49702773",
+      "type": "substitution",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_in": {
+        "id": "286214",
+        "name": "Jacob Shaffelburg"
+      },
+      "player_out": {
+        "id": "230626",
+        "name": "Richie Laryea"
+      }
+    },
+    {
+      "id": "49702813",
+      "type": "goal",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "291552",
+        "name": "Azzedine Ounahi"
+      }
+    },
+    {
+      "id": "49702886",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "230430",
+        "name": "Marwane Saadane"
+      },
+      "player_in": {
+        "id": "230430",
+        "name": "Marwane Saadane"
+      },
+      "player_out": {
+        "id": "230963",
+        "name": "Issa Diop"
+      }
+    },
+    {
+      "id": "49702887",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "378491",
+        "name": "Samir El Mourabet"
+      },
+      "player_in": {
+        "id": "378491",
+        "name": "Samir El Mourabet"
+      },
+      "player_out": {
+        "id": "291552",
+        "name": "Azzedine Ounahi"
+      }
+    },
+    {
+      "id": "49702890",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "184221",
+        "name": "Jonathan Osorio"
+      },
+      "player_in": {
+        "id": "184221",
+        "name": "Jonathan Osorio"
+      },
+      "player_out": {
+        "id": "363538",
+        "name": "Niko Sigur"
+      }
+    },
+    {
+      "id": "49702888",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": {
+        "id": "280612",
+        "name": "Jayden Nelson"
+      },
+      "player_in": {
+        "id": "280612",
+        "name": "Jayden Nelson"
+      },
+      "player_out": {
+        "id": "284769",
+        "name": "Tajon Buchanan"
+      }
+    },
+    {
+      "id": "49702894",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49702895",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49702897",
+      "type": "end delay",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49702896",
+      "type": "end delay",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "206",
+        "name": "Canada"
+      },
+      "player": null
+    },
+    {
+      "id": "49703081",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      }
+    },
+    {
+      "id": "49703093",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
