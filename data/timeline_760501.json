@@ -1,0 +1,674 @@
+{
+  "event_id": "760501",
+  "timeline": [
+    {
+      "id": "49690083",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49690281",
+      "type": "substitution",
+      "minute": 8,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "272722",
+        "name": "Luis Suárez"
+      },
+      "player_in": {
+        "id": "272722",
+        "name": "Luis Suárez"
+      },
+      "player_out": {
+        "id": "176058",
+        "name": "Jhon Córdoba"
+      }
+    },
+    {
+      "id": "49690311",
+      "type": "start delay",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49690313",
+      "type": "start delay",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49690356",
+      "type": "end delay",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49690359",
+      "type": "end delay",
+      "minute": 10,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49690439",
+      "type": "yellow_card",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "239566",
+        "name": "Jhon Arias"
+      }
+    },
+    {
+      "id": "49690446",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49690452",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49690470",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49690476",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49690469",
+      "type": "substitution",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "305669",
+        "name": "Alidu Seidu"
+      },
+      "player_in": {
+        "id": "305669",
+        "name": "Alidu Seidu"
+      },
+      "player_out": {
+        "id": "309638",
+        "name": "Marvin Senaya"
+      }
+    },
+    {
+      "id": "49690543",
+      "type": "goal",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "239566",
+        "name": "Jhon Arias"
+      }
+    },
+    {
+      "id": "49690931",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49690932",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49691005",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49691006",
+      "type": "end delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49691735",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49691732",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49691779",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49691773",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49691993",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49692337",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      },
+      "player_in": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      },
+      "player_out": {
+        "id": "82816",
+        "name": "James Rodríguez"
+      }
+    },
+    {
+      "id": "49692354",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49692453",
+      "type": "yellow_card",
+      "minute": 49,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "387659",
+        "name": "Caleb Yirenkyi"
+      }
+    },
+    {
+      "id": "49692968",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      },
+      "player_in": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      },
+      "player_out": {
+        "id": "214412",
+        "name": "Iñaki Williams"
+      }
+    },
+    {
+      "id": "49692976",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "266057",
+        "name": "Elisha Owusu"
+      },
+      "player_in": {
+        "id": "266057",
+        "name": "Elisha Owusu"
+      },
+      "player_out": {
+        "id": "274697",
+        "name": "Kwasi Sibo"
+      }
+    },
+    {
+      "id": "49693104",
+      "type": "start delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49693102",
+      "type": "start delay",
+      "minute": 65,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49693105",
+      "type": "end delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49693106",
+      "type": "end delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49693127",
+      "type": "yellow_card",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "318680",
+        "name": "Fatawu Issahaku"
+      }
+    },
+    {
+      "id": "49693239",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49693238",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49693281",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49693293",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49693296",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "177780",
+        "name": "Juan Fernando Quintero"
+      },
+      "player_in": {
+        "id": "177780",
+        "name": "Juan Fernando Quintero"
+      },
+      "player_out": {
+        "id": "239566",
+        "name": "Jhon Arias"
+      }
+    },
+    {
+      "id": "49693386",
+      "type": "yellow_card",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "305669",
+        "name": "Alidu Seidu"
+      }
+    },
+    {
+      "id": "49693436",
+      "type": "yellow_card",
+      "minute": 78,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "301520",
+        "name": "Richard Ríos"
+      }
+    },
+    {
+      "id": "49693447",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "333310",
+        "name": "Ernest Nuamah"
+      },
+      "player_in": {
+        "id": "333310",
+        "name": "Ernest Nuamah"
+      },
+      "player_out": {
+        "id": "123518",
+        "name": "Jordan Ayew"
+      }
+    },
+    {
+      "id": "49693448",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": {
+        "id": "387861",
+        "name": "Prince Adu"
+      },
+      "player_in": {
+        "id": "387861",
+        "name": "Prince Adu"
+      },
+      "player_out": {
+        "id": "387659",
+        "name": "Caleb Yirenkyi"
+      }
+    },
+    {
+      "id": "49693860",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": {
+        "id": "255295",
+        "name": "Jáminton Campaz"
+      },
+      "player_in": {
+        "id": "255295",
+        "name": "Jáminton Campaz"
+      },
+      "player_out": {
+        "id": "257390",
+        "name": "Luis Díaz"
+      }
+    },
+    {
+      "id": "49693928",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49693932",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49693959",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "208",
+        "name": "Colombia"
+      },
+      "player": null
+    },
+    {
+      "id": "49693954",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "4469",
+        "name": "Ghana"
+      },
+      "player": null
+    },
+    {
+      "id": "49694185",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
