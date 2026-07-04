@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T15:39:13.723685+00:00",
+  "updated_at": "2026-07-04T16:51:50.556835+00:00",
   "events": [
     {
       "id": "760490",
@@ -663,33 +663,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "MAR -135",
+        "details": "MAR -125",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+450",
-          "away": "-135",
-          "draw": "+240"
+          "home": "+400",
+          "away": "-125",
+          "draw": "+230"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "+110"
+            "odds": "+100"
           },
           "away": {
             "line": "-0.5",
-            "odds": "-140"
+            "odds": "-125"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+115"
+            "odds": "+130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-145"
+            "odds": "-165"
           }
         },
         "open": {
@@ -769,11 +769,11 @@
         "spread_line": {
           "home": {
             "line": "+1.5",
-            "odds": "+130"
+            "odds": "+125"
           },
           "away": {
             "line": "-1.5",
-            "odds": "-165"
+            "odds": "-160"
           }
         },
         "total": {
@@ -957,11 +957,11 @@
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-170"
+            "odds": "-165"
           },
           "away": {
             "line": "-0.5",
-            "odds": "+135"
+            "odds": "+130"
           }
         },
         "total": {
@@ -1133,13 +1133,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "USA +160",
+        "details": "USA +155",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+160",
-          "away": "+165",
+          "home": "+155",
+          "away": "+170",
           "draw": "+240"
         },
         "spread_line": {
