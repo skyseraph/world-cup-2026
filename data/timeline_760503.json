@@ -1,0 +1,455 @@
+{
+  "event_id": "760503",
+  "timeline": [
+    {
+      "id": "49707254",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49707633",
+      "type": "yellow_card",
+      "minute": 19,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      }
+    },
+    {
+      "id": "49707692",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49707691",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49707699",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49707698",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49708017",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49708033",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49708132",
+      "type": "start delay",
+      "minute": 52,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49708131",
+      "type": "start delay",
+      "minute": 52,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49708133",
+      "type": "end delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49708134",
+      "type": "end delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49708202",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "227682",
+        "name": "José Canale"
+      },
+      "player_in": {
+        "id": "227682",
+        "name": "José Canale"
+      },
+      "player_out": {
+        "id": "215401",
+        "name": "Omar Alderete"
+      }
+    },
+    {
+      "id": "49708237",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "154853",
+        "name": "Gustavo Caballero"
+      },
+      "player_in": {
+        "id": "154853",
+        "name": "Gustavo Caballero"
+      },
+      "player_out": {
+        "id": "20975",
+        "name": "Julio Enciso"
+      }
+    },
+    {
+      "id": "49708238",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "336388",
+        "name": "Désiré Doué"
+      },
+      "player_in": {
+        "id": "336388",
+        "name": "Désiré Doué"
+      },
+      "player_out": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      }
+    },
+    {
+      "id": "49708324",
+      "type": "start delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49708335",
+      "type": "start delay",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49708330",
+      "type": "end delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49708336",
+      "type": "end delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49708331",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49708333",
+      "type": "end delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49708338",
+      "type": "red_card",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49708344",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "289046",
+        "name": "Maurício"
+      },
+      "player_in": {
+        "id": "289046",
+        "name": "Maurício"
+      },
+      "player_out": {
+        "id": "192278",
+        "name": "Diego Gómez"
+      }
+    },
+    {
+      "id": "49708343",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": {
+        "id": "208421",
+        "name": "Gabriel Ávalos"
+      },
+      "player_in": {
+        "id": "208421",
+        "name": "Gabriel Ávalos"
+      },
+      "player_out": {
+        "id": "48128",
+        "name": "Miguel Almirón"
+      }
+    },
+    {
+      "id": "49708361",
+      "type": "start delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49708362",
+      "type": "start delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49708365",
+      "type": "end delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49708364",
+      "type": "end delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "210",
+        "name": "Paraguay"
+      },
+      "player": null
+    },
+    {
+      "id": "49708448",
+      "type": "yellow_card",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "285226",
+        "name": "Manu Koné"
+      }
+    },
+    {
+      "id": "49708493",
+      "type": "substitution",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      },
+      "player_in": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      },
+      "player_out": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49708696",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "286831",
+        "name": "Michael Olise"
+      }
+    },
+    {
+      "id": "49708789",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
