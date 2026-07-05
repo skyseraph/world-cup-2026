@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T20:08:03.375518+00:00",
+  "updated_at": "2026-07-05T21:32:56.837658+00:00",
   "events": [
     {
       "id": "760495",
@@ -564,7 +564,7 @@
     },
     {
       "id": "760504",
-      "status": "1st_half",
+      "status": "2nd_half",
       "start_time": "2026-07-05T20:00Z",
       "matchday": null,
       "round": "",
@@ -894,23 +894,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "USA +160",
+        "details": "USA +165",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+160",
-          "away": "+170",
-          "draw": "+240"
+          "home": "+165",
+          "away": "+165",
+          "draw": "+235"
         },
         "spread_line": {
           "home": {
-            "line": "-0.5",
-            "odds": "+155"
+            "line": "+0.5",
+            "odds": "-195"
           },
           "away": {
-            "line": "+0.5",
-            "odds": "-200"
+            "line": "-0.5",
+            "odds": "+150"
           }
         },
         "total": {
@@ -995,7 +995,7 @@
         "moneyline": {
           "home": "-260",
           "away": "+750",
-          "draw": "+370"
+          "draw": "+360"
         },
         "spread_line": {
           "home": {
