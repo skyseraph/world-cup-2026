@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T22:48:47.347999+00:00",
+  "updated_at": "2026-07-05T23:55:28.714516+00:00",
   "events": [
     {
       "id": "760495",
@@ -616,7 +616,7 @@
     {
       "id": "760505",
       "status": "not_started",
-      "start_time": "2026-07-06T00:00Z",
+      "start_time": "2026-07-06T01:00Z",
       "matchday": null,
       "round": "",
       "round_name": "",
@@ -668,9 +668,9 @@
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+200",
+          "home": "+205",
           "away": "+155",
-          "draw": "+205"
+          "draw": "+200"
         },
         "spread_line": {
           "home": {
@@ -856,18 +856,18 @@
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+170",
+          "home": "+165",
           "away": "+160",
-          "draw": "+235"
+          "draw": "+245"
         },
         "spread_line": {
           "home": {
-            "line": "+0.5",
-            "odds": "-195"
-          },
-          "away": {
             "line": "-0.5",
             "odds": "+155"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "-200"
           }
         },
         "total": {
@@ -877,7 +877,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "+120"
+            "odds": "+125"
           }
         },
         "open": {
@@ -945,13 +945,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ARG -265",
+        "details": "ARG -255",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-265",
-          "away": "+800",
+          "home": "-255",
+          "away": "+750",
           "draw": "+360"
         },
         "spread_line": {
@@ -961,7 +961,7 @@
           },
           "away": {
             "line": "+1.5",
-            "odds": "-150"
+            "odds": "-145"
           }
         },
         "total": {
@@ -971,7 +971,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-130"
+            "odds": "-125"
           }
         },
         "open": {
