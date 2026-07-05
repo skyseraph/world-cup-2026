@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T12:09:19.147807+00:00",
+  "updated_at": "2026-07-05T14:15:27.446585+00:00",
   "events": [
     {
       "id": "760495",
@@ -612,29 +612,29 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "BRA -125",
+        "details": "BRA -130",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-125",
-          "away": "+340",
+          "home": "-130",
+          "away": "+350",
           "draw": "+275"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-130"
+            "odds": "-135"
           },
           "away": {
             "line": "+0.5",
-            "odds": "+100"
+            "odds": "+105"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-145"
+            "odds": "-150"
           },
           "under": {
             "line": "u2.5",
@@ -713,7 +713,7 @@
         "moneyline": {
           "home": "+210",
           "away": "+145",
-          "draw": "+210"
+          "draw": "+215"
         },
         "spread_line": {
           "home": {
@@ -728,11 +728,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+130"
+            "odds": "+135"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-160"
+            "odds": "-165"
           }
         },
         "open": {
