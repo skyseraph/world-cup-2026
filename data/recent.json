@@ -1,159 +1,6 @@
 {
-  "updated_at": "2026-07-04T23:29:36.870755+00:00",
+  "updated_at": "2026-07-05T01:15:20.107467+00:00",
   "events": [
-    {
-      "id": "760490",
-      "status": "closed",
-      "start_time": "2026-06-30T17:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "3871",
-        "name": "AT&T Stadium",
-        "city": "Arlington, Texas",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "4789",
-            "name": "Ivory Coast",
-            "short_name": "Ivory Coast",
-            "abbreviation": "CIV"
-          },
-          "qualifier": "home",
-          "score": 1
-        },
-        {
-          "team": {
-            "id": "464",
-            "name": "Norway",
-            "short_name": "Norway",
-            "abbreviation": "NOR"
-          },
-          "qualifier": "away",
-          "score": 2
-        }
-      ],
-      "scores": {
-        "home": 1,
-        "away": 2
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760492",
-      "status": "closed",
-      "start_time": "2026-06-30T21:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "4727",
-        "name": "MetLife Stadium",
-        "city": "East Rutherford, New Jersey",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "478",
-            "name": "France",
-            "short_name": "France",
-            "abbreviation": "FRA"
-          },
-          "qualifier": "home",
-          "score": 3
-        },
-        {
-          "team": {
-            "id": "466",
-            "name": "Sweden",
-            "short_name": "Sweden",
-            "abbreviation": "SWE"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 3,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760491",
-      "status": "closed",
-      "start_time": "2026-07-01T02:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "1672",
-        "name": "Estadio Banorte",
-        "city": "Mexico City",
-        "country": "Mexico"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "203",
-            "name": "Mexico",
-            "short_name": "Mexico",
-            "abbreviation": "MEX"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "209",
-            "name": "Ecuador",
-            "short_name": "Ecuador",
-            "abbreviation": "ECU"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760495",
       "status": "closed",
@@ -787,7 +634,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-140"
+            "odds": "-135"
           },
           "under": {
             "line": "u2.5",
@@ -864,18 +711,18 @@
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+205",
+          "home": "+215",
           "away": "+140",
           "draw": "+220"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-165"
+            "odds": "-170"
           },
           "away": {
             "line": "-0.5",
-            "odds": "+130"
+            "odds": "+135"
           }
         },
         "total": {
@@ -975,7 +822,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-125"
+            "odds": "-120"
           },
           "under": {
             "line": "u2.5",
@@ -1047,23 +894,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "USA +155",
+        "details": "USA +160",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+155",
+          "home": "+160",
           "away": "+170",
-          "draw": "+240"
+          "draw": "+230"
         },
         "spread_line": {
           "home": {
-            "line": "-0.5",
-            "odds": "+155"
-          },
-          "away": {
             "line": "+0.5",
             "odds": "-200"
+          },
+          "away": {
+            "line": "-0.5",
+            "odds": "+155"
           }
         },
         "total": {
@@ -1153,11 +1000,11 @@
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "+115"
+            "odds": "+110"
           },
           "away": {
             "line": "+1.5",
-            "odds": "-145"
+            "odds": "-140"
           }
         },
         "total": {
@@ -1261,7 +1108,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-165"
+            "odds": "-170"
           }
         },
         "open": {
