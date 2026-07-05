@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T21:32:56.837658+00:00",
+  "updated_at": "2026-07-05T22:48:47.347999+00:00",
   "events": [
     {
       "id": "760495",
@@ -564,7 +564,7 @@
     },
     {
       "id": "760504",
-      "status": "2nd_half",
+      "status": "closed",
       "start_time": "2026-07-05T20:00Z",
       "matchday": null,
       "round": "",
@@ -593,7 +593,7 @@
             "abbreviation": "BRA"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -603,57 +603,14 @@
             "abbreviation": "NOR"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 2
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "BRA -135",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-135",
-          "away": "+370",
-          "draw": "+270"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "-135"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "+110"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-135"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "+110"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "-110",
-            "away": "+310",
-            "draw": "+260"
-          },
-          "spread": {
-            "home": "-0.5",
-            "away": "+0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -713,7 +670,7 @@
         "moneyline": {
           "home": "+200",
           "away": "+155",
-          "draw": "+210"
+          "draw": "+205"
         },
         "spread_line": {
           "home": {
@@ -728,11 +685,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+140"
+            "odds": "+145"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-175"
+            "odds": "-180"
           }
         },
         "open": {
@@ -894,13 +851,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "USA +165",
+        "details": "BEL +160",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+165",
-          "away": "+165",
+          "home": "+170",
+          "away": "+160",
           "draw": "+235"
         },
         "spread_line": {
@@ -910,7 +867,7 @@
           },
           "away": {
             "line": "-0.5",
-            "odds": "+150"
+            "odds": "+155"
           }
         },
         "total": {
@@ -988,13 +945,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ARG -260",
+        "details": "ARG -265",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-260",
-          "away": "+750",
+          "home": "-265",
+          "away": "+800",
           "draw": "+360"
         },
         "spread_line": {
@@ -1004,17 +961,17 @@
           },
           "away": {
             "line": "+1.5",
-            "odds": "-145"
+            "odds": "-150"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+100"
+            "odds": "+105"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-125"
+            "odds": "-130"
           }
         },
         "open": {

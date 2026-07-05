@@ -1,0 +1,420 @@
+{
+  "event_id": "760504",
+  "timeline": [
+    {
+      "id": "49717808",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49717989",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49717993",
+      "type": "end delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49717999",
+      "type": "penalty_missed",
+      "minute": 14,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "218522",
+        "name": "Bruno Guimarães"
+      }
+    },
+    {
+      "id": "49718261",
+      "type": "start delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49718254",
+      "type": "start delay",
+      "minute": 27,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49718263",
+      "type": "end delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49718262",
+      "type": "end delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49718702",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49718733",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      },
+      "player_in": {
+        "id": "307111",
+        "name": "Oscar Bobb"
+      },
+      "player_out": {
+        "id": "188230",
+        "name": "Alexander Sørloth"
+      }
+    },
+    {
+      "id": "49718734",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      },
+      "player_in": {
+        "id": "313415",
+        "name": "Andreas Schjelderup"
+      },
+      "player_out": {
+        "id": "319368",
+        "name": "Antonio Nusa"
+      }
+    },
+    {
+      "id": "49718741",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49719144",
+      "type": "substitution",
+      "minute": 58,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "346612",
+        "name": "Endrick"
+      },
+      "player_in": {
+        "id": "346612",
+        "name": "Endrick"
+      },
+      "player_out": {
+        "id": "259902",
+        "name": "Matheus Cunha"
+      }
+    },
+    {
+      "id": "49719279",
+      "type": "substitution",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "212900",
+        "name": "Fredrik Aursnes"
+      },
+      "player_in": {
+        "id": "212900",
+        "name": "Fredrik Aursnes"
+      },
+      "player_out": {
+        "id": "222991",
+        "name": "Julian Ryerson"
+      }
+    },
+    {
+      "id": "49719387",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "132948",
+        "name": "Neymar"
+      },
+      "player_in": {
+        "id": "132948",
+        "name": "Neymar"
+      },
+      "player_out": {
+        "id": "269844",
+        "name": "Gabriel Martinelli"
+      }
+    },
+    {
+      "id": "49719391",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "306764",
+        "name": "Danilo Santos"
+      },
+      "player_in": {
+        "id": "306764",
+        "name": "Danilo Santos"
+      },
+      "player_out": {
+        "id": "357719",
+        "name": "Rayan"
+      }
+    },
+    {
+      "id": "49719399",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49719400",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49719442",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": null
+    },
+    {
+      "id": "49719446",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": null
+    },
+    {
+      "id": "49719699",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "278210",
+        "name": "Éderson"
+      },
+      "player_in": {
+        "id": "278210",
+        "name": "Éderson"
+      },
+      "player_out": {
+        "id": "218522",
+        "name": "Bruno Guimarães"
+      }
+    },
+    {
+      "id": "49719718",
+      "type": "goal",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "253989",
+        "name": "Erling Haaland"
+      }
+    },
+    {
+      "id": "49719983",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "253989",
+        "name": "Erling Haaland"
+      }
+    },
+    {
+      "id": "49720105",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "464",
+        "name": "Norway"
+      },
+      "player": {
+        "id": "281736",
+        "name": "Leo Østigard"
+      },
+      "player_in": {
+        "id": "281736",
+        "name": "Leo Østigard"
+      },
+      "player_out": {
+        "id": "313361",
+        "name": "David Møller Wolfe"
+      }
+    },
+    {
+      "id": "49720134",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "132948",
+        "name": "Neymar"
+      }
+    },
+    {
+      "id": "49720160",
+      "type": "red_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "205",
+        "name": "Brazil"
+      },
+      "player": {
+        "id": "132948",
+        "name": "Neymar"
+      }
+    },
+    {
+      "id": "49720169",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
