@@ -1,159 +1,6 @@
 {
-  "updated_at": "2026-07-05T23:55:28.714516+00:00",
+  "updated_at": "2026-07-06T01:54:58.324872+00:00",
   "events": [
-    {
-      "id": "760495",
-      "status": "closed",
-      "start_time": "2026-07-01T16:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "7485",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta, Georgia",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "448",
-            "name": "England",
-            "short_name": "England",
-            "abbreviation": "ENG"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "2850",
-            "name": "Congo DR",
-            "short_name": "Congo DR",
-            "abbreviation": "COD"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760493",
-      "status": "not_started",
-      "start_time": "2026-07-01T20:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "4485",
-        "name": "Lumen Field",
-        "city": "Seattle, Washington",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "459",
-            "name": "Belgium",
-            "short_name": "Belgium",
-            "abbreviation": "BEL"
-          },
-          "qualifier": "home",
-          "score": 3
-        },
-        {
-          "team": {
-            "id": "654",
-            "name": "Senegal",
-            "short_name": "Senegal",
-            "abbreviation": "SEN"
-          },
-          "qualifier": "away",
-          "score": 2
-        }
-      ],
-      "scores": {
-        "home": 3,
-        "away": 2
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760494",
-      "status": "closed",
-      "start_time": "2026-07-02T00:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "5960",
-        "name": "Levi's Stadium",
-        "city": "Santa Clara, California",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "660",
-            "name": "United States",
-            "short_name": "USA",
-            "abbreviation": "USA"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "452",
-            "name": "Bosnia-Herzegovina",
-            "short_name": "Bosnia-Herz",
-            "abbreviation": "BIH"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760497",
       "status": "closed",
@@ -615,7 +462,7 @@
     },
     {
       "id": "760505",
-      "status": "not_started",
+      "status": "halftime",
       "start_time": "2026-07-06T01:00Z",
       "matchday": null,
       "round": "",
@@ -644,7 +491,7 @@
             "abbreviation": "MEX"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -654,12 +501,12 @@
             "abbreviation": "ENG"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 2
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
       "odds": {
         "provider": "DraftKings",
@@ -675,7 +522,7 @@
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-185"
+            "odds": "-180"
           },
           "away": {
             "line": "-0.5",
@@ -689,7 +536,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-180"
+            "odds": "-185"
           }
         },
         "open": {
@@ -757,19 +604,19 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ESP -105",
+        "details": "ESP -110",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+280",
-          "away": "-105",
-          "draw": "+265"
+          "home": "+295",
+          "away": "-110",
+          "draw": "+270"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-115"
+            "odds": "-110"
           },
           "away": {
             "line": "-0.5",
@@ -779,11 +626,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-135"
+            "odds": "-130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+110"
+            "odds": "+105"
           }
         },
         "open": {
@@ -877,7 +724,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "+125"
+            "odds": "+120"
           }
         },
         "open": {
@@ -1077,6 +924,100 @@
           "spread": {
             "home": "+0.5",
             "away": "-0.5"
+          },
+          "total": "o2.5"
+        }
+      },
+      "referees": []
+    },
+    {
+      "id": "760510",
+      "status": "not_started",
+      "start_time": "2026-07-09T20:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "10660",
+        "name": "Gillette Stadium",
+        "city": "Foxborough, Massachusetts",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "478",
+            "name": "France",
+            "short_name": "France",
+            "abbreviation": "FRA"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "2869",
+            "name": "Morocco",
+            "short_name": "Morocco",
+            "abbreviation": "MAR"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "FRA -170",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "-170",
+          "away": "+500",
+          "draw": "+285"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-0.5",
+            "odds": "-180"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "+140"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "+100"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "-125"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "-175",
+            "away": "+500",
+            "draw": "+285"
+          },
+          "spread": {
+            "home": "-0.5",
+            "away": "+0.5"
           },
           "total": "o2.5"
         }
