@@ -1,0 +1,704 @@
+{
+  "event_id": "760505",
+  "timeline": [
+    {
+      "id": "49720915",
+      "type": "start delay",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49722856",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49722886",
+      "type": "yellow_card",
+      "minute": 1,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "238262",
+        "name": "Declan Rice"
+      }
+    },
+    {
+      "id": "49722895",
+      "type": "start delay",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49722902",
+      "type": "start delay",
+      "minute": 2,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49722917",
+      "type": "end delay",
+      "minute": 3,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49722920",
+      "type": "end delay",
+      "minute": 3,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49723550",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49723551",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49723602",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49723601",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49723876",
+      "type": "goal",
+      "minute": 36,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49723891",
+      "type": "goal",
+      "minute": 38,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49723945",
+      "type": "goal",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "233075",
+        "name": "Julián Quiñones"
+      }
+    },
+    {
+      "id": "49724062",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49724077",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "241627",
+        "name": "Edson Álvarez"
+      },
+      "player_in": {
+        "id": "241627",
+        "name": "Edson Álvarez"
+      },
+      "player_out": {
+        "id": "224323",
+        "name": "César Montes"
+      }
+    },
+    {
+      "id": "49724080",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49724198",
+      "type": "start delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49724200",
+      "type": "end delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49724201",
+      "type": "red_card",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "298524",
+        "name": "Jarell Quansah"
+      }
+    },
+    {
+      "id": "49724224",
+      "type": "substitution",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "157974",
+        "name": "John Stones"
+      },
+      "player_in": {
+        "id": "157974",
+        "name": "John Stones"
+      },
+      "player_out": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      }
+    },
+    {
+      "id": "49724230",
+      "type": "red_card",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "142200",
+        "name": "Harry Kane"
+      }
+    },
+    {
+      "id": "49724231",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "260775",
+        "name": "Santiago Gimenez"
+      },
+      "player_in": {
+        "id": "260775",
+        "name": "Santiago Gimenez"
+      },
+      "player_out": {
+        "id": "389575",
+        "name": "Gilberto Mora"
+      }
+    },
+    {
+      "id": "49724232",
+      "type": "substitution",
+      "minute": 61,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "303577",
+        "name": "Brian Gutiérrez"
+      },
+      "player_in": {
+        "id": "303577",
+        "name": "Brian Gutiérrez"
+      },
+      "player_out": {
+        "id": "242614",
+        "name": "Luis Romo"
+      }
+    },
+    {
+      "id": "49724329",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49724331",
+      "type": "end delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49724332",
+      "type": "yellow_card",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "265907",
+        "name": "Marc Guéhi"
+      }
+    },
+    {
+      "id": "49724333",
+      "type": "red_card",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "167060",
+        "name": "Raúl Jiménez"
+      }
+    },
+    {
+      "id": "49724348",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49724789",
+      "type": "start delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49724350",
+      "type": "yellow_card",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "178746",
+        "name": "Jorge Sánchez"
+      }
+    },
+    {
+      "id": "49724352",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49724353",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49724354",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49724355",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49724356",
+      "type": "yellow_card",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "328464",
+        "name": "Nico O'Reilly"
+      }
+    },
+    {
+      "id": "49724358",
+      "type": "end delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49724357",
+      "type": "end delay",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49724359",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "267711",
+        "name": "Djed Spence"
+      },
+      "player_in": {
+        "id": "267711",
+        "name": "Djed Spence"
+      },
+      "player_out": {
+        "id": "328464",
+        "name": "Nico O'Reilly"
+      }
+    },
+    {
+      "id": "49724360",
+      "type": "substitution",
+      "minute": 75,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "198138",
+        "name": "Dan Burn"
+      },
+      "player_in": {
+        "id": "198138",
+        "name": "Dan Burn"
+      },
+      "player_out": {
+        "id": "238472",
+        "name": "Elliot Anderson"
+      }
+    },
+    {
+      "id": "49724422",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "283827",
+        "name": "Álvaro Fidalgo"
+      },
+      "player_in": {
+        "id": "283827",
+        "name": "Álvaro Fidalgo"
+      },
+      "player_out": {
+        "id": "178746",
+        "name": "Jorge Sánchez"
+      }
+    },
+    {
+      "id": "49724447",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "193566",
+        "name": "Guillermo Martínez"
+      },
+      "player_in": {
+        "id": "193566",
+        "name": "Guillermo Martínez"
+      },
+      "player_out": {
+        "id": "233075",
+        "name": "Julián Quiñones"
+      }
+    },
+    {
+      "id": "49724493",
+      "type": "start delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49724495",
+      "type": "end delay",
+      "minute": 84,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": null
+    },
+    {
+      "id": "49724586",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "265653",
+        "name": "Morgan Rogers"
+      },
+      "player_in": {
+        "id": "265653",
+        "name": "Morgan Rogers"
+      },
+      "player_out": {
+        "id": "142200",
+        "name": "Harry Kane"
+      }
+    },
+    {
+      "id": "49724695",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "203",
+        "name": "Mexico"
+      },
+      "player": {
+        "id": "259975",
+        "name": "Johan Vásquez"
+      }
+    },
+    {
+      "id": "49724696",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "127262",
+        "name": "Jordan Henderson"
+      }
+    },
+    {
+      "id": "49724756",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
