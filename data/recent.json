@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T06:17:24.679987+00:00",
+  "updated_at": "2026-07-06T11:11:50.238191+00:00",
   "events": [
     {
       "id": "760497",
@@ -561,14 +561,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ESP -110",
+        "details": "ESP -120",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+295",
-          "away": "-110",
-          "draw": "+265"
+          "home": "+260",
+          "away": "-120",
+          "draw": "+230"
         },
         "spread_line": {
           "home": {
@@ -583,11 +583,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-125"
+            "odds": "-130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+100"
+            "odds": "+105"
           }
         },
         "open": {
@@ -655,33 +655,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "USA +155",
+        "details": "USA +135",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+155",
-          "away": "+175",
-          "draw": "+240"
+          "home": "+135",
+          "away": "+160",
+          "draw": "+210"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+150"
+            "odds": "+140"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-190"
+            "odds": "-180"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-140"
+            "odds": "-155"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+110"
+            "odds": "+125"
           }
         },
         "open": {
@@ -749,14 +749,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ARG -260",
+        "details": "ARG -300",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-260",
-          "away": "+800",
-          "draw": "+370"
+          "home": "-300",
+          "away": "+650",
+          "draw": "+310"
         },
         "spread_line": {
           "home": {
@@ -843,14 +843,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "COL +135",
+        "details": "COL +120",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+230",
-          "away": "+135",
-          "draw": "+210"
+          "home": "+205",
+          "away": "+120",
+          "draw": "+185"
         },
         "spread_line": {
           "home": {
@@ -859,7 +859,7 @@
           },
           "away": {
             "line": "-0.5",
-            "odds": "+130"
+            "odds": "+125"
           }
         },
         "total": {
@@ -869,7 +869,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-170"
+            "odds": "-165"
           }
         },
         "open": {
