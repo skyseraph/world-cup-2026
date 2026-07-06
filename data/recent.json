@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T17:37:49.874421+00:00",
+  "updated_at": "2026-07-06T19:30:12.178774+00:00",
   "events": [
     {
       "id": "760497",
@@ -513,7 +513,7 @@
     },
     {
       "id": "760506",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-07-06T19:00Z",
       "matchday": null,
       "round": "",
@@ -566,28 +566,28 @@
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+295",
+          "home": "+290",
           "away": "-105",
           "draw": "+255"
         },
         "spread_line": {
           "home": {
             "line": "+0.5",
-            "odds": "-115"
+            "odds": "-120"
           },
           "away": {
             "line": "-0.5",
-            "odds": "-110"
+            "odds": "-105"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-125"
+            "odds": "-130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+100"
+            "odds": "+105"
           }
         },
         "open": {
@@ -655,23 +655,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "USA +145",
+        "details": "USA +155",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+145",
-          "away": "+185",
+          "home": "+155",
+          "away": "+175",
           "draw": "+240"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+140"
+            "odds": "+145"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-175"
+            "odds": "-185"
           }
         },
         "total": {
@@ -775,7 +775,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-125"
+            "odds": "-130"
           }
         },
         "open": {
