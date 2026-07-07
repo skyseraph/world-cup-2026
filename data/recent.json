@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T01:56:46.306535+00:00",
+  "updated_at": "2026-07-07T05:58:40.839147+00:00",
   "events": [
     {
       "id": "760499",
@@ -411,7 +411,7 @@
     },
     {
       "id": "760507",
-      "status": "2nd_half",
+      "status": "closed",
       "start_time": "2026-07-07T00:00Z",
       "matchday": null,
       "round": "",
@@ -450,57 +450,14 @@
             "abbreviation": "BEL"
           },
           "qualifier": "away",
-          "score": 3
+          "score": 4
         }
       ],
       "scores": {
         "home": 1,
-        "away": 3
+        "away": 4
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "USA +155",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "+155",
-          "away": "+185",
-          "draw": "+225"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "+145"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "-185"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-125"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "+105"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+160",
-            "away": "+175",
-            "draw": "+235"
-          },
-          "spread": {
-            "home": "+0.5",
-            "away": "-0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -553,33 +510,33 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ARG -270",
+        "details": "ARG -300",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-270",
-          "away": "+850",
-          "draw": "+370"
+          "home": "-300",
+          "away": "+950",
+          "draw": "+390"
         },
         "spread_line": {
           "home": {
             "line": "-1.5",
-            "odds": "+110"
+            "odds": "+100"
           },
           "away": {
             "line": "+1.5",
-            "odds": "-140"
+            "odds": "-130"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+100"
+            "odds": "-110"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-125"
+            "odds": "-115"
           }
         },
         "open": {
@@ -647,13 +604,13 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "COL +130",
+        "details": "COL +125",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+240",
-          "away": "+130",
+          "home": "+245",
+          "away": "+125",
           "draw": "+210"
         },
         "spread_line": {
@@ -669,11 +626,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+130"
+            "odds": "+125"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-160"
+            "odds": "-155"
           }
         },
         "open": {
@@ -820,10 +777,10 @@
         },
         {
           "team": {
-            "id": "19279",
-            "name": "Round of 16 6 Winner",
-            "short_name": "RD16 W6",
-            "abbreviation": "RD16 W6"
+            "id": "459",
+            "name": "Belgium",
+            "short_name": "Belgium",
+            "abbreviation": "BEL"
           },
           "qualifier": "away",
           "score": 0
@@ -833,7 +790,50 @@
         "home": 0,
         "away": 0
       },
-      "odds": null,
+      "odds": {
+        "provider": "DraftKings",
+        "details": "ESP -160",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "-160",
+          "away": "+450",
+          "draw": "+290"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-0.5",
+            "odds": "-165"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "+130"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "-125"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "+100"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "-160",
+            "away": "+450",
+            "draw": "+290"
+          },
+          "spread": {
+            "home": "-0.5",
+            "away": "+0.5"
+          },
+          "total": "o2.5"
+        }
+      },
       "referees": []
     }
   ]

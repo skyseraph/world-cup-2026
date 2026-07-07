@@ -1,0 +1,688 @@
+{
+  "event_id": "760507",
+  "timeline": [
+    {
+      "id": "49729045",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49729208",
+      "type": "goal",
+      "minute": 9,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "296319",
+        "name": "Charles De Ketelaere"
+      }
+    },
+    {
+      "id": "49729258",
+      "type": "start delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729260",
+      "type": "start delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729262",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729261",
+      "type": "end delay",
+      "minute": 13,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729352",
+      "type": "start delay",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729350",
+      "type": "start delay",
+      "minute": 17,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729353",
+      "type": "end delay",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729354",
+      "type": "end delay",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729374",
+      "type": "start delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729373",
+      "type": "start delay",
+      "minute": 20,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729378",
+      "type": "substitution",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "193849",
+        "name": "Hans Vanaken"
+      },
+      "player_in": {
+        "id": "193849",
+        "name": "Hans Vanaken"
+      },
+      "player_out": {
+        "id": "304799",
+        "name": "Amadou Onana"
+      }
+    },
+    {
+      "id": "49729375",
+      "type": "end delay",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729379",
+      "type": "end delay",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729426",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729425",
+      "type": "start delay",
+      "minute": 24,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729428",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729427",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729493",
+      "type": "goal",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "301416",
+        "name": "Malik Tillman"
+      }
+    },
+    {
+      "id": "49729516",
+      "type": "goal",
+      "minute": 33,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "296319",
+        "name": "Charles De Ketelaere"
+      }
+    },
+    {
+      "id": "49729532",
+      "type": "yellow_card",
+      "minute": 35,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "256715",
+        "name": "Weston McKennie"
+      }
+    },
+    {
+      "id": "49729730",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729732",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729834",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49729843",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      },
+      "player_in": {
+        "id": "290230",
+        "name": "Giovanni Reyna"
+      },
+      "player_out": {
+        "id": "266291",
+        "name": "Sergiño Dest"
+      }
+    },
+    {
+      "id": "49729850",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49729981",
+      "type": "start delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729980",
+      "type": "start delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49729984",
+      "type": "end delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49729985",
+      "type": "end delay",
+      "minute": 53,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49730052",
+      "type": "goal",
+      "minute": 57,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "193849",
+        "name": "Hans Vanaken"
+      }
+    },
+    {
+      "id": "49730056",
+      "type": "substitution",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      },
+      "player_in": {
+        "id": "295771",
+        "name": "Sebastian Berhalter"
+      },
+      "player_out": {
+        "id": "225607",
+        "name": "Christian Pulisic"
+      }
+    },
+    {
+      "id": "49730220",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "283672",
+        "name": "Jérémy Doku"
+      },
+      "player_in": {
+        "id": "283672",
+        "name": "Jérémy Doku"
+      },
+      "player_out": {
+        "id": "229443",
+        "name": "Dodi Lukébakio"
+      }
+    },
+    {
+      "id": "49730221",
+      "type": "substitution",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "139437",
+        "name": "Romelu Lukaku"
+      },
+      "player_in": {
+        "id": "139437",
+        "name": "Romelu Lukaku"
+      },
+      "player_out": {
+        "id": "296319",
+        "name": "Charles De Ketelaere"
+      }
+    },
+    {
+      "id": "49730244",
+      "type": "yellow_card",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "301416",
+        "name": "Malik Tillman"
+      }
+    },
+    {
+      "id": "49730246",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49730245",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49730247",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": null
+    },
+    {
+      "id": "49730248",
+      "type": "end delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": null
+    },
+    {
+      "id": "49730260",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "289120",
+        "name": "Ricardo Pepi"
+      },
+      "player_in": {
+        "id": "289120",
+        "name": "Ricardo Pepi"
+      },
+      "player_out": {
+        "id": "222776",
+        "name": "Tyler Adams"
+      }
+    },
+    {
+      "id": "49730562",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "271132",
+        "name": "Alexis Saelemaekers"
+      },
+      "player_in": {
+        "id": "271132",
+        "name": "Alexis Saelemaekers"
+      },
+      "player_out": {
+        "id": "174980",
+        "name": "Leandro Trossard"
+      }
+    },
+    {
+      "id": "49730564",
+      "type": "substitution",
+      "minute": 89,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "164895",
+        "name": "Axel Witsel"
+      },
+      "player_in": {
+        "id": "164895",
+        "name": "Axel Witsel"
+      },
+      "player_out": {
+        "id": "260027",
+        "name": "Nicolas Raskin"
+      }
+    },
+    {
+      "id": "49730626",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "359542",
+        "name": "Max Arfsten"
+      },
+      "player_in": {
+        "id": "359542",
+        "name": "Max Arfsten"
+      },
+      "player_out": {
+        "id": "222396",
+        "name": "Antonee Robinson"
+      }
+    },
+    {
+      "id": "49730627",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "660",
+        "name": "United States"
+      },
+      "player": {
+        "id": "220474",
+        "name": "Haji Wright"
+      },
+      "player_in": {
+        "id": "220474",
+        "name": "Haji Wright"
+      },
+      "player_out": {
+        "id": "282643",
+        "name": "Folarin Balogun"
+      }
+    },
+    {
+      "id": "49730641",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "459",
+        "name": "Belgium"
+      },
+      "player": {
+        "id": "139437",
+        "name": "Romelu Lukaku"
+      }
+    },
+    {
+      "id": "49730659",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
