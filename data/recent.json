@@ -1,159 +1,6 @@
 {
-  "updated_at": "2026-07-06T23:57:27.781000+00:00",
+  "updated_at": "2026-07-07T01:56:46.306535+00:00",
   "events": [
-    {
-      "id": "760497",
-      "status": "closed",
-      "start_time": "2026-07-02T19:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "9115",
-        "name": "SoFi Stadium",
-        "city": "Inglewood, California",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "164",
-            "name": "Spain",
-            "short_name": "Spain",
-            "abbreviation": "ESP"
-          },
-          "qualifier": "home",
-          "score": 3
-        },
-        {
-          "team": {
-            "id": "474",
-            "name": "Austria",
-            "short_name": "Austria",
-            "abbreviation": "AUT"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 3,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760496",
-      "status": "closed",
-      "start_time": "2026-07-02T23:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "10143",
-        "name": "BMO Field",
-        "city": "Toronto",
-        "country": "Canada"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "482",
-            "name": "Portugal",
-            "short_name": "Portugal",
-            "abbreviation": "POR"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "477",
-            "name": "Croatia",
-            "short_name": "Croatia",
-            "abbreviation": "CRO"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760498",
-      "status": "closed",
-      "start_time": "2026-07-03T03:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "4370",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "475",
-            "name": "Switzerland",
-            "short_name": "Switzerland",
-            "abbreviation": "SUI"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "624",
-            "name": "Algeria",
-            "short_name": "Algeria",
-            "abbreviation": "ALG"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760499",
       "status": "not_started",
@@ -564,7 +411,7 @@
     },
     {
       "id": "760507",
-      "status": "not_started",
+      "status": "2nd_half",
       "start_time": "2026-07-07T00:00Z",
       "matchday": null,
       "round": "",
@@ -593,7 +440,7 @@
             "abbreviation": "USA"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -603,12 +450,12 @@
             "abbreviation": "BEL"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 3
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 3
       },
       "odds": {
         "provider": "DraftKings",
@@ -638,7 +485,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "+100"
+            "odds": "+105"
           }
         },
         "open": {
@@ -822,11 +669,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+135"
+            "odds": "+130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-165"
+            "odds": "-160"
           }
         },
         "open": {
@@ -936,6 +783,57 @@
           "total": "o2.5"
         }
       },
+      "referees": []
+    },
+    {
+      "id": "760511",
+      "status": "not_started",
+      "start_time": "2026-07-10T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "9115",
+        "name": "SoFi Stadium",
+        "city": "Inglewood, California",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "164",
+            "name": "Spain",
+            "short_name": "Spain",
+            "abbreviation": "ESP"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "19279",
+            "name": "Round of 16 6 Winner",
+            "short_name": "RD16 W6",
+            "abbreviation": "RD16 W6"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": null,
       "referees": []
     }
   ]
