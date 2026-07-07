@@ -1,0 +1,686 @@
+{
+  "event_id": "760509",
+  "timeline": [
+    {
+      "id": "49730711",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49730975",
+      "type": "goal",
+      "minute": 15,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "265417",
+        "name": "Yasser Ibrahim"
+      }
+    },
+    {
+      "id": "49731038",
+      "type": "penalty_missed",
+      "minute": 21,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "45843",
+        "name": "Lionel Messi"
+      }
+    },
+    {
+      "id": "49731076",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731077",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731081",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731080",
+      "type": "end delay",
+      "minute": 26,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731166",
+      "type": "start delay",
+      "minute": 31,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731169",
+      "type": "end delay",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731306",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731307",
+      "type": "start delay",
+      "minute": 39,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731308",
+      "type": "end delay",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731309",
+      "type": "end delay",
+      "minute": 41,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731438",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731437",
+      "type": "start delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731442",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731441",
+      "type": "end delay",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731489",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49731492",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "285057",
+        "name": "Hamdy Fathy"
+      },
+      "player_in": {
+        "id": "285057",
+        "name": "Hamdy Fathy"
+      },
+      "player_out": {
+        "id": "299365",
+        "name": "Emam Ashour"
+      }
+    },
+    {
+      "id": "49731496",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49731653",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731655",
+      "type": "start delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731654",
+      "type": "end delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731656",
+      "type": "end delay",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731752",
+      "type": "start delay",
+      "minute": 59,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731754",
+      "type": "end delay",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731866",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "76017",
+        "name": "Nico González"
+      },
+      "player_in": {
+        "id": "76017",
+        "name": "Nico González"
+      },
+      "player_out": {
+        "id": "145190",
+        "name": "Nicolás Tagliafico"
+      }
+    },
+    {
+      "id": "49731868",
+      "type": "substitution",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "219713",
+        "name": "Lautaro Martínez"
+      },
+      "player_in": {
+        "id": "219713",
+        "name": "Lautaro Martínez"
+      },
+      "player_out": {
+        "id": "174466",
+        "name": "Rodrigo De Paul"
+      }
+    },
+    {
+      "id": "49731888",
+      "type": "goal",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "378495",
+        "name": "Mostafa Zico"
+      }
+    },
+    {
+      "id": "49731932",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731933",
+      "type": "start delay",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731938",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49731941",
+      "type": "end delay",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": null
+    },
+    {
+      "id": "49731940",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "228262",
+        "name": "Gonzalo Montiel"
+      },
+      "player_in": {
+        "id": "228262",
+        "name": "Gonzalo Montiel"
+      },
+      "player_out": {
+        "id": "164826",
+        "name": "Nahuel Molina"
+      }
+    },
+    {
+      "id": "49731942",
+      "type": "substitution",
+      "minute": 73,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "157825",
+        "name": "Trézéguet"
+      },
+      "player_in": {
+        "id": "157825",
+        "name": "Trézéguet"
+      },
+      "player_out": {
+        "id": "276440",
+        "name": "Haissem Hassan"
+      }
+    },
+    {
+      "id": "49732063",
+      "type": "goal",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "96970",
+        "name": "Cristian Romero"
+      }
+    },
+    {
+      "id": "49732069",
+      "type": "substitution",
+      "minute": 80,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "303745",
+        "name": "Omar Marmoush"
+      },
+      "player_in": {
+        "id": "303745",
+        "name": "Omar Marmoush"
+      },
+      "player_out": {
+        "id": "378495",
+        "name": "Mostafa Zico"
+      }
+    },
+    {
+      "id": "49732134",
+      "type": "goal",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "45843",
+        "name": "Lionel Messi"
+      }
+    },
+    {
+      "id": "49732266",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "285450",
+        "name": "Enzo Fernández"
+      }
+    },
+    {
+      "id": "49732269",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "308915",
+        "name": "Mostafa Shoubir"
+      }
+    },
+    {
+      "id": "49732271",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "285057",
+        "name": "Hamdy Fathy"
+      }
+    },
+    {
+      "id": "49732270",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "249663",
+        "name": "Facundo Medina"
+      },
+      "player_in": {
+        "id": "249663",
+        "name": "Facundo Medina"
+      },
+      "player_out": {
+        "id": "277206",
+        "name": "Julián Álvarez"
+      }
+    },
+    {
+      "id": "49732272",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "119289",
+        "name": "Nicolás Otamendi"
+      },
+      "player_in": {
+        "id": "119289",
+        "name": "Nicolás Otamendi"
+      },
+      "player_out": {
+        "id": "96970",
+        "name": "Cristian Romero"
+      }
+    },
+    {
+      "id": "49732273",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "195154",
+        "name": "Zizo"
+      },
+      "player_in": {
+        "id": "195154",
+        "name": "Zizo"
+      },
+      "player_out": {
+        "id": "328932",
+        "name": "Mohanad Lashin"
+      }
+    },
+    {
+      "id": "49732297",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "357112",
+        "name": "Marawan Attia"
+      }
+    },
+    {
+      "id": "49732334",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49732338",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2620",
+        "name": "Egypt"
+      },
+      "player": {
+        "id": "276440",
+        "name": "Haissem Hassan"
+      }
+    }
+  ]
+}
