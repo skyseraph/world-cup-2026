@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T15:24:03.039597+00:00",
+  "updated_at": "2026-07-07T17:32:13.141819+00:00",
   "events": [
     {
       "id": "760499",
@@ -462,7 +462,7 @@
     },
     {
       "id": "760509",
-      "status": "not_started",
+      "status": "2nd_half",
       "start_time": "2026-07-07T16:00Z",
       "matchday": null,
       "round": "",
@@ -501,12 +501,12 @@
             "abbreviation": "EGY"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 1
         }
       ],
       "scores": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "odds": {
         "provider": "DraftKings",
@@ -532,11 +532,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+105"
+            "odds": "+100"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-130"
+            "odds": "-125"
           }
         },
         "open": {
@@ -604,14 +604,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "COL +125",
+        "details": "COL +130",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+245",
-          "away": "+125",
-          "draw": "+210"
+          "home": "+250",
+          "away": "+130",
+          "draw": "+205"
         },
         "spread_line": {
           "home": {
@@ -626,11 +626,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+125"
+            "odds": "+130"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-155"
+            "odds": "-160"
           }
         },
         "open": {
