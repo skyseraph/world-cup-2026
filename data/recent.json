@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T19:19:02.514968+00:00",
+  "updated_at": "2026-07-09T21:01:01.502962+00:00",
   "events": [
     {
       "id": "760504",
@@ -309,7 +309,7 @@
     },
     {
       "id": "760510",
-      "status": "not_started",
+      "status": "halftime",
       "start_time": "2026-07-09T20:00Z",
       "matchday": null,
       "round": "",
