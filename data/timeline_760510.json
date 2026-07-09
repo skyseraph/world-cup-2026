@@ -1,0 +1,452 @@
+{
+  "event_id": "760510",
+  "timeline": [
+    {
+      "id": "49740894",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49741372",
+      "type": "penalty_missed",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49741387",
+      "type": "start delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49741386",
+      "type": "start delay",
+      "minute": 29,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49741393",
+      "type": "end delay",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49741392",
+      "type": "end delay",
+      "minute": 32,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49741731",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49741739",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49742002",
+      "type": "goal",
+      "minute": 60,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49742004",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      },
+      "player_in": {
+        "id": "276139",
+        "name": "Soufiane Rahimi"
+      },
+      "player_out": {
+        "id": "336595",
+        "name": "Bilal El Khannouss"
+      }
+    },
+    {
+      "id": "49742005",
+      "type": "substitution",
+      "minute": 62,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "195226",
+        "name": "Sofyan Amrabat"
+      },
+      "player_in": {
+        "id": "195226",
+        "name": "Sofyan Amrabat"
+      },
+      "player_out": {
+        "id": "373927",
+        "name": "Ayyoub Bouaddi"
+      }
+    },
+    {
+      "id": "49742032",
+      "type": "yellow_card",
+      "minute": 63,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "230963",
+        "name": "Issa Diop"
+      }
+    },
+    {
+      "id": "49742073",
+      "type": "goal",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49742085",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49742086",
+      "type": "start delay",
+      "minute": 67,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49742087",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49742088",
+      "type": "end delay",
+      "minute": 70,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49742089",
+      "type": "substitution",
+      "minute": 71,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "345581",
+        "name": "Warren Zaïre-Emery"
+      },
+      "player_in": {
+        "id": "345581",
+        "name": "Warren Zaïre-Emery"
+      },
+      "player_out": {
+        "id": "285226",
+        "name": "Manu Koné"
+      }
+    },
+    {
+      "id": "49742137",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "325024",
+        "name": "Zakaria El Ouahdi"
+      },
+      "player_in": {
+        "id": "325024",
+        "name": "Zakaria El Ouahdi"
+      },
+      "player_out": {
+        "id": "297296",
+        "name": "Anass Salah-Eddine"
+      }
+    },
+    {
+      "id": "49742135",
+      "type": "substitution",
+      "minute": 74,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "379012",
+        "name": "Gessime Yassine"
+      },
+      "player_in": {
+        "id": "379012",
+        "name": "Gessime Yassine"
+      },
+      "player_out": {
+        "id": "246532",
+        "name": "Brahim Díaz"
+      }
+    },
+    {
+      "id": "49742174",
+      "type": "start delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49742173",
+      "type": "start delay",
+      "minute": 76,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49742175",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49742178",
+      "type": "end delay",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": null
+    },
+    {
+      "id": "49742176",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "241187",
+        "name": "Jean-Philippe Mateta"
+      },
+      "player_in": {
+        "id": "241187",
+        "name": "Jean-Philippe Mateta"
+      },
+      "player_out": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49742177",
+      "type": "substitution",
+      "minute": 77,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      },
+      "player_in": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      },
+      "player_out": {
+        "id": "336388",
+        "name": "Désiré Doué"
+      }
+    },
+    {
+      "id": "49742278",
+      "type": "substitution",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "2869",
+        "name": "Morocco"
+      },
+      "player": {
+        "id": "314388",
+        "name": "Amine Sbaï"
+      },
+      "player_in": {
+        "id": "314388",
+        "name": "Amine Sbaï"
+      },
+      "player_out": {
+        "id": "360062",
+        "name": "Chemsdine Talbi"
+      }
+    },
+    {
+      "id": "49742301",
+      "type": "substitution",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "308947",
+        "name": "Malo Gusto"
+      },
+      "player_in": {
+        "id": "308947",
+        "name": "Malo Gusto"
+      },
+      "player_out": {
+        "id": "231692",
+        "name": "Jules Koundé"
+      }
+    },
+    {
+      "id": "49742469",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}
