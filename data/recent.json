@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T21:00:45.841569+00:00",
+  "updated_at": "2026-07-10T22:01:29.334279+00:00",
   "events": [
     {
       "id": "760506",
@@ -258,7 +258,7 @@
     },
     {
       "id": "760511",
-      "status": "2nd_half",
+      "status": "closed",
       "start_time": "2026-07-10T19:00Z",
       "matchday": null,
       "round": "",
@@ -304,50 +304,7 @@
         "home": 2,
         "away": 1
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "ESP -165",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-165",
-          "away": "+475",
-          "draw": "+290"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "-165"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "+130"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-140"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "+115"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "-160",
-            "away": "+450",
-            "draw": "+290"
-          },
-          "spread": {
-            "home": "-0.5",
-            "away": "+0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -422,11 +379,11 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-145"
+            "odds": "-135"
           },
           "under": {
             "line": "u2.5",
-            "odds": "+115"
+            "odds": "+110"
           }
         },
         "open": {
@@ -506,7 +463,7 @@
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-155"
+            "odds": "-150"
           },
           "away": {
             "line": "+0.5",
