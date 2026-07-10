@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T19:57:49.243931+00:00",
+  "updated_at": "2026-07-10T21:00:45.841569+00:00",
   "events": [
     {
       "id": "760506",
@@ -258,7 +258,7 @@
     },
     {
       "id": "760511",
-      "status": "halftime",
+      "status": "2nd_half",
       "start_time": "2026-07-10T19:00Z",
       "matchday": null,
       "round": "",
@@ -287,7 +287,7 @@
             "abbreviation": "ESP"
           },
           "qualifier": "home",
-          "score": 1
+          "score": 2
         },
         {
           "team": {
@@ -301,7 +301,7 @@
         }
       ],
       "scores": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "odds": {
