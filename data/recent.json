@@ -1,108 +1,6 @@
 {
-  "updated_at": "2026-07-10T23:57:30.547140+00:00",
+  "updated_at": "2026-07-11T01:26:55.463535+00:00",
   "events": [
-    {
-      "id": "760506",
-      "status": "closed",
-      "start_time": "2026-07-06T19:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "3871",
-        "name": "AT&T Stadium",
-        "city": "Arlington, Texas",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "482",
-            "name": "Portugal",
-            "short_name": "Portugal",
-            "abbreviation": "POR"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "164",
-            "name": "Spain",
-            "short_name": "Spain",
-            "abbreviation": "ESP"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760507",
-      "status": "closed",
-      "start_time": "2026-07-07T00:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "4485",
-        "name": "Lumen Field",
-        "city": "Seattle, Washington",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "660",
-            "name": "United States",
-            "short_name": "USA",
-            "abbreviation": "USA"
-          },
-          "qualifier": "home",
-          "score": 1
-        },
-        {
-          "team": {
-            "id": "459",
-            "name": "Belgium",
-            "short_name": "Belgium",
-            "abbreviation": "BEL"
-          },
-          "qualifier": "away",
-          "score": 4
-        }
-      ],
-      "scores": {
-        "home": 1,
-        "away": 4
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760509",
       "status": "closed",
@@ -383,7 +281,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "+110"
+            "odds": "+115"
           }
         },
         "open": {
@@ -485,6 +383,100 @@
             "home": "-140",
             "away": "+400",
             "draw": "+260"
+          },
+          "spread": {
+            "home": "-0.5",
+            "away": "+0.5"
+          },
+          "total": "o2.5"
+        }
+      },
+      "referees": []
+    },
+    {
+      "id": "760514",
+      "status": "not_started",
+      "start_time": "2026-07-14T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "3871",
+        "name": "AT&T Stadium",
+        "city": "Arlington, Texas",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "478",
+            "name": "France",
+            "short_name": "France",
+            "abbreviation": "FRA"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "164",
+            "name": "Spain",
+            "short_name": "Spain",
+            "abbreviation": "ESP"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "FRA +135",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "+135",
+          "away": "+215",
+          "draw": "+225"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-0.5",
+            "odds": "+130"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "-165"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "-105"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "-115"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "+135",
+            "away": "+225",
+            "draw": "+215"
           },
           "spread": {
             "home": "-0.5",
