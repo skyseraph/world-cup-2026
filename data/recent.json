@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T21:38:59.667378+00:00",
+  "updated_at": "2026-07-11T22:36:28.858269+00:00",
   "events": [
     {
       "id": "760509",
@@ -207,7 +207,7 @@
     },
     {
       "id": "760512",
-      "status": "live",
+      "status": "2nd_half",
       "start_time": "2026-07-11T21:00Z",
       "matchday": null,
       "round": "",
@@ -246,12 +246,12 @@
             "abbreviation": "ENG"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 1
         }
       ],
       "scores": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "odds": {
         "provider": "DraftKings",
