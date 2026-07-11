@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T20:37:57.519642+00:00",
+  "updated_at": "2026-07-11T21:38:59.667378+00:00",
   "events": [
     {
       "id": "760509",
@@ -207,7 +207,7 @@
     },
     {
       "id": "760512",
-      "status": "not_started",
+      "status": "live",
       "start_time": "2026-07-11T21:00Z",
       "matchday": null,
       "round": "",
@@ -236,7 +236,7 @@
             "abbreviation": "NOR"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -250,18 +250,18 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ENG -120",
+        "details": "ENG -125",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+310",
-          "away": "-120",
+          "home": "+330",
+          "away": "-125",
           "draw": "+280"
         },
         "spread_line": {
@@ -271,7 +271,7 @@
           },
           "away": {
             "line": "-0.5",
-            "odds": "-125"
+            "odds": "-130"
           }
         },
         "total": {
