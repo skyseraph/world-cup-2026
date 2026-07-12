@@ -1,108 +1,6 @@
 {
-  "updated_at": "2026-07-11T23:42:39.578350+00:00",
+  "updated_at": "2026-07-12T01:24:15.478736+00:00",
   "events": [
-    {
-      "id": "760509",
-      "status": "closed",
-      "start_time": "2026-07-07T16:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "7485",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta, Georgia",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "202",
-            "name": "Argentina",
-            "short_name": "Argentina",
-            "abbreviation": "ARG"
-          },
-          "qualifier": "home",
-          "score": 3
-        },
-        {
-          "team": {
-            "id": "2620",
-            "name": "Egypt",
-            "short_name": "Egypt",
-            "abbreviation": "EGY"
-          },
-          "qualifier": "away",
-          "score": 2
-        }
-      ],
-      "scores": {
-        "home": 3,
-        "away": 2
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760508",
-      "status": "not_started",
-      "start_time": "2026-07-07T20:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "4370",
-        "name": "BC Place",
-        "city": "Vancouver",
-        "country": "Canada"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "475",
-            "name": "Switzerland",
-            "short_name": "Switzerland",
-            "abbreviation": "SUI"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "208",
-            "name": "Colombia",
-            "short_name": "Colombia",
-            "abbreviation": "COL"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760510",
       "status": "closed",
@@ -253,55 +151,12 @@
         "home": 1,
         "away": 2
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "ENG -125",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "+330",
-          "away": "-125",
-          "draw": "+280"
-        },
-        "spread_line": {
-          "home": {
-            "line": "+0.5",
-            "odds": "+100"
-          },
-          "away": {
-            "line": "-0.5",
-            "odds": "-130"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "-135"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "+110"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+280",
-            "away": "-105",
-            "draw": "+250"
-          },
-          "spread": {
-            "home": "+0.5",
-            "away": "-0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
       "id": "760513",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-07-12T01:00Z",
       "matchday": null,
       "round": "",
@@ -330,7 +185,7 @@
             "abbreviation": "ARG"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -344,28 +199,28 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ARG -140",
+        "details": "ARG -135",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "-140",
-          "away": "+450",
-          "draw": "+245"
+          "home": "-135",
+          "away": "+500",
+          "draw": "+225"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "-150"
+            "odds": "-140"
           },
           "away": {
             "line": "+0.5",
-            "odds": "+115"
+            "odds": "+110"
           }
         },
         "total": {
@@ -449,7 +304,7 @@
         "favorite": null,
         "moneyline": {
           "home": "+135",
-          "away": "+215",
+          "away": "+220",
           "draw": "+225"
         },
         "spread_line": {
@@ -469,7 +324,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-115"
+            "odds": "-110"
           }
         },
         "open": {
@@ -485,6 +340,57 @@
           "total": "o2.5"
         }
       },
+      "referees": []
+    },
+    {
+      "id": "760515",
+      "status": "not_started",
+      "start_time": "2026-07-15T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "7485",
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta, Georgia",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "448",
+            "name": "England",
+            "short_name": "England",
+            "abbreviation": "ENG"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "17632",
+            "name": "Quarterfinal 4 Winner",
+            "short_name": "QF W4",
+            "abbreviation": "QW4"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": null,
       "referees": []
     }
   ]
