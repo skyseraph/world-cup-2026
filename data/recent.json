@@ -1,57 +1,6 @@
 {
-  "updated_at": "2026-07-13T23:42:23.891147+00:00",
+  "updated_at": "2026-07-14T01:15:44.562825+00:00",
   "events": [
-    {
-      "id": "760510",
-      "status": "closed",
-      "start_time": "2026-07-09T20:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "10660",
-        "name": "Gillette Stadium",
-        "city": "Foxborough, Massachusetts",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "478",
-            "name": "France",
-            "short_name": "France",
-            "abbreviation": "FRA"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "2869",
-            "name": "Morocco",
-            "short_name": "Morocco",
-            "abbreviation": "MAR"
-          },
-          "qualifier": "away",
-          "score": 0
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 0
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760511",
       "status": "closed",
@@ -281,7 +230,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-105"
+            "odds": "-110"
           }
         },
         "open": {
