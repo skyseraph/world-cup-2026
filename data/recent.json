@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T12:05:54.738617+00:00",
+  "updated_at": "2026-07-14T14:21:55.673796+00:00",
   "events": [
     {
       "id": "760511",
@@ -210,8 +210,8 @@
         "favorite": null,
         "moneyline": {
           "home": "+140",
-          "away": "+215",
-          "draw": "+215"
+          "away": "+220",
+          "draw": "+205"
         },
         "spread_line": {
           "home": {
@@ -226,7 +226,7 @@
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-105"
+            "odds": "-110"
           },
           "under": {
             "line": "u2.5",
