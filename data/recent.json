@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T06:33:29.155599+00:00",
+  "updated_at": "2026-07-14T08:59:02.212449+00:00",
   "events": [
     {
       "id": "760511",
@@ -220,17 +220,17 @@
           },
           "away": {
             "line": "+0.5",
-            "odds": "-170"
+            "odds": "-175"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "-110"
+            "odds": "-105"
           },
           "under": {
             "line": "u2.5",
-            "odds": "-110"
+            "odds": "-115"
           }
         },
         "open": {
@@ -298,23 +298,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ENG +160",
+        "details": "ENG +165",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+160",
-          "away": "+205",
-          "draw": "+195"
+          "home": "+165",
+          "away": "+200",
+          "draw": "+190"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+150"
+            "odds": "+160"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-195"
+            "odds": "-205"
           }
         },
         "total": {
