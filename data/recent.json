@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T18:02:40.750137+00:00",
+  "updated_at": "2026-07-14T19:51:06.206653+00:00",
   "events": [
     {
       "id": "760511",
@@ -156,7 +156,7 @@
     },
     {
       "id": "760514",
-      "status": "not_started",
+      "status": "1st_half",
       "start_time": "2026-07-14T19:00Z",
       "matchday": null,
       "round": "",
@@ -195,32 +195,32 @@
             "abbreviation": "ESP"
           },
           "qualifier": "away",
-          "score": 0
+          "score": 1
         }
       ],
       "scores": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "FRA +155",
+        "details": "FRA +160",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+155",
+          "home": "+160",
           "away": "+210",
-          "draw": "+200"
+          "draw": "+190"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+145"
+            "odds": "+150"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-185"
+            "odds": "-195"
           }
         },
         "total": {
@@ -230,7 +230,7 @@
           },
           "under": {
             "line": "u2.5",
-            "odds": "-110"
+            "odds": "-105"
           }
         },
         "open": {
@@ -298,23 +298,23 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ENG +165",
+        "details": "ENG +175",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+165",
-          "away": "+200",
-          "draw": "+190"
+          "home": "+175",
+          "away": "+190",
+          "draw": "+185"
         },
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+160"
+            "odds": "+170"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-205"
+            "odds": "-215"
           }
         },
         "total": {
