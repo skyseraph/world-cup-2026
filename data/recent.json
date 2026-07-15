@@ -1,57 +1,6 @@
 {
-  "updated_at": "2026-07-14T23:41:48.368279+00:00",
+  "updated_at": "2026-07-15T01:12:00.963848+00:00",
   "events": [
-    {
-      "id": "760511",
-      "status": "closed",
-      "start_time": "2026-07-10T19:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "9115",
-        "name": "SoFi Stadium",
-        "city": "Inglewood, California",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "164",
-            "name": "Spain",
-            "short_name": "Spain",
-            "abbreviation": "ESP"
-          },
-          "qualifier": "home",
-          "score": 2
-        },
-        {
-          "team": {
-            "id": "459",
-            "name": "Belgium",
-            "short_name": "Belgium",
-            "abbreviation": "BEL"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 2,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760512",
       "status": "not_started",
@@ -267,17 +216,17 @@
         "spread_line": {
           "home": {
             "line": "-0.5",
-            "odds": "+165"
+            "odds": "+160"
           },
           "away": {
             "line": "+0.5",
-            "odds": "-210"
+            "odds": "-205"
           }
         },
         "total": {
           "over": {
             "line": "o2.5",
-            "odds": "+135"
+            "odds": "+140"
           },
           "under": {
             "line": "u2.5",
@@ -297,6 +246,57 @@
           "total": "o2.5"
         }
       },
+      "referees": []
+    },
+    {
+      "id": "760516",
+      "status": "not_started",
+      "start_time": "2026-07-18T21:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "4643",
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens, Florida",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "478",
+            "name": "France",
+            "short_name": "France",
+            "abbreviation": "FRA"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "5959",
+            "name": "Semifinal 2 Loser",
+            "short_name": "SF L2",
+            "abbreviation": "SF L2"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": null,
       "referees": []
     }
   ]
