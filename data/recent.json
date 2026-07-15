@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T04:22:18.594132+00:00",
+  "updated_at": "2026-07-15T06:35:45.775104+00:00",
   "events": [
     {
       "id": "760512",
@@ -204,12 +204,12 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "ENG +170",
+        "details": "ENG +175",
         "spread": "",
         "over_under": 2.5,
         "favorite": null,
         "moneyline": {
-          "home": "+170",
+          "home": "+175",
           "away": "+200",
           "draw": "+185"
         },
