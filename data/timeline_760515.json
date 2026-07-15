@@ -1,0 +1,616 @@
+{
+  "event_id": "760515",
+  "timeline": [
+    {
+      "id": "49796192",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49796371",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49796372",
+      "type": "start delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49796374",
+      "type": "end delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49796373",
+      "type": "end delay",
+      "minute": 12,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49796571",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49796572",
+      "type": "start delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49796574",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49796575",
+      "type": "end delay",
+      "minute": 28,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49796710",
+      "type": "yellow_card",
+      "minute": 37,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "238472",
+        "name": "Elliot Anderson"
+      }
+    },
+    {
+      "id": "49796783",
+      "type": "yellow_card",
+      "minute": 42,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "233937",
+        "name": "Lisandro Martínez"
+      }
+    },
+    {
+      "id": "49796919",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49796939",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49797058",
+      "type": "yellow_card",
+      "minute": 51,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "96970",
+        "name": "Cristian Romero"
+      }
+    },
+    {
+      "id": "49797120",
+      "type": "goal",
+      "minute": 55,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "268782",
+        "name": "Anthony Gordon"
+      }
+    },
+    {
+      "id": "49797288",
+      "type": "substitution",
+      "minute": 64,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "76017",
+        "name": "Nico González"
+      },
+      "player_in": {
+        "id": "76017",
+        "name": "Nico González"
+      },
+      "player_out": {
+        "id": "153115",
+        "name": "Leandro Paredes"
+      }
+    },
+    {
+      "id": "49797372",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49797370",
+      "type": "start delay",
+      "minute": 69,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49797378",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49797373",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49797375",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "231859",
+        "name": "Ezri Konsa"
+      },
+      "player_in": {
+        "id": "231859",
+        "name": "Ezri Konsa"
+      },
+      "player_out": {
+        "id": "268782",
+        "name": "Anthony Gordon"
+      }
+    },
+    {
+      "id": "49797376",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "228262",
+        "name": "Gonzalo Montiel"
+      },
+      "player_in": {
+        "id": "228262",
+        "name": "Gonzalo Montiel"
+      },
+      "player_out": {
+        "id": "164826",
+        "name": "Nahuel Molina"
+      }
+    },
+    {
+      "id": "49797374",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "174466",
+        "name": "Rodrigo De Paul"
+      },
+      "player_in": {
+        "id": "174466",
+        "name": "Rodrigo De Paul"
+      },
+      "player_out": {
+        "id": "323838",
+        "name": "Giuliano Simeone"
+      }
+    },
+    {
+      "id": "49797377",
+      "type": "substitution",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "119289",
+        "name": "Nicolás Otamendi"
+      },
+      "player_in": {
+        "id": "119289",
+        "name": "Nicolás Otamendi"
+      },
+      "player_out": {
+        "id": "233937",
+        "name": "Lisandro Martínez"
+      }
+    },
+    {
+      "id": "49797544",
+      "type": "substitution",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "219713",
+        "name": "Lautaro Martínez"
+      },
+      "player_in": {
+        "id": "219713",
+        "name": "Lautaro Martínez"
+      },
+      "player_out": {
+        "id": "145190",
+        "name": "Nicolás Tagliafico"
+      }
+    },
+    {
+      "id": "49797546",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49797547",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49797549",
+      "type": "end delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49797548",
+      "type": "end delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49797550",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "198138",
+        "name": "Dan Burn"
+      },
+      "player_in": {
+        "id": "198138",
+        "name": "Dan Burn"
+      },
+      "player_out": {
+        "id": "189007",
+        "name": "Reece James"
+      }
+    },
+    {
+      "id": "49797552",
+      "type": "substitution",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "328464",
+        "name": "Nico O'Reilly"
+      },
+      "player_in": {
+        "id": "328464",
+        "name": "Nico O'Reilly"
+      },
+      "player_out": {
+        "id": "238262",
+        "name": "Declan Rice"
+      }
+    },
+    {
+      "id": "49797604",
+      "type": "goal",
+      "minute": 85,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "285450",
+        "name": "Enzo Fernández"
+      }
+    },
+    {
+      "id": "49797639",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49797638",
+      "type": "start delay",
+      "minute": 88,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49797642",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49797640",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": null
+    },
+    {
+      "id": "49797667",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "219713",
+        "name": "Lautaro Martínez"
+      }
+    },
+    {
+      "id": "49797670",
+      "type": "yellow_card",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "202",
+        "name": "Argentina"
+      },
+      "player": {
+        "id": "174466",
+        "name": "Rodrigo De Paul"
+      }
+    },
+    {
+      "id": "49797694",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "180639",
+        "name": "Ivan Toney"
+      },
+      "player_in": {
+        "id": "180639",
+        "name": "Ivan Toney"
+      },
+      "player_out": {
+        "id": "157974",
+        "name": "John Stones"
+      }
+    },
+    {
+      "id": "49797695",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      },
+      "player_in": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      },
+      "player_out": {
+        "id": "267711",
+        "name": "Djed Spence"
+      }
+    },
+    {
+      "id": "49797780",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

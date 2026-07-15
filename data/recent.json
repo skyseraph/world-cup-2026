@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T21:01:36.010408+00:00",
+  "updated_at": "2026-07-15T22:01:56.427664+00:00",
   "events": [
     {
       "id": "760512",
@@ -156,7 +156,7 @@
     },
     {
       "id": "760515",
-      "status": "2nd_half",
+      "status": "closed",
       "start_time": "2026-07-15T19:00Z",
       "matchday": null,
       "round": "",
@@ -202,50 +202,7 @@
         "home": 1,
         "away": 2
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "ENG +170",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "+170",
-          "away": "+205",
-          "draw": "+180"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "+165"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "-210"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "+140"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "-175"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+180",
-            "away": "+175",
-            "draw": "+205"
-          },
-          "spread": {
-            "home": "+0.5",
-            "away": "-0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
@@ -283,10 +240,10 @@
         },
         {
           "team": {
-            "id": "5959",
-            "name": "Semifinal 2 Loser",
-            "short_name": "SF L2",
-            "abbreviation": "SF L2"
+            "id": "448",
+            "name": "England",
+            "short_name": "England",
+            "abbreviation": "ENG"
           },
           "qualifier": "away",
           "score": 0
@@ -296,7 +253,50 @@
         "home": 0,
         "away": 0
       },
-      "odds": null,
+      "odds": {
+        "provider": "DraftKings",
+        "details": "FRA +100",
+        "spread": "",
+        "over_under": 3.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "+100",
+          "away": "+265",
+          "draw": "+255"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-0.5",
+            "odds": "-105"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "-125"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o3.5",
+            "odds": "+140"
+          },
+          "under": {
+            "line": "u3.5",
+            "odds": "-170"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "+110",
+            "away": "+265",
+            "draw": "+235"
+          },
+          "spread": {
+            "home": "-0.5",
+            "away": "+0.5"
+          },
+          "total": "o2.5"
+        }
+      },
       "referees": []
     }
   ]
