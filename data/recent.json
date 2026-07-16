@@ -1,108 +1,6 @@
 {
-  "updated_at": "2026-07-15T23:58:29.687258+00:00",
+  "updated_at": "2026-07-16T01:50:52.484783+00:00",
   "events": [
-    {
-      "id": "760512",
-      "status": "not_started",
-      "start_time": "2026-07-11T21:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "4643",
-        "name": "Hard Rock Stadium",
-        "city": "Miami Gardens, Florida",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "464",
-            "name": "Norway",
-            "short_name": "Norway",
-            "abbreviation": "NOR"
-          },
-          "qualifier": "home",
-          "score": 1
-        },
-        {
-          "team": {
-            "id": "448",
-            "name": "England",
-            "short_name": "England",
-            "abbreviation": "ENG"
-          },
-          "qualifier": "away",
-          "score": 2
-        }
-      ],
-      "scores": {
-        "home": 1,
-        "away": 2
-      },
-      "odds": null,
-      "referees": []
-    },
-    {
-      "id": "760513",
-      "status": "not_started",
-      "start_time": "2026-07-12T01:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "10897",
-        "name": "GEHA Field at Arrowhead Stadium",
-        "city": "Kansas City, Missouri",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "202",
-            "name": "Argentina",
-            "short_name": "Argentina",
-            "abbreviation": "ARG"
-          },
-          "qualifier": "home",
-          "score": 3
-        },
-        {
-          "team": {
-            "id": "475",
-            "name": "Switzerland",
-            "short_name": "Switzerland",
-            "abbreviation": "SUI"
-          },
-          "qualifier": "away",
-          "score": 1
-        }
-      ],
-      "scores": {
-        "home": 3,
-        "away": 1
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760514",
       "status": "closed",
@@ -255,14 +153,14 @@
       },
       "odds": {
         "provider": "DraftKings",
-        "details": "FRA -105",
+        "details": "FRA +100",
         "spread": "",
         "over_under": 3.5,
         "favorite": null,
         "moneyline": {
-          "home": "-105",
+          "home": "+100",
           "away": "+265",
-          "draw": "+265"
+          "draw": "+275"
         },
         "spread_line": {
           "home": {
@@ -289,6 +187,100 @@
             "home": "+110",
             "away": "+265",
             "draw": "+235"
+          },
+          "spread": {
+            "home": "-0.5",
+            "away": "+0.5"
+          },
+          "total": "o2.5"
+        }
+      },
+      "referees": []
+    },
+    {
+      "id": "760517",
+      "status": "not_started",
+      "start_time": "2026-07-19T19:00Z",
+      "matchday": null,
+      "round": "",
+      "round_name": "",
+      "competition": {
+        "id": "world-cup",
+        "name": "FIFA World Cup"
+      },
+      "season": {
+        "id": "world-cup-2026",
+        "name": "2026",
+        "year": "2026"
+      },
+      "venue": {
+        "id": "4727",
+        "name": "MetLife Stadium",
+        "city": "East Rutherford, New Jersey",
+        "country": "USA"
+      },
+      "competitors": [
+        {
+          "team": {
+            "id": "164",
+            "name": "Spain",
+            "short_name": "Spain",
+            "abbreviation": "ESP"
+          },
+          "qualifier": "home",
+          "score": 0
+        },
+        {
+          "team": {
+            "id": "202",
+            "name": "Argentina",
+            "short_name": "Argentina",
+            "abbreviation": "ARG"
+          },
+          "qualifier": "away",
+          "score": 0
+        }
+      ],
+      "scores": {
+        "home": 0,
+        "away": 0
+      },
+      "odds": {
+        "provider": "DraftKings",
+        "details": "ESP +130",
+        "spread": "",
+        "over_under": 2.5,
+        "favorite": null,
+        "moneyline": {
+          "home": "+130",
+          "away": "+255",
+          "draw": "+195"
+        },
+        "spread_line": {
+          "home": {
+            "line": "-0.5",
+            "odds": "+125"
+          },
+          "away": {
+            "line": "+0.5",
+            "odds": "-155"
+          }
+        },
+        "total": {
+          "over": {
+            "line": "o2.5",
+            "odds": "+145"
+          },
+          "under": {
+            "line": "u2.5",
+            "odds": "-185"
+          }
+        },
+        "open": {
+          "moneyline": {
+            "home": "+125",
+            "away": "+275",
+            "draw": "+195"
           },
           "spread": {
             "home": "-0.5",
