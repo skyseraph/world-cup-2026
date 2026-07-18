@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T21:40:01.865960+00:00",
+  "updated_at": "2026-07-18T22:37:49.036851+00:00",
   "events": [
     {
       "id": "760514",
@@ -105,7 +105,7 @@
     },
     {
       "id": "760516",
-      "status": "live",
+      "status": "2nd_half",
       "start_time": "2026-07-18T21:00Z",
       "matchday": null,
       "round": "",
@@ -134,7 +134,7 @@
             "abbreviation": "FRA"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 3
         },
         {
           "team": {
@@ -144,12 +144,12 @@
             "abbreviation": "ENG"
           },
           "qualifier": "away",
-          "score": 3
+          "score": 4
         }
       ],
       "scores": {
-        "home": 0,
-        "away": 3
+        "home": 3,
+        "away": 4
       },
       "odds": {
         "provider": "DraftKings",
