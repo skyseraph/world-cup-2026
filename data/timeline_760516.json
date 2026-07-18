@@ -1,0 +1,661 @@
+{
+  "event_id": "760516",
+  "timeline": [
+    {
+      "id": "49864951",
+      "type": "kickoff",
+      "minute": 0,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49865115",
+      "type": "goal",
+      "minute": 3,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "238262",
+        "name": "Declan Rice"
+      }
+    },
+    {
+      "id": "49865676",
+      "type": "goal",
+      "minute": 18,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "231859",
+        "name": "Ezri Konsa"
+      }
+    },
+    {
+      "id": "49865830",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49865831",
+      "type": "start delay",
+      "minute": 23,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49865889",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49865887",
+      "type": "end delay",
+      "minute": 25,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49866393",
+      "type": "goal",
+      "minute": 37,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      }
+    },
+    {
+      "id": "49866797",
+      "type": "goal",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      }
+    },
+    {
+      "id": "49866906",
+      "type": "halftime",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49867172",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      },
+      "player_in": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      },
+      "player_out": {
+        "id": "298008",
+        "name": "Rayan Cherki"
+      }
+    },
+    {
+      "id": "49867173",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      },
+      "player_in": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      },
+      "player_out": {
+        "id": "336388",
+        "name": "Désiré Doué"
+      }
+    },
+    {
+      "id": "49867174",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "160115",
+        "name": "Lucas Digne"
+      },
+      "player_in": {
+        "id": "160115",
+        "name": "Lucas Digne"
+      },
+      "player_out": {
+        "id": "233621",
+        "name": "Theo Hernández"
+      }
+    },
+    {
+      "id": "49867175",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "222793",
+        "name": "Dayot Upamecano"
+      },
+      "player_in": {
+        "id": "222793",
+        "name": "Dayot Upamecano"
+      },
+      "player_out": {
+        "id": "251634",
+        "name": "Ibrahima Konaté"
+      }
+    },
+    {
+      "id": "49867186",
+      "type": "substitution",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "198825",
+        "name": "Ollie Watkins"
+      },
+      "player_in": {
+        "id": "198825",
+        "name": "Ollie Watkins"
+      },
+      "player_out": {
+        "id": "230945",
+        "name": "Marcus Rashford"
+      }
+    },
+    {
+      "id": "49867254",
+      "type": "start 2nd half",
+      "minute": 45,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    },
+    {
+      "id": "49867337",
+      "type": "goal",
+      "minute": 48,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49867589",
+      "type": "goal",
+      "minute": 54,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "328238",
+        "name": "Bradley Barcola"
+      }
+    },
+    {
+      "id": "49867945",
+      "type": "goal",
+      "minute": 66,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231388",
+        "name": "Kylian Mbappé"
+      }
+    },
+    {
+      "id": "49867967",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49867968",
+      "type": "start delay",
+      "minute": 68,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49868034",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49868070",
+      "type": "end delay",
+      "minute": 72,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49868372",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "238472",
+        "name": "Elliot Anderson"
+      },
+      "player_in": {
+        "id": "238472",
+        "name": "Elliot Anderson"
+      },
+      "player_out": {
+        "id": "180639",
+        "name": "Ivan Toney"
+      }
+    },
+    {
+      "id": "49868394",
+      "type": "substitution",
+      "minute": 79,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      },
+      "player_in": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      },
+      "player_out": {
+        "id": "251400",
+        "name": "Eberechi Eze"
+      }
+    },
+    {
+      "id": "49868521",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49868522",
+      "type": "start delay",
+      "minute": 81,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49868555",
+      "type": "end delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49868554",
+      "type": "end delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49868557",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49868556",
+      "type": "start delay",
+      "minute": 82,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49868561",
+      "type": "end delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49868567",
+      "type": "end delay",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49868565",
+      "type": "substitution",
+      "minute": 83,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "189007",
+        "name": "Reece James"
+      },
+      "player_in": {
+        "id": "189007",
+        "name": "Reece James"
+      },
+      "player_out": {
+        "id": "298524",
+        "name": "Jarell Quansah"
+      }
+    },
+    {
+      "id": "49868711",
+      "type": "red_card",
+      "minute": 87,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "280555",
+        "name": "Bukayo Saka"
+      }
+    },
+    {
+      "id": "49868894",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "231692",
+        "name": "Jules Koundé"
+      },
+      "player_in": {
+        "id": "231692",
+        "name": "Jules Koundé"
+      },
+      "player_out": {
+        "id": "308947",
+        "name": "Malo Gusto"
+      }
+    },
+    {
+      "id": "49868925",
+      "type": "substitution",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "227784",
+        "name": "Trevoh Chalobah"
+      },
+      "player_in": {
+        "id": "227784",
+        "name": "Trevoh Chalobah"
+      },
+      "player_out": {
+        "id": "265907",
+        "name": "Marc Guéhi"
+      }
+    },
+    {
+      "id": "49868993",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49868986",
+      "type": "start delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49868994",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": null
+    },
+    {
+      "id": "49868995",
+      "type": "end delay",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": null
+    },
+    {
+      "id": "49869018",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "478",
+        "name": "France"
+      },
+      "player": {
+        "id": "229744",
+        "name": "Ousmane Dembélé"
+      }
+    },
+    {
+      "id": "49869058",
+      "type": "goal",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": {
+        "id": "448",
+        "name": "England"
+      },
+      "player": {
+        "id": "291281",
+        "name": "Jude Bellingham"
+      }
+    },
+    {
+      "id": "49869073",
+      "type": "end regular time",
+      "minute": 90,
+      "period": "",
+      "datetime": "",
+      "team": null,
+      "player": null
+    }
+  ]
+}

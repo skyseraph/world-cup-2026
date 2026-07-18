@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T22:37:49.036851+00:00",
+  "updated_at": "2026-07-18T23:41:47.949693+00:00",
   "events": [
     {
       "id": "760514",
@@ -105,7 +105,7 @@
     },
     {
       "id": "760516",
-      "status": "2nd_half",
+      "status": "closed",
       "start_time": "2026-07-18T21:00Z",
       "matchday": null,
       "round": "",
@@ -134,7 +134,7 @@
             "abbreviation": "FRA"
           },
           "qualifier": "home",
-          "score": 3
+          "score": 4
         },
         {
           "team": {
@@ -144,57 +144,14 @@
             "abbreviation": "ENG"
           },
           "qualifier": "away",
-          "score": 4
+          "score": 6
         }
       ],
       "scores": {
-        "home": 3,
-        "away": 4
+        "home": 4,
+        "away": 6
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "FRA -145",
-        "spread": "",
-        "over_under": 3.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "-145",
-          "away": "+350",
-          "draw": "+310"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "-145"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "+115"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o3.5",
-            "odds": "+115"
-          },
-          "under": {
-            "line": "u3.5",
-            "odds": "-140"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+110",
-            "away": "+265",
-            "draw": "+235"
-          },
-          "spread": {
-            "home": "-0.5",
-            "away": "+0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     },
     {
