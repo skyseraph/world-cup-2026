@@ -1,57 +1,6 @@
 {
-  "updated_at": "2026-07-18T23:41:47.949693+00:00",
+  "updated_at": "2026-07-19T01:22:43.642475+00:00",
   "events": [
-    {
-      "id": "760514",
-      "status": "closed",
-      "start_time": "2026-07-14T19:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "3871",
-        "name": "AT&T Stadium",
-        "city": "Arlington, Texas",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "478",
-            "name": "France",
-            "short_name": "France",
-            "abbreviation": "FRA"
-          },
-          "qualifier": "home",
-          "score": 0
-        },
-        {
-          "team": {
-            "id": "164",
-            "name": "Spain",
-            "short_name": "Spain",
-            "abbreviation": "ESP"
-          },
-          "qualifier": "away",
-          "score": 2
-        }
-      ],
-      "scores": {
-        "home": 0,
-        "away": 2
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760515",
       "status": "closed",
