@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T21:41:04.340695+00:00",
+  "updated_at": "2026-07-19T22:40:37.760718+00:00",
   "events": [
     {
       "id": "760515",
@@ -134,7 +134,7 @@
             "abbreviation": "ESP"
           },
           "qualifier": "home",
-          "score": 0
+          "score": 1
         },
         {
           "team": {
@@ -148,53 +148,10 @@
         }
       ],
       "scores": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "odds": {
-        "provider": "DraftKings",
-        "details": "ESP +125",
-        "spread": "",
-        "over_under": 2.5,
-        "favorite": null,
-        "moneyline": {
-          "home": "+125",
-          "away": "+265",
-          "draw": "+205"
-        },
-        "spread_line": {
-          "home": {
-            "line": "-0.5",
-            "odds": "+115"
-          },
-          "away": {
-            "line": "+0.5",
-            "odds": "-145"
-          }
-        },
-        "total": {
-          "over": {
-            "line": "o2.5",
-            "odds": "+130"
-          },
-          "under": {
-            "line": "u2.5",
-            "odds": "-160"
-          }
-        },
-        "open": {
-          "moneyline": {
-            "home": "+125",
-            "away": "+275",
-            "draw": "+195"
-          },
-          "spread": {
-            "home": "-0.5",
-            "away": "+0.5"
-          },
-          "total": "o2.5"
-        }
-      },
+      "odds": null,
       "referees": []
     }
   ]
