@@ -1,57 +1,6 @@
 {
-  "updated_at": "2026-07-19T23:45:59.625066+00:00",
+  "updated_at": "2026-07-20T01:28:50.002979+00:00",
   "events": [
-    {
-      "id": "760515",
-      "status": "closed",
-      "start_time": "2026-07-15T19:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "7485",
-        "name": "Mercedes-Benz Stadium",
-        "city": "Atlanta, Georgia",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "448",
-            "name": "England",
-            "short_name": "England",
-            "abbreviation": "ENG"
-          },
-          "qualifier": "home",
-          "score": 1
-        },
-        {
-          "team": {
-            "id": "202",
-            "name": "Argentina",
-            "short_name": "Argentina",
-            "abbreviation": "ARG"
-          },
-          "qualifier": "away",
-          "score": 2
-        }
-      ],
-      "scores": {
-        "home": 1,
-        "away": 2
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760516",
       "status": "closed",
