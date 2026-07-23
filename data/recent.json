@@ -1,57 +1,6 @@
 {
-  "updated_at": "2026-07-22T23:53:58.421721+00:00",
+  "updated_at": "2026-07-23T01:28:23.832928+00:00",
   "events": [
-    {
-      "id": "760516",
-      "status": "closed",
-      "start_time": "2026-07-18T21:00Z",
-      "matchday": null,
-      "round": "",
-      "round_name": "",
-      "competition": {
-        "id": "world-cup",
-        "name": "FIFA World Cup"
-      },
-      "season": {
-        "id": "world-cup-2026",
-        "name": "2026",
-        "year": "2026"
-      },
-      "venue": {
-        "id": "4643",
-        "name": "Hard Rock Stadium",
-        "city": "Miami Gardens, Florida",
-        "country": "USA"
-      },
-      "competitors": [
-        {
-          "team": {
-            "id": "478",
-            "name": "France",
-            "short_name": "France",
-            "abbreviation": "FRA"
-          },
-          "qualifier": "home",
-          "score": 4
-        },
-        {
-          "team": {
-            "id": "448",
-            "name": "England",
-            "short_name": "England",
-            "abbreviation": "ENG"
-          },
-          "qualifier": "away",
-          "score": 6
-        }
-      ],
-      "scores": {
-        "home": 4,
-        "away": 6
-      },
-      "odds": null,
-      "referees": []
-    },
     {
       "id": "760517",
       "status": "not_started",
